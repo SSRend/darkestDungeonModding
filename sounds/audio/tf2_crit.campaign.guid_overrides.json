@@ -1,0 +1,7 @@
+{
+    "event_guid_overrides":
+    [
+		{"event_id": "event:/general/char/crit_enemy",					"guid_override":"{1b606bc0-c663-47bf-8c31-8535a1ffaa3c}"},
+		{"event_id": "event:/general/char/crit_hero",					"guid_override":"{35d83660-a620-4fa5-bb57-cf272b1aa4e9}"}
+    ]
+}

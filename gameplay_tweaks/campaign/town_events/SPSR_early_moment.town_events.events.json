@@ -1,0 +1,108 @@
+{
+"events": [
+{
+	"id": "week_1_bonus_recruits",
+	"base_chance": 1000.0,
+	"per_not_rolled_additional_chance": 0.0,
+	"cooldown": 0,
+	"is_unique": true,
+	"priority": "highest",
+	"requirements": {
+		"minimum_week": 2,
+		"dead_heroes": 0,
+		"hero_level_counts": [],
+		"upgrades_purchased": [],
+		"trinket_storage_count": 0
+	},
+	"town_ambience_paramater_ids": [],
+	"tone": "good",
+	"sprite": "town_event_bonus_recruits",
+	"sprite_attachment": "stage_coach",
+	"data": [
+		{
+		"type": "stage_coach_bonus_recruits",
+		"string_data": "",
+		"number_data": 6.0
+		}
+	]
+},
+{
+	"id": "SPSR_Town_Event_first_Occ",
+	"base_chance": 1000.0,
+	"per_not_rolled_additional_chance": 0.0,
+	"cooldown": 0,
+	"is_unique" : true,
+	"priority":"highest",            
+	"requirements": {
+		"minimum_week": 3,
+		"dead_heroes": 0,
+		"hero_level_counts": [ ],
+		"upgrades_purchased": [ ],
+		"trinket_storage_count": 0
+	},
+	"town_ambience_paramater_ids": [ ],
+	"tone": "neutral",
+	"sprite": "",
+	"sprite_attachment": "",
+	"data": [
+		{
+			"type": "bonus_recruit",
+			"string_data": "occultist",
+			"number_data": 1.0
+		}
+	]
+},
+{
+	"id": "SPSR_Town_Event_first_Ves",
+	"base_chance": 1000.0,
+	"per_not_rolled_additional_chance": 0.0,
+	"cooldown": 0,
+	"is_unique" : true,
+	"priority":"highest",            
+	"requirements": {
+		"minimum_week": 6,
+		"dead_heroes": 0,
+		"hero_level_counts": [ ],
+		"upgrades_purchased": [ ],
+		"trinket_storage_count": 0
+	},
+	"town_ambience_paramater_ids": [ ],
+	"tone": "neutral",
+	"sprite": "",
+	"sprite_attachment": "",
+	"data": [
+		{
+			"type": "bonus_recruit",
+			"string_data": "vestal",
+			"number_data": 1.0
+		}
+	]
+},
+{
+	"id": "SPSR_Town_Event_first_Pld",
+	"base_chance": 1000.0,
+	"per_not_rolled_additional_chance": 0.0,
+	"cooldown": 0,
+	"is_unique" : true,
+	"priority":"highest",            
+	"requirements": {
+		"minimum_week": 7,
+		"dead_heroes": 0,
+		"hero_level_counts": [ ],
+		"upgrades_purchased": [ ],
+		"trinket_storage_count": 0
+	},
+	"town_ambience_paramater_ids": [ ],
+	"tone": "neutral",
+	"sprite": "",
+	"sprite_attachment": "",
+	"data": [
+		{
+			"type": "bonus_recruit",
+			"string_data": "plague_doctor",
+			"number_data": 1.0
+		}
+	]
+}
+]
+}

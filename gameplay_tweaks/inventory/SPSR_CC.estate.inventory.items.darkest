@@ -1,0 +1,1 @@
+inventory_item:	.type "estate"	        .id "the_cure"					  .base_stack_limit 4	.purchase_gold_value 0	.sell_gold_value 0 .estate_can_be_provision true .sfx_override "/general/items/holy_water"

@@ -1,0 +1,13 @@
+display: .size 1
+enemy_type: .id "unholy"
+stats: .hp 26 .def 25% .prot 0 .spd 5 .stun_resist 70% .poison_resist 50% .bleed_resist 300% .debuff_resist 60% .move_resist 60%
+skill: .id "sword_strike" .type "melee" .atk 110% .dmg 7 12 .crit 14%  .launch 321 .target 123
+skill: .id "sword_strike_weak" .type "melee" .atk 100% .dmg 6 10 .crit 12%  .launch 4 .target 12 .move 0 1
+personality: .prefskill -1
+loot: .code "A" .count 1
+initiative: .number_of_turns_per_round 1
+monster_brain: .id skeleton_soldier_C
+death_class: .monster_class_id corpse_C .is_valid_on_crit False .type "corpse" 
+life_link: .base_class "necromancer"
+battle_modifier: .accelerate_stall_penalty True .disable_stall_penalty False .can_surprise True .can_be_surprised True .always_surprise False .always_be_surprised False
+wave_spawning: .prefers_front True

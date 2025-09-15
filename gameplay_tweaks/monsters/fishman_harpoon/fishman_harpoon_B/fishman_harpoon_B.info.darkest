@@ -1,0 +1,13 @@
+display: .size 1
+enemy_type: .id "eldritch"
+stats: .hp 21 .def 15% .prot 0 .spd 5 .stun_resist 40% .poison_resist 40% .bleed_resist 60% .debuff_resist 30% .move_resist 50%
+skill: .id "fish_cutlass" .type "melee" .atk 100% .dmg 6 12 .crit 13%  .launch 21 .target 12
+skill: .id "fish_harpoon" .type "melee" .atk 100% .dmg 5 9 .crit 11%  .effect "Pull 1C" .launch 43 .target 34
+personality: .prefskill -1
+loot: .code "A" .count 1
+initiative: .number_of_turns_per_round 1
+monster_brain: .id fishman_harpoon_B
+death_class: .monster_class_id corpse_B .is_valid_on_crit False .type "corpse" 
+life_link: .base_class "siren"
+battle_modifier: .accelerate_stall_penalty False .disable_stall_penalty False .can_surprise True .can_be_surprised True .always_surprise False .always_be_surprised False
+wave_spawning: .prefers_front True

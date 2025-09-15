@@ -1,0 +1,1 @@
+effect: .name "SPSR_undying_herb" .target "performer" .item 1 .duration 4 .chance 100% .heal_percent 0.2 .buff_ids SPSR_undying_herb_Heal_Received_B

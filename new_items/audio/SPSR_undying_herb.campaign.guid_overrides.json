@@ -1,0 +1,6 @@
+{
+    "event_guid_overrides":
+    [
+        {"event_id": "event:/general/items/SPSR_undying_herb",                   "guid_override":"{94465f68-8b85-4b60-a5ee-592869ba52c6}"}
+    ]
+}

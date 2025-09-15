@@ -1,0 +1,7 @@
+{
+    "event_guid_overrides":
+    [
+        {"event_id": "event:/general/char/resolve_afflict",  "guid_override":"{f59e10cd-595d-4277-8ff8-c469ccc8b5d0}"},
+        {"event_id": "event:/general/combat/start",          "guid_override":"{2079b3d1-e953-4fc2-bf38-827f7a544abf}"}
+    ]
+}

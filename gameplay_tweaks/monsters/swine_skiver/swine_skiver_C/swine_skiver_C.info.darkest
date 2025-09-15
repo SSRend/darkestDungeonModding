@@ -1,0 +1,13 @@
+display: .size 1
+enemy_type: .id "man"
+enemy_type: .id "beast"
+stats: .hp 49 .def 25% .prot 0.15 .spd 8 .stun_resist 80% .poison_resist 80% .bleed_resist 60% .debuff_resist 60% .move_resist 70%
+skill: .id "spit_to_roast" .type "ranged" .atk 105% .dmg 10 20 .crit 19%  .effect "Stun 5" "Push 2E" .launch 43 .target 12 .move 0 2
+skill: .id "cripple_them" .type "ranged" .atk 100% .dmg 7 12 .crit 9.5%  .effect "Weak Blight 5" .launch 43 .target ~34 .move 0 2
+skill: .id "goring_flight" .type "melee" .atk 95% .dmg 5 8 .crit 13%  .launch 21 .target 12 .move 2 0
+personality: .prefskill -1
+loot: .code "A" .count 1
+initiative: .number_of_turns_per_round 1
+monster_brain: .id swine_skiver
+death_class: .monster_class_id corpse_C .is_valid_on_crit False .type "corpse" 
+battle_modifier: .accelerate_stall_penalty True .disable_stall_penalty False .can_surprise True .can_be_surprised True .always_surprise False .always_be_surprised False

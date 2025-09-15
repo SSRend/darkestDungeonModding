@@ -1,0 +1,608 @@
+//------------------------------------------------------------------------
+//Hellion
+
+//On Crit
+effect: .name "SPSR Hel on crit Dmg Bleeding" .target "performer" .curio_result_type "positive" .chance 100% .buff_source_type bsrc_crit .buff_ids "SPSR_Hel_on_crit_DMGL_Bleeding_B1" "SPSR_Hel_on_crit_DMGH_Bleeding_B1" .duration 2	.on_hit true .on_miss false .apply_once true
+effect: .name "SPSR Hel on crit Stun Chance" .target "performer" .curio_result_type "positive" .chance 100% .buff_source_type bsrc_crit .buff_ids "SPSR_Hel_on_crit_Stun_Chance_B1" .duration 2	.on_hit true .on_miss false .apply_once true
+
+//Exhaust
+effect: .name "SPSR Hel Bleed Exhaust" .target "performer" .curio_result_type "negative" .chance 100% .buff_ids "SPSR_Hel_Exhaust_Bleed_Chance_D1" .apply_once true .on_hit true .on_miss true .queue true
+effect: .name "SPSR Hel Stun Exhaust" .target "performer" .curio_result_type "negative" .chance 100% .buff_ids "SPSR_Hel_Exhaust_Stun_Chance_D1" .apply_once true .on_hit true .on_miss true .queue true
+
+//Wicked Hack
+
+//Iron Swan
+
+//If It Bleeds
+effect: .name "SPSR Hel Bleed Killer 1"	.target "performer" .chance 100%	.curio_result_type "positive" .keyStatus "bleeding"	.combat_stat_buff 1 .damage_low_multiply 20%	.damage_high_multiply 20%	.on_hit true .on_miss false
+effect: .name "SPSR Hel Bleed Killer 2"	.target "performer" .chance 100%	.curio_result_type "positive" .keyStatus "bleeding"	.combat_stat_buff 1 .damage_low_multiply 21%	.damage_high_multiply 21%	.on_hit true .on_miss false
+effect: .name "SPSR Hel Bleed Killer 3"	.target "performer" .chance 100%	.curio_result_type "positive" .keyStatus "bleeding"	.combat_stat_buff 1 .damage_low_multiply 23%	.damage_high_multiply 23%	.on_hit true .on_miss false
+effect: .name "SPSR Hel Bleed Killer 4"	.target "performer" .chance 100%	.curio_result_type "positive" .keyStatus "bleeding"	.combat_stat_buff 1 .damage_low_multiply 24%	.damage_high_multiply 24%	.on_hit true .on_miss false
+effect: .name "SPSR Hel Bleed Killer 5"	.target "performer" .chance 100%	.curio_result_type "positive" .keyStatus "bleeding"	.combat_stat_buff 1 .damage_low_multiply 25%	.damage_high_multiply 25%	.on_hit true .on_miss false
+
+effect: .name "SPSR Hel Slight Bleed 3" .target "target" .curio_result_type "negative" .chance 120%  .dotBleed 1 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "SPSR Hel Slight Bleed 4" .target "target" .curio_result_type "negative" .chance 130%  .dotBleed 1 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "SPSR Hel Slight Bleed 5" .target "target" .curio_result_type "negative" .chance 140%  .dotBleed 2 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
+
+//Bleed Out
+effect: .name "SPSR Hel Great Bleed 1" .target "target" .curio_result_type "negative" .chance 100%  .dotBleed 4 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "SPSR Hel Great Bleed 2" .target "target" .curio_result_type "negative" .chance 110%  .dotBleed 4 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "SPSR Hel Great Bleed 3" .target "target" .curio_result_type "negative" .chance 120%  .dotBleed 5 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "SPSR Hel Great Bleed 4" .target "target" .curio_result_type "negative" .chance 130%  .dotBleed 5 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "SPSR Hel Great Bleed 5" .target "target" .curio_result_type "negative" .chance 140%  .dotBleed 6 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
+
+//Breakthrough
+
+//Barbaric YAWP
+effect: .name "SPSR Hel Stun 1" .target "target" .curio_result_type "negative" .chance 100% .stun 1	.on_hit true .on_miss false .queue true
+effect: .name "SPSR Hel Stun 2" .target "target" .curio_result_type "negative" .chance 110% .stun 1	.on_hit true .on_miss false .queue true
+effect: .name "SPSR Hel Stun 3" .target "target" .curio_result_type "negative" .chance 120% .stun 1	.on_hit true .on_miss false .queue true
+effect: .name "SPSR Hel Stun 4" .target "target" .curio_result_type "negative" .chance 130% .stun 1	.on_hit true .on_miss false .queue true
+effect: .name "SPSR Hel Stun 5" .target "target" .curio_result_type "negative" .chance 140% .stun 1	.on_hit true .on_miss false .queue true
+
+//Adrenaline Rush
+effect: .name "SPSR Hel Adrenaline Heal 1" .target "performer" .curio_result_type "positive" .chance 100% .heal 1 .cure 1 .clear_debuff 1 .on_hit true .on_miss false .queue true .source_heal_type hero_skill
+effect: .name "SPSR Hel Adrenaline Heal 2" .target "performer" .curio_result_type "positive" .chance 100% .heal 2 .cure 1 .clear_debuff 1 .on_hit true .on_miss false .queue true .source_heal_type hero_skill
+effect: .name "SPSR Hel Adrenaline Heal 3" .target "performer" .curio_result_type "positive" .chance 100% .heal 2 .cure 1 .clear_debuff 1 .on_hit true .on_miss false .queue true .source_heal_type hero_skill
+effect: .name "SPSR Hel Adrenaline Heal 4" .target "performer" .curio_result_type "positive" .chance 100% .heal 3 .cure 1 .clear_debuff 1 .on_hit true .on_miss false .queue true .source_heal_type hero_skill
+effect: .name "SPSR Hel Adrenaline Heal 5" .target "performer" .curio_result_type "positive" .chance 100% .heal 3 .cure 1 .clear_debuff 1 .on_hit true .on_miss false .queue true .source_heal_type hero_skill
+
+effect: .name "SPSR Hel Adrenaline Buff 1" .target "performer" .curio_result_type "positive"  .chance 100% .duration 2 .buff_ids SPSR_Hel_Adrenaline_Crit_B1 SPSR_Hel_Adrenaline_Acc_B1 .on_hit true .on_miss true .queue true
+effect: .name "SPSR Hel Adrenaline Buff 2" .target "performer" .curio_result_type "positive"  .chance 100% .duration 2 .buff_ids SPSR_Hel_Adrenaline_Crit_B2 SPSR_Hel_Adrenaline_Acc_B2 .on_hit true .on_miss true .queue true
+effect: .name "SPSR Hel Adrenaline Buff 3" .target "performer" .curio_result_type "positive"  .chance 100% .duration 2 .buff_ids SPSR_Hel_Adrenaline_Crit_B3 SPSR_Hel_Adrenaline_Acc_B3 .on_hit true .on_miss true .queue true
+effect: .name "SPSR Hel Adrenaline Buff 4" .target "performer" .curio_result_type "positive"  .chance 100% .duration 2 .buff_ids SPSR_Hel_Adrenaline_Crit_B4 SPSR_Hel_Adrenaline_Acc_B4 .on_hit true .on_miss true .queue true
+effect: .name "SPSR Hel Adrenaline Buff 5" .target "performer" .curio_result_type "positive"  .chance 100% .duration 2 .buff_ids SPSR_Hel_Adrenaline_Crit_B5 SPSR_Hel_Adrenaline_Acc_B5 .on_hit true .on_miss true .queue true
+
+//Trinkets
+effect: .name "SPSR Hel hells hairpin Self Attack On Miss" .target "performer" target .chance 100% .health_damage 4 .damage_type additionaleffect .damage_source_data "hells_hairpin" .damage_source_type "trinket" .on_hit false .on_miss true .queue true .apply_once true
+
+
+
+//------------------------------------------------------------------------
+//Shield Breaker
+
+
+//------------------------------------------------------------------------
+//Highwayman
+
+//On Crit
+effect: .name "SPSR Hwy on crit Speed"    .target "performer" .curio_result_type "positive" .chance 100% .buff_source_type bsrc_crit .buff_ids "SPSR_Hwy_on_crit_Speed_B1" .on_hit true .on_miss false .apply_once true
+effect: .name "SPSR Hwy on crit DMG"    .target "performer" .curio_result_type "positive" .chance 100% .buff_source_type bsrc_crit .buff_ids "SPSR_Hwy_on_crit_DMGL_B1" "SPSR_Hwy_on_crit_DMGH_B1" .duration 2	.on_hit true .on_miss false .apply_once true
+
+//Wicked Slice
+
+//Open Vein
+effect: .name "SPSR Hwy Bleed 1" .target "target" .curio_result_type "negative" .chance 100%  .dotBleed 4 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "SPSR Hwy Bleed 2" .target "target" .curio_result_type "negative" .chance 110%  .dotBleed 4 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "SPSR Hwy Bleed 3" .target "target" .curio_result_type "negative" .chance 120%  .dotBleed 5 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "SPSR Hwy Bleed 4" .target "target" .curio_result_type "negative" .chance 130%  .dotBleed 5 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "SPSR Hwy Bleed 5" .target "target" .curio_result_type "negative" .chance 140%  .dotBleed 6 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
+
+//old data
+effect: .name "SPSR Hwy Bleed Killer 1"	.target "performer" .chance 100%	.curio_result_type "positive" .keyStatus "bleeding"	.combat_stat_buff 1 .damage_low_multiply 20%	.damage_high_multiply 20%	.on_hit true .on_miss false
+effect: .name "SPSR Hwy Bleed Killer 2"	.target "performer" .chance 100%	.curio_result_type "positive" .keyStatus "bleeding"	.combat_stat_buff 1 .damage_low_multiply 21%	.damage_high_multiply 21%	.on_hit true .on_miss false
+effect: .name "SPSR Hwy Bleed Killer 3"	.target "performer" .chance 100%	.curio_result_type "positive" .keyStatus "bleeding"	.combat_stat_buff 1 .damage_low_multiply 23%	.damage_high_multiply 23%	.on_hit true .on_miss false
+effect: .name "SPSR Hwy Bleed Killer 4"	.target "performer" .chance 100%	.curio_result_type "positive" .keyStatus "bleeding"	.combat_stat_buff 1 .damage_low_multiply 24%	.damage_high_multiply 24%	.on_hit true .on_miss false
+effect: .name "SPSR Hwy Bleed Killer 5"	.target "performer" .chance 100%	.curio_result_type "positive" .keyStatus "bleeding"	.combat_stat_buff 1 .damage_low_multiply 25%	.damage_high_multiply 25%	.on_hit true .on_miss false
+
+//Duelist's Advance
+effect: .name "SPSR Hwy Mark Self" .target "performer" .curio_result_type "positive" .chance 100% .tag 1 .combat_stat_buff 1 .duration 3 .on_hit true .on_miss true .queue true
+
+effect: .name "SPSR Hwy Riposte 1"  .target "performer" .curio_result_type "positive" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 3  .on_hit true .on_miss true .attack_rating_add -20% .crit_chance_add -4%
+effect: .name "SPSR Hwy Riposte 2"  .target "performer" .curio_result_type "positive" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 3  .on_hit true .on_miss true .attack_rating_add -15% .crit_chance_add -3%
+effect: .name "SPSR Hwy Riposte 3"  .target "performer" .curio_result_type "positive" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 3  .on_hit true .on_miss true .attack_rating_add -10% .crit_chance_add -2% 
+effect: .name "SPSR Hwy Riposte 4"  .target "performer" .curio_result_type "positive" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 3  .on_hit true .on_miss true .attack_rating_add -5% .crit_chance_add -1% 
+effect: .name "SPSR Hwy Riposte 5"  .target "performer" .curio_result_type "positive" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 3  .on_hit true .on_miss true .attack_rating_add 0% .crit_chance_add 0%
+
+//Point Blank Shot
+effect: .name "SPSR Hwy AP 1" .target "performer" .chance 100% .skill_instant true .buff_ids "SPSR_Hwy_point_blank_shot_AP_1" .on_hit true .on_miss false
+effect: .name "SPSR Hwy AP 2" .target "performer" .chance 100% .skill_instant true .buff_ids "SPSR_Hwy_point_blank_shot_AP_2" .on_hit true .on_miss false
+effect: .name "SPSR Hwy AP 3" .target "performer" .chance 100% .skill_instant true .buff_ids "SPSR_Hwy_point_blank_shot_AP_3" .on_hit true .on_miss false
+effect: .name "SPSR Hwy AP 4" .target "performer" .chance 100% .skill_instant true .buff_ids "SPSR_Hwy_point_blank_shot_AP_4" .on_hit true .on_miss false
+effect: .name "SPSR Hwy AP 5" .target "performer" .chance 100% .skill_instant true .buff_ids "SPSR_Hwy_point_blank_shot_AP_5" .on_hit true .on_miss false
+
+effect: .name "SPSR_Hwy_Rank1_DMG_1" .target "performer" .chance 100% .skill_instant true .buff_ids "SPSR_Hwy_Rank1_DMGL_B1" "SPSR_Hwy_Rank1_DMGH_B1" .on_hit true .on_miss false
+effect: .name "SPSR_Hwy_Rank1_DMG_2" .target "performer" .chance 100% .skill_instant true .buff_ids "SPSR_Hwy_Rank1_DMGL_B2" "SPSR_Hwy_Rank1_DMGH_B2" .on_hit true .on_miss false
+effect: .name "SPSR_Hwy_Rank1_DMG_3" .target "performer" .chance 100% .skill_instant true .buff_ids "SPSR_Hwy_Rank1_DMGL_B3" "SPSR_Hwy_Rank1_DMGH_B3" .on_hit true .on_miss false
+effect: .name "SPSR_Hwy_Rank1_DMG_4" .target "performer" .chance 100% .skill_instant true .buff_ids "SPSR_Hwy_Rank1_DMGL_B4" "SPSR_Hwy_Rank1_DMGH_B4" .on_hit true .on_miss false
+effect: .name "SPSR_Hwy_Rank1_DMG_5" .target "performer" .chance 100% .skill_instant true .buff_ids "SPSR_Hwy_Rank1_DMGL_B5" "SPSR_Hwy_Rank1_DMGH_B5" .on_hit true .on_miss false
+
+//Pistol Shot
+effect: .name "SPSR Hwy Marked Killer 1"	.target "performer" .chance 100%	.curio_result_type "positive" .keyStatus "tagged"	.combat_stat_buff 1 .damage_low_multiply 20%	.damage_high_multiply 20%	.on_hit true .on_miss false
+effect: .name "SPSR Hwy Marked Killer 2"	.target "performer" .chance 100%	.curio_result_type "positive" .keyStatus "tagged"	.combat_stat_buff 1 .damage_low_multiply 21%	.damage_high_multiply 21%	.on_hit true .on_miss false
+effect: .name "SPSR Hwy Marked Killer 3"	.target "performer" .chance 100%	.curio_result_type "positive" .keyStatus "tagged"	.combat_stat_buff 1 .damage_low_multiply 23%	.damage_high_multiply 23%	.on_hit true .on_miss false
+effect: .name "SPSR Hwy Marked Killer 4"	.target "performer" .chance 100%	.curio_result_type "positive" .keyStatus "tagged"	.combat_stat_buff 1 .damage_low_multiply 24%	.damage_high_multiply 24%	.on_hit true .on_miss false
+effect: .name "SPSR Hwy Marked Killer 5"	.target "performer" .chance 100%	.curio_result_type "positive" .keyStatus "tagged"	.combat_stat_buff 1 .damage_low_multiply 25%	.damage_high_multiply 25%	.on_hit true .on_miss false
+
+//Grapeshot Blast
+
+//Tracking Shot
+effect: .name "SPSR Hwy Destealth" .target "target" .chance 100% .unstealth 1 .on_hit true .on_miss false
+
+effect: .name "SPSR Hwy Mark Target"	.target "target" .curio_result_type "positive" .chance 100%	.tag 1  .duration 2	.on_hit true .on_miss false
+
+effect: .name "SPSR Hwy Tracking Buff 1" .target "performer" .chance 100% .duration 2 .buff_ids SPSR_Hwy_tracking_Speed_B1 SPSR_Hwy_tracking_DMGL_B1 SPSR_Hwy_tracking_DMGH_B1 SPSR_Hwy_tracking_Acc_B1 .on_hit true .on_miss true .queue true
+effect: .name "SPSR Hwy Tracking Buff 2" .target "performer" .chance 100% .duration 2 .buff_ids SPSR_Hwy_tracking_Speed_B2 SPSR_Hwy_tracking_DMGL_B2 SPSR_Hwy_tracking_DMGH_B2 SPSR_Hwy_tracking_Acc_B2 .on_hit true .on_miss true .queue true
+effect: .name "SPSR Hwy Tracking Buff 3" .target "performer" .chance 100% .duration 2 .buff_ids SPSR_Hwy_tracking_Speed_B3 SPSR_Hwy_tracking_DMGL_B3 SPSR_Hwy_tracking_DMGH_B3 SPSR_Hwy_tracking_Acc_B3 .on_hit true .on_miss true .queue true
+effect: .name "SPSR Hwy Tracking Buff 4" .target "performer" .chance 100% .duration 2 .buff_ids SPSR_Hwy_tracking_Speed_B4 SPSR_Hwy_tracking_DMGL_B4 SPSR_Hwy_tracking_DMGH_B4 SPSR_Hwy_tracking_Acc_B4 .on_hit true .on_miss true .queue true
+effect: .name "SPSR Hwy Tracking Buff 5" .target "performer" .chance 100% .duration 2 .buff_ids SPSR_Hwy_tracking_Speed_B5 SPSR_Hwy_tracking_DMGL_B5 SPSR_Hwy_tracking_DMGH_B5 SPSR_Hwy_tracking_Acc_B5 .on_hit true .on_miss true .queue true
+
+
+
+//------------------------------------------------------------------------
+//Grave robber
+
+//On_Crit
+effect: .name "SPSR Grv on crit Stealth" .target "performer" .chance 100% .stealth 1 .duration 2 .on_hit true .on_miss false
+effect: .name "SPSR Grv on crit Dmg" .target "performer" .curio_result_type "positive" .chance 100% .buff_source_type bsrc_crit .buff_ids "SPSR_Grv_on_crit_DMGL" "SPSR_Grv_on_crit_DMGH" .duration 2	.on_hit true .on_miss false .apply_once true
+effect: .name "SPSR Grv on crit Def" .target "performer" .curio_result_type "positive" .chance 100% .buff_source_type bsrc_crit .buff_ids "SPSR_Grv_on_crit_Def_B1" .on_hit true .on_miss false .apply_once true
+
+//Lunge
+effect: .name "SPSR Grv Poison Killer 1"	.target "performer" .chance 100%	.curio_result_type "positive" .keyStatus "poisoned"	.combat_stat_buff 1 .damage_low_multiply 20% .damage_high_multiply 20%	.on_hit true .on_miss false
+effect: .name "SPSR Grv Poison Killer 2"	.target "performer" .chance 100%	.curio_result_type "positive" .keyStatus "poisoned"	.combat_stat_buff 1 .damage_low_multiply 21% .damage_high_multiply 21%	.on_hit true .on_miss false
+effect: .name "SPSR Grv Poison Killer 3"	.target "performer" .chance 100%	.curio_result_type "positive" .keyStatus "poisoned"	.combat_stat_buff 1 .damage_low_multiply 23% .damage_high_multiply 23%	.on_hit true .on_miss false
+effect: .name "SPSR Grv Poison Killer 4"	.target "performer" .chance 100%	.curio_result_type "positive" .keyStatus "poisoned"	.combat_stat_buff 1 .damage_low_multiply 24% .damage_high_multiply 24%	.on_hit true .on_miss false
+effect: .name "SPSR Grv Poison Killer 5"	.target "performer" .chance 100%	.curio_result_type "positive" .keyStatus "poisoned"	.combat_stat_buff 1 .damage_low_multiply 25% .damage_high_multiply 25%	.on_hit true .on_miss false
+
+//Pick to the Face
+effect: .name "SPSR Grv Man Killer 1" .target "performer" .chance 100% .curio_result_type "positive" .monsterType "man" .combat_stat_buff 1 .damage_low_multiply 20%	.damage_high_multiply 20%	.on_hit true .on_miss false
+effect: .name "SPSR Grv Man Killer 2" .target "performer" .chance 100% .curio_result_type "positive" .monsterType "man" .combat_stat_buff 1 .damage_low_multiply 21%	.damage_high_multiply 21%	.on_hit true .on_miss false
+effect: .name "SPSR Grv Man Killer 3" .target "performer" .chance 100% .curio_result_type "positive" .monsterType "man" .combat_stat_buff 1 .damage_low_multiply 23%	.damage_high_multiply 23%	.on_hit true .on_miss false
+effect: .name "SPSR Grv Man Killer 4" .target "performer" .chance 100% .curio_result_type "positive" .monsterType "man" .combat_stat_buff 1 .damage_low_multiply 24%	.damage_high_multiply 24%	.on_hit true .on_miss false
+effect: .name "SPSR Grv Man Killer 5" .target "performer" .chance 100% .curio_result_type "positive" .monsterType "man" .combat_stat_buff 1 .damage_low_multiply 25%	.damage_high_multiply 25%	.on_hit true .on_miss false
+
+effect: .name "SPSR Grv AP 1" .target "performer" .chance 100% .skill_instant true .buff_ids "SPSR_Grv_AP_1" .on_hit true .on_miss false
+effect: .name "SPSR Grv AP 2" .target "performer" .chance 100% .skill_instant true .buff_ids "SPSR_Grv_AP_2" .on_hit true .on_miss false
+effect: .name "SPSR Grv AP 3" .target "performer" .chance 100% .skill_instant true .buff_ids "SPSR_Grv_AP_3" .on_hit true .on_miss false
+effect: .name "SPSR Grv AP 4" .target "performer" .chance 100% .skill_instant true .buff_ids "SPSR_Grv_AP_4" .on_hit true .on_miss false
+effect: .name "SPSR Grv AP 5" .target "performer" .chance 100% .skill_instant true .buff_ids "SPSR_Grv_AP_5" .on_hit true .on_miss false
+
+//Thrown Dagger
+effect: .name "SPSR Grv Marked Killer 1" .target "performer" .chance 100%	.curio_result_type "positive" .keyStatus "tagged"  .combat_stat_buff 1 .damage_low_multiply 20%  .damage_high_multiply 20%  .on_hit true .on_miss false
+effect: .name "SPSR Grv Marked Killer 2" .target "performer" .chance 100%	.curio_result_type "positive" .keyStatus "tagged"  .combat_stat_buff 1 .damage_low_multiply 21%  .damage_high_multiply 21%	.on_hit true .on_miss false
+effect: .name "SPSR Grv Marked Killer 3" .target "performer" .chance 100%	.curio_result_type "positive" .keyStatus "tagged"  .combat_stat_buff 1 .damage_low_multiply 23%  .damage_high_multiply 23%  .on_hit true .on_miss false
+effect: .name "SPSR Grv Marked Killer 4" .target "performer" .chance 100%	.curio_result_type "positive" .keyStatus "tagged"  .combat_stat_buff 1 .damage_low_multiply 24%  .damage_high_multiply 24%  .on_hit true .on_miss false
+effect: .name "SPSR Grv Marked Killer 5" .target "performer" .chance 100%	.curio_result_type "positive" .keyStatus "tagged"  .combat_stat_buff 1 .damage_low_multiply 25%  .damage_high_multiply 25% .on_hit true .on_miss false
+
+//Poison Darts
+effect: .name "SPSR Grv Blight 1" .target "target" .curio_result_type "negative" .chance 100%  .dotPoison 4 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "SPSR Grv Blight 2" .target "target" .curio_result_type "negative" .chance 110%  .dotPoison 4 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "SPSR Grv Blight 3" .target "target" .curio_result_type "negative" .chance 120%  .dotPoison 5 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "SPSR Grv Blight 4" .target "target" .curio_result_type "negative" .chance 130%  .dotPoison 5 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "SPSR Grv Blight 5" .target "target" .curio_result_type "negative" .chance 140%  .dotPoison 6 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
+
+//Flashing Daggers
+
+//Shadow Fade
+effect: .name "SPSR Grv Stealth Self" .target "performer" .chance 100% .stealth 1 .on_hit true .on_miss false .duration 2
+
+effect: .name "SPSR Grv Fade Attack 1" .target "performer" .chance 100% .curio_result_type "positive" .combat_stat_buff 1 .duration 2 .damage_low_multiply 80% .damage_high_multiply 80% .crit_chance_add 6% .on_hit true .on_miss false
+effect: .name "SPSR Grv Fade Attack 2" .target "performer" .chance 100% .curio_result_type "positive" .combat_stat_buff 1 .duration 2 .damage_low_multiply 85% .damage_high_multiply 85% .crit_chance_add 6% .on_hit true .on_miss false
+effect: .name "SPSR Grv Fade Attack 3" .target "performer" .chance 100% .curio_result_type "positive" .combat_stat_buff 1 .duration 2 .damage_low_multiply 90% .damage_high_multiply 90% .crit_chance_add 7% .on_hit true .on_miss false
+effect: .name "SPSR Grv Fade Attack 4" .target "performer" .chance 100% .curio_result_type "positive" .combat_stat_buff 1 .duration 2 .damage_low_multiply 95% .damage_high_multiply 95% .crit_chance_add 7% .on_hit true .on_miss false
+effect: .name "SPSR Grv Fade Attack 5" .target "performer" .chance 100% .curio_result_type "positive" .combat_stat_buff 1 .duration 2 .damage_low_multiply 100% .damage_high_multiply 100% .crit_chance_add 8% .on_hit true .on_miss false
+
+effect: .name "SPSR Grv Dodge 1" .target "performer" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .duration 4 .defense_rating_add 11%	.on_hit true .on_miss true .queue true
+effect: .name "SPSR Grv Dodge 2" .target "performer" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .duration 4 .defense_rating_add 12%	.on_hit true .on_miss true .queue true
+effect: .name "SPSR Grv Dodge 3" .target "performer" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .duration 4 .defense_rating_add 13%	.on_hit true .on_miss true .queue true
+effect: .name "SPSR Grv Dodge 4" .target "performer" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .duration 4 .defense_rating_add 14%	.on_hit true .on_miss true .queue true
+effect: .name "SPSR Grv Dodge 5" .target "performer" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .duration 4 .defense_rating_add 15%	.on_hit true .on_miss true .queue true
+
+//Toxin Trickery
+effect: .name "SPSR Grv Heal 1" .target "performer" .curio_result_type "positive" .chance 100% .heal 5	.on_hit true .on_miss false .queue false .source_heal_type hero_skill
+effect: .name "SPSR Grv Heal 2" .target "performer" .curio_result_type "positive" .chance 100% .heal 5	.on_hit true .on_miss false	.queue false .source_heal_type hero_skill
+effect: .name "SPSR Grv Heal 3" .target "performer" .curio_result_type "positive" .chance 100% .heal 6	.on_hit true .on_miss false	.queue false .source_heal_type hero_skill
+effect: .name "SPSR Grv Heal 4" .target "performer" .curio_result_type "positive" .chance 100% .heal 6	.on_hit true .on_miss false .queue false .source_heal_type hero_skill
+effect: .name "SPSR Grv Heal 5" .target "performer" .curio_result_type "positive" .chance 100% .heal 7	.on_hit true .on_miss false .queue false .source_heal_type hero_skill
+
+effect: .name "SPSR Grv Self Poison 1" .target "target" .curio_result_type "negative" .chance 65%  .dotPoison 1 .duration 1	.on_hit true .on_miss false .queue true .can_apply_on_death true
+effect: .name "SPSR Grv Self Poison 2" .target "target" .curio_result_type "negative" .chance 80%  .dotPoison 1 .duration 1	.on_hit true .on_miss false .queue true .can_apply_on_death true
+effect: .name "SPSR Grv Self Poison 3" .target "target" .curio_result_type "negative" .chance 95%  .dotPoison 2 .duration 1	.on_hit true .on_miss false .queue true .can_apply_on_death true
+effect: .name "SPSR Grv Self Poison 4" .target "target" .curio_result_type "negative" .chance 110%  .dotPoison 2 .duration 1	.on_hit true .on_miss false .queue true .can_apply_on_death true
+effect: .name "SPSR Grv Self Poison 5" .target "target" .curio_result_type "negative" .chance 125%  .dotPoison 3 .duration 1	.on_hit true .on_miss false .queue true .can_apply_on_death true
+
+effect: .name "SPSR Grv Toxin Buff 1" .target "performer" .chance 100% .duration 4 .buff_ids SPSR_Grv_Speed_B1 SPSR_Grv_Def_B1 SPSR_Grv_Blight_Chance_B1 .on_hit true .on_miss true .queue true
+effect: .name "SPSR Grv Toxin Buff 2" .target "performer" .chance 100% .duration 4 .buff_ids SPSR_Grv_Speed_B2 SPSR_Grv_Def_B2 SPSR_Grv_Blight_Chance_B2 .on_hit true .on_miss true .queue true
+effect: .name "SPSR Grv Toxin Buff 3" .target "performer" .chance 100% .duration 4 .buff_ids SPSR_Grv_Speed_B3 SPSR_Grv_Def_B3 SPSR_Grv_Blight_Chance_B3 .on_hit true .on_miss true .queue true
+effect: .name "SPSR Grv Toxin Buff 4" .target "performer" .chance 100% .duration 4 .buff_ids SPSR_Grv_Speed_B4 SPSR_Grv_Def_B4 SPSR_Grv_Blight_Chance_B4 .on_hit true .on_miss true .queue true
+effect: .name "SPSR Grv Toxin Buff 5" .target "performer" .chance 100% .duration 4 .buff_ids SPSR_Grv_Speed_B5 SPSR_Grv_Def_B5 SPSR_Grv_Blight_Chance_B5 .on_hit true .on_miss true .queue true
+
+//Trinkets
+effect: .name "SPSR Grv raiders talisman on crit Stealth" .target "performer" .chance 100% .stealth 1 .duration 2 .on_hit true .on_miss false
+effect: .name "SPSR Grv raiders talisman on kill Stealth" .target "performer" .chance 100% .stealth 1 .duration 2 .on_hit true .on_miss false
+
+//------------------------------------------------------------------------
+//Musketeer
+
+//On Crit
+effect: .name "SPSR Msk on crit DMG"    .target "performer" .curio_result_type "positive" .chance 100% .buff_source_type bsrc_crit .buff_ids "SPSR_Msk_on_crit_DMGL_B1" "SPSR_Msk_on_crit_DMGH_B1" .duration 2	.on_hit true .on_miss false .apply_once true
+effect: .name "SPSR Msk on crit Healdone" .target "performer" .curio_result_type "positive" .chance 100% .buff_source_type bsrc_crit .buff_ids "SPSR_Msk_on_crit_Healdone_B1" .duration 2	.on_hit true .on_miss false .apply_once true
+
+//a
+effect: .name "SPSR Msk Marked Killer 1"	.target "performer" .chance 100%	.curio_result_type "positive" .keyStatus "tagged"	.combat_stat_buff 1 .damage_low_multiply 20%	.damage_high_multiply 20%	.on_hit true .on_miss false
+effect: .name "SPSR Msk Marked Killer 2"	.target "performer" .chance 100%	.curio_result_type "positive" .keyStatus "tagged"	.combat_stat_buff 1 .damage_low_multiply 21%	.damage_high_multiply 21%	.on_hit true .on_miss false
+effect: .name "SPSR Msk Marked Killer 3"	.target "performer" .chance 100%	.curio_result_type "positive" .keyStatus "tagged"	.combat_stat_buff 1 .damage_low_multiply 23%	.damage_high_multiply 23%	.on_hit true .on_miss false
+effect: .name "SPSR Msk Marked Killer 4"	.target "performer" .chance 100%	.curio_result_type "positive" .keyStatus "tagged"	.combat_stat_buff 1 .damage_low_multiply 24%	.damage_high_multiply 24%	.on_hit true .on_miss false
+effect: .name "SPSR Msk Marked Killer 5"	.target "performer" .chance 100%	.curio_result_type "positive" .keyStatus "tagged"	.combat_stat_buff 1 .damage_low_multiply 25%	.damage_high_multiply 25%	.on_hit true .on_miss false
+
+effect: .name "SPSR Msk Self Speed 1" .target "performer" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .speed_rating_add 1	.on_hit true .on_miss true .queue true .apply_once true
+effect: .name "SPSR Msk Self Speed 2" .target "performer" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .speed_rating_add 1	.on_hit true .on_miss true .queue true .apply_once true
+effect: .name "SPSR Msk Self Speed 3" .target "performer" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .speed_rating_add 2	.on_hit true .on_miss true .queue true .apply_once true
+effect: .name "SPSR Msk Self Speed 4" .target "performer" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .speed_rating_add 2	.on_hit true .on_miss true .queue true .apply_once true
+effect: .name "SPSR Msk Self Speed 5" .target "performer" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .speed_rating_add 3	.on_hit true .on_miss true .queue true .apply_once true
+
+effect: .name "SPSR Msk Suppression 1" .target "target" .curio_result_type "negative" .chance 130% .duration 3 .combat_stat_buff 1 .attack_rating_add -16%	.on_hit true .on_miss false
+effect: .name "SPSR Msk Suppression 2" .target "target" .curio_result_type "negative" .chance 140% .duration 3 .combat_stat_buff 1 .attack_rating_add -17%	.on_hit true .on_miss false
+effect: .name "SPSR Msk Suppression 3" .target "target" .curio_result_type "negative" .chance 150% .duration 3 .combat_stat_buff 1 .attack_rating_add -18%	.on_hit true .on_miss false
+effect: .name "SPSR Msk Suppression 4" .target "target" .curio_result_type "negative" .chance 160% .duration 3 .combat_stat_buff 1 .attack_rating_add -19%	.on_hit true .on_miss false
+effect: .name "SPSR Msk Suppression 5" .target "target" .curio_result_type "negative" .chance 170% .duration 3 .combat_stat_buff 1 .attack_rating_add -20%	.on_hit true .on_miss false
+
+effect: .name "SPSR Msk Mark Target"	.target "target" .curio_result_type "positive" .chance 100%	.tag 1  .duration 2	.on_hit true .on_miss false
+
+effect: .name "SPSR Msk AP 1" .target "performer" .chance 100% .duration 2 .buff_ids SPSR_Msk_AP_B1 .on_hit true .on_miss true .queue true
+effect: .name "SPSR Msk AP 2" .target "performer" .chance 100% .duration 2 .buff_ids SPSR_Msk_AP_B2 .on_hit true .on_miss true .queue true
+effect: .name "SPSR Msk AP 3" .target "performer" .chance 100% .duration 2 .buff_ids SPSR_Msk_AP_B3 .on_hit true .on_miss true .queue true
+effect: .name "SPSR Msk AP 4" .target "performer" .chance 100% .duration 2 .buff_ids SPSR_Msk_AP_B4 .on_hit true .on_miss true .queue true
+effect: .name "SPSR Msk AP 5" .target "performer" .chance 100% .duration 2 .buff_ids SPSR_Msk_AP_B5 .on_hit true .on_miss true .queue true
+
+effect: .name "SPSR Msk Call the Shot Buff 1" .target "performer" .curio_result_type "positive" .chance 100%  .combat_stat_buff 1 .damage_low_multiply 60% .damage_high_multiply 60% .speed_rating_add 2 .on_hit true .on_miss true .duration 2
+effect: .name "SPSR Msk Call the Shot Buff 2" .target "performer" .curio_result_type "positive" .chance 100%  .combat_stat_buff 1 .damage_low_multiply 64% .damage_high_multiply 64% .speed_rating_add 2 .on_hit true .on_miss true .duration 2
+effect: .name "SPSR Msk Call the Shot Buff 3" .target "performer" .curio_result_type "positive" .chance 100%  .combat_stat_buff 1 .damage_low_multiply 68% .damage_high_multiply 68% .speed_rating_add 3 .on_hit true .on_miss true .duration 2
+effect: .name "SPSR Msk Call the Shot Buff 4" .target "performer" .curio_result_type "positive" .chance 100%  .combat_stat_buff 1 .damage_low_multiply 71% .damage_high_multiply 71% .speed_rating_add 3 .on_hit true .on_miss true .duration 2
+effect: .name "SPSR Msk Call the Shot Buff 5" .target "performer" .curio_result_type "positive" .chance 100%  .combat_stat_buff 1 .damage_low_multiply 75% .damage_high_multiply 75% .speed_rating_add 4 .on_hit true .on_miss true .duration 2
+
+effect: .name "SPSR Msk Flare Stressheal 1" .target "performer_group" .curio_result_type "positive" .chance 60% .healstress 4 .on_hit true .on_miss true .queue true .apply_once true
+effect: .name "SPSR Msk Flare Stressheal 2" .target "performer_group" .curio_result_type "positive" .chance 67% .healstress 4 .on_hit true .on_miss true .queue true .apply_once true
+effect: .name "SPSR Msk Flare Stressheal 3" .target "performer_group" .curio_result_type "positive" .chance 75% .healstress 4 .on_hit true .on_miss true .queue true .apply_once true
+effect: .name "SPSR Msk Flare Stressheal 4" .target "performer_group" .curio_result_type "positive" .chance 82% .healstress 4 .on_hit true .on_miss true .queue true .apply_once true
+effect: .name "SPSR Msk Flare Stressheal 5" .target "performer_group" .curio_result_type "positive" .chance 90% .healstress 4 .on_hit true .on_miss true .queue true .apply_once true
+
+effect: .name "SPSR Msk Cure Bleed" .target "target" .curio_result_type "positive" .chance 100% .cure_bleed 1	.on_hit true .on_miss false
+
+
+
+//------------------------------------------------------------------------
+//Bounty Hunter
+
+//On Crit
+effect: .name "SPSR Bht on crit DMG"    .target "performer" .curio_result_type "positive" .chance 100% .buff_source_type bsrc_crit .buff_ids "SPSR_Bht_on_crit_DMGL_B1" "SPSR_Bht_on_crit_DMGH_B1" .duration 2 .on_hit true .on_miss false .apply_once true
+effect: .name "SPSR Bht on crit Stun Chance"    .target "performer" .curio_result_type "positive" .chance 100% .buff_source_type bsrc_crit .buff_ids "SPSR_Bht_on_crit_Stun_Chance_B1" .duration 2 .on_hit true .on_miss false .apply_once true
+
+effect: .name "SPSR Bht Marked Killer 1" .target "performer" .chance 100%	.curio_result_type "positive" .keyStatus "tagged"  .combat_stat_buff 1 .damage_low_multiply 20%  .damage_high_multiply 20% .on_hit true .on_miss false
+effect: .name "SPSR Bht Marked Killer 2" .target "performer" .chance 100%	.curio_result_type "positive" .keyStatus "tagged"  .combat_stat_buff 1 .damage_low_multiply 21%  .damage_high_multiply 21% .on_hit true .on_miss false
+effect: .name "SPSR Bht Marked Killer 3" .target "performer" .chance 100%	.curio_result_type "positive" .keyStatus "tagged"  .combat_stat_buff 1 .damage_low_multiply 23%  .damage_high_multiply 23% .on_hit true .on_miss false
+effect: .name "SPSR Bht Marked Killer 4" .target "performer" .chance 100%	.curio_result_type "positive" .keyStatus "tagged"  .combat_stat_buff 1 .damage_low_multiply 24%  .damage_high_multiply 24% .on_hit true .on_miss false
+effect: .name "SPSR Bht Marked Killer 5" .target "performer" .chance 100%	.curio_result_type "positive" .keyStatus "tagged"  .combat_stat_buff 1 .damage_low_multiply 25%  .damage_high_multiply 25% .on_hit true .on_miss false
+
+effect: .name "SPSR_Bht_Debuffed_Killer_1" .target "performer" .chance 100%	.curio_result_type "positive" .keyStatus "debuffed"  .combat_stat_buff 1 .damage_low_multiply 20%  .damage_high_multiply 20% .on_hit true .on_miss false
+effect: .name "SPSR_Bht_Debuffed_Killer_2" .target "performer" .chance 100%	.curio_result_type "positive" .keyStatus "debuffed"  .combat_stat_buff 1 .damage_low_multiply 21%  .damage_high_multiply 21% .on_hit true .on_miss false
+effect: .name "SPSR_Bht_Debuffed_Killer_3" .target "performer" .chance 100%	.curio_result_type "positive" .keyStatus "debuffed"  .combat_stat_buff 1 .damage_low_multiply 23%  .damage_high_multiply 23% .on_hit true .on_miss false
+effect: .name "SPSR_Bht_Debuffed_Killer_4" .target "performer" .chance 100%	.curio_result_type "positive" .keyStatus "debuffed"  .combat_stat_buff 1 .damage_low_multiply 24%  .damage_high_multiply 24% .on_hit true .on_miss false
+effect: .name "SPSR_Bht_Debuffed_Killer_5" .target "performer" .chance 100%	.curio_result_type "positive" .keyStatus "debuffed"  .combat_stat_buff 1 .damage_low_multiply 25%  .damage_high_multiply 25% .on_hit true .on_miss false
+
+effect: .name "SPSR Bht Bleed Killer 1"	.target "performer" .chance 100%	.curio_result_type "positive" .keyStatus "bleeding"	.combat_stat_buff 1 .damage_low_multiply 20%	.damage_high_multiply 20%	.on_hit true .on_miss false
+effect: .name "SPSR Bht Bleed Killer 2"	.target "performer" .chance 100%	.curio_result_type "positive" .keyStatus "bleeding"	.combat_stat_buff 1 .damage_low_multiply 21%	.damage_high_multiply 21%	.on_hit true .on_miss false
+effect: .name "SPSR Bht Bleed Killer 3"	.target "performer" .chance 100%	.curio_result_type "positive" .keyStatus "bleeding"	.combat_stat_buff 1 .damage_low_multiply 23%	.damage_high_multiply 23%	.on_hit true .on_miss false
+effect: .name "SPSR Bht Bleed Killer 4"	.target "performer" .chance 100%	.curio_result_type "positive" .keyStatus "bleeding"	.combat_stat_buff 1 .damage_low_multiply 24%	.damage_high_multiply 24%	.on_hit true .on_miss false
+effect: .name "SPSR Bht Bleed Killer 5"	.target "performer" .chance 100%	.curio_result_type "positive" .keyStatus "bleeding"	.combat_stat_buff 1 .damage_low_multiply 25%	.damage_high_multiply 25%	.on_hit true .on_miss false
+
+effect: .name "SPSR Bht Stun Killer 1"	.target "performer" .chance 100%	.curio_result_type "positive" .keyStatus "stunned"	.combat_stat_buff 1	.crit_chance_add 40%	.on_hit true .on_miss false
+effect: .name "SPSR Bht Stun Killer 2"	.target "performer" .chance 100%	.curio_result_type "positive" .keyStatus "stunned"	.combat_stat_buff 1	.crit_chance_add 42%	.on_hit true .on_miss false
+effect: .name "SPSR Bht Stun Killer 3"	.target "performer" .chance 100%	.curio_result_type "positive" .keyStatus "stunned"	.combat_stat_buff 1	.crit_chance_add 45%	.on_hit true .on_miss false
+effect: .name "SPSR Bht Stun Killer 4"	.target "performer" .chance 100%	.curio_result_type "positive" .keyStatus "stunned"	.combat_stat_buff 1	.crit_chance_add 47%	.on_hit true .on_miss false
+effect: .name "SPSR Bht Stun Killer 5"	.target "performer" .chance 100%	.curio_result_type "positive" .keyStatus "stunned"	.combat_stat_buff 1	.crit_chance_add 50%	.on_hit true .on_miss false
+
+effect: .name "SPSR Bht Mark Target"	.target "target" .curio_result_type "positive" .chance 100%	.tag 1  .duration 2	.on_hit true .on_miss false
+
+effect: .name "SPSR_Bht_mark_Debuff_1" .target "target" .chance 100% .duration 3 .buff_ids "SPSR_Bht_prot_D1" "SPSR_Bht_DMG_Received_D1" .on_hit true .on_miss false
+effect: .name "SPSR_Bht_mark_Debuff_2" .target "target" .chance 110% .duration 3 .buff_ids "SPSR_Bht_prot_D2" "SPSR_Bht_DMG_Received_D2" .on_hit true .on_miss false
+effect: .name "SPSR_Bht_mark_Debuff_3" .target "target" .chance 120% .duration 3 .buff_ids "SPSR_Bht_prot_D3" "SPSR_Bht_DMG_Received_D3" .on_hit true .on_miss false
+effect: .name "SPSR_Bht_mark_Debuff_4" .target "target" .chance 130% .duration 3 .buff_ids "SPSR_Bht_prot_D4" "SPSR_Bht_DMG_Received_D4" .on_hit true .on_miss false
+effect: .name "SPSR_Bht_mark_Debuff_5" .target "target" .chance 140% .duration 3 .buff_ids "SPSR_Bht_prot_D5" "SPSR_Bht_DMG_Received_D5" .on_hit true .on_miss false
+
+effect: .name "SPSR Bht Self Speed Buff 1" .target "performer" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .duration 4 .speed_rating_add 1  .on_hit true .on_miss false .queue true .apply_once true
+effect: .name "SPSR Bht Self Speed Buff 2" .target "performer" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .duration 4 .speed_rating_add 1	.on_hit true .on_miss false .queue true .apply_once true
+effect: .name "SPSR Bht Self Speed Buff 3" .target "performer" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .duration 4 .speed_rating_add 2	.on_hit true .on_miss false .queue true .apply_once true
+effect: .name "SPSR Bht Self Speed Buff 4" .target "performer" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .duration 4 .speed_rating_add 2	.on_hit true .on_miss false .queue true .apply_once true
+effect: .name "SPSR Bht Self Speed Buff 5" .target "performer" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .duration 4 .speed_rating_add 3	.on_hit true .on_miss false .queue true .apply_once true
+
+
+
+//------------------------------------------------------------------------
+//Houndmaster
+
+//On Crit
+effect: .name "SPSR Hms on crit Stun Chance"    .target "performer" .curio_result_type "positive" .chance 100% .buff_source_type bsrc_crit .buff_ids "SPSR_Hms_on_crit_Stun_Chance_B1" .duration 2	.on_hit true .on_miss false .apply_once true
+effect: .name "SPSR Hms on crit Stresshealdone"    .target "performer" .curio_result_type "positive" .chance 100% .buff_source_type bsrc_crit .buff_ids "SPSR_Hms_on_crit_Stressheal_B1" .duration 2	.on_hit true .on_miss false .apply_once true
+
+effect: .name "SPSR Hms Marked Killer 1" .target "performer" .chance 100%	.curio_result_type "positive" .keyStatus "tagged"  .combat_stat_buff 1 .damage_low_multiply 40%  .damage_high_multiply 40%  .on_hit true .on_miss false
+effect: .name "SPSR Hms Marked Killer 2" .target "performer" .chance 100%	.curio_result_type "positive" .keyStatus "tagged"  .combat_stat_buff 1 .damage_low_multiply 42%  .damage_high_multiply 42%  .on_hit true .on_miss false
+effect: .name "SPSR Hms Marked Killer 3" .target "performer" .chance 100%	.curio_result_type "positive" .keyStatus "tagged"  .combat_stat_buff 1 .damage_low_multiply 45%  .damage_high_multiply 45%  .on_hit true .on_miss false
+effect: .name "SPSR Hms Marked Killer 4" .target "performer" .chance 100%	.curio_result_type "positive" .keyStatus "tagged"  .combat_stat_buff 1 .damage_low_multiply 47%  .damage_high_multiply 47%  .on_hit true .on_miss false
+effect: .name "SPSR Hms Marked Killer 5" .target "performer" .chance 100%	.curio_result_type "positive" .keyStatus "tagged"  .combat_stat_buff 1 .damage_low_multiply 50%  .damage_high_multiply 50%  .on_hit true .on_miss false
+
+effect: .name "SPSR Hms Beast Killer 1" .target "performer" .chance 100% .curio_result_type "positive" .monsterType "beast" .combat_stat_buff 1 .damage_low_multiply 20% .damage_high_multiply 20%	.on_hit true .on_miss false
+effect: .name "SPSR Hms Beast Killer 2" .target "performer" .chance 100% .curio_result_type "positive" .monsterType "beast" .combat_stat_buff 1 .damage_low_multiply 21% .damage_high_multiply 21%	.on_hit true .on_miss false
+effect: .name "SPSR Hms Beast Killer 3" .target "performer" .chance 100% .curio_result_type "positive" .monsterType "beast" .combat_stat_buff 1 .damage_low_multiply 23% .damage_high_multiply 23%	.on_hit true .on_miss false
+effect: .name "SPSR Hms Beast Killer 4" .target "performer" .chance 100% .curio_result_type "positive" .monsterType "beast" .combat_stat_buff 1 .damage_low_multiply 24% .damage_high_multiply 24%	.on_hit true .on_miss false
+effect: .name "SPSR Hms Beast Killer 5" .target "performer" .chance 100% .curio_result_type "positive" .monsterType "beast" .combat_stat_buff 1 .damage_low_multiply 25% .damage_high_multiply 25%	.on_hit true .on_miss false
+
+effect: .name "SPSR Hms Slight Bleed 1" .target "target" .curio_result_type "negative" .chance 100%  .dotBleed 1 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "SPSR Hms Slight Bleed 2" .target "target" .curio_result_type "negative" .chance 110%  .dotBleed 1 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "SPSR Hms Slight Bleed 3" .target "target" .curio_result_type "negative" .chance 120%  .dotBleed 2 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "SPSR Hms Slight Bleed 4" .target "target" .curio_result_type "negative" .chance 130%  .dotBleed 2 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "SPSR Hms Slight Bleed 5" .target "target" .curio_result_type "negative" .chance 140%  .dotBleed 3 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
+
+effect: .name "SPSR Hms Bleed 1" .target "target" .curio_result_type "negative" .chance 100%  .dotBleed 4 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "SPSR Hms Bleed 2" .target "target" .curio_result_type "negative" .chance 110%  .dotBleed 4 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "SPSR Hms Bleed 3" .target "target" .curio_result_type "negative" .chance 120%  .dotBleed 5 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "SPSR Hms Bleed 4" .target "target" .curio_result_type "negative" .chance 130%  .dotBleed 5 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "SPSR Hms Bleed 5" .target "target" .curio_result_type "negative" .chance 140%  .dotBleed 6 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
+
+effect: .name "SPSR Hms Stun 1" .target "target" .curio_result_type "negative" .chance 110% .stun 1	.on_hit true .on_miss false .queue true
+effect: .name "SPSR Hms Stun 2" .target "target" .curio_result_type "negative" .chance 120% .stun 1	.on_hit true .on_miss false .queue true
+effect: .name "SPSR Hms Stun 3" .target "target" .curio_result_type "negative" .chance 130% .stun 1	.on_hit true .on_miss false .queue true
+effect: .name "SPSR Hms Stun 4" .target "target" .curio_result_type "negative" .chance 140% .stun 1	.on_hit true .on_miss false .queue true
+effect: .name "SPSR Hms Stun 5" .target "target" .curio_result_type "negative" .chance 150% .stun 1	.on_hit true .on_miss false .queue true
+
+effect: .name "SPSR Hms Mark Target"	.target "target" .curio_result_type "positive" .chance 100%	.tag 1  .duration 3	.on_hit true .on_miss false
+
+effect: .name "SPSR Hms Prot Debuff 1" .target "target" .curio_result_type "negative" .chance 100% .combat_stat_buff 1  .protection_rating_add -24% 	.on_hit true .on_miss false
+effect: .name "SPSR Hms Prot Debuff 2" .target "target" .curio_result_type "negative" .chance 110% .combat_stat_buff 1  .protection_rating_add -25% 	.on_hit true .on_miss false
+effect: .name "SPSR Hms Prot Debuff 3" .target "target" .curio_result_type "negative" .chance 120% .combat_stat_buff 1  .protection_rating_add -27% 	.on_hit true .on_miss false
+effect: .name "SPSR Hms Prot Debuff 4" .target "target" .curio_result_type "negative" .chance 130% .combat_stat_buff 1  .protection_rating_add -28% 	.on_hit true .on_miss false
+effect: .name "SPSR Hms Prot Debuff 5" .target "target" .curio_result_type "negative" .chance 140% .combat_stat_buff 1  .protection_rating_add -30% 	.on_hit true .on_miss false
+
+effect: .name "SPSR Hms Def Buff 1" .target "performer" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .defense_rating_add 12% .duration 4 .on_hit true .on_miss false .queue true 
+effect: .name "SPSR Hms Def Buff 2" .target "performer" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .defense_rating_add 13% .duration 4 .on_hit true .on_miss false .queue true
+effect: .name "SPSR Hms Def Buff 3" .target "performer" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .defense_rating_add 14% .duration 4 .on_hit true .on_miss false .queue true
+effect: .name "SPSR Hms Def Buff 4" .target "performer" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .defense_rating_add 14% .duration 4 .on_hit true .on_miss false .queue true
+effect: .name "SPSR Hms Def Buff 5" .target "performer" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .defense_rating_add 15% .duration 4 .on_hit true .on_miss false .queue true
+
+effect: .name "SPSR Hms Stressheal 1" .target "target" .curio_result_type "positive" .chance 60% .healstress 5	.on_hit true .on_miss false .queue true
+effect: .name "SPSR Hms Stressheal 2" .target "target" .curio_result_type "positive" .chance 67% .healstress 5	.on_hit true .on_miss false .queue true
+effect: .name "SPSR Hms Stressheal 3" .target "target" .curio_result_type "positive" .chance 75% .healstress 5	.on_hit true .on_miss false .queue true
+effect: .name "SPSR Hms Stressheal 4" .target "target" .curio_result_type "positive" .chance 82% .healstress 5	.on_hit true .on_miss false .queue true
+effect: .name "SPSR Hms Stressheal 5" .target "target" .curio_result_type "positive" .chance 90% .healstress 5	.on_hit true .on_miss false .queue true
+
+
+
+//------------------------------------------------------------------------
+//Arbalest
+
+effect: .name "SPSR Arb on crit Marked DMG" .target "performer" .curio_result_type "positive" .chance 100% .buff_source_type bsrc_crit .buff_ids "SPSR_Arb_on_crit_marked_DMGL_B1" "SPSR_Arb_on_crit_marked_DMGH_B1" .duration 2	.on_hit true .on_miss false .apply_once true
+effect: .name "SPSR Arb on crit Healdone" .target "performer" .curio_result_type "positive" .chance 100% .buff_source_type bsrc_crit .buff_ids "SPSR_Arb_on_crit_Healdone_B1" .duration 2	.on_hit true .on_miss false .apply_once true
+
+effect: .name "SPSR Arb Marked Killer 1" .target "performer" .chance 100%	.curio_result_type "positive" .keyStatus "tagged"  .combat_stat_buff 1 .damage_low_multiply 40%  .damage_high_multiply 40%  .on_hit true .on_miss false
+effect: .name "SPSR Arb Marked Killer 2" .target "performer" .chance 100%	.curio_result_type "positive" .keyStatus "tagged"  .combat_stat_buff 1 .damage_low_multiply 42%  .damage_high_multiply 42%  .on_hit true .on_miss false
+effect: .name "SPSR Arb Marked Killer 3" .target "performer" .chance 100%	.curio_result_type "positive" .keyStatus "tagged"  .combat_stat_buff 1 .damage_low_multiply 45%  .damage_high_multiply 45%  .on_hit true .on_miss false
+effect: .name "SPSR Arb Marked Killer 4" .target "performer" .chance 100%	.curio_result_type "positive" .keyStatus "tagged"  .combat_stat_buff 1 .damage_low_multiply 47%  .damage_high_multiply 47%  .on_hit true .on_miss false
+effect: .name "SPSR Arb Marked Killer 5" .target "performer" .chance 100%	.curio_result_type "positive" .keyStatus "tagged"  .combat_stat_buff 1 .damage_low_multiply 50%  .damage_high_multiply 50%  .on_hit true .on_miss false
+
+effect: .name "SPSR Arb Marked Crit 1".target "performer" .chance 100%	.curio_result_type "positive" .keyStatus "tagged" .duration 3 .combat_stat_buff 1 .crit_chance_add 6%	 .on_hit true .on_miss false
+effect: .name "SPSR Arb Marked Crit 2".target "performer" .chance 100%	.curio_result_type "positive" .keyStatus "tagged" .duration 3 .combat_stat_buff 1 .crit_chance_add 7%	 .on_hit true .on_miss false
+effect: .name "SPSR Arb Marked Crit 3".target "performer" .chance 100%	.curio_result_type "positive" .keyStatus "tagged" .duration 3 .combat_stat_buff 1 .crit_chance_add 8%	 .on_hit true .on_miss false
+effect: .name "SPSR Arb Marked Crit 4".target "performer" .chance 100%	.curio_result_type "positive" .keyStatus "tagged" .duration 3 .combat_stat_buff 1 .crit_chance_add 9%	 .on_hit true .on_miss false
+effect: .name "SPSR Arb Marked Crit 5".target "performer" .chance 100%	.curio_result_type "positive" .keyStatus "tagged" .duration 3 .combat_stat_buff 1 .crit_chance_add 10%	 .on_hit true .on_miss false
+
+effect: .name "SPSR Arb Self Speed 1" .target "performer" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .speed_rating_add 1	.on_hit true .on_miss true .queue true .apply_once true
+effect: .name "SPSR Arb Self Speed 2" .target "performer" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .speed_rating_add 1	.on_hit true .on_miss true .queue true .apply_once true
+effect: .name "SPSR Arb Self Speed 3" .target "performer" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .speed_rating_add 2	.on_hit true .on_miss true .queue true .apply_once true
+effect: .name "SPSR Arb Self Speed 4" .target "performer" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .speed_rating_add 2	.on_hit true .on_miss true .queue true .apply_once true
+effect: .name "SPSR Arb Self Speed 5" .target "performer" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .speed_rating_add 3	.on_hit true .on_miss true .queue true .apply_once true
+
+effect: .name "SPSR Arb Bola Push 1" .target "target"  .push 3 .chance 100%   .on_hit true .on_miss false  .can_apply_on_death true
+effect: .name "SPSR Arb Bola Push 2" .target "target"  .push 3 .chance 110%   .on_hit true .on_miss false .can_apply_on_death true
+effect: .name "SPSR Arb Bola Push 3" .target "target"  .push 3 .chance 120%   .on_hit true .on_miss false .can_apply_on_death true
+effect: .name "SPSR Arb Bola Push 4" .target "target"  .push 3 .chance 130%   .on_hit true .on_miss false .can_apply_on_death true
+effect: .name "SPSR Arb Bola Push 5" .target "target"  .push 3 .chance 140%   .on_hit true .on_miss false .can_apply_on_death true
+
+effect: .name "SPSR Arb Bola Debuff 1" .target "target" .curio_result_type "negative" .chance 100% .duration 3 .combat_stat_buff 1 .speed_rating_add -2	.on_hit true .on_miss false
+effect: .name "SPSR Arb Bola Debuff 2" .target "target" .curio_result_type "negative" .chance 110% .duration 3 .combat_stat_buff 1 .speed_rating_add -2	.on_hit true .on_miss false
+effect: .name "SPSR Arb Bola Debuff 3" .target "target" .curio_result_type "negative" .chance 120% .duration 3 .combat_stat_buff 1 .speed_rating_add -3	.on_hit true .on_miss false
+effect: .name "SPSR Arb Bola Debuff 4" .target "target" .curio_result_type "negative" .chance 130% .duration 3 .combat_stat_buff 1 .speed_rating_add -3	.on_hit true .on_miss false
+effect: .name "SPSR Arb Bola Debuff 5" .target "target" .curio_result_type "negative" .chance 140% .duration 3 .combat_stat_buff 1 .speed_rating_add -4	.on_hit true .on_miss false
+
+effect: .name "SPSR Arb Suppression 1" .target "target" .curio_result_type "negative" .chance 100% .duration 3 .combat_stat_buff 1 .attack_rating_add -15% .crit_chance_add -12%	.on_hit true .on_miss false
+effect: .name "SPSR Arb Suppression 2" .target "target" .curio_result_type "negative" .chance 110% .duration 3 .combat_stat_buff 1 .attack_rating_add -16% .crit_chance_add -13%	.on_hit true .on_miss false
+effect: .name "SPSR Arb Suppression 3" .target "target" .curio_result_type "negative" .chance 120% .duration 3 .combat_stat_buff 1 .attack_rating_add -18% .crit_chance_add -14%	.on_hit true .on_miss false
+effect: .name "SPSR Arb Suppression 4" .target "target" .curio_result_type "negative" .chance 130% .duration 3 .combat_stat_buff 1 .attack_rating_add -19% .crit_chance_add -14%	.on_hit true .on_miss false
+effect: .name "SPSR Arb Suppression 5" .target "target" .curio_result_type "negative" .chance 140% .duration 3 .combat_stat_buff 1 .attack_rating_add -20% .crit_chance_add -15%	.on_hit true .on_miss false
+
+effect: .name "SPSR Arb Mark Target"	.target "target" .curio_result_type "positive" .chance 100%	.tag 1  .duration 3	.on_hit true .on_miss false
+
+effect: .name "SPSR Arb Mark Debuff 1" .target "target" .curio_result_type "negative" .chance 100% .duration 3 .combat_stat_buff 1 .protection_rating_add -16% .defense_rating_add -8% .on_hit true .on_miss false .queue true
+effect: .name "SPSR Arb Mark Debuff 2" .target "target" .curio_result_type "negative" .chance 110% .duration 3 .combat_stat_buff 1 .protection_rating_add -17% .defense_rating_add -8% .on_hit true .on_miss false .queue true
+effect: .name "SPSR Arb Mark Debuff 3" .target "target" .curio_result_type "negative" .chance 120% .duration 3 .combat_stat_buff 1 .protection_rating_add -18% .defense_rating_add -9% .on_hit true .on_miss false .queue true
+effect: .name "SPSR Arb Mark Debuff 4" .target "target" .curio_result_type "negative" .chance 130% .duration 3 .combat_stat_buff 1 .protection_rating_add -19% .defense_rating_add -9% .on_hit true .on_miss false .queue true
+effect: .name "SPSR Arb Mark Debuff 5" .target "target" .curio_result_type "negative" .chance 140% .duration 3 .combat_stat_buff 1 .protection_rating_add -20% .defense_rating_add -10% .on_hit true .on_miss false .queue true
+
+effect: .name "SPSR Arb Stacking Heal 1" .target "target" .curio_result_type "positive" .chance 100% .buff_type hp_heal_received_percent .buff_amount 16%  .on_hit true .on_miss true	.queue true
+effect: .name "SPSR Arb Stacking Heal 2" .target "target" .curio_result_type "positive" .chance 100% .buff_type hp_heal_received_percent .buff_amount 17%  .on_hit true .on_miss true	.queue true
+effect: .name "SPSR Arb Stacking Heal 3" .target "target" .curio_result_type "positive" .chance 100% .buff_type hp_heal_received_percent .buff_amount 18%  .on_hit true .on_miss true	.queue true
+effect: .name "SPSR Arb Stacking Heal 4" .target "target" .curio_result_type "positive" .chance 100% .buff_type hp_heal_received_percent .buff_amount 19%  .on_hit true .on_miss true	.queue true
+effect: .name "SPSR Arb Stacking Heal 5" .target "target" .curio_result_type "positive" .chance 100% .buff_type hp_heal_received_percent .buff_amount 20%  .on_hit true .on_miss true	.queue true
+
+effect: .name "SPSR Arb Cure Bleed" .target "target" .curio_result_type "positive" .chance 100% .cure_bleed 1	.on_hit true .on_miss false
+
+effect: .name "SPSR Arb Flare Heal Stress 1" .target "performer_group" .curio_result_type "positive" .chance 60% .healstress 3 .on_hit true .on_miss true .queue true .apply_once true
+effect: .name "SPSR Arb Flare Heal Stress 2" .target "performer_group" .curio_result_type "positive" .chance 67% .healstress 3 .on_hit true .on_miss true .queue true .apply_once true
+effect: .name "SPSR Arb Flare Heal Stress 3" .target "performer_group" .curio_result_type "positive" .chance 75% .healstress 3 .on_hit true .on_miss true .queue true .apply_once true
+effect: .name "SPSR Arb Flare Heal Stress 4" .target "performer_group" .curio_result_type "positive" .chance 82% .healstress 3 .on_hit true .on_miss true .queue true .apply_once true
+effect: .name "SPSR Arb Flare Heal Stress 5" .target "performer_group" .curio_result_type "positive" .chance 90% .healstress 3 .on_hit true .on_miss true .queue true .apply_once true
+
+effect: .name "SPSR Arb Flare Stun Tag Clear 1" .target "performer_group" .chance 100% .unstun 1 .untag 1  .on_hit true .on_miss true .apply_once true
+
+effect: .name "SPSR Arb Flare Light 1" .target "global" .chance 100% .curio_result_type "positive" .torch_increase 5  .on_hit true .on_miss true .apply_once true .queue true 
+
+effect: .name "SPSR Arb Destealth" .target "target" .chance 100% .unstealth 1 .on_hit true .on_miss false
+
+
+//------------------------------------------------------------------------
+//Occultist
+
+//On Crit
+effect: .name "SPSR Occ on crit Healdone" .target "performer" .curio_result_type "positive" .chance 100% .buff_source_type bsrc_crit .buff_ids "SPSR_Occ_on_crit_Healdone_B1" .duration 2	.on_hit true .on_miss false .apply_once true
+effect: .name "SPSR Occ on crit Stun Chance" .target "performer" .curio_result_type "positive" .chance 100% .buff_source_type bsrc_crit .buff_ids "SPSR_Occ_on_crit_Stun_Chance_B1" .duration 2	.on_hit true .on_miss false .apply_once true
+
+effect: .name "SPSR Occ Eldritch Killer 1" .target "performer" .chance 100% .curio_result_type "positive" .monsterType "eldritch" .combat_stat_buff 1 .damage_low_multiply 20%	.damage_high_multiply 20%	.on_hit true .on_miss false .apply_once true
+effect: .name "SPSR Occ Eldritch Killer 2" .target "performer" .chance 100% .curio_result_type "positive" .monsterType "eldritch" .combat_stat_buff 1 .damage_low_multiply 21%	.damage_high_multiply 21%	.on_hit true .on_miss false .apply_once true
+effect: .name "SPSR Occ Eldritch Killer 3" .target "performer" .chance 100% .curio_result_type "positive" .monsterType "eldritch" .combat_stat_buff 1 .damage_low_multiply 23%	.damage_high_multiply 23%	.on_hit true .on_miss false .apply_once true
+effect: .name "SPSR Occ Eldritch Killer 4" .target "performer" .chance 100% .curio_result_type "positive" .monsterType "eldritch" .combat_stat_buff 1 .damage_low_multiply 24%	.damage_high_multiply 24%	.on_hit true .on_miss false .apply_once true
+effect: .name "SPSR Occ Eldritch Killer 5" .target "performer" .chance 100% .curio_result_type "positive" .monsterType "eldritch" .combat_stat_buff 1 .damage_low_multiply 25%	.damage_high_multiply 25%	.on_hit true .on_miss false .apply_once true
+
+effect: .name "SPSR Occ Darkness 1" .target "global" .chance 100% .curio_result_type "negative" .torch_decrease 5	.on_hit true .on_miss false .apply_once true .queue true
+
+effect: .name "SPSR Occ Stun 1" .target "target" .curio_result_type "negative" .chance 110% .stun 1	.on_hit true .on_miss false .queue true
+effect: .name "SPSR Occ Stun 2" .target "target" .curio_result_type "negative" .chance 120% .stun 1	.on_hit true .on_miss false .queue true
+effect: .name "SPSR Occ Stun 3" .target "target" .curio_result_type "negative" .chance 130% .stun 1	.on_hit true .on_miss false .queue true
+effect: .name "SPSR Occ Stun 4" .target "target" .curio_result_type "negative" .chance 140% .stun 1	.on_hit true .on_miss false .queue true
+effect: .name "SPSR Occ Stun 5" .target "target" .curio_result_type "negative" .chance 150% .stun 1	.on_hit true .on_miss false .queue true
+
+effect: .name "SPSR Occ Pull 1"  .pull 3 .target "target" .chance 100%	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "SPSR Occ Pull 2"  .pull 3 .target "target" .chance 110%	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "SPSR Occ Pull 3"  .pull 3 .target "target" .chance 120%	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "SPSR Occ Pull 4"  .pull 3 .target "target" .chance 130%	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "SPSR Occ Pull 5"  .pull 3 .target "target" .chance 140%	.on_hit true .on_miss false .can_apply_on_death true
+
+effect: .name "SPSR Occ Clear Corpses" .target "target_group" .chance 100% .kill_enemy_types corpse .on_hit true .on_miss false .queue false .can_apply_on_death true
+
+effect: .name "SPSR Occ Mark Target"	.target "target" .curio_result_type "positive" .chance 100%	.tag 1  .duration 3	.on_hit true .on_miss false
+
+effect: .name "SPSR Occ Curse Debuff 1" .target "target" .curio_result_type "negative" .chance 100% .duration 3 .combat_stat_buff 1 .damage_low_multiply -16% .damage_high_multiply -16% .protection_rating_add -16% .on_hit true .on_miss false
+effect: .name "SPSR Occ Curse Debuff 2" .target "target" .curio_result_type "negative" .chance 110% .duration 3 .combat_stat_buff 1 .damage_low_multiply -17% .damage_high_multiply -17% .protection_rating_add -17% .on_hit true .on_miss false
+effect: .name "SPSR Occ Curse Debuff 3" .target "target" .curio_result_type "negative" .chance 120% .duration 3 .combat_stat_buff 1 .damage_low_multiply -18% .damage_high_multiply -18% .protection_rating_add -18% .on_hit true .on_miss false
+effect: .name "SPSR Occ Curse Debuff 4" .target "target" .curio_result_type "negative" .chance 130% .duration 3 .combat_stat_buff 1 .damage_low_multiply -19% .damage_high_multiply -19% .protection_rating_add -19% .on_hit true .on_miss false
+effect: .name "SPSR Occ Curse Debuff 5" .target "target" .curio_result_type "negative" .chance 140% .duration 3 .combat_stat_buff 1 .damage_low_multiply -20% .damage_high_multiply -20% .protection_rating_add -20% .on_hit true .on_miss false
+
+effect: .name "SPSR Occ Hex Debuff 1" .target "target" .curio_result_type "negative" .chance 100% .duration 3  .combat_stat_buff 1 .attack_rating_add -12% .defense_rating_add -12%	.on_hit true .on_miss false
+effect: .name "SPSR Occ Hex Debuff 2" .target "target" .curio_result_type "negative" .chance 110% .duration 3  .combat_stat_buff 1 .attack_rating_add -13% .defense_rating_add -13%	.on_hit true .on_miss false
+effect: .name "SPSR Occ Hex Debuff 3" .target "target" .curio_result_type "negative" .chance 120% .duration 3  .combat_stat_buff 1 .attack_rating_add -14% .defense_rating_add -14%	.on_hit true .on_miss false
+effect: .name "SPSR Occ Hex Debuff 4" .target "target" .curio_result_type "negative" .chance 130% .duration 3  .combat_stat_buff 1 .attack_rating_add -14% .defense_rating_add -14%	.on_hit true .on_miss false
+effect: .name "SPSR Occ Hex Debuff 5" .target "target" .curio_result_type "negative" .chance 140% .duration 3  .combat_stat_buff 1 .attack_rating_add -15% .defense_rating_add -15%	.on_hit true .on_miss false
+
+effect: .name "SPSR Occ Destealth" .target "target" .chance 100% .unstealth 1 .on_hit true .on_miss false
+
+effect: .name "SPSR Occ Wyrd Bleed 1" .target "target" .curio_result_type "negative" .chance 80%  .dotBleed 2 .duration 1	.on_hit true .on_miss false .queue true .can_apply_on_death true
+effect: .name "SPSR Occ Wyrd Bleed 2" .target "target" .curio_result_type "negative" .chance 95%  .dotBleed 2 .duration 1	.on_hit true .on_miss false .queue true .can_apply_on_death true
+effect: .name "SPSR Occ Wyrd Bleed 3" .target "target" .curio_result_type "negative" .chance 110%  .dotBleed 3 .duration 1	.on_hit true .on_miss false .queue true .can_apply_on_death true
+effect: .name "SPSR Occ Wyrd Bleed 4" .target "target" .curio_result_type "negative" .chance 125%  .dotBleed 3 .duration 1	.on_hit true .on_miss false .queue true .can_apply_on_death true
+effect: .name "SPSR Occ Wyrd Bleed 5" .target "target" .curio_result_type "negative" .chance 140%  .dotBleed 4 .duration 1	.on_hit true .on_miss false .queue true .can_apply_on_death true
+
+
+
+//------------------------------------------------------------------------
+//Plague Doctor
+
+//On Crit
+effect: .name "SPSR Pld on crit Blight Chance" .target "performer" .curio_result_type "positive" .chance 100% .buff_source_type bsrc_crit .buff_ids "SPSR_Pld_on_crit_Blight_Chance_B1" .duration 2	.on_hit true .on_miss false .apply_once true
+effect: .name "SPSR Pld on crit Healdone" .target "performer" .curio_result_type "positive" .chance 100% .buff_source_type bsrc_crit .buff_ids "SPSR_Pld_on_crit_Healdone_B1" .duration 2	.on_hit true .on_miss false .apply_once true
+
+effect: .name "SPSR Pld Strong Blight 1" .target "target" .curio_result_type "negative" .chance 100%  .dotPoison 5 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "SPSR Pld Strong Blight 2" .target "target" .curio_result_type "negative" .chance 110%  .dotPoison 5 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "SPSR Pld Strong Blight 3" .target "target" .curio_result_type "negative" .chance 120%  .dotPoison 6 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "SPSR Pld Strong Blight 4" .target "target" .curio_result_type "negative" .chance 130%  .dotPoison 6 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "SPSR Pld Strong Blight 5" .target "target" .curio_result_type "negative" .chance 140%  .dotPoison 7 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
+
+effect: .name "SPSR Pld Blight 1" .target "target" .curio_result_type "negative" .chance 100%  .dotPoison 4 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "SPSR Pld Blight 2" .target "target" .curio_result_type "negative" .chance 110%  .dotPoison 4 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "SPSR Pld Blight 3" .target "target" .curio_result_type "negative" .chance 120%  .dotPoison 5 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "SPSR Pld Blight 4" .target "target" .curio_result_type "negative" .chance 130%  .dotPoison 5 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "SPSR Pld Blight 5" .target "target" .curio_result_type "negative" .chance 140%  .dotPoison 6 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
+
+effect: .name "SPSR Pld Stun 1" .target "target" .curio_result_type "negative" .chance 100% .stun 1	.on_hit true .on_miss false .queue true
+effect: .name "SPSR Pld Stun 2" .target "target" .curio_result_type "negative" .chance 110% .stun 1	.on_hit true .on_miss false .queue true
+effect: .name "SPSR Pld Stun 3" .target "target" .curio_result_type "negative" .chance 120% .stun 1	.on_hit true .on_miss false .queue true
+effect: .name "SPSR Pld Stun 4" .target "target" .curio_result_type "negative" .chance 130% .stun 1	.on_hit true .on_miss false .queue true
+effect: .name "SPSR Pld Stun 5" .target "target" .curio_result_type "negative" .chance 140% .stun 1	.on_hit true .on_miss false .queue true
+
+//old. change please,
+effect: .name "SPSD Pd Vapours Buff 1" .target "target" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .duration 3 .speed_rating_add 1 .damage_low_multiply 25% .damage_high_multiply 25% .attack_rating_add 8%  .on_hit true .on_miss true	.queue true
+effect: .name "SPSD Pd Vapours Buff 2" .target "target" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .duration 3 .speed_rating_add 1 .damage_low_multiply 26% .damage_high_multiply 26% .attack_rating_add 8%  .on_hit true .on_miss true	.queue true
+effect: .name "SPSD Pd Vapours Buff 3" .target "target" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .duration 3 .speed_rating_add 2 .damage_low_multiply 28% .damage_high_multiply 28% .attack_rating_add 9%  .on_hit true .on_miss true	.queue true
+effect: .name "SPSD Pd Vapours Buff 4" .target "target" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .duration 3 .speed_rating_add 2 .damage_low_multiply 29% .damage_high_multiply 29% .attack_rating_add 10% .on_hit true .on_miss true	.queue true
+effect: .name "SPSD Pd Vapours Buff 5" .target "target" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .duration 3 .speed_rating_add 3 .damage_low_multiply 30% .damage_high_multiply 30% .attack_rating_add 10% .on_hit true .on_miss true	.queue true
+
+//------------------------------------------------------------------------
+//Vestal
+
+//On Crit
+effect: .name "SPSR Ves on crit Healdone" .target "performer" .curio_result_type "positive" .chance 100% .buff_source_type bsrc_crit .buff_ids "SPSR_Ves_on_crit_Healdone_B1" .duration 2	.on_hit true .on_miss false .apply_once true
+effect: .name "SPSR Ves on crit Stun Chance" .target "performer" .curio_result_type "positive" .chance 100% .buff_source_type bsrc_crit .buff_ids "SPSR_Ves_on_crit_Stun_Chance_B1" .duration 2	.on_hit true .on_miss false .apply_once true
+
+effect: .name "SPSR Ves Light 1" .target "global" .chance 100% .curio_result_type "positive" .torch_increase 5	.on_hit true .on_miss true .apply_once true .queue true
+
+effect: .name "SPSR Ves Stun 1" .target "target" .curio_result_type "negative" .chance 100% .stun 1	.on_hit true .on_miss false .queue true
+effect: .name "SPSR Ves Stun 2" .target "target" .curio_result_type "negative" .chance 110% .stun 1	.on_hit true .on_miss false .queue true
+effect: .name "SPSR Ves Stun 3" .target "target" .curio_result_type "negative" .chance 120% .stun 1	.on_hit true .on_miss false .queue true
+effect: .name "SPSR Ves Stun 4" .target "target" .curio_result_type "negative" .chance 130% .stun 1	.on_hit true .on_miss false .queue true
+effect: .name "SPSR Ves Stun 5" .target "target" .curio_result_type "negative" .chance 140% .stun 1	.on_hit true .on_miss false .queue true
+
+effect: .name "SPSR Ves Prot Debuff 1" .target "target" .curio_result_type "negative" .chance 100% .combat_stat_buff 1  .protection_rating_add -20% 	.on_hit true .on_miss false
+effect: .name "SPSR Ves Prot Debuff 2" .target "target" .curio_result_type "negative" .chance 110% .combat_stat_buff 1  .protection_rating_add -21% 	.on_hit true .on_miss false
+effect: .name "SPSR Ves Prot Debuff 3" .target "target" .curio_result_type "negative" .chance 120% .combat_stat_buff 1  .protection_rating_add -23% 	.on_hit true .on_miss false
+effect: .name "SPSR Ves Prot Debuff 4" .target "target" .curio_result_type "negative" .chance 130% .combat_stat_buff 1  .protection_rating_add -24% 	.on_hit true .on_miss false
+effect: .name "SPSR Ves Prot Debuff 5" .target "target" .curio_result_type "negative" .chance 140% .combat_stat_buff 1  .protection_rating_add -25% 	.on_hit true .on_miss false
+
+effect: .name "SPSR_Ves_Healself_1" .target "performer" .curio_result_type "positive" .chance 100% .heal 5	.on_hit true .on_miss false .queue true .source_heal_type hero_skill
+effect: .name "SPSR_Ves_Healself_2" .target "performer" .curio_result_type "positive" .chance 100% .heal 5	.on_hit true .on_miss false .queue true .source_heal_type hero_skill
+effect: .name "SPSR_Ves_Healself_3" .target "performer" .curio_result_type "positive" .chance 100% .heal 6	.on_hit true .on_miss false .queue true .source_heal_type hero_skill
+effect: .name "SPSR_Ves_Healself_4" .target "performer" .curio_result_type "positive" .chance 100% .heal 6	.on_hit true .on_miss false .queue true .source_heal_type hero_skill
+effect: .name "SPSR_Ves_Healself_5" .target "performer" .curio_result_type "positive" .chance 100% .heal 7	.on_hit true .on_miss false .queue true .source_heal_type hero_skill
+
+//old data
+effect: .name "SPSR Ves Unholy Killer 1" .target "performer" .chance 100% .curio_result_type "positive" .monsterType "unholy" .combat_stat_buff 1 .damage_low_multiply 20%	.damage_high_multiply 20%	.on_hit true .on_miss false
+effect: .name "SPSR Ves Unholy Killer 2" .target "performer" .chance 100% .curio_result_type "positive" .monsterType "unholy" .combat_stat_buff 1 .damage_low_multiply 21%	.damage_high_multiply 21%	.on_hit true .on_miss false
+effect: .name "SPSR Ves Unholy Killer 3" .target "performer" .chance 100% .curio_result_type "positive" .monsterType "unholy" .combat_stat_buff 1 .damage_low_multiply 23%	.damage_high_multiply 23%	.on_hit true .on_miss false
+effect: .name "SPSR Ves Unholy Killer 4" .target "performer" .chance 100% .curio_result_type "positive" .monsterType "unholy" .combat_stat_buff 1 .damage_low_multiply 24%	.damage_high_multiply 24%	.on_hit true .on_miss false
+effect: .name "SPSR Ves Unholy Killer 5" .target "performer" .chance 100% .curio_result_type "positive" .monsterType "unholy" .combat_stat_buff 1 .damage_low_multiply 25%	.damage_high_multiply 25%	.on_hit true .on_miss false
+
+//------------------------------------------------------------------------
+//Jester
+
+effect: .name "SPSR Jes on crit Bleed Chance" .target "performer" .curio_result_type "positive" .chance 100% .buff_source_type bsrc_crit .buff_ids "SPSR_Jes_on_crit_Bleed_Chance_B1" .duration 2	.on_hit true .on_miss false .apply_once true
+effect: .name "SPSR Jes on crit Stresshealdone"    .target "performer" .curio_result_type "positive" .chance 100% .buff_source_type bsrc_crit .buff_ids "SPSR_Jes_on_crit_Stresshealdone_B1" .duration 2	.on_hit true .on_miss false .apply_once true
+
+
+effect: .name "SPSR Jes Mortal Weakness" .target "performer" .curio_result_type "negative" .chance 100% .buff_ids "SPSR_Jes_mortal_weakness_speed" "SPSR_Jes_mortal_weakness_def" .apply_once true .on_hit true .on_miss true .queue true
+effect: .name "SPSR Jes Mortal Finale" .target "performer" .curio_result_type "negative" .chance 100% .buff_ids "SPSR_Jes_mortal_weakness_finale_dmgl" "SPSR_Jes_mortal_weakness_finale_dmgh" .buff_is_clear_debuff_valid false .on_hit true .on_miss true .queue true
+
+effect: .name "SPSR Jes Build to Finale old" .target "performer" .chance 100% .duration 1 .buff_duration_type combat_end .buff_ids "SPSR_Jes_build_to_finale_dmgL" "SPSR_Jes_build_to_finale_dmgH" .on_hit true .queue true .apply_once true
+effect: .name "SPSR Jes Build to Finale 2" .target "performer" .chance 100% .duration 1 .buff_duration_type combat_end .buff_ids "SPSR_Jes_build_to_finale2_dmgL" "SPSR_Jes_build_to_finale2_dmgH" "SPSR_Jes_build_to_finale_crit" .on_hit true .queue true .apply_once true
+effect: .name "SPSR Jes Build to Finale Song" .target "performer" .chance 100% .duration 1 .buff_duration_type combat_end .buff_ids "SPSR_Jes_build_to_finale_dmgL" "SPSR_Jes_build_to_finale_dmgH" "SPSR_Jes_build_to_finale_crit" .on_hit true .queue true .apply_once true
+
+effect: .name "SPSR Jes Build to Finale" .target "performer" .chance 100% .duration 21 .buff_ids "SPSR_Jes_build_to_finale_dmgL" "SPSR_Jes_build_to_finale_dmgH" "SPSR_Jes_build_to_finale_crit" .on_hit true .on_miss true .queue true .apply_once true
+
+effect: .name "SPSR Jes Battle Ballad Buff 1" .target "target" .curio_result_type "positive" .chance 100%  .combat_stat_buff 1 .attack_rating_add 8% .crit_chance_add 2% .speed_rating_add 2	.on_hit true .on_miss true .apply_once false    .queue false
+effect: .name "SPSR Jes Battle Ballad Buff 2" .target "target" .curio_result_type "positive" .chance 100%  .combat_stat_buff 1 .attack_rating_add 9% .crit_chance_add 3% .speed_rating_add 2	.on_hit true .on_miss true .apply_once false	.queue false
+effect: .name "SPSR Jes Battle Ballad Buff 3" .target "target" .curio_result_type "positive" .chance 100%  .combat_stat_buff 1 .attack_rating_add 9% .crit_chance_add 4% .speed_rating_add 3	.on_hit true .on_miss true .apply_once false	.queue false
+effect: .name "SPSR Jes Battle Ballad Buff 4" .target "target" .curio_result_type "positive" .chance 100%  .combat_stat_buff 1 .attack_rating_add 10% .crit_chance_add 5% .speed_rating_add 3	.on_hit true .on_miss true .apply_once false	.queue false
+effect: .name "SPSR Jes Battle Ballad Buff 5" .target "target" .curio_result_type "positive" .chance 100%  .combat_stat_buff 1 .attack_rating_add 10% .crit_chance_add 6% .speed_rating_add 4	.on_hit true .on_miss true .apply_once false	.queue false
+
+effect: .name "SPSR_Jes_Battle_Ballad_Buff_1" .target "target" .curio_result_type "positive" .chance 100% .duration 3 .combat_stat_buff 1 .attack_rating_add 8% .crit_chance_add 24% .speed_rating_add 2	.on_hit true .on_miss true .queue true
+effect: .name "SPSR_Jes_Battle_Ballad_Buff_2" .target "target" .curio_result_type "positive" .chance 100% .duration 3 .combat_stat_buff 1 .attack_rating_add 9% .crit_chance_add 25% .speed_rating_add 2	.on_hit true .on_miss true .queue true
+effect: .name "SPSR_Jes_Battle_Ballad_Buff_3" .target "target" .curio_result_type "positive" .chance 100% .duration 3 .combat_stat_buff 1 .attack_rating_add 9% .crit_chance_add 27% .speed_rating_add 3	.on_hit true .on_miss true .queue true
+effect: .name "SPSR_Jes_Battle_Ballad_Buff_4" .target "target" .curio_result_type "positive" .chance 100% .duration 3 .combat_stat_buff 1 .attack_rating_add 10% .crit_chance_add 28% .speed_rating_add 3	.on_hit true .on_miss true .queue true
+effect: .name "SPSR_Jes_Battle_Ballad_Buff_5" .target "target" .curio_result_type "positive" .chance 100% .duration 3 .combat_stat_buff 1 .attack_rating_add 10% .crit_chance_add 30% .speed_rating_add 4	.on_hit true .on_miss true .queue true
+
+effect: .name "SPSR Jes Inspiring Tune Buff 1" .target "target" .curio_result_type "positive" .chance 100% .buff_ids "SPSR_Jes_Stress_B1" .on_hit true .on_miss false .queue true
+effect: .name "SPSR Jes Inspiring Tune Buff 2" .target "target" .curio_result_type "positive" .chance 100% .buff_ids "SPSR_Jes_Stress_B2" .on_hit true .on_miss false .queue true
+effect: .name "SPSR Jes Inspiring Tune Buff 3" .target "target" .curio_result_type "positive" .chance 100% .buff_ids "SPSR_Jes_Stress_B3" .on_hit true .on_miss false .queue true
+effect: .name "SPSR Jes Inspiring Tune Buff 4" .target "target" .curio_result_type "positive" .chance 100% .buff_ids "SPSR_Jes_Stress_B4" .on_hit true .on_miss false .queue true
+effect: .name "SPSR Jes Inspiring Tune Buff 5" .target "target" .curio_result_type "positive" .chance 100% .buff_ids "SPSR_Jes_Stress_B5" .on_hit true .on_miss false .queue true
+
+
+//------------------------------------------------------------------------
+//Antiqurian
+
+//On Crit
+effect: .name "SPSR Atq on crit Def" .target "performer" .curio_result_type "positive" .chance 100% .buff_source_type bsrc_crit .buff_ids "SPSR_Atq_on_crit_Def_B1" .on_hit true .on_miss false .apply_once true
+effect: .name "SPSR Atq on crit Stun Chance" .target "performer" .curio_result_type "positive" .chance 100% .buff_source_type bsrc_crit .buff_ids "SPSR_Atq_on_crit_Stun_Chance_B1" .duration 2	.on_hit true .on_miss false .apply_once true
+
+effect: .name "SPSR Atq Stress Heal 1" .target "target" .curio_result_type "positive" .chance 100% .healstress 3	.on_hit true .on_miss false .queue true
+effect: .name "SPSR Atq Stress Heal 2" .target "target" .curio_result_type "positive" .chance 100% .healstress 3	.on_hit true .on_miss false .queue true
+effect: .name "SPSR Atq Stress Heal 3" .target "target" .curio_result_type "positive" .chance 100% .healstress 4	.on_hit true .on_miss false .queue true
+effect: .name "SPSR Atq Stress Heal 4" .target "target" .curio_result_type "positive" .chance 100% .healstress 4	.on_hit true .on_miss false .queue true
+effect: .name "SPSR Atq Stress Heal 5" .target "target" .curio_result_type "positive" .chance 100% .healstress 5	.on_hit true .on_miss false .queue true
+
+effect: .name "SPSR_Atq_Cure_Poison" .target "target" .curio_result_type "positive" .chance 100% .cure_poison 1	.on_hit true .on_miss false

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+<language id="english">
+</language>
+<language id="french">
+</language>	
+<language id="german">
+</language>
+<language id="spanish">
+</language>
+<language id="brazilian">
+</language>
+<language id="russian">
+</language>
+<language id="polish">
+</language>
+<language id="czech">
+</language>
+<language id="italian">
+</language>
+<language id="schinese">
+</language>
+<language id="japanese">
+</language>
+<language id="koreanb">
+</language>
+<language id="koreana">
+	<entry id="str_quirk_name_SPSR_Quirk_P1"><![CDATA[성급함]]></entry>
+	<entry id="str_quirk_name_SPSR_Quirk_N1"><![CDATA[느긋함]]></entry>
+	<entry id="str_quirk_name_SPSR_Quirk_P2"><![CDATA[재빠름]]></entry>
+	<entry id="str_quirk_name_SPSR_Quirk_N2"><![CDATA[느릿함]]></entry>
+	<entry id="str_quirk_name_SPSR_Quirk_P3"><![CDATA[두번째 기회]]></entry>
+	<entry id="str_quirk_name_SPSR_Quirk_N3"><![CDATA[의지 박약]]></entry>
+	<entry id="str_quirk_name_SPSR_Quirk_P4"><![CDATA[회심의 일격]]></entry>
+	<entry id="str_quirk_name_SPSR_Quirk_N4"><![CDATA[가쁜 숨]]></entry>
+	<entry id="str_quirk_name_SPSR_Quirk_P5"><![CDATA[폭력적]]></entry>
+	<entry id="str_quirk_name_SPSR_Quirk_N5"><![CDATA[비폭력적]]></entry>
+	<entry id="str_quirk_name_SPSR_Quirk_P6"><![CDATA[강타자]]></entry>
+	<entry id="str_quirk_name_SPSR_Quirk_N6"><![CDATA[약한 손아귀]]></entry>
+	<entry id="str_quirk_name_SPSR_Quirk_P7"><![CDATA[정확한 조준]]></entry>
+	<entry id="str_quirk_name_SPSR_Quirk_N7"><![CDATA[흐트러진 조준]]></entry>
+	<entry id="str_quirk_name_SPSR_Quirk_P8"><![CDATA[치명적]]></entry>
+	<entry id="str_quirk_name_SPSR_Quirk_N8"><![CDATA[빗맞힘]]></entry>
+	<entry id="str_quirk_name_SPSR_Quirk_P9"><![CDATA[정밀한 타격]]></entry>
+	<entry id="str_quirk_name_SPSR_Quirk_N9"><![CDATA[수전증]]></entry>
+	<entry id="str_quirk_name_SPSR_Quirk_P10"><![CDATA[매의 눈]]></entry>
+	<entry id="str_quirk_name_SPSR_Quirk_N10"><![CDATA[나쁜 시력]]></entry>
+	<entry id="str_quirk_name_SPSR_Quirk_P11"><![CDATA[기절의 달인]]></entry>
+	<entry id="str_quirk_name_SPSR_Quirk_N11"><![CDATA[서툰 기절 실력]]></entry>
+	<entry id="str_quirk_name_SPSR_Quirk_P12"><![CDATA[이동의 달인]]></entry>
+	<entry id="str_quirk_name_SPSR_Quirk_N12"><![CDATA[서툰 이동 실력]]></entry>
+	<entry id="str_quirk_name_SPSR_Quirk_P13"><![CDATA[중독의 달인]]></entry>
+	<entry id="str_quirk_name_SPSR_Quirk_N13"><![CDATA[서툰 중독 실력]]></entry>
+	<entry id="str_quirk_name_SPSR_Quirk_P14"><![CDATA[출혈의 달인]]></entry>
+	<entry id="str_quirk_name_SPSR_Quirk_N14"><![CDATA[서툰 출혈 실력]]></entry>
+	<entry id="str_quirk_name_SPSR_Quirk_P15"><![CDATA[약화의 달인]]></entry>
+	<entry id="str_quirk_name_SPSR_Quirk_N15"><![CDATA[서툰 약화 실력]]></entry>
+	<entry id="str_quirk_name_SPSR_Quirk_P16"><![CDATA[건장함]]></entry>
+	<entry id="str_quirk_name_SPSR_Quirk_N16"><![CDATA[연약함]]></entry>
+	<entry id="str_quirk_name_SPSR_Quirk_P17"><![CDATA[날랜 몸놀림]]></entry>
+	<entry id="str_quirk_name_SPSR_Quirk_N17"><![CDATA[서툰 몸놀림]]></entry>
+	<entry id="str_quirk_name_SPSR_Quirk_P18"><![CDATA[돌머리]]></entry>
+	<entry id="str_quirk_name_SPSR_Quirk_N18"><![CDATA[새가슴]]></entry>
+	<entry id="str_quirk_name_SPSR_Quirk_P19"><![CDATA[튼튼한 다리]]></entry>
+	<entry id="str_quirk_name_SPSR_Quirk_N19"><![CDATA[부실한 다리]]></entry>
+	<entry id="str_quirk_name_SPSR_Quirk_P20"><![CDATA[강한 해독성]]></entry>
+	<entry id="str_quirk_name_SPSR_Quirk_N20"><![CDATA[약한 해독성]]></entry>
+	<entry id="str_quirk_name_SPSR_Quirk_P21"><![CDATA[진한 혈액]]></entry>
+	<entry id="str_quirk_name_SPSR_Quirk_N21"><![CDATA[묽은 혈액]]></entry>
+	<entry id="str_quirk_name_SPSR_Quirk_P22"><![CDATA[강직함]]></entry>
+	<entry id="str_quirk_name_SPSR_Quirk_N22"><![CDATA[취약함]]></entry>
+	<entry id="str_quirk_name_SPSR_Quirk_P23"><![CDATA[강한 면역력]]></entry>
+	<entry id="str_quirk_name_SPSR_Quirk_N23"><![CDATA[약한 면역력]]></entry>
+	<entry id="str_quirk_name_SPSR_Quirk_P24"><![CDATA[날랜 손놀림]]></entry>
+	<entry id="str_quirk_name_SPSR_Quirk_N24"><![CDATA[서툰 손놀림]]></entry>
+	<entry id="str_quirk_name_SPSR_Quirk_P25"><![CDATA[경계태세]]></entry>
+	<entry id="str_quirk_name_SPSR_Quirk_N25"><![CDATA[방심]]></entry>
+	<entry id="str_quirk_name_SPSR_Quirk_P26"><![CDATA[강인한 생명력]]></entry>
+	<entry id="str_quirk_name_SPSR_Quirk_N26"><![CDATA[나약한 생명력]]></entry>
+	<entry id="str_quirk_name_SPSR_Quirk_P27"><![CDATA[강인한 정신력]]></entry>
+	<entry id="str_quirk_name_SPSR_Quirk_N27"><![CDATA[나약한 정신력]]></entry>
+	<entry id="str_quirk_name_SPSR_Quirk_P28"><![CDATA[축복받은 회복력]]></entry>
+	<entry id="str_quirk_name_SPSR_Quirk_N28"><![CDATA[저주받은 회복력]]></entry>
+	<entry id="str_quirk_name_SPSR_Quirk_P29"><![CDATA[명의]]></entry>
+	<entry id="str_quirk_name_SPSR_Quirk_N29"><![CDATA[돌팔이]]></entry>
+	<entry id="str_quirk_name_SPSR_Quirk_P30"><![CDATA[평온함]]></entry>
+	<entry id="str_quirk_name_SPSR_Quirk_N30"><![CDATA[불안함]]></entry>
+	<entry id="str_quirk_name_SPSR_Quirk_P31"><![CDATA[음악가]]></entry>
+	<entry id="str_quirk_name_SPSR_Quirk_N31"><![CDATA[음치]]></entry>
+	<entry id="str_quirk_name_SPSR_Quirk_P32"><![CDATA[소식가]]></entry>
+	<entry id="str_quirk_name_SPSR_Quirk_N32"><![CDATA[대식가]]></entry>
+	<entry id="str_quirk_name_SPSR_Quirk_P33"><![CDATA[인간 사냥꾼]]></entry>
+	<entry id="str_quirk_name_SPSR_Quirk_N33"><![CDATA[인간 공포증]]></entry>
+	<entry id="str_quirk_name_SPSR_Quirk_P34"><![CDATA[불경 사냥꾼]]></entry>
+	<entry id="str_quirk_name_SPSR_Quirk_N34"><![CDATA[불경 공포증]]></entry>
+	<entry id="str_quirk_name_SPSR_Quirk_P35"><![CDATA[야수 사냥꾼]]></entry>
+	<entry id="str_quirk_name_SPSR_Quirk_N35"><![CDATA[야수 공포증]]></entry>
+	<entry id="str_quirk_name_SPSR_Quirk_P36"><![CDATA[이물 사냥꾼]]></entry>
+	<entry id="str_quirk_name_SPSR_Quirk_N36"><![CDATA[이물 공포증]]></entry>
+	<entry id="str_quirk_name_SPSR_Quirk_P37"><![CDATA[흡혈귀 사냥꾼]]></entry>
+	<entry id="str_quirk_name_SPSR_Quirk_N37"><![CDATA[흡혈귀 공포증]]></entry>
+	<entry id="str_quirk_name_SPSR_Quirk_P38"><![CDATA[허물 사냥꾼]]></entry>
+	<entry id="str_quirk_name_SPSR_Quirk_N38"><![CDATA[허물 공포증]]></entry>
+	<entry id="str_quirk_name_SPSR_Quirk_P39"><![CDATA[폐허 전술가]]></entry>
+	<entry id="str_quirk_name_SPSR_Quirk_N39"><![CDATA[폐허 공포증]]></entry>
+	<entry id="str_quirk_name_SPSR_Quirk_P40"><![CDATA[사육장 전술가]]></entry>
+	<entry id="str_quirk_name_SPSR_Quirk_N40"><![CDATA[사육장 공포증]]></entry>
+	<entry id="str_quirk_name_SPSR_Quirk_P41"><![CDATA[삼림지대 전술가]]></entry>
+	<entry id="str_quirk_name_SPSR_Quirk_N41"><![CDATA[삼림지대 공포증]]></entry>
+	<entry id="str_quirk_name_SPSR_Quirk_P42"><![CDATA[해안 만 전술가]]></entry>
+	<entry id="str_quirk_name_SPSR_Quirk_N42"><![CDATA[해안 만 공포증]]></entry>
+	<entry id="str_quirk_name_SPSR_Quirk_P43"><![CDATA[안뜰 전술가]]></entry>
+	<entry id="str_quirk_name_SPSR_Quirk_N43"><![CDATA[안뜰 공포증]]></entry>
+	<entry id="str_quirk_name_SPSR_Quirk_P44"><![CDATA[농장 전술가]]></entry>
+	<entry id="str_quirk_name_SPSR_Quirk_N44"><![CDATA[농장 공포증]]></entry>
+	<entry id="str_quirk_name_SPSR_Quirk_P45"><![CDATA[술꾼]]></entry>
+	<entry id="str_quirk_name_SPSR_Quirk_N45"><![CDATA[금주]]></entry>
+	<entry id="str_quirk_name_SPSR_Quirk_P46"><![CDATA[노름꾼]]></entry>
+	<entry id="str_quirk_name_SPSR_Quirk_N46"><![CDATA[소문난 사기꾼]]></entry>
+	<entry id="str_quirk_name_SPSR_Quirk_P47"><![CDATA[색정광]]></entry>
+	<entry id="str_quirk_name_SPSR_Quirk_N47"><![CDATA[변태]]></entry>
+	<entry id="str_quirk_name_SPSR_Quirk_P48"><![CDATA[명상가]]></entry>
+	<entry id="str_quirk_name_SPSR_Quirk_N48"><![CDATA[정서불안]]></entry>
+	<entry id="str_quirk_name_SPSR_Quirk_P49"><![CDATA[독실함]]></entry>
+	<entry id="str_quirk_name_SPSR_Quirk_N49"><![CDATA[목격자]]></entry>
+	<entry id="str_quirk_name_SPSR_Quirk_P50"><![CDATA[고행자]]></entry>
+	<entry id="str_quirk_name_SPSR_Quirk_N50"><![CDATA[채찍 공포증]]></entry>
+	<entry id="str_quirk_name_SPSR_Quirk_determination"><![CDATA[결의]]></entry>
+	<entry id="str_quirk_name_SPSR_Quirk_expiation"><![CDATA[속죄]]></entry>
+</language>
+</root>

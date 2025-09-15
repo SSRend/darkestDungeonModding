@@ -1,0 +1,12 @@
+display: .size 1
+enemy_type: .id "unholy"
+stats: .hp 13 .def 10% .prot 0.1 .spd 5 .stun_resist 20% .poison_resist 20% .bleed_resist 300% .debuff_resist 20% .move_resist 10%
+skill: .id "crossbow_shot" .type "ranged" .atk 90% .dmg 4 6 .crit 9% .launch 432 .target 234
+skill: .id "bayonet_jab" .type "melee" .atk 80% .dmg 3 5 .crit 2%  .launch 1 .target 12 .move 1 0
+personality: .prefskill 1
+loot: .code "A" .count 1
+initiative: .number_of_turns_per_round 1
+monster_brain: .id skeleton_arbalist_A
+death_class: .monster_class_id corpse_A .is_valid_on_crit False .type "corpse" 
+life_link: .base_class "necromancer"
+battle_modifier: .accelerate_stall_penalty True .disable_stall_penalty False .can_surprise True .can_be_surprised True .always_surprise False .always_be_surprised False

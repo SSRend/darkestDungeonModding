@@ -1,0 +1,18 @@
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,2,Locked Strongbox,,Mixed,,,,,,,,,,,,,,
+,,ID STRING,,RESULT TYPES,WEIGHT,% CHANCE,RESULT 1,R1 WEIGHT,R1 %,RESULT 2,R2 WEIGHT,R2 %,RESULT 3,R3 WEIGHT,R3 %,CURIO TRACKER ID,STRING,NOTES
+,,locked_strongbox,,Nothing,,,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,,,
+,,REGION FOUND,,Loot,1,50.00%,A,2,<- # Draws,,,<- # Draws,,,<- # Draws,,,
+,,ALL,,Quirk,,,,,,,,,,,,,,
+,,FULL CURIO?,,Effect,1,50.00%,Blight 1,1,50.00%,Bleed 1,1,50.00%,,,,,,
+,,Yes,,Purge,,,,,,,,,,,,,,
+,,TAGS,,Scouting,,,,,,,,,,,,,,
+,,Treasure,All,Teleport,,,,,,,,,,,,,,
+,,CCrave,,Disease,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,Item Interactions,,ITEM,RESULT TYPE,,RESULT 1,R1 WEIGHT,R1 %,RESULT 2,R2 WEIGHT,R2 %,RESULT 3,R3 WEIGHT,R3 %,CURIO TRACKER ID,STRING,NOTES
+,,,,skeleton_key,Loot,,A,3,<- # Draws,,,<- # Draws,,,,loot,The Skeleton Key unlocks the strongbox to reveal its contents.,
+,,,,shovel,Loot,,A,2,<- # Draws,,,<- # Draws,,,<- # Draws,loot,The Shovel smashes the strongbox risking the integrity of its contents.,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,

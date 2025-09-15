@@ -1,0 +1,13 @@
+display: .size 1
+enemy_type: .id "unholy"
+stats: .hp 13 .def 20% .prot 0 .spd 4 .stun_resist 50% .poison_resist 50% .bleed_resist 240% .debuff_resist 50% .move_resist 50%
+skill: .id "cudgel" .type "melee" .atk 110% .dmg 6 10 .crit 10% .launch 321 .target 123
+skill: .id "cudgel_weak" .type "melee" .atk 100% .dmg 5 9 .crit 8% .launch 4 .target 12 .move 0 1
+personality: .prefskill -1
+loot: .code "C" .count 1
+initiative: .number_of_turns_per_round 1
+monster_brain: .id skeleton_rabble_C
+death_class: .monster_class_id corpse_C .is_valid_on_crit False .type "corpse" 
+life_link: .base_class "necromancer"
+battle_modifier: .accelerate_stall_penalty True .disable_stall_penalty False .can_surprise True .can_be_surprised True .always_surprise False .always_be_surprised False
+wave_spawning: .prefers_front True

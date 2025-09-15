@@ -1,0 +1,25 @@
+{
+"filters": [],
+"entries": [
+{
+	"id": "town_visit_start",
+	"tone": "neutral",
+	"chance": 1,
+	"audio_events": [
+	{
+		"queue_only_on_empty": false,
+		"queue_while_audio_playing": true,
+		"audio_event": "/vo/town_event/bonus_recruit_occultist",
+		"chance": 1.0,
+		"priority": 2,
+		"max_raid_occurrences": 0,
+		"max_town_visit_occurrences": 1,
+		"max_campaign_occurrences": 0,
+		"filter": "",
+		"check_all_tags": true,
+		"tags": ["bonus_recruit_occultist"]
+	}
+	]
+}
+]
+}

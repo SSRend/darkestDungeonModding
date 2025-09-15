@@ -1,0 +1,8 @@
+extra_stack_limit: .id antiquarian_gold		.item_type gold		.item_id ""		.amount 500
+extra_stack_limit: .id SPSR_Stack_gold		.item_type gold		.item_id ""		.amount 250
+extra_stack_limit: .id SPSR_Stack_bust		.item_type heirloom	.item_id "bust"		.amount 1
+extra_stack_limit: .id SPSR_Stack_portrait	.item_type heirloom	.item_id "portrait"	.amount 1
+extra_stack_limit: .id SPSR_Stack_deed		.item_type heirloom	.item_id "deed"		.amount 1
+extra_stack_limit: .id SPSR_Stack_crest		.item_type heirloom	.item_id "crest"	.amount 2
+extra_stack_limit: .id SPSR_granary_food	.item_type provision	.amount 4
+extra_stack_limit: .id SPSR_Stack_provision	.item_type provision	.amount 2

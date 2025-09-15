@@ -1,0 +1,1 @@
+inventory_item: .type "supply"		.id "SPSR_undying_herb"				    .base_stack_limit 4		.purchase_gold_value 300		.sell_gold_value 30

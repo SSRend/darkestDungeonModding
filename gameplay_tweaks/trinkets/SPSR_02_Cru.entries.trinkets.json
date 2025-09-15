@@ -1,0 +1,109 @@
+{
+"entries": [
+{
+    "id" : "com_cru_non_euclidean_hilt",
+    "buffs" : [
+        "TRINKET_com_cru_non_euclidean_hilt_maxHP_B15",
+        "TRINKET_com_cru_non_euclidean_hilt_random_target_5",
+        "TRINKET_com_cru_non_euclidean_hilt_stun_B25_wHolyWater"
+    ],
+    "hero_class_requirements": [ "crusader" ],
+    "rarity" : "comet",
+    "shard" : 200,
+    "limit" : 1,
+    "origin_dungeon" : "",
+    "attack_skill_additional_effects":
+    [
+        "Euclidean Hilt Blight"
+    ]
+},
+{
+    "id" : "cc_set_cru_glittering_spaulders",
+    "buffs" : [
+        "SPSR_Cru_glittering_spaulders_Guard_Duration_B1",
+        "SPSR_Cru_glittering_spaulders_Move_Resist_Guarding_B1",
+        "PROT10"
+    ],
+    "hero_class_requirements": [ "crusader" ],
+    "set_id" : "cc_cru",
+    "rarity" : "crimson_court",
+    "price" : 30000,
+    "limit" : 1,
+    "origin_dungeon" : "courtyard"
+},
+{
+    "id" : "cc_set_cru_signed_conscription",
+    "buffs" : [
+        "TRINKET_cru_signed_conscription_HEALDONE_B1",
+        "TRINKET_cru_signed_conscription_STRESSHEALDONE_B1"
+    ],
+    "hero_class_requirements": [ "crusader" ],
+    "set_id" : "cc_cru",
+    "rarity" : "crimson_court",
+    "price" : 30000,
+    "limit" : 1,
+    "origin_dungeon" : "courtyard"
+},
+{
+    "id": "holy_orders",
+    "buffs": [
+        "SPSR_Cru_holy_orders_Heal_Amount_B1",
+        "SPSR_Cru_holy_orders_Stresshealdone_B1",
+        "SPSR_Cru_holy_orders_Resolve_Check_B1"
+    ],
+    "hero_class_requirements": [ "crusader" ],
+    "rarity": "very_rare",
+    "price": 20000,
+    "limit": 1,
+    "origin_dungeon": ""
+},
+{
+    "id": "commanders_orders",
+    "buffs": [
+        "SPSR_Cru_commanders_orders_Heal_Amount_B1",
+        "SPSR_Cru_commanders_orders_Stresshealdone_B1"
+    ],
+    "hero_class_requirements": [ "crusader" ],
+    "rarity": "rare",
+    "price": 16000,
+    "limit": 1,
+    "origin_dungeon": ""
+},  
+{
+    "id": "paralyzers_crest",
+    "buffs": [
+        "SPSR_Cru_paralyzers_crest_Stun_Chance_B1",
+        "SPSR_Cru_paralyzers_crest_Stun_Resist_B1"
+    ],
+    "hero_class_requirements": [ "crusader" ],
+    "rarity": "uncommon",
+    "price": 12000,
+    "limit": 1,
+    "origin_dungeon": ""
+},
+{
+    "id": "knights_crest",
+    "buffs": [
+        "SPSR_Cru_knights_crest_Max_HP_B1",
+        "SPSR_Cru_knights_crest_Heal_Received_B1"
+    ],
+    "hero_class_requirements": [ "crusader" ],
+    "rarity": "common",
+    "price": 8000,
+    "limit": 1,
+    "origin_dungeon": ""
+},
+{
+    "id": "swordsmans_crest",
+    "buffs": [
+        "SPSR_Cru_swordmans_crest_Melee_DMGL_B1",
+        "SPSR_Cru_swordmans_crest_Melee_DMGH_B1"
+    ],
+    "hero_class_requirements": [ "crusader" ],
+    "rarity": "very_common",
+    "price": 4000,
+    "limit": 1,
+    "origin_dungeon": ""
+}
+]
+}

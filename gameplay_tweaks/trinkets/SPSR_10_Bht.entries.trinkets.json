@@ -1,0 +1,116 @@
+{
+"entries": [
+      {
+         "id" : "cc_set_bh_crime_lords_molars",
+         "buffs" : 
+         [
+            "TRINKET_bh_crime_lords_molars_MARKEDDMGL_B1",
+            "TRINKET_bh_crime_lords_molars_MARKEDDMGH_B1",
+            "TRINKET_bh_crime_lords_molars_STUNNEDDMGL_B1",
+            "TRINKET_bh_crime_lords_molars_STUNNEDDMGH_B1",
+            "TRINKET_bh_crime_lords_molars_BLEEDINGDMGL_B1",
+            "TRINKET_bh_crime_lords_molars_BLEEDINGDMGH_B1",
+            "TRINKET_bh_crime_lords_molars_DEF_D1"
+         ],
+         "hero_class_requirements":
+         [
+            "bounty_hunter"
+         ],
+         "set_id" : "cc_bh",
+         "rarity" : "crimson_court",
+         "price" : 50000,
+         "limit" : 1,
+         "origin_dungeon" : "courtyard"
+      },
+      {
+         "id" : "cc_set_bh_vow_of_revenge",
+         "buffs" : 
+         [
+            "BLEEDSKILL20",
+            "DEBUFFSKILL20"
+         ],
+         "hero_class_requirements":
+         [
+            "bounty_hunter"
+         ],
+         "set_id" : "cc_bh",
+         "rarity" : "crimson_court",
+         "price" : 50000,
+         "limit" : 1,
+         "origin_dungeon" : "courtyard"
+      },
+    {
+      "id": "wounding_helmet",
+      "buffs": [
+        "TRINKET_meleeonly_DMGL_B3",
+        "TRINKET_meleeonly_DMGH_B3",
+        "TRINKET_MOVESKILL_D3",
+        "TRINKET_STUNSKILL_D2"
+      ],
+      "hero_class_requirements": [
+        "bounty_hunter"
+      ],
+      "rarity": "very_rare",
+      "price": 25000,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "hunters_talon",
+      "buffs": [
+        "TRINKET_hunters_talon_CRIT_BUFF",
+        "TRINKET_hunters_talon_ACC_BUFF",
+        "TRINKET_hunters_talon_EATSASHALF"
+      ],
+      "hero_class_requirements": [
+        "bounty_hunter"
+      ],
+      "rarity": "rare",
+      "price": 15000,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "campers_helmet",
+      "buffs": [
+        "TRINKET_STRESSRECOVERYCAMPING_B3",
+        "TRINKET_SCOUTING_B1"
+      ],
+      "hero_class_requirements": [
+        "bounty_hunter"
+      ],
+      "rarity": "uncommon",
+      "price": 10000,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "agile_talon",
+      "buffs": [
+        "TRINKET_SPD_B1",
+        "TRINKET_DEF_B1"
+      ],
+      "hero_class_requirements": [
+        "bounty_hunter"
+      ],
+      "rarity": "common",
+      "price": 7500,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "unmovable_helmet",
+      "buffs": [
+        "TRINKET_MOVERESIST_B2",
+        "TRINKET_MOVESKILL_B1"
+      ],
+      "hero_class_requirements": [
+        "bounty_hunter"
+      ],
+      "rarity": "very_common",
+      "price": 5000,
+      "limit": 1,
+      "origin_dungeon": ""
+    }
+]
+}

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+<language id="english">
+</language>
+<language id="french">
+</language>	
+<language id="german">
+</language>
+<language id="spanish">
+</language>
+<language id="brazilian">
+</language>
+<language id="russian">
+</language>
+<language id="polish">
+</language>
+<language id="czech">
+</language>
+<language id="italian">
+</language>
+<language id="schinese">
+</language>
+<language id="japanese">
+</language>
+<language id="koreanb">
+</language>
+<language id="koreana">
+	<entry id="town_event_title_week_1_bonus_recruits"><![CDATA[오래도록 기다려왔던 날]]></entry>
+	<entry id="town_event_description_week_1_bonus_recruits"><![CDATA[우리가 곤경에 처했다는 소문은 퍼져나갔고, 새롭게 시체가 될 자들이 역마차로 왔습니다…]]></entry>
+	<entry id="town_event_info_format_week_1_bonus_recruits"><![CDATA[평소보다 6명 더 많은 신병]]></entry>
+
+	<entry id="town_event_title_SPSR_Town_Event_first_Occ"><![CDATA[음침한 회동]]></entry>
+	<entry id="town_event_description_SPSR_Town_Event_first_Occ"><![CDATA[비록 이번 회동에서도 괴상한 주문과 기괴한 노래들이 흘러나오겠지만, 주민 여러분은 이번 의식 역시 실질적인 위험을 동반하지는 않을 거란 사실을 주지해주시기 바랍니다.]]></entry>
+	<entry id="str_vo_town_event_SPSR_Town_Event_first_Occ_0"><![CDATA[저들의 밀회에서 무슨 끔찍한 의논이 이루어지는지는 아무도 알지 못하리라.]]></entry>
+
+	<entry id="town_event_title_SPSR_Town_Event_first_Ves"><![CDATA[성스러운 부름]]></entry>
+	<entry id="town_event_description_SPSR_Town_Event_first_Ves"><![CDATA[성당의 녹슨 종소리가 울리고 있습니다. 수녀들은 그녀를 반기는 모양입니다...]]></entry>
+</language>
+</root>

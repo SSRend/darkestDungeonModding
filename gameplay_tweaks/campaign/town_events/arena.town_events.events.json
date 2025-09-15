@@ -1,0 +1,66 @@
+{
+  "events": [
+    {
+      "id": "arena_first",
+      "base_chance": 0.0,
+      "per_not_rolled_additional_chance": 0.0,
+      "cooldown": 0,
+	  "is_unique": true,
+      "redirect_to_circus": true,
+      "complete_condition": "any",
+      "requirements": {
+        "minimum_week": 1000,
+        "dead_heroes": 0,
+        "hero_level_counts": [],
+        "upgrades_purchased": [],
+        "trinket_storage_count": 0
+      },
+      "town_ambience_paramater_ids": [],
+      "tone": "good",
+      "sprite": "",
+      "sprite_attachment": "",
+      "interaction_texture_id": "redirect_to_circus",
+      "interaction_tooltip": "town_event_tooltip_arena_any",
+      "element_start_pos_override": [ 295, 36 ],
+      "element_text_width_override": 400,
+      "data": [
+        {
+          "type": "roster_stress_heal",
+          "string_data": "town_event_idle_stress_heal",
+          "number_data": 10.0
+        }
+      ]
+    },
+    {
+      "id": "arena_win",
+      "base_chance": 0.0,
+      "per_not_rolled_additional_chance": 0.0,
+      "cooldown": 0,
+	  "is_unique": true,
+      "redirect_to_circus": true,
+      "complete_condition": "any",
+      "requirements": {
+        "minimum_week": 1000,
+        "dead_heroes": 0,
+        "hero_level_counts": [],
+        "upgrades_purchased": [],
+        "trinket_storage_count": 0
+      },
+      "town_ambience_paramater_ids": [],
+      "tone": "good",
+      "sprite": "",
+      "sprite_attachment": "",
+      "interaction_texture_id": "redirect_to_circus",
+      "interaction_tooltip": "town_event_tooltip_arena_any",
+      "element_start_pos_override": [ 295, 36 ],
+      "element_text_width_override": 400,
+      "data": [
+        {
+          "type": "roster_stress_heal",
+          "string_data": "town_event_idle_stress_heal",
+          "number_data": 10.0
+        }
+      ]
+    }
+  ]
+}

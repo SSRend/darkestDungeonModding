@@ -1,0 +1,1288 @@
+{
+	"entries": [
+	{
+		"id": "SPSR_collector_4",
+		"buffs": [
+		    "SPSR_Collector_Stressheal_Given_B1"
+		],
+		"hero_class_requirements": [],
+      "rarity": "collector",
+      "price": 15000,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "padlock_5",
+      "buffs": [
+        "TRINKET_ABOM_TRANSFORM_STRESS_BUFF",
+        "TRINKET_ABOM_STRESSDOT_BUFF"
+      ],
+      "hero_class_requirements": [
+        "abomination"
+      ],
+      "rarity": "very_rare",
+      "price": 25000,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "padlock_2",
+      "buffs": [
+        "STUNSKILL15",
+        "MOVESKILL15"
+      ],
+      "hero_class_requirements": [
+        "abomination"
+      ],
+      "rarity": "rare",
+      "price": 15000,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "padlock_4",
+      "buffs": [
+        "TRINKET_ABOM_DMG_BUFF_L",
+        "TRINKET_ABOM_DMG_BUFF_H",
+        "TRINKET_ABOM_SPD_BUFF",
+        "TRINKET_ABOM_HP_DEBUFF"
+      ],
+      "hero_class_requirements": [
+        "abomination"
+      ],
+      "rarity": "uncommon",
+      "price": 10000,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "padlock_3",
+      "buffs": [
+        "TRINKET_ABOM_PROT_BUFF",
+        "TRINKET_ABOM_SPEED_DEBUFF"
+      ],
+      "hero_class_requirements": [
+        "abomination"
+      ],
+      "rarity": "common",
+      "price": 7500,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "padlock_1",
+      "buffs": [
+        "TRINKET_ABOM_RESOLVE_BUFF"
+      ],
+      "hero_class_requirements": [
+        "abomination"
+      ],
+      "rarity": "very_common",
+      "price": 5000,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "hells_hairpin",
+      "buffs": [
+        "SPSR_Hel_hells_hairpin_Speed_B1",
+        "SPSR_Hel_hells_hairpin_Bleed_Chance_B1",
+        "SPSR_Hel_hells_hairpin_AP_on_Bleeding_B1",
+        "SPSR_Hel_hells_hairpin_Lightbelow_Acc_B1"
+      ],
+      "hero_class_requirements": [
+        "hellion"
+      ],
+      "rarity": "very_rare",
+      "price": 25000,
+      "limit": 1,
+      "origin_dungeon": "",
+      "attack_skill_additional_effects": [
+        "SPSR Hel hells hairpin Self Attack On Miss"
+      ]
+    },
+    {
+      "id": "heavens_hairpin",
+      "buffs": [
+        "SPSR_Hel_heavens_hairpin_Acc_B1",
+        "SPSR_Hel_heavens_hairpin_Lightabove_Stress_B1",
+        "SPSR_Hel_heavens_hairpin_Deathblow_Resist_D1"
+      ],
+      "hero_class_requirements": [
+        "hellion"
+      ],
+      "rarity": "rare",
+      "price": 15000,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "double_edged_pendant",
+      "buffs": [
+        "SPSR_Hel_double_edged_pendant_DMGL_B1",
+        "SPSR_Hel_double_edged_pendant_DMGH_B1",
+        "SPSR_Hel_double_edged_pendant_Stress_D1"
+      ],
+      "hero_class_requirements": [
+        "hellion"
+      ],
+      "rarity": "uncommon",
+      "price": 10000,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "selfish_pendant",
+      "buffs": [
+        "SPSR_Hel_selfish_pendant_Speed_B1",
+        "SPSR_Hel_selfish_pendant_Max_HP_B1"
+      ],
+      "hero_class_requirements": [
+        "hellion"
+      ],
+      "rarity": "common",
+      "price": 7500,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "bleeding_pendant",
+      "buffs": [
+        "SPSR_Hel_bleeding_pendant_Bleed_Chance_B1",
+        "SPSR_Hel_bleeding_pendant_Crit_on_Bleeding_B1"
+      ],
+      "hero_class_requirements": [
+        "hellion"
+      ],
+      "rarity": "very_common",
+      "price": 5000,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "poisoning_buckle",
+      "buffs": [
+        "SPSR_Hwy_poisoning_buckle_backrank_Crit_B1",
+        "SPSR_Hwy_poisoning_buckle_marked_AP_B1",
+        "SPSR_Hwy_poisoning_buckle_rangedonly_ACC_B1",
+        "SPSR_Hwy_poisoning_buckle_meleedonly_DMGL_D1",
+        "SPSR_Hwy_poisoning_buckle_meleedonly_DMGH_D1"
+      ],
+      "hero_class_requirements": [
+        "highwayman"
+      ],
+      "rarity": "very_rare",
+      "price": 25000,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "sharpening_sheath",
+      "buffs": [
+        "SPSR_Hwy_sharpening_sheath_Bleed_Chance_B1",
+        "SPSR_Hwy_sharpening_sheath_Crit_Bleeding_B1",
+        "SPSR_Hwy_sharpening_sheath_Def_D1"
+      ],
+      "hero_class_requirements": [
+        "highwayman"
+      ],
+      "rarity": "rare",
+      "price": 15000,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "dodgy_sheath",
+      "buffs": [
+        "SPSR_Hwy_dodgy_sheath_Def_B1",
+        "SPSR_Hwy_dodgy_sheath_Melee_Acc_B1",
+        "SPSR_Hwy_dodgy_sheath_Stress_D1"
+      ],
+      "hero_class_requirements": [
+        "highwayman"
+      ],
+      "rarity": "uncommon",
+      "price": 10000,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "flashfire_gunpowder",
+      "buffs": [
+        "SPSR_Hwy_flashfire_gunpowder_Ranged_DMGL_B1",
+        "SPSR_Hwy_flashfire_gunpowder_Ranged_DMGH_B1"
+      ],
+      "hero_class_requirements": [
+        "highwayman"
+      ],
+      "rarity": "common",
+      "price": 7500,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "drifters_buckle",
+      "buffs": [
+        "SPSR_Hwy_drifters_buckle_Scouting_Chance_B1"
+      ],
+      "hero_class_requirements": [
+        "highwayman"
+      ],
+      "rarity": "very_common",
+      "price": 5000,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "cursed_buckle",
+      "buffs": [
+        "SPSR_Hwy_stalwart_buckle_Prot_B1"
+      ],
+      "hero_class_requirements": [
+        "highwayman"
+      ],
+      "rarity": "very_common",
+      "price": 5000,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "raiders_talisman",
+      "buffs": [
+        "SPSR_Grv_raiders_talisman_Crit_B1",
+        "SPSR_Grv_raiders_talisman_Def_D1",
+        "SPSR_Grv_raiders_talisman_stealthed_DMGL_B1",
+        "SPSR_Grv_raiders_talisman_stealthed_DMGH_B1"
+      ],
+      "hero_class_requirements": [
+        "grave_robber"
+      ],
+      "rarity": "very_rare",
+      "price": 25000,
+      "limit": 1,
+      "origin_dungeon": "",
+      "attack_crit_additional_effects": [
+        "SPSR Grv raiders talisman on crit Stealth"
+      ],
+      "kill_performer_additional_effects": [
+        "SPSR Grv raiders talisman on kill Stealth"
+      ]
+    },
+    {
+      "id": "lucky_talisman",
+      "buffs": [
+        "SPRS_Grv_lucky_talisman_Def_B1",
+        "SPRS_Grv_lucky_talisman_ranged_Acc_B1",
+        "SPRS_Grv_lucky_talisman_ranged_Stress_D1"
+      ],
+      "hero_class_requirements": [
+        "grave_robber"
+      ],
+      "rarity": "rare",
+      "price": 15000,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "seers_satchel",
+      "buffs": [
+        "SPSR_Grv_blighting_satchel_Poison_Chance_B1",
+        "SPSR_Grv_blighting_satchel_poisoned_Crit_B1",
+        "SPSR_Grv_blighting_satchel_Def_D1"
+      ],
+      "hero_class_requirements": [
+        "grave_robber"
+      ],
+      "rarity": "uncommon",
+      "price": 10000,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "quickening_satchel",
+      "buffs": [
+        "SPSR_Grv_quickening_satchel_Speed_B1"
+      ],
+      "hero_class_requirements": [
+        "grave_robber"
+      ],
+      "rarity": "common",
+      "price": 7500,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "stunning_satchel",
+      "buffs": [
+        "SPSR_Grv_sickening_satchel_Disease_Resist_B1"
+      ],
+      "hero_class_requirements": [
+        "grave_robber"
+      ],
+      "rarity": "very_common",
+      "price": 5000,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "spiked_collar",
+      "buffs": [
+        "TRINKET_DMGL_B3",
+        "TRINKET_DMGH_B3",
+        "TRINKET_BLEEDSKILL_B2",
+        "TRINKET_spiked_collar_HEALRECEIVED_D1",
+        "TRINKET_spiked_collar_HEALDONE_D1"
+      ],
+      "hero_class_requirements": [
+        "houndmaster"
+      ],
+      "rarity": "very_rare",
+      "price": 25000,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "protective_collar",
+      "buffs": [
+        "TRINKET_DEF_B3",
+        "TRINKET_DMGL_D3",
+        "TRINKET_DMGH_D3"
+      ],
+      "hero_class_requirements": [
+        "houndmaster"
+      ],
+      "rarity": "rare",
+      "price": 15000,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "cudgel_weight",
+      "buffs": [
+        "STUNSKILL25",
+        "TRINKET_SPD_D1"
+      ],
+      "hero_class_requirements": [
+        "houndmaster"
+      ],
+      "rarity": "uncommon",
+      "price": 10000,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "agility_whistle",
+      "buffs": [
+        "TRINKET_SPD_B1",
+        "TRINKET_DEF_B1"
+      ],
+      "hero_class_requirements": [
+        "houndmaster"
+      ],
+      "rarity": "common",
+      "price": 7500,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "scouting_whistle",
+      "buffs": [
+        "SCOUTING10"
+      ],
+      "hero_class_requirements": [
+        "houndmaster"
+      ],
+      "rarity": "very_common",
+      "price": 5000,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "wrathful_bandana",
+      "buffs": [
+        "TRINKET_BACKRANK_DMGL_B3",
+        "TRINKET_BACKRANK_DMGH_B3",
+        "TRINKET_DEBUFFSKILL_B2",
+        "TRINKET_wrathful_bandana_HEALDONE_D1"
+      ],
+      "hero_class_requirements": [
+        "arbalest"
+      ],
+      "rarity": "very_rare",
+      "price": 25000,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "bulls_eye_bandana",
+      "buffs": [
+        "TRINKET_ACC_B2",
+        "TRINKET_CRIT_B2",
+        "TRINKET_DEF_D2"
+      ],
+      "hero_class_requirements": [
+        "arbalest"
+      ],
+      "rarity": "rare",
+      "price": 15000,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "medics_greaves",
+      "buffs": [
+        "TRINKET_HEALDONE_B2"
+      ],
+      "hero_class_requirements": [
+        "arbalest"
+      ],
+      "rarity": "uncommon",
+      "price": 10000,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "sturdy_greaves",
+      "buffs": [
+        "TRINKET_MOVERESIST_B2",
+        "TRINKET_MOVESKILL_B2",
+        "TRINKET_SPD_D1"
+      ],
+      "hero_class_requirements": [
+        "arbalest"
+      ],
+      "rarity": "common",
+      "price": 7500,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "vengeful_greaves",
+      "buffs": [
+        "TRINKET_CRIT_B1"
+      ],
+      "hero_class_requirements": [
+        "arbalest"
+      ],
+      "rarity": "very_common",
+      "price": 5000,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "demons_cauldron",
+      "buffs": [
+        "STUNSKILL20",
+        "MOVESKILL20",
+        "DEBUFFSKILL20"
+      ],
+      "hero_class_requirements": [
+        "occultist"
+      ],
+      "rarity": "very_rare",
+      "price": 25000,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "sacrificial_cauldron",
+      "buffs": [
+        "TRINKET_DMGL_B3",
+        "TRINKET_DMGH_B3",
+        "TRINKET_STRESSDMG_D2"
+      ],
+      "hero_class_requirements": [
+        "occultist"
+      ],
+      "rarity": "rare",
+      "price": 15000,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "cursed_incense",
+      "buffs": [
+        "TRINKET_DEBUFFSKILL_B3",
+        "TRINKET_MOVESKILL_B1",
+        "TRINKET_MAXHP_D2"
+      ],
+      "hero_class_requirements": [
+        "occultist"
+      ],
+      "rarity": "uncommon",
+      "price": 10000,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "eldritch_killing_incense",
+      "buffs": [
+        "TRINKET_eldritch_CRIT_B2",
+        "TRINKET_eldritch_DMGL_B1",
+        "TRINKET_eldritch_DMGH_B1"
+      ],
+      "hero_class_requirements": [
+        "occultist"
+      ],
+      "rarity": "common",
+      "price": 7500,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "evasion_incense",
+      "buffs": [
+        "TRINKET_DEF_B2",
+        "TRINKET_SPD_D1"
+      ],
+      "hero_class_requirements": [
+        "occultist"
+      ],
+      "rarity": "very_common",
+      "price": 5000,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "blasphemous_vial",
+      "buffs": [
+        "TRINKET_STUNSKILL_B2",
+        "TRINKET_BLIGHTSKILL_B1"
+      ],
+      "hero_class_requirements": [
+        "plague_doctor"
+      ],
+      "rarity": "very_rare",
+      "price": 25000,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "bloody_herb",
+      "buffs": [
+        "TRINKET_meleeonly_ACC_B2",
+        "TRINKET_BLEEDSKILL_B2",
+        "TRINKET_meleeonly_DMGL_B2",
+        "TRINKET_meleeonly_DMGH_B2"
+      ],
+      "hero_class_requirements": [
+        "plague_doctor"
+      ],
+      "rarity": "rare",
+      "price": 15000,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "poisoned_herb",
+      "buffs": [
+        "BLIGHTSKILL20",
+        "BLIGHTRESIST10"
+      ],
+      "hero_class_requirements": [
+        "plague_doctor"
+      ],
+      "rarity": "uncommon",
+      "price": 10000,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "witchs_vial",
+      "buffs": [
+        "STUNSKILL10"
+      ],
+      "hero_class_requirements": [
+        "plague_doctor"
+      ],
+      "rarity": "common",
+      "price": 7500,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "diseased_herb",
+      "buffs": [
+        "TRINKET_DISEASERESIST_B3"
+      ],
+      "hero_class_requirements": [
+        "plague_doctor"
+      ],
+      "rarity": "very_common",
+      "price": 5000,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "rotgut_censer",
+      "buffs": [
+        "TRINKET_ACC_B2",
+        "TRINKET_MAXHP_D1"
+      ],
+      "hero_class_requirements": [
+        "plague_doctor"
+      ],
+      "rarity": "very_common",
+      "price": 5000,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "sacred_scroll",
+      "buffs": [
+        "SPSR_Ves_sacred_scroll_Healdone_B1",
+        "STUNSKILL10",
+        "TRINKET_DMGL_D2",
+        "TRINKET_DMGH_D2",
+        "SPSR_Ves_sacred_scroll_Deathblow_Resist_D1"
+      ],
+      "hero_class_requirements": [
+        "vestal"
+      ],
+      "rarity": "very_rare",
+      "price": 25000,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "book_of_holy_healing",
+      "buffs": [
+        "TRINKET_book_of_holy_healing_HEALDONE_BUFF",
+        "TRINKET_book_of_holy_healing_MAXHP_DEBUFF"
+      ],
+      "hero_class_requirements": [
+        "vestal"
+      ],
+      "rarity": "rare",
+      "price": 15000,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "profane_scroll",
+      "buffs": [
+        "TRINKET_profane_scroll_DMG_BUFF_L",
+        "TRINKET_profane_scroll_DMG_BUFF_H",
+        "TRINKET_profane_scroll_PROTINRANK_BUFF",
+        "TRINKET_profane_scroll_HEALDONEINRANK_BUFF",
+        "TRINKET_profane_scroll_STRESSDMG_DEBUFF"
+      ],
+      "hero_class_requirements": [
+        "vestal"
+      ],
+      "rarity": "uncommon",
+      "price": 10000,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "youth_chalice",
+      "buffs": [
+        "TRINKET_MAXHP_B3",
+        "TRINKET_DMGL_D2",
+        "TRINKET_DMGH_D2"
+      ],
+      "hero_class_requirements": [
+        "vestal"
+      ],
+      "rarity": "common",
+      "price": 7500,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "haste_chalice",
+      "buffs": [
+        "TRINKET_firstroundonly_SPD_B3",
+        "TRINKET_NOTfirstroundonly_SPD_B2",
+        "TRINKET_STUNSKILL_D3"
+      ],
+      "hero_class_requirements": [
+        "vestal"
+      ],
+      "rarity": "very_common",
+      "price": 5000,
+      "limit": 1,
+      "origin_dungeon": ""
+    },    {
+      "id": "recovery_chalice",
+      "buffs": [
+        "TRINKET_RESOLVECHECK_B2",
+        "TRINKET_MAXHP_D1"
+      ],
+      "hero_class_requirements": [
+        "vestal"
+      ],
+      "rarity": "very_common",
+      "price": 5000,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "dark_tambourine",
+      "buffs": [
+        "SPD2",
+        "TRINKET_ancestors_scroll_STRESSHEALDONE_BUFF",
+        "STRESSDMG10"
+      ],
+      "hero_class_requirements": [
+        "jester"
+      ],
+      "rarity": "very_rare",
+      "price": 25000,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "bright_tambourine",
+      "buffs": [
+        "TRINKET_ancestors_scroll_STRESSHEALDONE_BUFF"
+      ],
+      "hero_class_requirements": [
+        "jester"
+      ],
+      "rarity": "rare",
+      "price": 15000,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "critical_dice",
+      "buffs": [
+        "TRINKET_CRIT_B3"
+      ],
+      "hero_class_requirements": [
+        "jester"
+      ],
+      "rarity": "uncommon",
+      "price": 10000,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "bloody_dice",
+      "buffs": [
+        "BLEEDSKILL20"
+      ],
+      "hero_class_requirements": [
+        "jester"
+      ],
+      "rarity": "common",
+      "price": 7500,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "lucky_dice",
+      "buffs": [
+        "TRINKET_ACC_B1",
+        "TRINKET_DEF_B1"
+      ],
+      "hero_class_requirements": [
+        "jester"
+      ],
+      "rarity": "very_common",
+      "price": 5000,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "antiq_5",
+      "buffs": [
+        "TRINKET_ANTIQ_HEALGIVEN_BUFF",
+        "TRINKET_ANTIQ_HP_BUFF"
+      ],
+      "hero_class_requirements": [
+        "antiquarian"
+      ],
+      "rarity": "very_rare",
+      "price": 25000,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "antiq_4",
+      "buffs": [
+        "TRINKET_ANTIQ_SPEED_BUFF",
+        "TRINKET_ANTIQ_DEBUFF_BUFF"
+      ],
+      "hero_class_requirements": [
+        "antiquarian"
+      ],
+      "rarity": "rare",
+      "price": 15000,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "antiq_3",
+      "buffs": [
+        "TRINKET_ANTIQ_PROT_BUFF"
+      ],
+      "hero_class_requirements": [
+        "antiquarian"
+      ],
+      "rarity": "uncommon",
+      "price": 10000,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "antiq_2",
+      "buffs": [
+        "TRINKET_ANTIQ_HEALRECVD_BUFF"
+      ],
+      "hero_class_requirements": [
+        "antiquarian"
+      ],
+      "rarity": "common",
+      "price": 75000,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "antiq_1",
+      "buffs": [
+        "TRINKET_ANTIQ_DODGE_BUFF"
+      ],
+      "hero_class_requirements": [
+        "antiquarian"
+      ],
+      "rarity": "very_common",
+      "price": 5000,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "dd_trinket",
+      "buffs": [
+        "dd_talisman_stress_buff",
+        "dd_talisman_dmg_buff"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "darkest_dungeon",
+      "price": 1,
+      "limit": 3,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "boss_necromancer",
+      "buffs": [
+        "TRINKET_NECROTROPHY_unholyDMG_BUFF_L",
+        "TRINKET_NECROTROPHY_unholyDMG_BUFF_H",
+        "TRINKET_NECROTROPHY_unholyCRIT_BUFF"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "trophy",
+      "price": 0,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "boss_hag",
+      "buffs": [
+        "TRINKET_HAGTROPHY_BLIGHTSKILL_BUFF",
+        "TRINKET_HAGTROPHY_BLIGHTRESIST_BUFF",
+        "TRINKET_HAGTROPHY_DISEASERESIST_BUFF"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "trophy",
+      "price": 0,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "boss_wilbur",
+      "buffs": [
+        "STUNSKILL15",
+        "STUNRESIST15"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "trophy",
+      "price": 0,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "boss_siren",
+      "buffs": [
+        "TRINKET_DEBUFFSKILL_B1",
+        "DEBUFFRESIST20"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "trophy",
+      "price": 0,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "boss_tassle",
+      "buffs": [
+        "SPSR_Trinket_Vulf_Guarding_Stun_Resist_B1",
+        "SPSR_Trinket_Vulf_Guarding_Move_Resist_B1"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "trophy",
+      "price": 0,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "boss_cannon",
+      "buffs": [
+        "TRINKET_POUNDERTROPHY_SPD_BUFF",
+        "TRINKET_POUNDERTROPHY_RANGEDDMG_BUFF_L",
+        "TRINKET_POUNDERTROPHY_RANGEDDMG_BUFF_H",
+        "TRINKET_POUNDERTROPHY_RANGEDCRIT_BUFF"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "trophy",
+      "price": 0,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "boss_prophet",
+      "buffs": [
+        "ACC10",
+        "SCOUTING20"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "trophy",
+      "price": 0,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "boss_flesh",
+      "buffs": [
+        "MAXHP10",
+        "TRINKET_HEALDONE_B2"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "trophy",
+      "price": 0,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "boss_crew",
+      "buffs": [
+        "TRINKET_MOVESKILL_B2",
+        "TRINKET_MOVERESIST_B2"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "trophy",
+      "price": 0,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "ancestors_map",
+      "buffs": [
+        "TRINKET_ancestors_map_SCOUTING_BUFF",
+        "TRINKET_ancestors_map_TRAPRESIST_BUFF"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "ancestral_shambler",
+      "price": 50000,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "ancestors_candle",
+      "buffs": [
+        "SPD1",
+        "DMGL15",
+        "DMGH15"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "ancestral_shambler",
+      "price": 50000,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "ancestors_tentacle_idol",
+      "buffs": [
+        "TRINKET_ANCESTOR_TENTACLE_RESOLVE_B",
+        "TRINKET_DEATHBLOWRESIST_B2"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "ancestral_shambler",
+      "price": 50000,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "ancestors_bottle",
+      "buffs": [
+        "MAXHP10",
+        "TRINKET_ancestors_scroll_HEALDONE_BUFF"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "ancestral_shambler",
+      "price": 50000,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "ancestors_scroll",
+      "buffs": [
+        "SPSR_Trinket_Heal_Amount_B1",
+        "TRINKET_ancestors_scroll_STRESSHEALDONE_BUFF"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "ancestral_shambler",
+      "price": 50000,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "ancestors_coat",
+      "buffs": [
+        "TRINKET_DEF_B3",
+        "MAXHP10"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "ancestral",
+      "price": 50000,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "ancestors_musket_ball",
+      "buffs": [
+        "CRITRANGED5"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "ancestral",
+      "price": 50000,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "ancestors_pistol",
+      "buffs": [
+        "SPD1",
+        "TRINKET_rangedonly_ACC_B2"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "ancestral",
+      "price": 50000,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "ancestors_pen",
+      "buffs": [
+        "SPSR_Trinket_ancestors_pen_melee_DMGL_B1",
+        "SPSR_Trinket_ancestors_pen_melee_DMGH_B1",
+        "CRITMELEE5"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "ancestral",
+      "price": 50000,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "ancestors_portrait",
+      "buffs": [
+        "TRINKET_RESOLVEXPBONUS_B4",
+        "STRESSRECOVERY20"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "ancestral",
+      "price": 50000,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "ancestors_lantern",
+      "buffs": [
+        "SPSR_ancestors_lantern_Party_Surprise_B1",
+        "SPSR_ancestors_lantern_Monster_Surprise_B1"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "ancestral",
+      "price": 50000,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "ancestors_handkerchief",
+      "buffs": [
+        "TRINKET_BLEEDSKILL_B2",
+        "TRINKET_BLEEDRESIST_B2"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "ancestral",
+      "price": 50000,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "ancestors_moustache_cream",
+      "buffs": [
+        "BLIGHTSKILL30",
+        "beast_blight_buff_5"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "ancestral",
+      "price": 50000,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "ancestors_signet_ring",
+      "buffs": [
+        "TRINKET_ancestors_signet_ring_ACC_BUFF",
+        "TRINKET_ancestors_signet_ring_PROT_BUFF"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "ancestral",
+      "price": 50000,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "crow_wingfeather",
+      "buffs": [
+        "TRINKET_DEF_B3",
+        "PROT5",
+        "TRINKET_CROW_STRESS_DEBUFF"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "crow",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "crow_tailfeather",
+      "buffs": [
+        "TRINKET_CROW_TAILFEATHER_BUFF",
+        "TRINKET_CROW_DISEASERESIST_BUFF",
+        "TRINKET_CROW_TAILFEATHER_BUFF2",
+        "TRINKET_CROW_STRESS_DEBUFF"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "crow",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "crow_talon",
+      "buffs": [
+        "TRINKET_CROW_TALON_BUFF",
+        "TRINKET_CROW_DISEASERESIST_BUFF",
+        "TRINKET_CROW_TALON_BUFF2",
+        "TRINKET_CROW_STRESS_DEBUFF"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "crow",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "crow_eye",
+      "buffs": [
+        "TRINKET_CROW_EYE_BUFF",
+        "SCOUTING10",
+        "TRINKET_CROW_STRESS_DEBUFF"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "crow",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "tempting_goblet",
+      "buffs": [
+        "SPD1",
+        "TRINKET_DEF_B4",
+        "STRESSDMG20"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "courtier",
+      "price": 0,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "collector_1",
+      "buffs": [
+        "TRINKET_DMGL_B2",
+        "TRINKET_DMGH_B2"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "collector",
+      "price": 15000,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "collector_2",
+      "buffs": [
+        "PROT15"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "collector",
+      "price": 15000,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "collector_3",
+      "buffs": [
+        "TRINKET_chirurgeons_charm_HEALDONE_BUFF"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "collector",
+      "price": 15000,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "madman_1",
+      "buffs": [
+        "TRINKET_bright_tambourine_STRESSHEALDONE_BUFF",
+        "STRESSDMG-10"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "madman",
+      "price": 15000,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "madman_2",
+      "buffs": [
+        "TRINKET_MAXHP_B1",
+        "TRINKET_DEF_B3"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "madman",
+      "price": 15000,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "madman_3",
+      "buffs": [
+        "SPD1",
+        "TRINKET_DMGL_B2",
+        "TRINKET_DMGH_B2"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "madman",
+      "price": 15000,
+      "limit": 1,
+      "origin_dungeon": ""
+    }
+  ]
+}

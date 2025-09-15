@@ -1,0 +1,4373 @@
+{
+	"entries": [
+	{
+		"id": "crest_of_1100",
+		"buffs": [
+			"TRINKET_RESOLVECHECK_B4",
+			"TRINKET_STRESSDMG_B2"
+		],
+		"hero_class_requirements": [],
+		"rarity": "kickstarter",
+		"price": 0,
+		"limit": 1,
+		"origin_dungeon": ""
+	},
+    {
+      "id": "aurora_pendant",
+      "buffs": [
+        "TB_ACC_B_5_RANGED",
+        "TB_VIRTUE_B_5_LIGHT",
+        "TB_VIRTUE_D_1_DARK"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "boots_of_much_kicking",
+      "buffs": [
+        "TB_DMG_B_4_L",
+        "TB_DMG_B_4_H",
+        "TB_CRIT_B_4",
+        "TB_PROT_B_4",
+        "TB_MOVERESIST_D_1_CAMPING",
+        "TB_TRAPRESIST_D_1_CAMPING",
+        "TB_RESOLVEXP_D_1_CAMPING"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "cloak_of_the_heavens",
+      "buffs": [
+        "TB_STRESSRESIST_B_6_DARK",
+        "TB_SPD_B_6_LIGHT",
+        "TB_MOVERESIST_D_1_DARK",
+        "TB_CRIT_D_1_LIGHT"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "stone_of_hearth",
+      "buffs": [
+        "TB_STRESSRESIST_B_6",
+        "TB_HEALSKILLS_D_1"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "the_bloodied_shroud",
+      "buffs": [
+        "TB_DMG_B_5_LOWHP_L",
+        "TB_DMG_B_5_LOWHP_H",
+        "TB_DOD_B_5_LOWHP",
+        "TB_HEALRECVD_D_1"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "howling_devil",
+      "buffs": [
+        "TB_CRIT_B_5_FRONT",
+        "TB_STRESSRESIST_B_4",
+        "TB_DMG_B_5_DARK_L",
+        "TB_DMG_B_5_DARK_H",
+        "TB_SURPRISE_D_1",
+        "TB_SCOUT_D_1_LIGHT",
+        "TB_SURPRISE_D_1_LIGHT"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "crucifix_for_the_lord",
+      "buffs": [
+        "TB_PROT_B_2",
+        "TB_HEALRECVD_B_2",
+        "TB_DMG_B_2_L",
+        "TB_DMG_B_2_H",
+        "TB_RESOLVEXP_D_1"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "skullyfm",
+      "buffs": [
+        "TB_DMG_B_4_L",
+        "TB_DMG_B_4_H",
+        "TB_STRESSRESIST_B_4",
+        "TB_HEALRECVD_D_1_BACK",
+        "TB_HEALSKILLS_D_1_BACK"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "libro_tenedo",
+      "buffs": [
+        "TB_SURPRISE_B_5_ELDRITCH",
+        "TB_CRIT_B_5_ELDRITCH",
+        "TB_TRAPRESIST_D_1"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "diadem_of_the_arcane",
+      "buffs": [
+        "TB_PROT_B_8_ELDRITCH",
+        "TB_SCOUT_D_1"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "the_tome_of_magrus",
+      "buffs": [
+        "TB_PROT_B_5_ATDD",
+        "TB_DOD_B_5_FRONT",
+        "TB_HEALSKILLS_B_5_BACK",
+        "TB_STRESSRESIST_D_1_ATDD",
+        "TB_HEALRECVD_D_1_FRONT",
+        "TB_STRESSRESIST_D_1_BACK"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "gryphons_ring",
+      "buffs": [
+        "TB_STRESSRESIST_B_6_FRONT",
+        "TB_DEBUFFRESIST_B_6_FRONT",
+        "TB_MOVERESIST_D_1_DARK",
+        "TB_CRIT_D_1_DARK"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "light_repetition",
+      "buffs": [
+        "TB_SPD_B_5_LIGHT",
+        "TB_CRIT_B_5_LIGHT",
+        "TB_ACC_B_5_LIGHT",
+        "TB_DISEASERESIST_D_1_NONFIRST",
+        "TB_PROT_D_1_NONFIRST",
+        "TB_DEATHBLOWRESIST_D_1_NONFIRST"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "bogis_bulwark",
+      "buffs": [
+        "TB_PROT_B_4",
+        "TB_MAXHP_B_4",
+        "TB_HEALSKILLS_D_1_HIGHHP"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "truth",
+      "buffs": [
+        "TB_ACC_B_6",
+        "TB_STRESSRESIST_D_1_ELDRITCH"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "tome_of_the_dawn",
+      "buffs": [
+        "TB_PROT_B_7_DARK",
+        "TB_HEALSKILLS_B_7_DARK",
+        "TB_DEBUFFRESIST_D_1_BACK",
+        "TB_VIRTUE_D_1_BACK",
+        "TB_SURPRISE_D_1_BACK"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "the_spade_of_aces",
+      "buffs": [
+        "TB_DEATHBLOWRESIST_B_4",
+        "TB_CRIT_B_5_ATDD",
+        "TB_HEALRECVD_B_5_ATDD",
+        "TB_STUNRESIST_D_1_FIRSTROUND",
+        "TB_DEBUFFRESIST_D_1_HIGHHP",
+        "TB_VIRTUE_D_1_BACK"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "fools_bane",
+      "buffs": [
+        "TB_CRIT_B_4",
+        "TB_ACC_B_4",
+        "TB_DMG_B_4_L",
+        "TB_DMG_B_4_H",
+        "TB_PROT_D_1",
+        "TB_STARVEDMG_D_1",
+        "TB_BLEEDRESIST_D_1"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "ingrown_toe_nail",
+      "buffs": [
+        "TB_BLEEDRESIST_B_2",
+        "TB_SURPRISE_B_3_LIGHT",
+        "TB_HEALSKILLS_B_3_HIGHHP",
+        "TB_CRIT_D_1"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "squittens_survival_guide",
+      "buffs": [
+        "TB_MAXHP_B_4",
+        "TB_STUNRESIST_B_5_LOWHP",
+        "TB_SURPRISE_D_1_FIRSTROUND"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "forlorn_memento",
+      "buffs": [
+        "TB_PROT_B_4_DARK",
+        "TB_DMG_B_4_DARK_L",
+        "TB_DMG_B_4_DARK_H",
+        "TB_STRESSRESIST_B_4_DARK",
+        "TB_MOVERESIST_D_1",
+        "TB_DEATHBLOWRESIST_D_1"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "amulet_of_superior_asphyxiation",
+      "buffs": [
+        "TB_MAXHP_B_2",
+        "TB_DOD_B_2",
+        "TB_DMG_B_2_L",
+        "TB_DMG_B_2_H",
+        "TB_HEALRECVD_D_1_FIRSTROUND"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "bloodbrine",
+      "buffs": [
+        "TB_HEALSKILLS_B_9_BACK",
+        "TB_HUNGER_D_1_CAMPING",
+        "TB_MAXHP_D_1"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "hound_crest",
+      "buffs": [
+        "TB_SPD_B_4",
+        "TB_DMG_B_4_L",
+        "TB_DMG_B_4_H",
+        "TB_ACC_B_4",
+        "TB_CRIT_D_1_CAMPING",
+        "TB_CRIT_D_1_CAMPING",
+        "TB_CRIT_D_1_CAMPING"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "sanguinary_talons",
+      "buffs": [
+        "TB_DMG_B_3_MELEE_L",
+        "TB_DMG_B_3_MELEE_H",
+        "TB_CRIT_B_2",
+        "TB_DMG_B_2_L",
+        "TB_DMG_B_2_H",
+        "TB_HEALRECVD_D_1"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "pet_rock",
+      "buffs": [
+        "TB_DMG_B_2_L",
+        "TB_DMG_B_2_H",
+        "TB_STRESSRESIST_B_2",
+        "TB_CRIT_B_2",
+        "TB_HUNGER_D_1_LOWHP"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "beloveds_ring",
+      "buffs": [
+        "TB_ACC_B_4",
+        "TB_DMG_B_4_L",
+        "TB_DMG_B_4_H",
+        "TB_SPD_B_4",
+        "TB_BLEEDRESIST_D_1",
+        "TB_BLIGHTRESIST_D_1",
+        "TB_DISEASERESIST_D_1"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "aakeskiol",
+      "buffs": [
+        "TB_VIRTUE_B_2",
+        "TB_DEATHBLOWRESIST_B_2",
+        "TB_PROT_B_2",
+        "TB_SPD_D_1_BACK"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "the_scarecrows_brain",
+      "buffs": [
+        "TB_HEALSKILLS_B_4",
+        "TB_HEALSKILLS_B_4",
+        "TB_HEALSKILLS_B_4",
+        "TB_ACC_D_1",
+        "TB_ACC_D_1",
+        "TB_ACC_D_1"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "highbornes_praise",
+      "buffs": [
+        "TB_ACC_B_4",
+        "TB_MOVERESIST_B_4",
+        "TB_PROT_B_4",
+        "TB_CRIT_D_1_BACK",
+        "TB_SURPRISE_D_1_BACK",
+        "TB_HEALSKILLS_D_1_BACK"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "keljores_lost_valor",
+      "buffs": [
+        "TB_PROT_B_4",
+        "TB_DEATHBLOWRESIST_B_4",
+        "TB_STRESSRESIST_B_5_DARK",
+        "TB_DOD_D_1_LIGHT",
+        "TB_SPD_D_1_LOWHP",
+        "TB_HUNGER_D_1_LIGHT"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "vanders_signet",
+      "buffs": [
+        "TB_STRESSRESIST_B_5_BACK",
+        "TB_ACC_B_5_LIGHT",
+        "TB_STARVEDMG_D_1_CAMPING"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "druidic_herb",
+      "buffs": [
+        "TB_HEALSKILLS_B_4",
+        "TB_BLIGHTRESIST_B_4",
+        "TB_SPD_D_1"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "the_holy_grail",
+      "buffs": [
+        "TB_DEATHBLOWRESIST_B_4",
+        "TB_VIRTUE_B_5_FRONT",
+        "TB_DOD_D_1_HIGHHP"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "eye_for_the_feisty",
+      "buffs": [
+        "TB_MAXHP_B_2",
+        "TB_VIRTUE_B_2",
+        "TB_STRESSRESIST_B_2",
+        "TB_STUNRESIST_D_1_DARK"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "the_man_that_hides_a_demon",
+      "buffs": [
+        "TB_ACC_B_5_DARK",
+        "TB_DMG_B_5_DARK_L",
+        "TB_DMG_B_5_DARK_H",
+        "TB_STRESSRESIST_D_1"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "thoons_guide",
+      "buffs": [
+        "TB_ACC_B_5_NONFIRST",
+        "TB_CRIT_B_5_FRONT",
+        "TB_HEALRECVD_B_4",
+        "TB_TRAPRESIST_D_1_CAMPING",
+        "TB_MOVERESIST_D_1_DARK",
+        "TB_SURPRISE_D_1_CAMPING"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "the_red_hand",
+      "buffs": [
+        "TB_CRIT_B_5_RANGED",
+        "TB_SPD_B_5_FIRSTROUND",
+        "TB_DMG_D_1_MELEE_L",
+        "TB_DMG_D_1_MELEE_H"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "ajs_growling_tome_of_madness",
+      "buffs": [
+        "TB_DMG_B_4_L",
+        "TB_DMG_B_4_H",
+        "TB_HEALRECVD_B_4",
+        "TB_SPD_D_1_FIRSTROUND"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "the_harbinger",
+      "buffs": [
+        "TB_DMG_B_2_L",
+        "TB_DMG_B_2_H",
+        "TB_PROT_B_2",
+        "TB_PROT_B_2",
+        "TB_STARVEDMG_D_1_CAMPING"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "emblem_of_trista",
+      "buffs": [
+        "TB_HEALRECVD_B_4",
+        "TB_STRESSRESIST_B_5_UNHOLY",
+        "TB_CRIT_B_5_FRONT",
+        "TB_VIRTUE_D_1_DARK",
+        "TB_ACC_D_1_BACK",
+        "TB_ACC_D_1_RANGED"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "claws_of_the_cat",
+      "buffs": [
+        "TB_CRIT_B_3",
+        "TB_DMG_B_4_DARK_L",
+        "TB_DMG_B_4_DARK_H",
+        "TB_ACC_B_4_DARK",
+        "TB_STRESSRESIST_D_1_LIGHT",
+        "TB_MOVERESIST_D_1_HIGHHP"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "philosophers_wisdom",
+      "buffs": [
+        "TB_VIRTUE_B_4",
+        "TB_ACC_B_5_BACK",
+        "TB_STRESSRESIST_D_1"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "scales_of_justice",
+      "buffs": [
+        "TB_DMG_B_4_L",
+        "TB_DMG_B_4_H",
+        "TB_ACC_B_4",
+        "TB_PROT_B_4",
+        "TB_CRIT_D_1",
+        "TB_DOD_D_1",
+        "TB_SPD_D_1"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "da_powar",
+      "buffs": [
+        "TB_ACC_B_4",
+        "TB_DMG_B_4_L",
+        "TB_DMG_B_4_H",
+        "TB_ACC_B_4",
+        "TB_TRAPRESIST_D_1_CAMPING",
+        "TB_TRAPRESIST_D_1_CAMPING",
+        "TB_TRAPRESIST_D_1_CAMPING"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "winstons_revenge",
+      "buffs": [
+        "TB_STRESSRESIST_B_4",
+        "TB_PROT_B_4",
+        "TB_SURPRISE_B_4",
+        "TB_HUNGER_D_1",
+        "TB_STARVEDMG_D_1",
+        "TB_STARVEDMG_D_1"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "the_eidolons_will",
+      "buffs": [
+        "TB_STRESSRESIST_B_4",
+        "TB_MAXHP_B_4",
+        "TB_PROT_B_4",
+        "TB_HEALRECVD_D_1",
+        "TB_VIRTUE_D_1",
+        "TB_DEATHBLOWRESIST_D_1"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "stay_frosty_cloak",
+      "buffs": [
+        "TB_SPD_B_4",
+        "TB_DOD_B_4",
+        "TB_DOD_B_5_ATDD",
+        "TB_DMG_D_1_FIRSTROUND_L",
+        "TB_DMG_D_1_FIRSTROUND_H",
+        "TB_PROT_D_1_ATDD",
+        "TB_HEALRECVD_D_1_ATDD"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "violets_pet",
+      "buffs": [
+        "TB_SPD_B_3",
+        "TB_CRIT_B_4_MELEE",
+        "TB_ACC_B_4_MELEE",
+        "TB_STARVEDMG_D_1",
+        "TB_HUNGER_D_1"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "lumihiutale",
+      "buffs": [
+        "TB_HEALSKILLS_B_6",
+        "TB_VIRTUE_B_7_DARK",
+        "TB_DMG_D_1_MAN_L",
+        "TB_DMG_D_1_MAN_H",
+        "TB_HEALRECVD_D_1_LIGHT",
+        "TB_SCOUT_D_1_DARK"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "harpy_talon",
+      "buffs": [
+        "TB_SPD_B_4",
+        "TB_DOD_B_5_LIGHT",
+        "TB_CRIT_D_1"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "de_vermis_mysteriis",
+      "buffs": [
+        "TB_STRESSRESIST_B_8_ELDRITCH",
+        "TB_DOD_D_1_ELDRITCH"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "decusian_prayerbook",
+      "buffs": [
+        "TB_VIRTUE_B_6",
+        "TB_RESOLVEXP_D_1_DARK"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "takaras_heart",
+      "buffs": [
+        "TB_DMG_B_4_L",
+        "TB_DMG_B_4_H",
+        "TB_DEATHBLOWRESIST_B_4",
+        "TB_ACC_B_4",
+        "TB_DOD_D_1",
+        "TB_PROT_D_1_DARK",
+        "TB_HEALRECVD_D_1_DARK"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "lahzarels_phylactery",
+      "buffs": [
+        "TB_CRIT_B_3_RANGED",
+        "TB_PROT_B_3_LOWHP",
+        "TB_SURPRISE_B_2",
+        "TB_MAXHP_D_1"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "aru",
+      "buffs": [
+        "TB_TRAPRESIST_B_2",
+        "TB_DOD_B_2",
+        "TB_DISEASERESIST_B_2",
+        "TB_STRESSRESIST_D_1_MARKED"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "bulk_smash",
+      "buffs": [
+        "TB_DMG_B_2_L",
+        "TB_DMG_B_2_H",
+        "TB_MAXHP_B_2",
+        "TB_CRIT_B_2",
+        "TB_DMG_D_1_FIRSTROUND_L",
+        "TB_DMG_D_1_FIRSTROUND_H"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "handy_haversack",
+      "buffs": [
+        "TB_DMG_B_4_RANGED_L",
+        "TB_DMG_B_4_RANGED_H",
+        "TB_HEALSKILLS_B_4_NONFIRST",
+        "TB_SCOUT_B_3",
+        "TB_HEALRECVD_D_1_FIRSTROUND",
+        "TB_DMG_D_1_MELEE_L",
+        "TB_DMG_D_1_MELEE_H"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "nagelring",
+      "buffs": [
+        "TB_STRESSRESIST_B_4_DARK",
+        "TB_DOD_B_4_LIGHT",
+        "TB_VIRTUE_B_3",
+        "TB_MAXHP_D_1",
+        "TB_CRIT_D_1"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "dark_night_of_the_soul",
+      "buffs": [
+        "TB_STRESSRESIST_B_5_DARK",
+        "TB_PROT_B_5_DARK",
+        "TB_PROT_B_5_DARK",
+        "TB_RESOLVEXP_D_1",
+        "TB_RESOLVEXP_D_1",
+        "TB_RESOLVEXP_D_1"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "full_throttle",
+      "buffs": [
+        "TB_DMG_B_2_L",
+        "TB_DMG_B_2_H",
+        "TB_CRIT_B_3_LOWHP",
+        "TB_SPD_B_2",
+        "TB_TRAPRESIST_D_1_UNHOLY"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "hope_in_hand",
+      "buffs": [
+        "TB_ACC_B_5_NONFIRST",
+        "TB_STRESSRESIST_B_5_NONFIRST",
+        "TB_HUNGER_D_1_FIRSTROUND"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "silent",
+      "buffs": [
+        "TB_DMG_B_5_HIGHHP_L",
+        "TB_DMG_B_5_HIGHHP_H",
+        "TB_ACC_B_5_LIGHT",
+        "TB_SPD_B_4",
+        "TB_PROT_D_1_DARK",
+        "TB_DOD_D_1_BEAST",
+        "TB_PROT_D_1_ATDD"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "shroud_of_the_midnight_charmer",
+      "buffs": [
+        "TB_DEATHBLOWRESIST_B_3",
+        "TB_MAXHP_B_4_BACK",
+        "TB_VIRTUE_B_3",
+        "TB_DMG_D_1_DARK_L",
+        "TB_DMG_D_1_DARK_H",
+        "TB_BLIGHTRESIST_D_1_FIRSTROUND"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "dippys_little_black_book",
+      "buffs": [
+        "TB_STRESSRESIST_B_4",
+        "TB_MAXHP_B_4",
+        "TB_VIRTUE_D_1_DARK"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "the_radies",
+      "buffs": [
+        "TB_STRESSRESIST_B_5_ATDD",
+        "TB_ACC_B_4",
+        "TB_DOD_B_5_DARK",
+        "TB_HUNGER_D_1_LIGHT",
+        "TB_PROT_D_1_FIRSTROUND",
+        "TB_MOVERESIST_D_1_ATDD"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "deus_da_morte_egito",
+      "buffs": [
+        "TB_HEALRECVD_B_5_ATDD",
+        "TB_PROT_B_5_ELDRITCH",
+        "TB_STRESSRESIST_B_5_LOWHP",
+        "TB_STRESSRESIST_D_1",
+        "TB_DOD_D_1_FRONT",
+        "TB_BLEEDRESIST_D_1_BACK"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "wrath_of_khan",
+      "buffs": [
+        "TB_CRIT_B_4",
+        "TB_ACC_B_4",
+        "TB_DMG_B_4_L",
+        "TB_DMG_B_4_H",
+        "TB_SPD_D_1",
+        "TB_HEALRECVD_D_1",
+        "TB_PROT_D_1"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "drop_of_rain",
+      "buffs": [
+        "TB_HEALSKILLS_B_4",
+        "TB_HEALRECVD_B_4",
+        "TB_RESOLVEXP_B_5_LIGHT",
+        "TB_STRESSRESIST_D_1_DARK",
+        "TB_STUNRESIST_D_1_DARK",
+        "TB_DEBUFFRESIST_D_1_DARK"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "twilitinox",
+      "buffs": [
+        "TB_STRESSRESIST_B_5_DARK",
+        "TB_TRAPRESIST_B_5_DARK",
+        "TB_SURPRISE_B_5_FRONT",
+        "TB_SPD_D_1_FRONT",
+        "TB_STUNRESIST_D_1_LOWHP",
+        "TB_PROT_D_1_DARK"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "the_glass_of_milk",
+      "buffs": [
+        "TB_MAXHP_B_4",
+        "TB_PROT_B_4",
+        "TB_STRESSRESIST_D_1",
+        "TB_STRESSRESIST_D_1"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "sacra_fracti",
+      "buffs": [
+        "TB_STRESSRESIST_B_6",
+        "TB_HEALRECVD_B_6",
+        "TB_ACC_D_1_DARK",
+        "TB_DOD_D_1_DARK",
+        "TB_DISEASERESIST_D_1_FRONT"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "shard_of_rhembrandts_soul",
+      "buffs": [
+        "TB_MAXHP_B_3",
+        "TB_STRESSRESIST_B_3",
+        "TB_PROT_B_4_ELDRITCH",
+        "TB_DMG_D_1_ELDRITCH_L",
+        "TB_DMG_D_1_ELDRITCH_H",
+        "TB_DOD_D_1_ELDRITCH"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "corwyns_cape",
+      "buffs": [
+        "TB_CRIT_B_3_RANGED",
+        "TB_DMG_B_3_RANGED_L",
+        "TB_DMG_B_3_RANGED_H",
+        "TB_ACC_B_3_RANGED",
+        "TB_STARVEDMG_D_1_ATDD"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "edgecomb",
+      "buffs": [
+        "TB_HEALSKILLS_B_2",
+        "TB_PROT_B_2",
+        "TB_HEALRECVD_B_2",
+        "TB_BLEEDRESIST_D_1_CAMPING"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "eilif",
+      "buffs": [
+        "TB_PROT_B_2",
+        "TB_MAXHP_B_2",
+        "TB_DEATHBLOWRESIST_B_3_ATDD",
+        "TB_HEALSKILLS_D_1_CAMPING"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "grimoire_of_the_grey",
+      "buffs": [
+        "TB_DEATHBLOWRESIST_B_5_NONFIRST",
+        "TB_STRESSRESIST_B_5_NONFIRST",
+        "TB_VIRTUE_D_1_NONFIRST"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "vial_of_tears",
+      "buffs": [
+        "TB_DMG_B_4_L",
+        "TB_DMG_B_4_H",
+        "TB_DEBUFFRESIST_B_5_LIGHT",
+        "TB_ACC_B_4",
+        "TB_SURPRISE_D_1",
+        "TB_HEALRECVD_D_1",
+        "TB_DEATHBLOWRESIST_D_1_LIGHT"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "the_rolled_bones",
+      "buffs": [
+        "TB_CRIT_B_3_ATDD",
+        "TB_CRIT_B_3_LOWHP",
+        "TB_CRIT_B_3_DARK",
+        "TB_ACC_D_1"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "patch_of_sight",
+      "buffs": [
+        "TB_ACC_B_3_HIGHHP",
+        "TB_CRIT_B_3_LOWHP",
+        "TB_SCOUT_B_2",
+        "TB_DOD_D_1"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "dorans_dice",
+      "buffs": [
+        "TB_DEATHBLOWRESIST_B_3_LOWHP",
+        "TB_DMG_B_2_L",
+        "TB_DMG_B_2_H",
+        "TB_DOD_B_3_FRONT",
+        "TB_BLEEDRESIST_D_1_FIRSTROUND"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "blood_of_innocent",
+      "buffs": [
+        "TB_PROT_B_4",
+        "TB_DMG_B_5_FRONT_L",
+        "TB_DMG_B_5_FRONT_H",
+        "TB_BLEEDRESIST_B_5_FRONT",
+        "TB_DOD_D_1",
+        "TB_DMG_D_1_BACK_L",
+        "TB_DMG_D_1_BACK_H",
+        "TB_BLEEDRESIST_D_1_BACK"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "malazan_book_of_the_fallen",
+      "buffs": [
+        "TB_DMG_B_5_HIGHHP_L",
+        "TB_DMG_B_5_HIGHHP_H",
+        "TB_ACC_B_5_HIGHHP",
+        "TB_MOVERESIST_B_4",
+        "TB_SCOUT_D_1_DARK",
+        "TB_DEBUFFRESIST_D_1_DARK",
+        "TB_DEATHBLOWRESIST_D_1_DARK"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "knohbodis_ring",
+      "buffs": [
+        "TB_DOD_B_3",
+        "TB_PROT_B_3",
+        "TB_MAXHP_B_3",
+        "TB_VIRTUE_D_1",
+        "TB_SPD_D_1"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "house_bloodrage_signet_ring",
+      "buffs": [
+        "TB_CRIT_B_4",
+        "TB_DMG_B_4_L",
+        "TB_DMG_B_4_H",
+        "TB_SCOUT_D_1"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "pepperpot",
+      "buffs": [
+        "TB_SPD_B_3_BACK",
+        "TB_STRESSRESIST_B_3_BACK",
+        "TB_STRESSRESIST_B_3_BACK",
+        "TB_HUNGER_D_1"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "shinjis_detail_charm",
+      "buffs": [
+        "TB_ACC_B_5_RANGED",
+        "TB_CRIT_B_5_RANGED",
+        "TB_STRESSRESIST_D_1"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "reapers_hourglass",
+      "buffs": [
+        "TB_SPD_B_5_HIGHHP",
+        "TB_DOD_B_5_HIGHHP",
+        "TB_CRIT_B_5_HIGHHP",
+        "TB_SPD_D_1_LOWHP",
+        "TB_DOD_D_1_LOWHP",
+        "TB_ACC_D_1_LOWHP"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "drifters_bandana",
+      "buffs": [
+        "TB_VIRTUE_B_4",
+        "TB_DMG_B_5_RANGED_L",
+        "TB_DMG_B_5_RANGED_H",
+        "TB_CRIT_B_5_RANGED",
+        "TB_DEATHBLOWRESIST_D_1",
+        "TB_STRESSRESIST_D_1_LOWHP",
+        "TB_DOD_D_1_LOWHP"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "chortling_pseudopod",
+      "buffs": [
+        "TB_STRESSRESIST_B_3",
+        "TB_VIRTUE_B_4_DARK",
+        "TB_SPD_B_4_FRONT",
+        "TB_SURPRISE_D_1_ELDRITCH",
+        "TB_CRIT_D_1_FIRSTROUND"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "the_black_swordsmans_guantlet",
+      "buffs": [
+        "TB_ACC_B_6_FRONT",
+        "TB_STRESSRESIST_B_6_DARK",
+        "TB_SPD_D_1",
+        "TB_BLEEDRESIST_D_1"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "silken_sheath",
+      "buffs": [
+        "TB_DMG_B_4_FRONT_L",
+        "TB_DMG_B_4_FRONT_H",
+        "TB_CRIT_B_4_FRONT",
+        "TB_PROT_B_4_HIGHHP",
+        "TB_SPD_D_1_BEAST",
+        "TB_DOD_D_1_FIRSTROUND"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "checkmate",
+      "buffs": [
+        "TB_DMG_B_5_ATDD_L",
+        "TB_DMG_B_5_ATDD_H",
+        "TB_HEALRECVD_B_5_LOWHP",
+        "TB_CRIT_B_5_ATDD",
+        "TB_PROT_D_1_BACK",
+        "TB_SURPRISE_D_1_BACK",
+        "TB_HEALRECVD_D_1_BACK"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "brimstone_of_ice",
+      "buffs": [
+        "TB_STRESSRESIST_B_2",
+        "TB_SURPRISE_B_3_LOWHP",
+        "TB_DEATHBLOWRESIST_B_3_DARK",
+        "TB_SPD_D_1_LIGHT"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "rayners_seal",
+      "buffs": [
+        "TB_VIRTUE_B_4_FRONT",
+        "TB_PROT_B_4_FRONT",
+        "TB_DMG_B_4_FRONT_L",
+        "TB_DMG_B_4_FRONT_H",
+        "TB_HEALRECVD_D_1_HIGHHP",
+        "TB_SPD_D_1_NONFIRST"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "bernie_the_rock",
+      "buffs": [
+        "TB_STRESSRESIST_B_6",
+        "TB_STARVEDMG_D_1_ATDD"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "dark_irony",
+      "buffs": [
+        "TB_STRESSRESIST_B_6",
+        "TB_SURPRISE_D_1"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "avalon",
+      "buffs": [
+        "TB_SPD_B_6",
+        "TB_CRIT_B_6",
+        "TB_PROT_D_1_FIRSTROUND",
+        "TB_DISEASERESIST_D_1_FRONT",
+        "TB_BLIGHTRESIST_D_1_FRONT"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "zephyr",
+      "buffs": [
+        "TB_HEALSKILLS_B_4",
+        "TB_SPD_B_4",
+        "TB_STRESSRESIST_B_4",
+        "TB_CRIT_D_1_FIRSTROUND",
+        "TB_DMG_D_1_BEAST_L",
+        "TB_DMG_D_1_BEAST_H",
+        "TB_ACC_D_1_UNHOLY"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "black_design",
+      "buffs": [
+        "TB_CRIT_B_5_HIGHHP",
+        "TB_DEATHBLOWRESIST_B_4",
+        "TB_ACC_B_4",
+        "TB_HUNGER_D_1",
+        "TB_PROT_D_1_DARK",
+        "TB_HEALSKILLS_D_1_DARK"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "canis_doctrine",
+      "buffs": [
+        "TB_STRESSRESIST_B_2",
+        "TB_HEALSKILLS_B_3_CAMPING",
+        "TB_SURPRISE_B_3_FRONT",
+        "TB_VIRTUE_D_1_DARK"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "cloak_of_the_overwatch",
+      "buffs": [
+        "TB_DMG_B_2_L",
+        "TB_DMG_B_2_H",
+        "TB_DOD_B_2",
+        "TB_SURPRISE_B_2",
+        "TB_STARVEDMG_D_1_FIRSTROUND"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "oviria",
+      "buffs": [
+        "TB_DOD_B_2",
+        "TB_ACC_B_2",
+        "TB_SPD_B_2",
+        "TB_MOVERESIST_D_1_ATDD"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "taersas_perseverance",
+      "buffs": [
+        "TB_VIRTUE_B_6",
+        "TB_HUNGER_D_1_DARK"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "scroll_of_the_divine_healer",
+      "buffs": [
+        "TB_HEALSKILLS_B_4",
+        "TB_HEALSKILLS_B_5_BACK",
+        "TB_DEATHBLOWRESIST_B_4",
+        "TB_DMG_D_1_L",
+        "TB_DMG_D_1_H",
+        "TB_STRESSRESIST_D_1_FRONT",
+        "TB_PROT_D_1"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "k_scorpio_necklace",
+      "buffs": [
+        "TB_CRIT_B_3_DARK",
+        "TB_SPD_B_3_DARK",
+        "TB_CRIT_B_3_DARK",
+        "TB_DOD_D_1_LIGHT"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "negus_visage",
+      "buffs": [
+        "TB_ACC_B_5_MARKED",
+        "TB_ACC_B_5_FRONT",
+        "TB_ACC_B_5_MELEE",
+        "TB_HEALSKILLS_D_1_HIGHHP",
+        "TB_VIRTUE_D_1_RANGED",
+        "TB_HUNGER_D_1_DARK"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "surpisingly_lucky_satchel",
+      "buffs": [
+        "TB_VIRTUE_B_2",
+        "TB_ACC_B_3_RANGED",
+        "TB_CRIT_B_3_RANGED",
+        "TB_HUNGER_D_1_ATDD"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "thorwans_blood",
+      "buffs": [
+        "TB_PROT_B_5_BACK",
+        "TB_DEBUFFRESIST_B_4",
+        "TB_HUNGER_D_1"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "arbalest_accolade",
+      "buffs": [
+        "TB_DOD_B_2",
+        "TB_DMG_B_2_L",
+        "TB_DMG_B_2_H",
+        "TB_VIRTUE_B_2",
+        "TB_MOVERESIST_D_1_FIRSTROUND"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "brutal_hairpin",
+      "buffs": [
+        "TB_DMG_B_6_L",
+        "TB_DMG_B_6_H",
+        "TB_BLEEDRESIST_D_1_CAMPING"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "knights_folly",
+      "buffs": [
+        "TB_VIRTUE_B_3",
+        "TB_CRIT_B_4_FRONT",
+        "TB_DMG_B_4_FRONT_L",
+        "TB_DMG_B_4_FRONT_H",
+        "TB_DOD_D_1_DARK",
+        "TB_PROT_D_1_DARK"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "the_sopsok",
+      "buffs": [
+        "TB_DISEASERESIST_B_3_DARK",
+        "TB_SPD_B_3_DARK",
+        "TB_SURPRISE_B_3_DARK",
+        "TB_ACC_D_1_DARK"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "scent_of_sarnath",
+      "buffs": [
+        "TB_PROT_B_6_ELDRITCH",
+        "TB_DOD_B_6_DARK",
+        "TB_DISEASERESIST_D_1_BEAST",
+        "TB_SURPRISE_D_1_DARK"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "danger_zone",
+      "buffs": [
+        "TB_CRIT_B_6_FRONT",
+        "TB_ACC_B_6_FRONT",
+        "TB_HUNGER_D_1_DARK",
+        "TB_STRESSRESIST_D_1_BACK"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "the_cod_of_wisdom",
+      "buffs": [
+        "TB_PROT_B_6",
+        "TB_STRESSRESIST_D_1_LIGHT"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "braveheart",
+      "buffs": [
+        "TB_PROT_B_4",
+        "TB_MAXHP_B_4",
+        "TB_VIRTUE_B_4",
+        "TB_DOD_D_1_FRONT",
+        "TB_CRIT_D_1_BACK",
+        "TB_CRIT_D_1_BACK"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "eirenes_visage",
+      "buffs": [
+        "TB_STRESSRESIST_B_6",
+        "TB_DMG_D_1_FIRSTROUND_L",
+        "TB_DMG_D_1_FIRSTROUND_H"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "papyrus_containing_the_spell",
+      "buffs": [
+        "TB_DOD_B_5_BEAST",
+        "TB_DEATHBLOWRESIST_B_5_BEAST",
+        "TB_TRAPRESIST_D_1"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "invictus",
+      "buffs": [
+        "TB_STRESSRESIST_B_2",
+        "TB_STRESSRESIST_B_2",
+        "TB_STRESSRESIST_B_2",
+        "TB_TRAPRESIST_D_1_FIRSTROUND"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "trouble",
+      "buffs": [
+        "TB_DMG_B_4_MELEE_L",
+        "TB_DMG_B_4_MELEE_H",
+        "TB_CRIT_B_4_FRONT",
+        "TB_VIRTUE_B_3",
+        "TB_DOD_D_1_BACK",
+        "TB_MOVERESIST_D_1_BACK"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "the_serpents_eye",
+      "buffs": [
+        "TB_DMG_B_4_L",
+        "TB_DMG_B_4_H",
+        "TB_ACC_B_5_DARK",
+        "TB_HUNGER_D_1_LOWHP"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "dragon_gods_mantle",
+      "buffs": [
+        "TB_VIRTUE_B_5_UNHOLY",
+        "TB_DMG_B_4_L",
+        "TB_DMG_B_4_H",
+        "TB_STRESSRESIST_D_1"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "the_book_of_ruin",
+      "buffs": [
+        "TB_DEATHBLOWRESIST_B_6",
+        "TB_HUNGER_D_1_ATDD"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "last_roll_a_testament",
+      "buffs": [
+        "TB_ACC_B_4_ATDD",
+        "TB_DOD_B_4_ATDD",
+        "TB_DEATHBLOWRESIST_B_4_ATDD",
+        "TB_MAXHP_D_1",
+        "TB_MOVERESIST_D_1_NONFIRST"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "grimalkins_nip",
+      "buffs": [
+        "TB_STRESSRESIST_B_4",
+        "TB_RESOLVEXP_B_4",
+        "TB_SURPRISE_D_1_DARK"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "aronynnes_bane",
+      "buffs": [
+        "TB_DMG_B_4_L",
+        "TB_DMG_B_4_H",
+        "TB_ACC_B_4",
+        "TB_SURPRISE_D_1_DARK"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "demons_eye",
+      "buffs": [
+        "TB_ACC_B_4",
+        "TB_ACC_B_5_DARK",
+        "TB_CRIT_B_5_DARK",
+        "TB_STRESSRESIST_D_1",
+        "TB_VIRTUE_D_1_DARK",
+        "TB_STRESSRESIST_D_1_DARK"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "agnus_dei",
+      "buffs": [
+        "TB_DMG_B_3_L",
+        "TB_DMG_B_3_H",
+        "TB_CRIT_B_3",
+        "TB_CRIT_B_3",
+        "TB_BLEEDRESIST_D_1_FIRSTROUND",
+        "TB_HEALSKILLS_D_1_DARK"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "stones_of_gelati_preziosi",
+      "buffs": [
+        "TB_HEALRECVD_B_5_MELEE",
+        "TB_MAXHP_B_5_HIGHHP",
+        "TB_CRIT_B_5_LOWHP",
+        "TB_ACC_D_1_DARK",
+        "TB_DMG_D_1_FRONT_L",
+        "TB_DMG_D_1_FRONT_H",
+        "TB_DOD_D_1"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "dead_mans_will",
+      "buffs": [
+        "TB_VIRTUE_B_4",
+        "TB_DEATHBLOWRESIST_B_4",
+        "TB_DEATHBLOWRESIST_B_5_ATDD",
+        "TB_HEALSKILLS_D_1",
+        "TB_DMG_D_1_FIRSTROUND_L",
+        "TB_DMG_D_1_FIRSTROUND_H",
+        "TB_HEALRECVD_D_1_BACK"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "the_silver_mountain",
+      "buffs": [
+        "TB_BLEEDRESIST_B_5_BACK",
+        "TB_STRESSRESIST_B_5_BACK",
+        "TB_CRIT_B_5_BACK",
+        "TB_SCOUT_D_1_CAMPING",
+        "TB_TRAPRESIST_D_1_FRONT",
+        "TB_TRAPRESIST_D_1_FRONT"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "the_news",
+      "buffs": [
+        "TB_ACC_B_5_MARKED",
+        "TB_HEALRECVD_B_5_LIGHT",
+        "TB_DEATHBLOWRESIST_B_4",
+        "TB_SPD_D_1",
+        "TB_PROT_D_1_DARK",
+        "TB_VIRTUE_D_1"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "behelit",
+      "buffs": [
+        "TB_DMG_B_5_ELDRITCH_L",
+        "TB_DMG_B_5_ELDRITCH_H",
+        "TB_VIRTUE_B_4",
+        "TB_MAXHP_D_1_ELDRITCH"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "the_phalanx",
+      "buffs": [
+        "TB_PROT_B_4_FRONT",
+        "TB_MOVERESIST_B_4_FRONT",
+        "TB_STUNRESIST_B_4_FRONT",
+        "TB_SPD_D_1",
+        "TB_DOD_D_1"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "steelfists_bulwark",
+      "buffs": [
+        "TB_DMG_B_2_L",
+        "TB_DMG_B_2_H",
+        "TB_MAXHP_B_2",
+        "TB_PROT_B_3_FRONT",
+        "TB_SPD_D_1_BACK"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "blood_letter",
+      "buffs": [
+        "TB_DOD_B_5_FRONT",
+        "TB_DMG_B_5_FRONT_L",
+        "TB_DMG_B_5_FRONT_H",
+        "TB_CRIT_D_1_FRONT"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "fox_hound",
+      "buffs": [
+        "TB_ACC_B_2",
+        "TB_CRIT_B_2",
+        "TB_CRIT_B_2",
+        "TB_DOD_D_1_DARK"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "spidersilk_cloak",
+      "buffs": [
+        "TB_DOD_B_4",
+        "TB_CRIT_B_4",
+        "TB_SURPRISE_D_1_DARK"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "le_roi_en_jaune",
+      "buffs": [
+        "TB_RESOLVEXP_B_6",
+        "TB_STRESSRESIST_B_6",
+        "TB_SURPRISE_D_1_BACK",
+        "TB_VIRTUE_D_1_DARK",
+        "TB_ACC_D_1_ELDRITCH"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "gisklers_hairpin",
+      "buffs": [
+        "TB_STRESSRESIST_B_6_FRONT",
+        "TB_ACC_B_6_FRONT",
+        "TB_STRESSRESIST_D_1_BACK",
+        "TB_ACC_D_1_BACK"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "thunderflux",
+      "buffs": [
+        "TB_CRIT_B_3_DARK",
+        "TB_VIRTUE_B_3_DARK",
+        "TB_STRESSRESIST_B_3_DARK",
+        "TB_SCOUT_D_1_DARK"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "the_black_halo",
+      "buffs": [
+        "TB_VIRTUE_B_7_LOWHP",
+        "TB_ACC_B_7_FRONT",
+        "TB_MOVERESIST_D_1_FIRSTROUND",
+        "TB_CRIT_D_1",
+        "TB_TRAPRESIST_D_1_DARK"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "cloak_of_the_shadow_dancer",
+      "buffs": [
+        "TB_DMG_B_5_LOWHP_L",
+        "TB_DMG_B_5_LOWHP_H",
+        "TB_CRIT_B_4",
+        "TB_DEATHBLOWRESIST_B_5_ATDD",
+        "TB_DOD_D_1_DARK",
+        "TB_PROT_D_1_UNHOLY",
+        "TB_MOVERESIST_D_1_FIRSTROUND"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "lost_ring_of_the_serpent",
+      "buffs": [
+        "TB_BLIGHTRESIST_B_8",
+        "TB_VIRTUE_D_1",
+        "TB_DEATHBLOWRESIST_D_1_ATDD",
+        "TB_HEALRECVD_D_1_CAMPING"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "bulwark_of_faith",
+      "buffs": [
+        "TB_HEALSKILLS_B_2",
+        "TB_STUNRESIST_B_3_NONFIRST",
+        "TB_PROT_B_3_FRONT",
+        "TB_SCOUT_D_1_DARK"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "scions_resolve",
+      "buffs": [
+        "TB_DEATHBLOWRESIST_B_4",
+        "TB_VIRTUE_B_4",
+        "TB_RESOLVEXP_B_4",
+        "TB_ACC_D_1",
+        "TB_SPD_D_1",
+        "TB_MAXHP_D_1"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "hysteresis",
+      "buffs": [
+        "TB_RESOLVEXP_B_4",
+        "TB_HEALSKILLS_B_4",
+        "TB_HEALSKILLS_B_4",
+        "TB_TRAPRESIST_D_1_DARK",
+        "TB_DEATHBLOWRESIST_D_1_FIRSTROUND",
+        "TB_STARVEDMG_D_1_ATDD"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "wadmalaw",
+      "buffs": [
+        "TB_MAXHP_B_4",
+        "TB_STRESSRESIST_B_4",
+        "TB_DEATHBLOWRESIST_D_1_ELDRITCH",
+        "TB_DEBUFFRESIST_D_1"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "yogs_thousand_eyes",
+      "buffs": [
+        "TB_ACC_B_3",
+        "TB_PROT_B_4_ELDRITCH",
+        "TB_PROT_B_4_UNHOLY",
+        "TB_STRESSRESIST_D_1_MAN",
+        "TB_BLIGHTRESIST_D_1_DARK"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "things_to_remember",
+      "buffs": [
+        "TB_STRESSRESIST_B_4",
+        "TB_MAXHP_B_4",
+        "TB_HEALRECVD_D_1_FIRSTROUND"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "tiddlywink",
+      "buffs": [
+        "TB_HEALSKILLS_B_5_ATDD",
+        "TB_HEALRECVD_B_4",
+        "TB_DEATHBLOWRESIST_B_5_ATDD",
+        "TB_DOD_D_1_LIGHT",
+        "TB_ACC_D_1_DARK",
+        "TB_SPD_D_1"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "trials_of_the_trinity_the_relicants",
+      "buffs": [
+        "TB_DEBUFFRESIST_B_3",
+        "TB_SPD_B_4_NONFIRST",
+        "TB_STRESSRESIST_B_3",
+        "TB_MOVERESIST_D_1_FIRSTROUND",
+        "TB_TRAPRESIST_D_1_LIGHT"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "cowards_crutch",
+      "buffs": [
+        "TB_DOD_B_5_BACK",
+        "TB_SPD_B_5_BACK",
+        "TB_DOD_D_1_FRONT"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "mine",
+      "buffs": [
+        "TB_ACC_B_4",
+        "TB_DMG_B_5_DARK_L",
+        "TB_DMG_B_5_DARK_H",
+        "TB_HEALRECVD_D_1_FIRSTROUND"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "ghost_satchel",
+      "buffs": [
+        "TB_CRIT_B_4_DARK",
+        "TB_ACC_B_4_DARK",
+        "TB_MOVERESIST_B_3",
+        "TB_HEALRECVD_D_1_LIGHT",
+        "TB_MAXHP_D_1"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "hope_in_hand_2",
+      "buffs": [
+        "TB_STRESSRESIST_B_6_NONFIRST",
+        "TB_ACC_B_4",
+        "TB_HEALSKILLS_D_1_FIRSTROUND",
+        "TB_MOVERESIST_D_1"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "dagnabits_crown",
+      "buffs": [
+        "TB_ACC_B_5_MELEE",
+        "TB_STRESSRESIST_B_5_FRONT",
+        "TB_HEALRECVD_B_4",
+        "TB_ACC_D_1_BACK",
+        "TB_STRESSRESIST_D_1_RANGED",
+        "TB_VIRTUE_D_1_ATDD"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "aliandre",
+      "buffs": [
+        "TB_PROT_B_7_FRONT",
+        "TB_STRESSRESIST_B_7_DARK",
+        "TB_HEALSKILLS_D_1_HIGHHP",
+        "TB_VIRTUE_D_1_LIGHT",
+        "TB_TRAPRESIST_D_1_BEAST"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "kauthriens_stimpack",
+      "buffs": [
+        "TB_ACC_B_4",
+        "TB_HEALSKILLS_B_4",
+        "TB_SPD_D_1_FIRSTROUND"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "rough-hewn_heart",
+      "buffs": [
+        "TB_MAXHP_B_4",
+        "TB_RESOLVEXP_B_4",
+        "TB_PROT_B_4",
+        "TB_DOD_D_1",
+        "TB_TRAPRESIST_D_1",
+        "TB_SURPRISE_D_1"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "steel_toad",
+      "buffs": [
+        "TB_PROT_B_2",
+        "TB_DOD_B_3_FRONT",
+        "TB_ACC_B_3_BACK",
+        "TB_CRIT_D_1_FIRSTROUND"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "tyruil",
+      "buffs": [
+        "TB_CRIT_B_10_RANGED",
+        "TB_HUNGER_D_1_FIRSTROUND",
+        "TB_DOD_D_1_FIRSTROUND",
+        "TB_HEALRECVD_D_1_FIRSTROUND"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "abyssal_tome",
+      "buffs": [
+        "TB_STRESSRESIST_B_4_DARK",
+        "TB_DEATHBLOWRESIST_B_4_DARK",
+        "TB_VIRTUE_B_4_DARK",
+        "TB_PROT_D_1_LIGHT",
+        "TB_HEALRECVD_D_1_LIGHT"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "split_skullcap_memento",
+      "buffs": [
+        "TB_DMG_B_6_LIGHT_L",
+        "TB_DMG_B_6_LIGHT_H",
+        "TB_VIRTUE_B_4",
+        "TB_MOVERESIST_D_1",
+        "TB_STRESSRESIST_D_1"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "the_tome_of_stixx",
+      "buffs": [
+        "TB_PROT_B_8_DARK",
+        "TB_VIRTUE_D_1_CAMPING"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "scroll_of_grimmr",
+      "buffs": [
+        "TB_SPD_B_4",
+        "TB_HEALRECVD_B_5_LOWHP",
+        "TB_HUNGER_D_1"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "bugle_horn_ring",
+      "buffs": [
+        "TB_PROT_B_5_FRONT",
+        "TB_MOVERESIST_B_5_FRONT",
+        "TB_VIRTUE_D_1_BACK"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "palid_mask",
+      "buffs": [
+        "TB_MAXHP_B_4",
+        "TB_ACC_B_4",
+        "TB_DMG_B_4_L",
+        "TB_DMG_B_4_H",
+        "TB_DOD_D_1",
+        "TB_PROT_D_1",
+        "TB_SPD_D_1"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "cloak_of_shadows",
+      "buffs": [
+        "TB_DOD_B_3",
+        "TB_SPD_B_4_DARK",
+        "TB_TRAPRESIST_B_3",
+        "TB_MAXHP_D_1",
+        "TB_VIRTUE_D_1_DARK"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "shigless_requium",
+      "buffs": [
+        "TB_ACC_B_5_FRONT",
+        "TB_CRIT_B_5_LOWHP",
+        "TB_DOD_B_5_ATDD",
+        "TB_BLEEDRESIST_D_1_MARKED",
+        "TB_DISEASERESIST_D_1_DARK",
+        "TB_MOVERESIST_D_1_FRONT"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "talins_tale",
+      "buffs": [
+        "TB_PROT_B_4_FRONT",
+        "TB_MAXHP_B_3",
+        "TB_VIRTUE_B_3",
+        "TB_DMG_D_1_BACK_L",
+        "TB_DMG_D_1_BACK_H",
+        "TB_ACC_D_1_RANGED"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "svallin",
+      "buffs": [
+        "TB_PROT_B_6_LIGHT",
+        "TB_MAXHP_B_6_LIGHT",
+        "TB_DOD_D_1_BEAST",
+        "TB_SPD_D_1_BEAST"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "torchwood",
+      "buffs": [
+        "TB_PROT_B_3_FRONT",
+        "TB_PROT_B_3_FRONT",
+        "TB_MOVERESIST_B_3_FRONT",
+        "TB_MAXHP_D_1"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "starbreaker",
+      "buffs": [
+        "TB_SPD_B_4",
+        "TB_SPD_B_4",
+        "TB_SPD_B_4",
+        "TB_HEALSKILLS_D_1_FIRSTROUND",
+        "TB_HEALSKILLS_D_1_FIRSTROUND",
+        "TB_HEALSKILLS_D_1_FIRSTROUND"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "caretakers_hoodie",
+      "buffs": [
+        "TB_HEALSKILLS_B_4",
+        "TB_DOD_B_4",
+        "TB_DEBUFFRESIST_B_4",
+        "TB_ACC_D_1_FIRSTROUND",
+        "TB_DMG_D_1_FIRSTROUND_L",
+        "TB_DMG_D_1_FIRSTROUND_H",
+        "TB_CRIT_D_1_FIRSTROUND"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "oath-breakers_sheathe",
+      "buffs": [
+        "TB_SPD_B_6_DARK",
+        "TB_ACC_B_6_DARK",
+        "TB_VIRTUE_D_1",
+        "TB_PROT_D_1_LIGHT"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "lewd_vial",
+      "buffs": [
+        "TB_ACC_B_5_CAMPING",
+        "TB_SPD_B_5_CAMPING",
+        "TB_STRESSRESIST_B_5_CAMPING",
+        "TB_PROT_D_1_CAMPING",
+        "TB_DISEASERESIST_D_1_CAMPING",
+        "TB_TRAPRESIST_D_1_CAMPING"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "moonlight_greatsword",
+      "buffs": [
+        "TB_DMG_B_3_MELEE_L",
+        "TB_DMG_B_3_MELEE_H",
+        "TB_MAXHP_B_3_FRONT",
+        "TB_PROT_B_2",
+        "TB_HEALRECVD_D_1_BACK"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "eldritch_chamber_pot",
+      "buffs": [
+        "TB_DMG_B_5_DARK_L",
+        "TB_DMG_B_5_DARK_H",
+        "TB_BLIGHTRESIST_B_4",
+        "TB_HUNGER_B_4",
+        "TB_MAXHP_D_1_LIGHT",
+        "TB_STRESSRESIST_D_1",
+        "TB_DISEASERESIST_D_1_FIRSTROUND"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "red_pill",
+      "buffs": [
+        "TB_DOD_B_2",
+        "TB_DOD_B_2",
+        "TB_DOD_B_2",
+        "TB_CRIT_D_1_FIRSTROUND"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "old_lucky_rag",
+      "buffs": [
+        "TB_PROT_B_3_MELEE",
+        "TB_DOD_B_2",
+        "TB_STRESSRESIST_B_2",
+        "TB_DISEASERESIST_D_1_RANGED"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "brilliant_clasp",
+      "buffs": [
+        "TB_CRIT_B_4_FIRSTROUND",
+        "TB_DMG_B_4_FIRSTROUND_L",
+        "TB_DMG_B_4_FIRSTROUND_H",
+        "TB_ACC_B_4_FIRSTROUND",
+        "TB_DMG_D_1_NONFIRST_L",
+        "TB_DMG_D_1_NONFIRST_H",
+        "TB_CRIT_D_1_NONFIRST"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "shroud_of_living_failures",
+      "buffs": [
+        "TB_DMG_B_4_RANGED_L",
+        "TB_DMG_B_4_RANGED_H",
+        "TB_CRIT_B_4_RANGED",
+        "TB_SPD_B_4_MARKED",
+        "TB_DOD_D_1_DARK",
+        "TB_STRESSRESIST_D_1_LOWHP"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "bloodstained_bounty_list",
+      "buffs": [
+        "TB_CRIT_B_5_MARKED",
+        "TB_DMG_B_5_MARKED_L",
+        "TB_DMG_B_5_MARKED_H",
+        "TB_ACC_D_1_MARKED"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "beneficence",
+      "buffs": [
+        "TB_STRESSRESIST_B_6",
+        "TB_HEALSKILLS_D_1_DARK"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "atlas",
+      "buffs": [
+        "TB_STRESSRESIST_B_2",
+        "TB_DISEASERESIST_B_3_ATDD",
+        "TB_SCOUT_B_3_LIGHT",
+        "TB_VIRTUE_D_1_DARK"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "pharmakon",
+      "buffs": [
+        "TB_CRIT_B_2",
+        "TB_DMG_B_2_L",
+        "TB_DMG_B_2_H",
+        "TB_ACC_B_2",
+        "TB_VIRTUE_D_1_CAMPING"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "talisman_of_passion",
+      "buffs": [
+        "TB_RESOLVEXP_B_4",
+        "TB_SURPRISE_B_6_DARK",
+        "TB_HUNGER_D_1",
+        "TB_MOVERESIST_D_1_LIGHT"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "purifying_vial",
+      "buffs": [
+        "TB_HEALRECVD_B_3",
+        "TB_CRIT_B_4_LIGHT",
+        "TB_STRESSRESIST_B_4_LIGHT",
+        "TB_MOVERESIST_D_1_LIGHT",
+        "TB_SPD_D_1"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "graviers_grimoire",
+      "buffs": [
+        "TB_SPD_B_3",
+        "TB_PROT_B_3",
+        "TB_CRIT_B_3",
+        "TB_DOD_D_1",
+        "TB_TRAPRESIST_D_1"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "sieg_stories",
+      "buffs": [
+        "TB_STRESSRESIST_B_4",
+        "TB_ACC_B_4",
+        "TB_CRIT_B_4",
+        "TB_CRIT_D_1_FIRSTROUND",
+        "TB_ACC_D_1_FIRSTROUND",
+        "TB_PROT_D_1_FIRSTROUND"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "maleficence",
+      "buffs": [
+        "TB_ACC_B_5_FRONT",
+        "TB_HEALSKILLS_B_5_DARK",
+        "TB_VIRTUE_B_5_LIGHT",
+        "TB_DOD_D_1_HIGHHP",
+        "TB_CRIT_D_1_DARK",
+        "TB_SPD_D_1_FIRSTROUND"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "pamplemousse",
+      "buffs": [
+        "TB_DOD_B_6_LIGHT",
+        "TB_DMG_B_6_MARKED_L",
+        "TB_DMG_B_6_MARKED_H",
+        "TB_ACC_D_1_DARK",
+        "TB_STRESSRESIST_D_1"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "the_face_of_frost",
+      "buffs": [
+        "TB_BLEEDRESIST_B_4_ATDD",
+        "TB_DOD_B_4_ATDD",
+        "TB_HEALRECVD_B_4_ATDD",
+        "TB_SPD_D_1",
+        "TB_STRESSRESIST_D_1"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "last_cinder",
+      "buffs": [
+        "TB_PROT_B_3_DARK",
+        "TB_VIRTUE_B_3_FRONT",
+        "TB_ACC_B_3_FRONT",
+        "TB_SPD_D_1_ATDD"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "danos_glory",
+      "buffs": [
+        "TB_CRIT_B_4",
+        "TB_ACC_B_4",
+        "TB_SPD_B_4",
+        "TB_SCOUT_D_1_FIRSTROUND",
+        "TB_STUNRESIST_D_1_FIRSTROUND",
+        "TB_VIRTUE_D_1_FIRSTROUND"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "kistras_prayer_book",
+      "buffs": [
+        "TB_HEALSKILLS_B_3",
+        "TB_STRESSRESIST_B_4_LIGHT",
+        "TB_MOVERESIST_B_4_LIGHT",
+        "TB_DMG_D_1_L",
+        "TB_DMG_D_1_H",
+        "TB_STRESSRESIST_D_1_LOWHP"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "phoenix_tears",
+      "buffs": [
+        "TB_MAXHP_B_3",
+        "TB_DEATHBLOWRESIST_B_3",
+        "TB_HEALRECVD_B_3",
+        "TB_HEALRECVD_D_1_ATDD",
+        "TB_STRESSRESIST_D_1_ATDD"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "cloak_of_the_antedeluvian",
+      "buffs": [
+        "TB_DOD_B_4",
+        "TB_SPD_B_4",
+        "TB_ACC_B_5_ELDRITCH",
+        "TB_STRESSRESIST_D_1_ELDRITCH",
+        "TB_RESOLVEXP_D_1",
+        "TB_DMG_D_1_ELDRITCH_L",
+        "TB_DMG_D_1_ELDRITCH_H"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "moirai_bones",
+      "buffs": [
+        "TB_CRIT_B_6_FIRSTROUND",
+        "TB_DMG_B_6_NONFIRST_L",
+        "TB_DMG_B_6_NONFIRST_H",
+        "TB_ACC_D_1_FIRSTROUND",
+        "TB_CRIT_D_1_NONFIRST"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "jade_maiden_hairpin",
+      "buffs": [
+        "TB_SPD_B_6_FIRSTROUND",
+        "TB_PROT_B_4",
+        "TB_BLEEDRESIST_D_1",
+        "TB_DEATHBLOWRESIST_D_1"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "brothers_soulstone",
+      "buffs": [
+        "TB_STRESSRESIST_B_2",
+        "TB_DOD_B_2",
+        "TB_PROT_B_3_LOWHP",
+        "TB_ACC_D_1_MAN"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "eye_of_sathariel",
+      "buffs": [
+        "TB_STRESSRESIST_B_4",
+        "TB_PROT_B_5_ELDRITCH",
+        "TB_DMG_B_5_ELDRITCH_L",
+        "TB_DMG_B_5_ELDRITCH_H",
+        "TB_MAXHP_D_1",
+        "TB_DOD_D_1_ELDRITCH",
+        "TB_SPD_D_1_ELDRITCH"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "guise_of_the_harbinger",
+      "buffs": [
+        "TB_DMG_B_2_L",
+        "TB_DMG_B_2_H",
+        "TB_ACC_B_2",
+        "TB_CRIT_B_2",
+        "TB_STRESSRESIST_D_1_ATDD"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "ravenous_lions_ring",
+      "buffs": [
+        "TB_DMG_B_6_MELEE_L",
+        "TB_DMG_B_6_MELEE_H",
+        "TB_CRIT_B_6_MELEE",
+        "TB_HUNGER_D_1",
+        "TB_STARVEDMG_D_1"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "masque_of_the_red_death",
+      "buffs": [
+        "TB_DOD_B_7",
+        "TB_DISEASERESIST_D_1",
+        "TB_HEALRECVD_D_1"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "grandfathers_rose",
+      "buffs": [
+        "TB_ACC_B_5_BACK",
+        "TB_STRESSRESIST_B_4",
+        "TB_VIRTUE_B_4",
+        "TB_BLEEDRESIST_D_1_ATDD",
+        "TB_SURPRISE_D_1_DARK",
+        "TB_TRAPRESIST_D_1_DARK"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "memory_of_true_love",
+      "buffs": [
+        "TB_VIRTUE_B_6",
+        "TB_STRESSRESIST_B_6",
+        "TB_CRIT_D_1_FIRSTROUND",
+        "TB_SPD_D_1_FIRSTROUND",
+        "TB_DMG_D_1_FIRSTROUND_L",
+        "TB_DMG_D_1_FIRSTROUND_H"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "goliath_killer",
+      "buffs": [
+        "TB_ACC_B_5_FRONT",
+        "TB_DMG_B_5_FRONT_L",
+        "TB_DMG_B_5_FRONT_H",
+        "TB_CRIT_B_5_FRONT",
+        "TB_TRAPRESIST_D_1_BACK",
+        "TB_SURPRISE_D_1_BACK",
+        "TB_HEALSKILLS_D_1_BACK"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "tiny_hatespike",
+      "buffs": [
+        "TB_ACC_B_6_MELEE",
+        "TB_DOD_B_6_FRONT",
+        "TB_VIRTUE_D_1_BACK",
+        "TB_CRIT_D_1_BACK"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "tournament_victors_ribbon",
+      "buffs": [
+        "TB_ACC_B_4",
+        "TB_DMG_B_4_L",
+        "TB_DMG_B_4_H",
+        "TB_DOD_B_4",
+        "TB_STARVEDMG_D_1",
+        "TB_SPD_D_1_BACK",
+        "TB_CRIT_D_1_BACK"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "soul_of_the_neverborn",
+      "buffs": [
+        "TB_MAXHP_B_4",
+        "TB_CRIT_B_5_DARK",
+        "TB_PROT_B_4",
+        "TB_DEBUFFRESIST_D_1_LIGHT",
+        "TB_STRESSRESIST_D_1_LIGHT",
+        "TB_SPD_D_1_LIGHT"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "chew_toy",
+      "buffs": [
+        "TB_STRESSRESIST_B_4",
+        "TB_HEALRECVD_B_5_CAMPING",
+        "TB_MOVERESIST_D_1_DARK"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "arkenhelm",
+      "buffs": [
+        "TB_STRESSRESIST_B_2",
+        "TB_HEALRECVD_B_3_LIGHT",
+        "TB_STRESSRESIST_B_3_HIGHHP",
+        "TB_DISEASERESIST_D_1_LOWHP"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "purity_of_albedo",
+      "buffs": [
+        "TB_HEALSKILLS_B_4",
+        "TB_DOD_B_4",
+        "TB_VIRTUE_B_4",
+        "TB_ACC_D_1_CAMPING",
+        "TB_MOVERESIST_D_1_CAMPING",
+        "TB_SPD_D_1_CAMPING"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "the_exiles_tears",
+      "buffs": [
+        "TB_STRESSRESIST_B_3_LOWHP",
+        "TB_RESOLVEXP_B_3_LOWHP",
+        "TB_PROT_B_3_LOWHP",
+        "TB_DMG_D_1_LOWHP_L",
+        "TB_DMG_D_1_LOWHP_H"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "zuilong",
+      "buffs": [
+        "TB_PROT_B_4",
+        "TB_DOD_B_5_UNHOLY",
+        "TB_RESOLVEXP_B_4",
+        "TB_MAXHP_D_1",
+        "TB_TRAPRESIST_D_1_DARK",
+        "TB_DOD_D_1_FIRSTROUND"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "carnal_visage",
+      "buffs": [
+        "TB_TRAPRESIST_B_4",
+        "TB_SURPRISE_B_4",
+        "TB_HUNGER_D_1_ATDD",
+        "TB_STARVEDMG_D_1_FIRSTROUND"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "mothers_love",
+      "buffs": [
+        "TB_PROT_B_7_LOWHP",
+        "TB_PROT_B_7_DARK",
+        "TB_ACC_D_1_MAN",
+        "TB_DMG_D_1_MAN_L",
+        "TB_DMG_D_1_MAN_H",
+        "TB_DOD_D_1_MAN"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "the_mantle_of_the_owl",
+      "buffs": [
+        "TB_CRIT_B_5_LOWHP",
+        "TB_ACC_B_5_MARKED",
+        "TB_STRESSRESIST_D_1_DARK"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "leaders_crest",
+      "buffs": [
+        "TB_PROT_B_3",
+        "TB_STRESSRESIST_B_4_FRONT",
+        "TB_DMG_B_4_FRONT_L",
+        "TB_DMG_B_4_FRONT_H",
+        "TB_ACC_D_1_BACK",
+        "TB_DMG_D_1_BACK_L",
+        "TB_DMG_D_1_BACK_H"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "ralackks_visage",
+      "buffs": [
+        "TB_ACC_B_2",
+        "TB_PROT_B_2",
+        "TB_SURPRISE_B_3_FRONT",
+        "TB_TRAPRESIST_D_1_BACK"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "skin-bound_volume",
+      "buffs": [
+        "TB_PROT_B_6",
+        "TB_DOD_B_6",
+        "TB_BLIGHTRESIST_D_1_DARK",
+        "TB_BLEEDRESIST_D_1_DARK",
+        "TB_DISEASERESIST_D_1_DARK"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "bears_breath",
+      "buffs": [
+        "TB_MAXHP_B_4",
+        "TB_CRIT_B_4",
+        "TB_STUNRESIST_B_4",
+        "TB_VIRTUE_D_1_BACK",
+        "TB_RESOLVEXP_D_1_ATDD",
+        "TB_ACC_D_1_RANGED"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "loris_lantern",
+      "buffs": [
+        "TB_VIRTUE_B_3",
+        "TB_ACC_B_4_BACK",
+        "TB_STRESSRESIST_B_4_LIGHT",
+        "TB_ACC_D_1_FRONT",
+        "TB_CRIT_D_1_FRONT"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "adamant",
+      "buffs": [
+        "TB_PROT_B_4",
+        "TB_MOVERESIST_B_4",
+        "TB_DOD_D_1",
+        "TB_SPD_D_1"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "the_cagoule",
+      "buffs": [
+        "TB_DOD_B_4",
+        "TB_CRIT_B_4",
+        "TB_ACC_B_4",
+        "TB_HEALSKILLS_D_1_DARK",
+        "TB_MOVERESIST_D_1_FRONT",
+        "TB_TRAPRESIST_D_1_DARK"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "the_tattered_king",
+      "buffs": [
+        "TB_CRIT_B_6_MARKED",
+        "TB_SURPRISE_B_4",
+        "TB_DEATHBLOWRESIST_D_1_MAN",
+        "TB_STRESSRESIST_D_1"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "nevra",
+      "buffs": [
+        "TB_DMG_B_7_HIGHHP_L",
+        "TB_DMG_B_7_HIGHHP_H",
+        "TB_PROT_B_7_LOWHP",
+        "TB_HEALRECVD_D_1_ATDD",
+        "TB_STARVEDMG_D_1_CAMPING",
+        "TB_DOD_D_1"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "reliquary_of_the_forgotten_saint",
+      "buffs": [
+        "TB_MAXHP_B_8_FRONT",
+        "TB_DEATHBLOWRESIST_D_1_BACK"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "mask_of_the_pious",
+      "buffs": [
+        "TB_PROT_B_4",
+        "TB_DOD_B_5_LOWHP",
+        "TB_VIRTUE_B_4",
+        "TB_HUNGER_D_1_CAMPING",
+        "TB_SPD_D_1_HIGHHP",
+        "TB_RESOLVEXP_D_1_HIGHHP"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "the_cthonian_texts",
+      "buffs": [
+        "TB_STRESSRESIST_B_4_DARK",
+        "TB_BLIGHTRESIST_B_4_DARK",
+        "TB_HEALSKILLS_B_3",
+        "TB_STRESSRESIST_D_1_LIGHT",
+        "TB_BLIGHTRESIST_D_1_LIGHT"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "pavlovs_bell",
+      "buffs": [
+        "TB_DMG_B_4_FIRSTROUND_L",
+        "TB_DMG_B_4_FIRSTROUND_H",
+        "TB_ACC_B_4_FIRSTROUND",
+        "TB_CRIT_B_4_FIRSTROUND",
+        "TB_STARVEDMG_D_1",
+        "TB_HUNGER_D_1"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "arzacs_tome_of_incantations",
+      "buffs": [
+        "TB_CRIT_B_4",
+        "TB_CRIT_B_4",
+        "TB_CRIT_B_4",
+        "TB_DOD_D_1",
+        "TB_DOD_D_1",
+        "TB_DOD_D_1"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "amiga",
+      "buffs": [
+        "TB_PROT_B_4",
+        "TB_SPD_B_4",
+        "TB_SPD_B_5_LOWHP",
+        "TB_DMG_D_1_L",
+        "TB_DMG_D_1_H",
+        "TB_CRIT_D_1",
+        "TB_HEALSKILLS_D_1_DARK"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "tome_of_agh_be",
+      "buffs": [
+        "TB_MAXHP_B_6",
+        "TB_HEALRECVD_D_1"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "the_reflectorum",
+      "buffs": [
+        "TB_PROT_B_4",
+        "TB_DEATHBLOWRESIST_B_5_ATDD",
+        "TB_HEALSKILLS_D_1_BEAST"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "eldritch_trophy",
+      "buffs": [
+        "TB_DMG_B_3_ELDRITCH_L",
+        "TB_DMG_B_3_ELDRITCH_H",
+        "TB_VIRTUE_B_3_LIGHT",
+        "TB_DEATHBLOWRESIST_B_2",
+        "TB_VIRTUE_D_1_DARK"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "bulwark_of_volitok",
+      "buffs": [
+        "TB_PROT_B_2",
+        "TB_MAXHP_B_2",
+        "TB_DEATHBLOWRESIST_B_3_DARK",
+        "TB_SPD_D_1_FIRSTROUND"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "final_memento",
+      "buffs": [
+        "TB_DEATHBLOWRESIST_B_6",
+        "TB_VIRTUE_D_1"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "golf_gun",
+      "buffs": [
+        "TB_DMG_B_5_RANGED_L",
+        "TB_DMG_B_5_RANGED_H",
+        "TB_ACC_B_5_RANGED",
+        "TB_SPD_D_1_CAMPING"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "kalmas_last_chance",
+      "buffs": [
+        "TB_ACC_B_7_LOWHP",
+        "TB_DOD_B_6",
+        "TB_PROT_D_1_DARK",
+        "TB_DMG_D_1_DARK_L",
+        "TB_DMG_D_1_DARK_H",
+        "TB_CRIT_D_1_DARK"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "eyepatch_of_iniative",
+      "buffs": [
+        "TB_DMG_B_8_FIRSTROUND_L",
+        "TB_DMG_B_8_FIRSTROUND_H",
+        "TB_SCOUT_D_1_BACK"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "the_heart_shroud",
+      "buffs": [
+        "TB_CRIT_B_4",
+        "TB_DMG_B_5_MELEE_L",
+        "TB_DMG_B_5_MELEE_H",
+        "TB_DOD_D_1"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "cthulhus_requiem",
+      "buffs": [
+        "TB_DMG_B_4_BACK_L",
+        "TB_DMG_B_4_BACK_H",
+        "TB_DMG_B_3_L",
+        "TB_DMG_B_3_H",
+        "TB_CRIT_B_4_RANGED",
+        "TB_BLEEDRESIST_D_1_MAN",
+        "TB_TRAPRESIST_D_1_DARK"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "wondergoths_special_blend",
+      "buffs": [
+        "TB_PROT_B_6_BACK",
+        "TB_STRESSRESIST_B_6_BACK",
+        "TB_VIRTUE_D_1_FRONT",
+        "TB_BLIGHTRESIST_D_1_FRONT"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "pendant_of_the_lost_sister",
+      "buffs": [
+        "TB_HEALSKILLS_B_5_LIGHT",
+        "TB_STUNRESIST_B_5_DARK",
+        "TB_SPD_B_4",
+        "TB_STRESSRESIST_D_1_DARK",
+        "TB_PROT_D_1_BEAST",
+        "TB_DEBUFFRESIST_D_1_NONFIRST"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "tear_of_nhays",
+      "buffs": [
+        "TB_SPD_B_3",
+        "TB_DOD_B_3",
+        "TB_HEALRECVD_B_4_ATDD",
+        "TB_STRESSRESIST_D_1",
+        "TB_STRESSRESIST_D_1_ATDD"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "nictybenmas",
+      "buffs": [
+        "TB_CRIT_B_6",
+        "TB_MOVERESIST_D_1_FIRSTROUND"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "bones_of_zuh",
+      "buffs": [
+        "TB_VIRTUE_B_3_ATDD",
+        "TB_DEATHBLOWRESIST_B_3_LOWHP",
+        "TB_BLEEDRESIST_B_3_LOWHP",
+        "TB_STRESSRESIST_D_1_LIGHT"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "burritopia",
+      "buffs": [
+        "TB_HUNGER_B_4",
+        "TB_STARVEDMG_B_5_NONFIRST",
+        "TB_HEALSKILLS_B_4",
+        "TB_MOVERESIST_D_1_DARK",
+        "TB_BLIGHTRESIST_D_1_NONFIRST",
+        "TB_DOD_D_1"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "moonleafs_torture",
+      "buffs": [
+        "TB_MOVERESIST_B_6_FRONT",
+        "TB_DMG_B_6_MELEE_L",
+        "TB_DMG_B_6_MELEE_H",
+        "TB_BLEEDRESIST_D_1",
+        "TB_STRESSRESIST_D_1_BACK"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "frontal_lobe_protector",
+      "buffs": [
+        "TB_PROT_B_3",
+        "TB_HEALSKILLS_B_4_LOWHP",
+        "TB_DOD_B_3",
+        "TB_DISEASERESIST_D_1_DARK",
+        "TB_BLEEDRESIST_D_1_ATDD"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "nicholas_shield_of_honour",
+      "buffs": [
+        "TB_DMG_B_4_L",
+        "TB_DMG_B_4_H",
+        "TB_CRIT_B_5_LOWHP",
+        "TB_MAXHP_B_5_DARK",
+        "TB_SPD_D_1",
+        "TB_HEALSKILLS_D_1_LIGHT",
+        "TB_STRESSRESIST_D_1_ELDRITCH"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "cadogans_shield",
+      "buffs": [
+        "TB_PROT_B_2",
+        "TB_VIRTUE_B_3_FRONT",
+        "TB_MOVERESIST_B_3_HIGHHP",
+        "TB_SPD_D_1_BACK"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "grythepinnen",
+      "buffs": [
+        "TB_CRIT_B_4",
+        "TB_PROT_B_5_FRONT",
+        "TB_STRESSRESIST_B_5_MELEE",
+        "TB_ACC_D_1_LOWHP",
+        "TB_BLIGHTRESIST_D_1_ATDD",
+        "TB_MOVERESIST_D_1_RANGED"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "the_voice_of_the_founder",
+      "buffs": [
+        "TB_HEALSKILLS_B_4",
+        "TB_DISEASERESIST_B_4",
+        "TB_HEALSKILLS_B_4",
+        "TB_DOD_D_1",
+        "TB_DMG_D_1_L",
+        "TB_DMG_D_1_H",
+        "TB_CRIT_D_1"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "hysterical_visage",
+      "buffs": [
+        "TB_DMG_B_4_L",
+        "TB_DMG_B_4_H",
+        "TB_CRIT_B_5_MELEE",
+        "TB_DOD_B_4",
+        "TB_STRESSRESIST_D_1_LIGHT",
+        "TB_VIRTUE_D_1",
+        "TB_BLIGHTRESIST_D_1_ATDD"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "kucorus_regard",
+      "buffs": [
+        "TB_ACC_B_4_FRONT",
+        "TB_DMG_B_4_FRONT_L",
+        "TB_DMG_B_4_FRONT_H",
+        "TB_HEALRECVD_B_4_LOWHP",
+        "TB_STRESSRESIST_D_1_LOWHP",
+        "TB_STUNRESIST_D_1_FRONT"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "the_winning_smile",
+      "buffs": [
+        "TB_RESOLVEXP_B_4",
+        "TB_CRIT_B_5_MELEE",
+        "TB_DMG_B_5_LIGHT_L",
+        "TB_DMG_B_5_LIGHT_H",
+        "TB_MOVERESIST_D_1",
+        "TB_STRESSRESIST_D_1_DARK",
+        "TB_SPD_D_1_LOWHP"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "svalinn",
+      "buffs": [
+        "TB_PROT_B_4",
+        "TB_STRESSRESIST_B_4",
+        "TB_HEALRECVD_B_4",
+        "TB_DOD_D_1_DARK",
+        "TB_HEALRECVD_D_1_BACK",
+        "TB_DEBUFFRESIST_D_1_DARK"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "winter_veil",
+      "buffs": [
+        "TB_BLEEDRESIST_B_3",
+        "TB_HEALRECVD_B_4_LOWHP",
+        "TB_PROT_B_4_RANGED",
+        "TB_HUNGER_D_1_FRONT",
+        "TB_STARVEDMG_D_1_FRONT"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "forgotten_family_ring",
+      "buffs": [
+        "TB_STRESSRESIST_B_4",
+        "TB_DEATHBLOWRESIST_B_5_ATDD",
+        "TB_HEALRECVD_B_4",
+        "TB_SURPRISE_D_1_LIGHT",
+        "TB_SPD_D_1_LIGHT",
+        "TB_PROT_D_1_FIRSTROUND"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "amulet_of_yeti_fur",
+      "buffs": [
+        "TB_STRESSRESIST_B_3_NONFIRST",
+        "TB_TRAPRESIST_B_3_DARK",
+        "TB_STARVEDMG_B_3_LOWHP",
+        "TB_SPD_D_1_DARK"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "false_grin",
+      "buffs": [
+        "TB_CRIT_B_2",
+        "TB_SURPRISE_B_3_HIGHHP",
+        "TB_DOD_B_3_HIGHHP",
+        "TB_VIRTUE_D_1_LIGHT"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "beneath_the_dark",
+      "buffs": [
+        "TB_STRESSRESIST_B_5_DARK",
+        "TB_RESOLVEXP_B_4",
+        "TB_DOD_D_1_FIRSTROUND"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "brace_of_thorns",
+      "buffs": [
+        "TB_HEALRECVD_B_8_LOWHP",
+        "TB_MAXHP_D_1"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "hunlumb",
+      "buffs": [
+        "TB_MAXHP_B_4",
+        "TB_HEALRECVD_B_5_LOWHP",
+        "TB_STUNRESIST_B_5_FRONT",
+        "TB_CRIT_D_1",
+        "TB_SURPRISE_D_1_DARK",
+        "TB_MOVERESIST_D_1_BACK"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "huichis_bracelet",
+      "buffs": [
+        "TB_ACC_B_3",
+        "TB_CRIT_B_3",
+        "TB_CRIT_B_3",
+        "TB_STRESSRESIST_D_1_LOWHP",
+        "TB_HUNGER_D_1_LOWHP"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "the_ravens_brain",
+      "buffs": [
+        "TB_RESOLVEXP_B_5_BACK",
+        "TB_STARVEDMG_B_5_CAMPING",
+        "TB_BLIGHTRESIST_B_4",
+        "TB_SURPRISE_D_1_FIRSTROUND",
+        "TB_MAXHP_D_1_LOWHP",
+        "TB_HUNGER_D_1"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "des_chanceux",
+      "buffs": [
+        "TB_ACC_B_3_LIGHT",
+        "TB_CRIT_B_3_LIGHT",
+        "TB_SPD_B_3_LIGHT",
+        "TB_RESOLVEXP_D_1_DARK"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "dad_jokes",
+      "buffs": [
+        "TB_HEALSKILLS_B_7",
+        "TB_STUNRESIST_D_1_FIRSTROUND",
+        "TB_DOD_D_1_MELEE"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "morgauzes_locket",
+      "buffs": [
+        "TB_PROT_B_4",
+        "TB_STRESSRESIST_B_5_DARK",
+        "TB_SCOUT_D_1_DARK"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "mizirs_unfinished_bestiary",
+      "buffs": [
+        "TB_DMG_B_6_ELDRITCH_L",
+        "TB_DMG_B_6_ELDRITCH_H",
+        "TB_DMG_B_6_UNHOLY_L",
+        "TB_DMG_B_6_UNHOLY_H",
+        "TB_STRESSRESIST_D_1",
+        "TB_SPD_D_1"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "thraximundars_rage",
+      "buffs": [
+        "TB_DMG_B_4_L",
+        "TB_DMG_B_4_H",
+        "TB_MAXHP_B_4",
+        "TB_CRIT_B_4",
+        "TB_BLEEDRESIST_D_1_FIRSTROUND",
+        "TB_DISEASERESIST_D_1_FIRSTROUND",
+        "TB_HEALSKILLS_D_1_FIRSTROUND"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "tetsuo",
+      "buffs": [
+        "TB_CRIT_B_2",
+        "TB_DMG_B_2_L",
+        "TB_DMG_B_2_H",
+        "TB_ACC_B_2",
+        "TB_STRESSRESIST_D_1_BACK"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "numinis",
+      "buffs": [
+        "TB_DMG_B_4_L",
+        "TB_DMG_B_4_H",
+        "TB_PROT_B_4",
+        "TB_MAXHP_B_4",
+        "TB_DMG_D_1_LOWHP_L",
+        "TB_DMG_D_1_LOWHP_H",
+        "TB_PROT_D_1_LOWHP",
+        "TB_CRIT_D_1_LOWHP"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "monorailpigs_seal",
+      "buffs": [
+        "TB_DMG_B_2_L",
+        "TB_DMG_B_2_H",
+        "TB_PROT_B_2",
+        "TB_DEATHBLOWRESIST_B_3_ATDD",
+        "TB_HUNGER_D_1_CAMPING"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "morris_family_crest",
+      "buffs": [
+        "TB_ACC_B_8_MELEE",
+        "TB_ACC_D_1_DARK"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "sansibas_cuppa",
+      "buffs": [
+        "TB_STRESSRESIST_B_4",
+        "TB_DMG_B_5_DARK_L",
+        "TB_DMG_B_5_DARK_H",
+        "TB_DEATHBLOWRESIST_D_1_FIRSTROUND"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "loincloth",
+      "buffs": [
+        "TB_ACC_B_3",
+        "TB_CRIT_B_4_DARK",
+        "TB_DMG_B_4_DARK_L",
+        "TB_DMG_B_4_DARK_H",
+        "TB_STUNRESIST_D_1_FRONT",
+        "TB_SPD_D_1_LOWHP"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "portrait_of_the_beloved",
+      "buffs": [
+        "TB_STRESSRESIST_B_2",
+        "TB_CRIT_B_3_RANGED",
+        "TB_ACC_B_3_RANGED",
+        "TB_HUNGER_D_1_LOWHP"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "headhunters_herbs",
+      "buffs": [
+        "TB_ACC_B_5_MARKED",
+        "TB_DMG_B_5_MARKED_L",
+        "TB_DMG_B_5_MARKED_H",
+        "TB_CRIT_B_5_MARKED",
+        "TB_MAXHP_D_1",
+        "TB_HEALRECVD_D_1",
+        "TB_STUNRESIST_D_1"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "necronomicon",
+      "buffs": [
+        "TB_HEALSKILLS_B_4",
+        "TB_HEALSKILLS_B_4",
+        "TB_SPD_B_4",
+        "TB_RESOLVEXP_D_1",
+        "TB_RESOLVEXP_D_1",
+        "TB_RESOLVEXP_D_1"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "concealed_dagger",
+      "buffs": [
+        "TB_SPD_B_3_FIRSTROUND",
+        "TB_CRIT_B_3_FIRSTROUND",
+        "TB_DMG_B_2_L",
+        "TB_DMG_B_2_H",
+        "TB_PROT_D_1"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "claw_of_the_bellwether_beast",
+      "buffs": [
+        "TB_CRIT_B_6_DARK",
+        "TB_MOVERESIST_B_6_FRONT",
+        "TB_STRESSRESIST_D_1_LIGHT",
+        "TB_HUNGER_D_1"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "bowmens_end",
+      "buffs": [
+        "TB_DMG_B_3_L",
+        "TB_DMG_B_3_H",
+        "TB_ACC_B_4_RANGED",
+        "TB_CRIT_B_4_MAN",
+        "TB_HEALSKILLS_D_1_HIGHHP",
+        "TB_SPD_D_1_LOWHP"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "trenche_fist",
+      "buffs": [
+        "TB_DOD_B_4",
+        "TB_DMG_B_4_L",
+        "TB_DMG_B_4_H",
+        "TB_MAXHP_B_4",
+        "TB_ACC_D_1_DARK",
+        "TB_DMG_D_1_DARK_L",
+        "TB_DMG_D_1_DARK_H",
+        "TB_DEATHBLOWRESIST_D_1_DARK"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "edge_comb",
+      "buffs": [
+        "TB_HEALSKILLS_B_5_BACK",
+        "TB_DOD_B_5_BACK",
+        "TB_BLIGHTRESIST_B_5_BACK",
+        "TB_DOD_D_1_FRONT",
+        "TB_HEALSKILLS_D_1_FRONT",
+        "TB_BLIGHTRESIST_D_1_FRONT"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "the_true_knot",
+      "buffs": [
+        "TB_DISEASERESIST_B_6",
+        "TB_DEATHBLOWRESIST_D_1_NONFIRST"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "helmet_of_the_mad_warrior",
+      "buffs": [
+        "TB_PROT_B_4",
+        "TB_CRIT_B_4",
+        "TB_MAXHP_B_4",
+        "TB_ACC_D_1_BACK",
+        "TB_SCOUT_D_1_BACK",
+        "TB_DOD_D_1_BACK"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "t_doh_teddy_bear",
+      "buffs": [
+        "TB_STRESSRESIST_B_6",
+        "TB_TRAPRESIST_D_1_NONFIRST"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "kickstarter",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    }
+  ]
+}

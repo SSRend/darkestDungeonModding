@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+<language id="brazilian">
+</language>
+<language id="czech">
+</language>
+<language id="english">
+	<entry id="str_inventory_title_supplySPSR_undying_herb"><![CDATA[Undying Herb]]></entry>
+	<entry id="str_inventory_description_supplySPSR_undying_herb"><![CDATA[Use to Moderate Heal. Increases HP recovery to the hero.]]></entry>
+</language>
+<language id="french">
+</language>
+<language id="german">
+</language>
+<language id="italian">
+</language>
+<language id="japanese">
+</language>
+<language id="polish">
+</language>
+<language id="russian">
+</language>
+<language id="schinese">
+</language>
+<language id="spanish">
+</language>
+<language id="koreana">
+	<entry id="str_inventory_title_supplySPSR_undying_herb"><![CDATA[불사초]]></entry>
+    <entry id="str_inventory_description_supplySPSR_undying_herb"><![CDATA[체력을 회복합니다. 영웅이 받는 회복량을 증가시킵니다.]]></entry>
+</language>
+<language id="koreanb">
+</language>
+</root>

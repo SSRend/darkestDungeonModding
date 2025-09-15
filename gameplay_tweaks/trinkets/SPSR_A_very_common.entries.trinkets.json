@@ -1,0 +1,205 @@
+{
+"entries": [
+{
+	"id": "speed_stone",
+	"buffs": [
+		"SPD1"
+	],
+	"hero_class_requirements": [],
+	"rarity": "very_common",
+	"price": 5000,
+	"limit": 1,
+	"origin_dungeon": ""
+},
+{
+	"id": "warriors_bracer",
+	"buffs": [
+		"DMGLMELEE10",
+		"DMGHMELEE10"
+	],
+	"hero_class_requirements": [],
+	"rarity": "very_common",
+	"price": 5000,
+	"limit": 1,
+	"origin_dungeon": ""
+},
+{
+	"id": "deteriorating_bracer",
+	"buffs": [
+		"DMGLRANGED10",
+		"DMGHRANGED10"
+	],
+	"hero_class_requirements": [],
+	"rarity": "very_common",
+	"price": 5000,
+	"limit": 1,
+	"origin_dungeon": ""
+},
+{
+	"id": "warriors_cap",
+	"buffs": [
+		"CRITMELEE5"
+	],
+	"hero_class_requirements": [],
+	"rarity": "very_common",
+	"price": 5000,
+	"limit": 1,
+	"origin_dungeon": ""
+},
+{
+	"id": "archers_ring",
+	"buffs": [
+		"CRITRANGED5"
+	],
+	"hero_class_requirements": [],
+	"rarity": "very_common",
+	"price": 5000,
+	"limit": 1,
+	"origin_dungeon": ""
+},
+{
+	"id": "health_stone",
+	"buffs": [
+		"MAXHP10"
+	],
+	"hero_class_requirements": [],
+	"rarity": "very_common",
+	"price": 5000,
+	"limit": 1,
+	"origin_dungeon": ""
+},
+{
+	"id": "protection_stone",
+	"buffs": [
+		"PROT5"
+	],
+	"hero_class_requirements": [],
+	"rarity": "very_common",
+	"price": 5000,
+	"limit": 1,
+	"origin_dungeon": ""
+},
+{
+	"id": "dodge_stone",
+	"buffs": [
+		"DEF5"
+	],
+	"hero_class_requirements": [],
+	"rarity": "very_common",
+	"price": 5000,
+	"limit": 1,
+	"origin_dungeon": ""
+},
+{
+	"id": "stun_charm",
+	"buffs": [
+		"STUNRESIST10"
+	],
+	"hero_class_requirements": [],
+	"rarity": "very_common",
+	"price": 5000,
+	"limit": 1,
+	"origin_dungeon": ""
+},
+{
+	"id": "move_charm",
+	"buffs": [
+		"MOVERESIST15"
+	],
+	"hero_class_requirements": [],
+	"rarity": "very_common",
+	"price": 5000,
+	"limit": 1,
+	"origin_dungeon": ""
+},
+{
+	"id": "blight_charm",
+	"buffs": [
+		"BLIGHTRESIST15"
+	],
+	"hero_class_requirements": [],
+	"rarity": "very_common",
+	"price": 5000,
+	"limit": 1,
+	"origin_dungeon": ""
+},
+{
+	"id": "bleed_charm",
+	"buffs": [
+		"BLEEDRESIST15"
+	],
+	"hero_class_requirements": [],
+	"rarity": "very_common",
+	"price": 5000,
+	"limit": 1,
+	"origin_dungeon": ""
+},
+{
+	"id": "bloodied_fetish",
+	"buffs": [
+		"BLIGHTRESIST10",
+		"BLEEDRESIST10"
+	],
+	"hero_class_requirements": [],
+	"rarity": "very_common",
+	"price": 5000,
+	"limit": 1,
+	"origin_dungeon": ""
+},
+{
+	"id": "debuff_charm",
+	"buffs": [
+		"DEBUFFRESIST15"
+	],
+	"hero_class_requirements": [],
+	"rarity": "very_common",
+	"price": 5000,
+	"limit": 1,
+	"origin_dungeon": ""
+},
+{
+	"id": "disease_charm",
+	"buffs": [
+		"DISEASERESIST15"
+	],
+	"hero_class_requirements": [],
+	"rarity": "very_common",
+	"price": 5000,
+	"limit": 1,
+	"origin_dungeon": ""
+},
+{
+	"id": "worrystone",
+	"buffs": [
+		"STRESSDMG-10"
+	],
+	"hero_class_requirements": [],
+	"rarity": "very_common",
+	"price": 5000,
+	"limit": 1,
+	"origin_dungeon": ""
+},
+{
+	"id": "caution_cloak",
+	"buffs": [
+		"SCOUTING5"
+	],
+	"hero_class_requirements": [],
+	"rarity": "very_common",
+	"price": 5000,
+	"limit": 1,
+	"origin_dungeon": ""
+},
+{
+	"id": "SPSR_cursed_stone",
+	"buffs": [
+		"SPSR_Trinket_cursed_stone_XP_D1"
+	],
+	"hero_class_requirements": [],
+	"rarity": "very_common",
+	"price": 5000,
+	"limit": 1,
+	"origin_dungeon": ""
+}
+]
+}

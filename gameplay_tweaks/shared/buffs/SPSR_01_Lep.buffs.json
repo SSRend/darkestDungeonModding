@@ -1,0 +1,1014 @@
+{
+"buffs":
+[
+{
+	"id" : "SPSR_Lep_on_crit_Prot_B",
+	"stat_type" : "combat_stat_add",
+	"stat_sub_type" : "protection_rating",
+	"amount" : 0.1,
+	"duration" : 2,
+	"remove_if_not_active" : false,
+	"rule_type" : "always",
+	"is_false_rule" : false,
+	"rule_data" : {
+		"float" : 0,
+		"string" : ""
+	}
+},
+{
+	"id" : "SPSR_Lep_on_crit_Acc_B",
+	"stat_type" : "combat_stat_add",
+	"stat_sub_type" : "attack_rating",
+	"amount" : 0.05,
+	"duration" : 2,
+	"remove_if_not_active" : false,
+	"rule_type" : "always",
+	"is_false_rule" : false,
+	"rule_data" : {
+		"float" : 0,
+		"string" : ""
+	}
+},
+{
+	"id" : "SPSR_Lep_revenge_DMGL_B1",
+	"stat_type" : "combat_stat_multiply",
+	"stat_sub_type" : "damage_low",
+	"amount" : 0.8,
+	"remove_if_not_active" : false,
+	"rule_type" : "always",
+	"is_false_rule" : false,
+	"rule_data" : {
+		"float" : 0,
+		"string" : ""
+	}
+},
+{
+	"id" : "SPSR_Lep_revenge_DMGL_B2",
+	"stat_type" : "combat_stat_multiply",
+	"stat_sub_type" : "damage_low",
+	"amount" : 0.85,
+	"remove_if_not_active" : false,
+	"rule_type" : "always",
+	"is_false_rule" : false,
+	"rule_data" : {
+		"float" : 0,
+		"string" : ""
+	}
+},
+{
+	"id" : "SPSR_Lep_revenge_DMGL_B3",
+	"stat_type" : "combat_stat_multiply",
+	"stat_sub_type" : "damage_low",
+	"amount" : 0.9,
+	"remove_if_not_active" : false,
+	"rule_type" : "always",
+	"is_false_rule" : false,
+	"rule_data" : {
+		"float" : 0,
+		"string" : ""
+	}
+},
+{
+	"id" : "SPSR_Lep_revenge_DMGL_B4",
+	"stat_type" : "combat_stat_multiply",
+	"stat_sub_type" : "damage_low",
+	"amount" : 0.95,
+	"remove_if_not_active" : false,
+	"rule_type" : "always",
+	"is_false_rule" : false,
+	"rule_data" : {
+		"float" : 0,
+		"string" : ""
+	}
+},
+{
+	"id" : "SPSR_Lep_revenge_DMGL_B5",
+	"stat_type" : "combat_stat_multiply",
+	"stat_sub_type" : "damage_low",
+	"amount" : 1.0,
+	"remove_if_not_active" : false,
+	"rule_type" : "always",
+	"is_false_rule" : false,
+	"rule_data" : {
+		"float" : 0,
+		"string" : ""
+	}
+},
+{
+	"id" : "SPSR_Lep_revenge_DMGH_B1",
+	"stat_type" : "combat_stat_multiply",
+	"stat_sub_type" : "damage_high",
+	"amount" : 0.8,
+	"remove_if_not_active" : false,
+	"rule_type" : "always",
+	"is_false_rule" : false,
+	"rule_data" : {
+		"float" : 0,
+		"string" : ""
+	}
+},
+{
+	"id" : "SPSR_Lep_revenge_DMGH_B2",
+	"stat_type" : "combat_stat_multiply",
+	"stat_sub_type" : "damage_high",
+	"amount" : 0.85,
+	"remove_if_not_active" : false,
+	"rule_type" : "always",
+	"is_false_rule" : false,
+	"rule_data" : {
+		"float" : 0,
+		"string" : ""
+	}
+},
+{
+	"id" : "SPSR_Lep_revenge_DMGH_B3",
+	"stat_type" : "combat_stat_multiply",
+	"stat_sub_type" : "damage_high",
+	"amount" : 0.9,
+	"remove_if_not_active" : false,
+	"rule_type" : "always",
+	"is_false_rule" : false,
+	"rule_data" : {
+		"float" : 0,
+		"string" : ""
+	}
+},
+{
+	"id" : "SPSR_Lep_revenge_DMGH_B4",
+	"stat_type" : "combat_stat_multiply",
+	"stat_sub_type" : "damage_high",
+	"amount" : 0.95,
+	"remove_if_not_active" : false,
+	"rule_type" : "always",
+	"is_false_rule" : false,
+	"rule_data" : {
+		"float" : 0,
+		"string" : ""
+	}
+},
+{
+	"id" : "SPSR_Lep_revenge_DMGH_B5",
+	"stat_type" : "combat_stat_multiply",
+	"stat_sub_type" : "damage_high",
+	"amount" : 1.0,
+	"remove_if_not_active" : false,
+	"rule_type" : "always",
+	"is_false_rule" : false,
+	"rule_data" : {
+		"float" : 0,
+		"string" : ""
+	}
+},
+{
+	"id" : "SPSR_Lep_revenge_AP_B1",
+	"stat_type" : "ignore_protection",
+	"stat_sub_type" : "",
+	"amount" : 0.15,
+	"remove_if_not_active" : false,
+	"rule_type" : "always",
+	"is_false_rule" : false,
+	"rule_data" : {
+		"float" : 0,
+		"string" : ""
+	}
+},
+{
+	"id" : "SPSR_Lep_revenge_AP_B2",
+	"stat_type" : "ignore_protection",
+	"stat_sub_type" : "",
+	"amount" : 0.16,
+	"remove_if_not_active" : false,
+	"rule_type" : "always",
+	"is_false_rule" : false,
+	"rule_data" : {
+		"float" : 0,
+		"string" : ""
+	}
+},
+{
+	"id" : "SPSR_Lep_revenge_AP_B3",
+	"stat_type" : "ignore_protection",
+	"stat_sub_type" : "",
+	"amount" : 0.18,
+	"remove_if_not_active" : false,
+	"rule_type" : "always",
+	"is_false_rule" : false,
+	"rule_data" : {
+		"float" : 0,
+		"string" : ""
+	}
+},
+{
+	"id" : "SPSR_Lep_revenge_AP_B4",
+	"stat_type" : "ignore_protection",
+	"stat_sub_type" : "",
+	"amount" : 0.19,
+	"remove_if_not_active" : false,
+	"rule_type" : "always",
+	"is_false_rule" : false,
+	"rule_data" : {
+		"float" : 0,
+		"string" : ""
+	}
+},
+{
+	"id" : "SPSR_Lep_revenge_AP_B5",
+	"stat_type" : "ignore_protection",
+	"stat_sub_type" : "",
+	"amount" : 0.2,
+	"remove_if_not_active" : false,
+	"rule_type" : "always",
+	"is_false_rule" : false,
+	"rule_data" : {
+		"float" : 0,
+		"string" : ""
+	}
+},
+{
+	"id" : "SPSR_Lep_revenge_Acc_B1",
+	"stat_type" : "combat_stat_add",
+	"stat_sub_type" : "attack_rating",
+	"amount" : 0.12,
+	"remove_if_not_active" : false,
+	"rule_type" : "always",
+	"is_false_rule" : false,
+	"rule_data" : {
+		"float" : 0,
+		"string" : ""
+	}
+},
+{
+	"id" : "SPSR_Lep_revenge_Acc_B2",
+	"stat_type" : "combat_stat_add",
+	"stat_sub_type" : "attack_rating",
+	"amount" : 0.13,
+	"remove_if_not_active" : false,
+	"rule_type" : "always",
+	"is_false_rule" : false,
+	"rule_data" : {
+		"float" : 0,
+		"string" : ""
+	}
+},
+{
+	"id" : "SPSR_Lep_revenge_Acc_B3",
+	"stat_type" : "combat_stat_add",
+	"stat_sub_type" : "attack_rating",
+	"amount" : 0.14,
+	"remove_if_not_active" : false,
+	"rule_type" : "always",
+	"is_false_rule" : false,
+	"rule_data" : {
+		"float" : 0,
+		"string" : ""
+	}
+},
+{
+	"id" : "SPSR_Lep_revenge_Acc_B4",
+	"stat_type" : "combat_stat_add",
+	"stat_sub_type" : "attack_rating",
+	"amount" : 0.14,
+	"remove_if_not_active" : false,
+	"rule_type" : "always",
+	"is_false_rule" : false,
+	"rule_data" : {
+		"float" : 0,
+		"string" : ""
+	}
+},
+{
+	"id" : "SPSR_Lep_revenge_Acc_B5",
+	"stat_type" : "combat_stat_add",
+	"stat_sub_type" : "attack_rating",
+	"amount" : 0.15,
+	"remove_if_not_active" : false,
+	"rule_type" : "always",
+	"is_false_rule" : false,
+	"rule_data" : {
+		"float" : 0,
+		"string" : ""
+	}
+},
+{
+	"id" : "SPSR_Lep_revenge_Prot_D",
+	"stat_type" : "combat_stat_add",
+	"stat_sub_type" : "protection_rating",
+	"amount" : -0.1,
+	"remove_if_not_active" : false,
+	"rule_type" : "always",
+	"is_false_rule" : false,
+	"rule_data" : {
+		"float" : 0,
+		"string" : ""
+	},
+	"is_clear_debuff_valid": false
+},
+{
+	"id" : "SPSR_Lep_revenge_Def_D",
+	"stat_type" : "combat_stat_add",
+	"stat_sub_type" : "defense_rating",
+	"amount" : -0.1,
+	"remove_if_not_active" : false,
+	"rule_type" : "always",
+	"is_false_rule" : false,
+	"rule_data" : {
+		"float" : 0,
+		"string" : ""
+	},
+	"is_clear_debuff_valid": false
+},
+{
+	"id" : "SPSR_Lep_withstand_Stun_Resist_B1",
+	"stat_type" : "resistance",
+	"stat_sub_type" : "stun",
+	"amount" : 0.15,
+	"remove_if_not_active" : false,
+	"rule_type" : "always",
+	"is_false_rule" : false,
+	"rule_data" : {
+		"float" : 0,
+		"string" : ""
+	}
+},
+{
+	"id" : "SPSR_Lep_withstand_Stun_Resist_B2",
+	"stat_type" : "resistance",
+	"stat_sub_type" : "stun",
+	"amount" : 0.16,
+	"remove_if_not_active" : false,
+	"rule_type" : "always",
+	"is_false_rule" : false,
+	"rule_data" : {
+		"float" : 0,
+		"string" : ""
+	}
+},
+{
+	"id" : "SPSR_Lep_withstand_Stun_Resist_B3",
+	"stat_type" : "resistance",
+	"stat_sub_type" : "stun",
+	"amount" : 0.18,
+	"remove_if_not_active" : false,
+	"rule_type" : "always",
+	"is_false_rule" : false,
+	"rule_data" : {
+		"float" : 0,
+		"string" : ""
+	}
+},
+{
+	"id" : "SPSR_Lep_withstand_Stun_Resist_B4",
+	"stat_type" : "resistance",
+	"stat_sub_type" : "stun",
+	"amount" : 0.19,
+	"remove_if_not_active" : false,
+	"rule_type" : "always",
+	"is_false_rule" : false,
+	"rule_data" : {
+		"float" : 0,
+		"string" : ""
+	}
+},
+{
+	"id" : "SPSR_Lep_withstand_Stun_Resist_B5",
+	"stat_type" : "resistance",
+	"stat_sub_type" : "stun",
+	"amount" : 0.2,
+	"remove_if_not_active" : false,
+	"rule_type" : "always",
+	"is_false_rule" : false,
+	"rule_data" : {
+		"float" : 0,
+		"string" : ""
+	}
+},
+{
+	"id" : "SPSR_Lep_withstand_Move_Resist_B1",
+	"stat_type" : "resistance",
+	"stat_sub_type" : "move",
+	"amount" : 0.15,
+	"remove_if_not_active" : false,
+	"rule_type" : "always",
+	"is_false_rule" : false,
+	"rule_data" : {
+		"float" : 0,
+		"string" : ""
+	}
+},
+{
+	"id" : "SPSR_Lep_withstand_Move_Resist_B2",
+	"stat_type" : "resistance",
+	"stat_sub_type" : "move",
+	"amount" : 0.16,
+	"remove_if_not_active" : false,
+	"rule_type" : "always",
+	"is_false_rule" : false,
+	"rule_data" : {
+		"float" : 0,
+		"string" : ""
+	}
+},
+{
+	"id" : "SPSR_Lep_withstand_Move_Resist_B3",
+	"stat_type" : "resistance",
+	"stat_sub_type" : "move",
+	"amount" : 0.18,
+	"remove_if_not_active" : false,
+	"rule_type" : "always",
+	"is_false_rule" : false,
+	"rule_data" : {
+		"float" : 0,
+		"string" : ""
+	}
+},
+{
+	"id" : "SPSR_Lep_withstand_Move_Resist_B4",
+	"stat_type" : "resistance",
+	"stat_sub_type" : "move",
+	"amount" : 0.19,
+	"remove_if_not_active" : false,
+	"rule_type" : "always",
+	"is_false_rule" : false,
+	"rule_data" : {
+		"float" : 0,
+		"string" : ""
+	}
+},
+{
+	"id" : "SPSR_Lep_withstand_Move_Resist_B5",
+	"stat_type" : "resistance",
+	"stat_sub_type" : "move",
+	"amount" : 0.2,
+	"remove_if_not_active" : false,
+	"rule_type" : "always",
+	"is_false_rule" : false,
+	"rule_data" : {
+		"float" : 0,
+		"string" : ""
+	}
+},
+{
+	"id" : "SPSR_Lep_withstand_Stressheal_Received_B1",
+	"stat_type" : "stress_heal_received_percent",
+	"stat_sub_type" : "",
+	"amount" : 0.15,
+	"remove_if_not_active" : false,
+	"rule_type" : "always",
+	"is_false_rule" : false,
+	"rule_data" : {
+		"float" : 0,
+		"string" : ""
+	}
+},
+{
+	"id" : "SPSR_Lep_withstand_Stressheal_Received_B2",
+	"stat_type" : "stress_heal_received_percent",
+	"stat_sub_type" : "",
+	"amount" : 0.16,
+	"remove_if_not_active" : false,
+	"rule_type" : "always",
+	"is_false_rule" : false,
+	"rule_data" : {
+		"float" : 0,
+		"string" : ""
+	}
+},
+{
+	"id" : "SPSR_Lep_withstand_Stressheal_Received_B3",
+	"stat_type" : "stress_heal_received_percent",
+	"stat_sub_type" : "",
+	"amount" : 0.18,
+	"remove_if_not_active" : false,
+	"rule_type" : "always",
+	"is_false_rule" : false,
+	"rule_data" : {
+		"float" : 0,
+		"string" : ""
+	}
+},
+{
+	"id" : "SPSR_Lep_withstand_Stressheal_Received_B4",
+	"stat_type" : "stress_heal_received_percent",
+	"stat_sub_type" : "",
+	"amount" : 0.19,
+	"remove_if_not_active" : false,
+	"rule_type" : "always",
+	"is_false_rule" : false,
+	"rule_data" : {
+		"float" : 0,
+		"string" : ""
+	}
+},
+{
+	"id" : "SPSR_Lep_withstand_Stressheal_Received_B5",
+	"stat_type" : "stress_heal_received_percent",
+	"stat_sub_type" : "",
+	"amount" : 0.2,
+	"remove_if_not_active" : false,
+	"rule_type" : "always",
+	"is_false_rule" : false,
+	"rule_data" : {
+		"float" : 0,
+		"string" : ""
+	}
+},
+{
+	"id" : "SPSR_Lep_Cooldown_D",
+	"stat_type" : "disable_combat_skill_attribute",
+	"stat_sub_type" : "tag",
+	"amount" : 1,
+	"remove_if_not_active" : false,
+	"rule_type" : "always",
+	"is_false_rule" : false,
+	"rule_data" : {
+		"float" : 0,
+		"string" : ""
+	},
+	"is_clear_debuff_valid" : false,
+	"has_description" : false,
+	"remove_on_battle_complete" : true
+},
+{
+	"id" : "SPSR_Lep_Cooldown_tooltip_D1",
+	"stat_type" : "upgrade_discount",
+	"stat_sub_type" : "SPSR_Lep_Cooldown_tooltip_D1_text",
+	"amount" : 0,
+	"remove_if_not_active" : false,
+	"rule_type" : "always",
+	"is_false_rule" : false,
+	"rule_data" : {
+		"float" : 0,
+		"string" : ""
+	},
+	"is_clear_debuff_valid" : false,
+	"remove_on_battle_complete" : true
+},
+{
+	"id" : "SPSR_Lep_Cooldown_tooltip_D2",
+	"stat_type" : "upgrade_discount",
+	"stat_sub_type" : "SPSR_Lep_Cooldown_tooltip_D2_text",
+	"amount" : 0,
+	"remove_if_not_active" : false,
+	"rule_type" : "always",
+	"is_false_rule" : false,
+	"rule_data" : {
+		"float" : 0,
+		"string" : ""
+	}
+},
+{
+	"id" : "SPSR_Lep_intimidate_DMGL_D1",
+	"stat_type" : "combat_stat_multiply",
+	"stat_sub_type" : "damage_low",
+	"amount" : -0.25,
+	"remove_if_not_active" : false,
+	"rule_type" : "always",
+	"is_false_rule" : false,
+	"rule_data" : {
+		"float" : 0,
+		"string" : ""
+	}
+},
+{
+	"id" : "SPSR_Lep_intimidate_DMGL_D2",
+	"stat_type" : "combat_stat_multiply",
+	"stat_sub_type" : "damage_low",
+	"amount" : -0.26,
+	"remove_if_not_active" : false,
+	"rule_type" : "always",
+	"is_false_rule" : false,
+	"rule_data" : {
+		"float" : 0,
+		"string" : ""
+	}
+},
+{
+	"id" : "SPSR_Lep_intimidate_DMGL_D3",
+	"stat_type" : "combat_stat_multiply",
+	"stat_sub_type" : "damage_low",
+	"amount" : -0.28,
+	"remove_if_not_active" : false,
+	"rule_type" : "always",
+	"is_false_rule" : false,
+	"rule_data" : {
+		"float" : 0,
+		"string" : ""
+	}
+},
+{
+	"id" : "SPSR_Lep_intimidate_DMGL_D4",
+	"stat_type" : "combat_stat_multiply",
+	"stat_sub_type" : "damage_low",
+	"amount" : -0.29,
+	"remove_if_not_active" : false,
+	"rule_type" : "always",
+	"is_false_rule" : false,
+	"rule_data" : {
+		"float" : 0,
+		"string" : ""
+	}
+},
+{
+	"id" : "SPSR_Lep_intimidate_DMGL_D5",
+	"stat_type" : "combat_stat_multiply",
+	"stat_sub_type" : "damage_low",
+	"amount" : -0.3,
+	"remove_if_not_active" : false,
+	"rule_type" : "always",
+	"is_false_rule" : false,
+	"rule_data" : {
+		"float" : 0,
+		"string" : ""
+	}
+},
+{
+	"id" : "SPSR_Lep_intimidate_DMGH_D1",
+	"stat_type" : "combat_stat_multiply",
+	"stat_sub_type" : "damage_high",
+	"amount" : -0.25,
+	"remove_if_not_active" : false,
+	"rule_type" : "always",
+	"is_false_rule" : false,
+	"rule_data" : {
+		"float" : 0,
+		"string" : ""
+	}
+},
+{
+	"id" : "SPSR_Lep_intimidate_DMGH_D2",
+	"stat_type" : "combat_stat_multiply",
+	"stat_sub_type" : "damage_high",
+	"amount" : -0.26,
+	"remove_if_not_active" : false,
+	"rule_type" : "always",
+	"is_false_rule" : false,
+	"rule_data" : {
+		"float" : 0,
+		"string" : ""
+	}
+},
+{
+	"id" : "SPSR_Lep_intimidate_DMGH_D3",
+	"stat_type" : "combat_stat_multiply",
+	"stat_sub_type" : "damage_high",
+	"amount" : -0.28,
+	"remove_if_not_active" : false,
+	"rule_type" : "always",
+	"is_false_rule" : false,
+	"rule_data" : {
+		"float" : 0,
+		"string" : ""
+	}
+},
+{
+	"id" : "SPSR_Lep_intimidate_DMGH_D4",
+	"stat_type" : "combat_stat_multiply",
+	"stat_sub_type" : "damage_high",
+	"amount" : -0.29,
+	"remove_if_not_active" : false,
+	"rule_type" : "always",
+	"is_false_rule" : false,
+	"rule_data" : {
+		"float" : 0,
+		"string" : ""
+	}
+},
+{
+	"id" : "SPSR_Lep_intimidate_DMGH_D5",
+	"stat_type" : "combat_stat_multiply",
+	"stat_sub_type" : "damage_high",
+	"amount" : -0.3,
+	"remove_if_not_active" : false,
+	"rule_type" : "always",
+	"is_false_rule" : false,
+	"rule_data" : {
+		"float" : 0,
+		"string" : ""
+	}
+},
+{
+	"id" : "SPSR_Lep_intimidate_Acc_D1",
+	"stat_type" : "combat_stat_add",
+	"stat_sub_type" : "attack_rating",
+	"amount" : -0.08,
+	"remove_if_not_active" : false,
+	"rule_type" : "always",
+	"is_false_rule" : false,
+	"rule_data" : {
+		"float" : 0,
+		"string" : ""
+	}
+},
+{
+	"id" : "SPSR_Lep_intimidate_Acc_D2",
+	"stat_type" : "combat_stat_add",
+	"stat_sub_type" : "attack_rating",
+	"amount" : -0.08,
+	"remove_if_not_active" : false,
+	"rule_type" : "always",
+	"is_false_rule" : false,
+	"rule_data" : {
+		"float" : 0,
+		"string" : ""
+	}
+},
+{
+	"id" : "SPSR_Lep_intimidate_Acc_D3",
+	"stat_type" : "combat_stat_add",
+	"stat_sub_type" : "attack_rating",
+	"amount" : -0.09,
+	"remove_if_not_active" : false,
+	"rule_type" : "always",
+	"is_false_rule" : false,
+	"rule_data" : {
+		"float" : 0,
+		"string" : ""
+	}
+},
+{
+	"id" : "SPSR_Lep_intimidate_Acc_D4",
+	"stat_type" : "combat_stat_add",
+	"stat_sub_type" : "attack_rating",
+	"amount" : -0.09,
+	"remove_if_not_active" : false,
+	"rule_type" : "always",
+	"is_false_rule" : false,
+	"rule_data" : {
+		"float" : 0,
+		"string" : ""
+	}
+},
+{
+	"id" : "SPSR_Lep_intimidate_Acc_D5",
+	"stat_type" : "combat_stat_add",
+	"stat_sub_type" : "attack_rating",
+	"amount" : -0.1,
+	"remove_if_not_active" : false,
+	"rule_type" : "always",
+	"is_false_rule" : false,
+	"rule_data" : {
+		"float" : 0,
+		"string" : ""
+	}
+},
+      {
+         "id" : "SPSR_Lep_camping_Acc_B1",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "attack_rating",
+         "amount" : 0.05,
+         "duration_type" : "combat_end",
+         "duration" : 4,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "SPSR_Lep_camping_Crit_B1",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "crit_chance",
+         "amount" : 0.05,
+         "duration_type" : "combat_end",
+         "duration" : 4,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "SPSR_Lep_camping_Blight_Resist_B1",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "poison",
+         "amount" : 0.25,
+         "duration_type" : "combat_end",
+         "duration" : 4,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "SPSR_Lep_camping_Bleed_Resist_B1",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "bleed",
+         "amount" : 0.25,
+         "duration_type" : "combat_end",
+         "duration" : 4,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "SPSR_Lep_camping_Debuff_Resist_B1",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "debuff",
+         "amount" : 0.25,
+         "duration_type" : "combat_end",
+         "duration" : 4,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "SPSR_Lep_camping_Disease_Resist_B1",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "disease",
+         "amount" : 0.25,
+         "duration_type" : "combat_end",
+         "duration" : 4,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "SPSR_Lep_berserk_mask_Speed_B1",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "speed_rating",
+         "amount" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "SPSR_Lep_berserk_mask_DMGL_B1",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : 0.15,
+         "remove_if_not_active" : false,
+         "rule_type" : "meleeonly",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "SPSR_Lep_berserk_mask_DMGH_B1",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 0.15,
+         "remove_if_not_active" : false,
+         "rule_type" : "meleeonly",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "SPSR_Lep_berserk_mask_Crit_B1",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "crit_chance",
+         "amount" : 0.05,
+         "remove_if_not_active" : false,
+         "rule_type" : "meleeonly",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "SPSR_Lep_berserk_mask_stress_above_Acc_D1",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "attack_rating",
+         "amount" : -0.1,
+         "remove_if_not_active" : false,
+         "rule_type" : "stress_above",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 40,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "SPSR_Lep_fortunate_armlet_Acc_B1",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "attack_rating",
+         "amount" : 0.1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "SPSR_Lep_fortunate_armlet_Crit_B1",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "crit_chance",
+         "amount" : 0.03,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "SPSR_Lep_fortunate_armlet_Stress_D1",
+         "stat_type" : "stress_dmg_received_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+{
+	"id" : "SPSR_Lep_immunity_mask_Blight_Resist_B1",
+	"stat_type" : "resistance",
+	"stat_sub_type" : "poison",
+	"amount" : 0.15,
+	"remove_if_not_active" : false,
+	"rule_type" : "always",
+	"is_false_rule" : false,
+	"rule_data" : {
+		"float" : 0,
+		"string" : ""
+	}
+},
+{
+	"id" : "SPSR_Lep_immunity_mask_Bleed_Resist_B1",
+	"stat_type" : "resistance",
+	"stat_sub_type" : "bleed",
+	"amount" : 0.15,
+	"remove_if_not_active" : false,
+	"rule_type" : "always",
+	"is_false_rule" : false,
+	"rule_data" : {
+		"float" : 0,
+		"string" : ""
+	}
+},
+{
+	"id" : "SPSR_Lep_immunity_mask_Debuff_Resist_B1",
+	"stat_type" : "resistance",
+	"stat_sub_type" : "debuff",
+	"amount" : 0.15,
+	"remove_if_not_active" : false,
+	"rule_type" : "always",
+	"is_false_rule" : false,
+	"rule_data" : {
+		"float" : 0,
+		"string" : ""
+	}
+},
+{
+	"id" : "SPSR_Lep_immunity_mask_Disease_Resist_B1",
+	"stat_type" : "resistance",
+	"stat_sub_type" : "disease",
+	"amount" : 0.15,
+	"remove_if_not_active" : false,
+	"rule_type" : "always",
+	"is_false_rule" : false,
+	"rule_data" : {
+		"float" : 0,
+		"string" : ""
+	}
+},
+{
+	"id" : "SPSR_Lep_healing_armlet_Heal_Received_B1",
+	"stat_type" : "hp_heal_received_percent",
+	"stat_sub_type" : "",
+	"amount" : 0.15,
+	"remove_if_not_active" : false,
+	"rule_type" : "always",
+	"is_false_rule" : false,
+	"rule_data" : {
+		"float" : 0,
+		"string" : ""
+	}
+}
+]
+}

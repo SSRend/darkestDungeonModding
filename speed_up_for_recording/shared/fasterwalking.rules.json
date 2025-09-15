@@ -1,0 +1,7 @@
+{
+    "m_ForwardAcceleration": 3000.0,
+    "m_ReverseAcceleration": 1500.0,
+    "m_MaxForwardSpeed": 1200.0,
+    "m_MaxReverseSpeed": 1000.0,
+    "m_Deceleration": 2400.0
+}

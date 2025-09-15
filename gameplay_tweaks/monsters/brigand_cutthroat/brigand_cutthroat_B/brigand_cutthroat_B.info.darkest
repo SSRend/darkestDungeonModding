@@ -1,0 +1,15 @@
+display: .size 1
+enemy_type: .id "man"
+stats: .hp 21 .def 15% .prot 0.15 .spd 3 .stun_resist 40% .move_resist 40% .poison_resist 40% .bleed_resist 40% .debuff_resist 40%
+skill: .id "double_slice" .type "melee" .atk 100% .dmg 4 8 .crit 4%  .effect "SPSR Monster Bleed Debuff 3" .launch 123 .target ~12
+skill: .id "uppercut_slice" .type "melee" .atk 100% .dmg 5 9 .crit 8%  .effect "Push 1C" .launch 123 .target 12
+skill: .id "bandit_stabby" .type "melee" .atk 95% .dmg 4 8 .crit 9%  .effect "Bleed 3" .launch 123 .target 123
+skill: .id "bandit_stabby_weak" .type "melee" .atk 90% .dmg 3 6 .crit 5% .launch 4 .target 12 .move 0 1
+personality: .prefskill -1
+loot: .code "C" .count 1
+initiative: .number_of_turns_per_round 1
+monster_brain: .id brigand_cutthroat_B
+death_class: .monster_class_id corpse_B .is_valid_on_crit False .type "corpse" 
+life_link: .base_class "brigand_cannon"
+battle_modifier: .accelerate_stall_penalty False .disable_stall_penalty False .can_surprise True .can_be_surprised True .always_surprise False .always_be_surprised False
+wave_spawning: .prefers_front True

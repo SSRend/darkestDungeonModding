@@ -1,0 +1,118 @@
+{
+"entries": [
+{
+    "id" : "com_lep_crystalized_amulet",
+    "buffs" : [
+        "TRINKET_com_lep_crystalized_amulet_att_rating_B10_with_bandage",
+        "TRINKET_com_lep_crystalized_amulet_max_hp_B15",
+        "TRINKET_com_lep_crystalized_amulet_bleed_res_D15"
+    ],
+    "hero_class_requirements": [ "leper" ],
+    "rarity" : "comet",
+    "shard" : 80,
+    "limit" : 1,
+    "origin_dungeon" : ""
+},
+{
+    "id" : "cc_set_lep_tin_flute",
+    "buffs" : [
+        "TRINKET_lep_tin_flute_STRESSDMGREC_B1",
+        "TRINKET_lep_tin_flute_STRESSHEALDONE_in_camp_B1"
+    ],
+    "hero_class_requirements": [ "leper" ],
+    "set_id" : "cc_lep",
+    "rarity" : "crimson_court",
+    "price" : 30000,
+    "limit" : 1,
+    "origin_dungeon" : "courtyard"
+},
+{
+    "id" : "cc_set_lep_last_will_and_testament",
+    "buffs" : [
+        "TRINKET_lep_last_will_and_testament_PROT_B1",
+        "TRINKET_lep_last_will_and_testament_MAXHP_B1",
+        "TRINKET_lep_last_will_and_testament_DEATHBLOWRESIST_D1"
+    ],
+    "hero_class_requirements":
+    [
+        "leper"
+    ],
+    "set_id" : "cc_lep",
+    "rarity" : "crimson_court",
+    "price" : 30000,
+    "limit" : 1,
+    "origin_dungeon" : "courtyard"
+},
+{
+    "id": "berserk_mask",
+    "buffs": [
+        "SPSR_Lep_berserk_mask_Speed_B1",
+        "SPSR_Lep_berserk_mask_DMGL_B1",
+        "SPSR_Lep_berserk_mask_DMGH_B1",
+        "SPSR_Lep_berserk_mask_Crit_B1",
+        "SPSR_Lep_berserk_mask_stress_above_Acc_D1"
+    ],
+    "hero_class_requirements": [ "leper" ],
+    "rarity": "very_rare",
+    "price": 20000,
+    "limit": 1,
+    "origin_dungeon": "",
+    "attack_skill_additional_effects": [
+        "SPSR Lep Berserk Mask Attack on Stress"
+    ]
+},
+{
+    "id": "fortunate_armlet",
+    "buffs": [
+        "SPSR_Lep_fortunate_armlet_Acc_B1",
+        "SPSR_Lep_fortunate_armlet_Crit_B1",
+        "SPSR_Lep_fortunate_armlet_Stress_D1"
+    ],
+    "hero_class_requirements": [ "leper" ],
+    "rarity": "rare",
+    "price": 16000,
+    "limit": 1,
+    "origin_dungeon": "",
+    "attack_skill_additional_effects": [
+        "SPSR_Lep_fortunate_armlet_on_miss_Acc_Buff_1"
+    ]
+},
+{
+    "id": "immunity_mask",
+    "buffs": [
+        "SPSR_Lep_immunity_mask_Blight_Resist_B1",
+        "SPSR_Lep_immunity_mask_Bleed_Resist_B1",
+        "SPSR_Lep_immunity_mask_Debuff_Resist_B1",
+        "SPSR_Lep_immunity_mask_Disease_Resist_B1"
+    ],
+    "hero_class_requirements": [ "leper" ],
+    "rarity": "uncommon",
+    "price": 12000,
+    "limit": 1,
+    "origin_dungeon": ""
+},
+{
+    "id": "selfish_armlet",
+    "buffs": [],
+    "hero_class_requirements": [ "leper" ],
+    "rarity": "common",
+    "price": 8000,
+    "limit": 1,
+    "origin_dungeon": "",
+    "attack_skill_additional_effects": [
+        "SPSR_Lep_redemption_armlet_on_hit_Stressheal"
+    ]
+},
+{
+	"id": "healing_armlet",
+	"buffs": [
+		"SPSR_Lep_healing_armlet_Heal_Received_B1"
+	],
+	"hero_class_requirements": [ "leper" ],
+	"rarity": "very_common",
+	"price": 4000,
+	"limit": 1,
+	"origin_dungeon": ""
+}
+]
+}

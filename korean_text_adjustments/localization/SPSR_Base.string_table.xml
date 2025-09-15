@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+<language id="english">
+</language>
+<language id="french">
+</language>	
+<language id="german">
+</language>
+<language id="spanish">
+</language>
+<language id="brazilian">
+</language>
+<language id="russian">
+</language>
+<language id="polish">
+</language>
+<language id="czech">
+</language>
+<language id="italian">
+</language>
+<language id="schinese">
+</language>
+<language id="japanese">
+</language>
+<language id="koreanb">
+</language>
+<language id="koreana">
+	<entry id="str_ui_MAXHP"><![CDATA[최대 HP]]></entry>
+	<entry id="str_stat_maxhp"><![CDATA[최대 HP]]></entry>
+
+	<entry id="str_skill_tooltip_acc_base"><![CDATA[명중: %.0f]]></entry>
+	<entry id="str_skill_tooltip_dmg_mod"><![CDATA[피해: %+.0f%%]]></entry>
+	<entry id="str_skill_tooltip_crit_mod"><![CDATA[치명타: %+.0f%%]]></entry>
+	<entry id="effect_base_chance_format"><![CDATA[{colour_start|skill_unselectable}(%d%%){colour_end}]]></entry>
+	<entry id="effect_chance_format"><![CDATA[{colour_start|skill_unselectable}(%d%%){colour_end}]]></entry>
+
+	<entry id="str_skill_tooltip_forward"><![CDATA[%d열 {colour_start|move}전진{colour_end}]]></entry>
+	<entry id="str_skill_tooltip_back"><![CDATA[%d열 {colour_start|move}후퇴{colour_end}]]></entry>
+	<entry id="effect_tooltip_move_backward"><![CDATA[%d열 {colour_start|knockback}밀치기{colour_end}]]></entry>
+	<entry id="effect_tooltip_move_forward"><![CDATA[%d열 {colour_start|move}당겨오기{colour_end}]]></entry>
+	<entry id="effect_tooltip_shuffle_group"><![CDATA[적 전체 {colour_start|move}뒤섞기{colour_end}]]></entry>
+	<entry id="effect_tooltip_shuffle_single"><![CDATA[대상 {colour_start|move}뒤섞기{colour_end}]]></entry>
+
+	<entry id="skill_heal_format"><![CDATA[HP %d-%d {colour_start|healhp}회복{colour_end}]]></entry>
+	<entry id="skill_party_heal_format"><![CDATA[원정대 HP %d-%d {colour_start|healhp}회복{colour_end}]]></entry>
+	<entry id="effect_tooltip_heal_format"><![CDATA[HP %d {colour_start|healhp}회복{colour_end}]]></entry>
+	<entry id="effect_tooltip_heal_percent_format"><![CDATA[HP %d%% {colour_start|healhp}회복{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_hp_heal_amount"><![CDATA[추가 HP {colour_start|healhp}회복{colour_end}량 %+d]]></entry>
+	<entry id="buff_stat_tooltip_hp_heal_percent"><![CDATA[HP {colour_start|healhp}회복{colour_end}량 %+d%%]]></entry>
+	<entry id="buff_stat_tooltip_hp_heal_received_percent"><![CDATA[받는 HP {colour_start|healhp}회복{colour_end}량 %+d%%]]></entry>
+	<entry id="buff_stat_tooltip_damage_received_percent"><![CDATA[받는 피해량 %+d%%]]></entry>
+	<entry id="buff_stat_tooltip_stress_heal_percent"><![CDATA[{colour_start|stress}스트레스{colour_end} 해소량 %+d%%]]></entry>
+	<entry id="buff_stat_tooltip_stress_heal_received_percent"><![CDATA[받는 {colour_start|stress}스트레스{colour_end} 해소량 %+d%%]]></entry>
+	<entry id="buff_stat_tooltip_stress_dmg_received_percent"><![CDATA[받는 {colour_start|stress}스트레스{colour_end} %+d%%]]></entry>
+
+	<entry id="effect_tooltip_cure"><![CDATA[{colour_start|blight}중독{colour_end}·{colour_start|bleed}출혈{colour_end} 치료]]></entry>
+	<entry id="effect_tooltip_dot_format"><![CDATA[%d 지속 피해 {colour_start|skill_unselectable}(%d차례){colour_end}]]></entry>
+
+	<entry id="effect_tooltip_self"><![CDATA[자신:]]></entry>
+	<entry id="effect_tooltip_self_buff"><![CDATA[자신 {colour_start|buff}강화:{colour_end}]]></entry>
+	<entry id="effect_tooltip_self_debuff"><![CDATA[자신 {colour_start|debuff}약화:{colour_end}]]></entry>
+	<entry id="effect_tooltip_target_buff"><![CDATA[대상 {colour_start|buff}강화:{colour_end}]]></entry>
+	<entry id="effect_tooltip_target_debuff"><![CDATA[대상 {colour_start|debuff}약화:{colour_end}]]></entry>
+	<entry id="buff_rule_data_tooltip_debuffed"><![CDATA[{colour_start|debuff}약화{colour_end}된]]></entry>
+	<entry id="effect_tooltip_cure_debuff"><![CDATA[{colour_start|debuff}약화{colour_end} 제거]]></entry>
+
+	<entry id="effect_tooltip_tag"><![CDATA[{colour_start|mark}표식{colour_end} 찍기]]></entry>
+
+	<entry id="buff_stat_tooltip_ignore_protection"><![CDATA[방어 관통 %+d%%]]></entry>
+	<entry id="buff_rule_tooltip_is_guarding"><![CDATA[%s ({colour_start|guard}보호{colour_end} 중일 때)]]></entry>
+	<entry id="buff_rule_tooltip_is_guarded"><![CDATA[%s ({colour_start|guard}보호{colour_end}받을 때)]]></entry>
+	<entry id="buff_stat_tooltip_guard_duration_percent"><![CDATA[{colour_start|guard}보호{colour_end} 지속 시간 +%d%%]]></entry>
+	<entry id="effect_tooltip_guard_performer"><![CDATA[{colour_start|guard}보호{colour_end} 받기]]></entry>
+	<entry id="effect_clear_guarded"><![CDATA[{colour_start|guard}보호{colour_end} 해제]]></entry>
+	<entry id="effect_clear_guarding"><![CDATA[{colour_start|guard}보호{colour_end} 해제]]></entry>
+	<entry id="buff_stat_tooltip_guard_blocked"><![CDATA[{colour_start|guard}보호{colour_end}받기 불가]]></entry>
+	<entry id="buff_rule_tooltip_is_stealthed"><![CDATA[%s ({colour_start|stealth}은신{colour_end} 중일 때)]]></entry>
+	<entry id="effect_unstealth_format"><![CDATA[{colour_start|stealth}은신{colour_end} 해제]]></entry>
+
+	<entry id="buff_rule_data_tooltip_laudanum"><![CDATA[아편]]></entry>
+	<entry id="buff_rule_data_tooltip_antivenom"><![CDATA[해독제]]></entry>
+	<entry id="buff_rule_data_tooltip_torch"><![CDATA[횃불]]></entry>
+	<entry id="buff_rule_data_tooltip_medicinal_herbs"><![CDATA[약초]]></entry>
+	<entry id="buff_rule_tooltip_has_item_id"><![CDATA[%s ("%s" 소지 시)]]></entry>
+	<entry id="buff_rule_tooltip_has_item_id_false"><![CDATA[%s ("%s" 비소지 시)]]></entry>
+	
+	<entry id="buff_rule_tooltip_at_deaths_door"><![CDATA[%s {colour_start|deathdoor}죽음의 문턱{colour_end} 상태일 때]]></entry>
+	<entry id="buff_rule_tooltip_at_deaths_door_false"><![CDATA[%s {colour_start|deathdoor}죽음의 문턱{colour_end} 상태가 아닐 때]]></entry>
+	<entry id="buff_rule_tooltip_firstroundonly"><![CDATA[%s (첫 번째 차례에)]]></entry>
+	<entry id="buff_rule_tooltip_firstroundonly_false"><![CDATA[%s (두 번째 차례부터)]]></entry>
+	<entry id="buff_rule_tooltip_hpabove"><![CDATA[{?string1}%s (HP {?percent1}%d%% 이상)]]></entry>
+	<entry id="buff_rule_tooltip_hpabove_false"><![CDATA[{?string1}%s (HP {?percent1}%d%% 이하)]]></entry>
+	<entry id="buff_rule_tooltip_hpbelow"><![CDATA[{?string1}%s (HP {?percent1}%d%% 이하)]]></entry>
+	<entry id="buff_rule_tooltip_hpbelow_false"><![CDATA[{?string1}%s (HP {?percent1}%d%% 이상)]]></entry>
+	<entry id="buff_rule_tooltip_stress_above"><![CDATA[{?string1}%s ({colour_start|stress}스트레스{colour_end} {?decimal1}%d 이상)]]></entry>
+	<entry id="buff_rule_tooltip_stress_below"><![CDATA[{?string1}%s ({colour_start|stress}스트레스{colour_end} {?decimal1}%d 이하)]]></entry>
+	<entry id="buff_rule_tooltip_lightabove"><![CDATA[{?string1}%s (밝기 {?decimal1}%d 이상)]]></entry>
+	<entry id="buff_rule_tooltip_lightabove_false"><![CDATA[{?string1}%s (밝기 {?decimal1}%d 이하)]]></entry>
+	<entry id="buff_rule_tooltip_lightbelow"><![CDATA[{?string1}%s (밝기 {?decimal1}%d 이하)]]></entry>
+	<entry id="buff_rule_tooltip_lightbelow_false"><![CDATA[{?string1}%s (밝기 {?decimal1}%d 이상)]]></entry>
+
+	<entry id="buff_rule_data_tooltip_cosmic"><![CDATA[우주적 존재]]></entry>	
+
+	<entry id="buff_stat_tooltip_upgrade_discount_combat_skill"><![CDATA[전투 기술 훈련 비용 %-d%%]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_camping_skill"><![CDATA[야영 기술 훈련 비용 %-d%%]]></entry>
+
+	<entry id="buff_stat_tooltip_random_target_attack_chance"><![CDATA[공격시: %d%% 확률로 무작위 대상 공격]]></entry>
+	<entry id="trinket_attack_skill_additional_effects_hit_miss"><![CDATA[공격 시]]></entry>
+	<entry id="trinket_attack_skill_additional_effects_hit"><![CDATA[명중 시]]></entry>
+	<entry id="trinket_attack_skill_additional_effects_miss"><![CDATA[빗나갈 시]]></entry>
+	<entry id="trinket_kill_performer_additional_effects"><![CDATA[처치 시]]></entry>
+	<entry id="trinket_was_hit_additional_effects"><![CDATA[공격을 당할 때:]]></entry>
+	<entry id="trinket_friendly_skill_additional_effects"><![CDATA[보조 기술 사용 시]]></entry>
+
+	<entry id="buff_rule_tooltip_is_vampire"><![CDATA[%s ("핏빛 저주"일 때)]]></entry>
+
+	<entry id="camping_skill_selection_party"><![CDATA[원정대:]]></entry>
+	<entry id="camping_skill_selection_party_other"><![CDATA[모든 동료:]]></entry>
+	<entry id="camping_skill_selection_individual"><![CDATA[동료 한 명:]]></entry>
+	<entry id="tray_icon_tooltip_buff_duration_combat_end_format"><![CDATA[%s (%d회 전투간)]]></entry>
+	<entry id="camping_skill_selection_self"><![CDATA[자신:]]></entry>
+	
+	<entry id="buff_rule_tooltip_in_dungeon"><![CDATA[%s ("%s" 던전에서)]]></entry>
+	
+
+	<entry id="str_resolve_0"><![CDATA[{colour_start|UI_resolve_seeker}흔한{colour_end} ]]></entry>
+	<entry id="str_resolve_1"><![CDATA[{colour_start|UI_resolve_apprentice}일반{colour_end} ]]></entry>
+	<entry id="str_resolve_2"><![CDATA[{colour_start|UI_resolve_adventurer}고급{colour_end} ]]></entry>
+	<entry id="str_resolve_3"><![CDATA[{colour_start|UI_resolve_veteran}희귀{colour_end} ]]></entry>
+	<entry id="str_resolve_4"><![CDATA[{colour_start|UI_resolve_master}영웅{colour_end} ]]></entry>
+	<entry id="str_resolve_5"><![CDATA[{colour_start|UI_resolve_champion}전설{colour_end} ]]></entry>
+	<entry id="str_resolve_6"><![CDATA[{colour_start|UI_resolve_legend}극의{colour_end} ]]></entry>
+	<entry id="str_resolve_shard_hungry"><![CDATA[{colour_start|UI_resolve_merc}용병{colour_end} - ]]></entry>
+
+	<entry id="str_bank_buff_SPSR_stacking"><![CDATA[골드와 가보를 더 많이 중첩시킬 수 있습니다.]]></entry>
+	<entry id="str_bank_buff_SPSR_stacking_e"><![CDATA[]]></entry>
+
+	<entry id="str_granary_buff_provision"><![CDATA[원정을 나갈 때 4개의 무료 식량을 제공합니다.]]></entry>
+	<entry id="str_outsiders_bonfire_buff_camp_buff0"><![CDATA[해당 영웅이 있는 원정대는 야영 시 추가 휴식 시간을 %d 얻습니다.]]></entry>
+
+	<entry id="str_the_mill_buff_provision"><![CDATA[원정을 나갈 때 4개의 무료 식량을 제공합니다.]]></entry>
+	
+    <entry id="str_inventory_title_provision"><![CDATA[식량]]></entry>
+	<entry id="str_inventory_description_provision"><![CDATA[배가 고픈 영웅은 식량을 소모합니다. 영웅이 식량을 소모하면 HP가 회복됩니다.]]></entry>
+	<entry id="str_inventory_description_supplyantivenom"><![CDATA[영웅에게 걸린 중독을 치료합니다. 물품에 있는 독성을 제거할 수 있습니다.]]></entry>
+	<entry id="str_inventory_description_supplybandage"><![CDATA[영웅에게 걸린 출혈을 치료합니다. 날카로움 물품에 의한 부상을 방지합니다.]]></entry>
+	<entry id="str_inventory_description_supplydog_treats"><![CDATA[일시적으로 사냥개에게 강한 힘을 북돋아 줍니다.]]></entry>
+	<entry id="str_inventory_description_supplyfirewood"><![CDATA[방에서 야영을 시작할 수 있습니다. 식량을 소비하여 영웅을 회복시킬 수 있습니다. 만약 굶주린다면 큰 피해를 입게 됩니다...]]></entry>
+	<entry id="str_inventory_description_supplyholy_water"><![CDATA[일시적으로 영웅의 저항력을 강화합니다. 불경스런 물품을 정화할 수 있습니다.]]></entry>
+	<entry id="str_inventory_description_supplylaudanum"><![CDATA[스트레스를 해소합니다. 영웅이 받는 스트레스를 줄입니다.]]></entry>
+	<entry id="str_inventory_description_supplymedicinal_herbs"><![CDATA[영웅에게 걸린 약화 효과를 제거합니다. 병균이 있는 물품을 정화할 수 있습니다.]]></entry>
+	<entry id="str_inventory_description_supplyshovel"><![CDATA[장애물을 제거하거나 상자 등을 억지로 여는 데 사용됩니다.]]></entry>
+	<entry id="str_inventory_description_supplyskeleton_key"><![CDATA[문이나 보물상자를 열 수 있습니다.]]></entry>
+	<entry id="str_inventory_description_supplytorch"><![CDATA[사용하여 밝기를 높힙니다. 물품을 불태울 수 있습니다.]]></entry>
+</language>
+</root>

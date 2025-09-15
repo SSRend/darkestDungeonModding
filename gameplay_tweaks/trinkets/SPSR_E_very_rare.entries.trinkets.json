@@ -1,0 +1,258 @@
+{
+"entries": [
+{
+	"id": "legendary_bracer",
+	"buffs": [
+		"DMGL20",
+		"DMGH20",
+		"SPSR_Trinket_AP_B1"
+	],
+	"hero_class_requirements": [],
+	"rarity": "very_rare",
+	"price": 20000,
+	"limit": 1,
+	"origin_dungeon": ""
+},
+{
+	"id": "focus_ring",
+	"buffs": [
+		"CRIT5"
+	],
+	"hero_class_requirements": [],
+	"rarity": "very_rare",
+	"price": 20000,
+	"limit": 1,
+	"origin_dungeon": "",
+	"attack_skill_additional_effects": [
+		"SPSR_Trinket_on_miss_Acc_Buff_2"
+	]
+},
+{
+	"id": "ethereal_crucifix",
+	"buffs": [
+		"SPSR_Trinket_cosmic_DMGL_B1",
+		"SPSR_Trinket_cosmic_DMGH_B1",
+		"SPSR_Trinket_cosmic_Crit_B1"
+	],
+	"hero_class_requirements": [],
+	"rarity": "very_rare",
+	"price": 20000,
+	"limit": 1,
+	"origin_dungeon": ""
+},
+{
+	"id": "tough_ring",
+	"buffs": [
+		"TRINKET_tough_ring_PROT_BUFF",
+		"TRINKET_tough_ring_MAXHP_BUFF"
+	],
+	"hero_class_requirements": [],
+	"rarity": "very_rare",
+	"price": 20000,
+	"limit": 1,
+	"origin_dungeon": ""
+},
+{
+	"id": "cleansing_crystal",
+	"buffs": [
+		"TRINKET_BLIGHTRESIST_B3",
+		"TRINKET_BLEEDRESIST_B3",
+		"TRINKET_DEBUFFRESIST_B3",
+		"TRINKET_BLIGHTSKILL_D15",
+		"TRINKET_BLEEDSKILL_D15",
+		"TRINKET_DEBUFFSKILL_D15"
+	],
+	"hero_class_requirements": [],
+	"rarity": "very_rare",
+	"price": 20000,
+	"limit": 1,
+	"origin_dungeon": ""
+},
+{
+	"id": "martyrs_seal",
+	"buffs": [
+		"TRINKET_at_deaths_door_DMGL_B2",
+		"TRINKET_at_deaths_door_DMGH_B2",
+		"TRINKET_at_deaths_door_CRIT_B3",
+		"TRINKET_DEATHBLOWRESIST_B3",
+		"TRINKET_MAXHP_B2"
+	],
+	"hero_class_requirements": [],
+	"rarity": "very_rare",
+	"price": 20000,
+	"limit": 1,
+	"origin_dungeon": ""
+},
+{
+	"id": "fortifying_garlic",
+	"buffs": [
+		"TRINKET_fortifying_garlic_BLIGHTRESIST_B1",
+		"TRINKET_fortifying_garlic_BLEEDRESIST_B1",
+		"TRINKET_fortifying_garlic_DISEASERESIST_B1"
+	],
+	"hero_class_requirements": [],
+	"rarity": "very_rare",
+	"price": 20000,
+	"limit": 1,
+	"origin_dungeon": ""
+},
+{
+	"id": "book_of_sanity",
+	"buffs": [
+		"TRINKET_STRESSDMG_B3"
+	],
+	"hero_class_requirements": [],
+	"rarity": "very_rare",
+	"price": 20000,
+	"limit": 1,
+	"origin_dungeon": ""
+},
+{
+	"id": "heros_ring",
+	"buffs": [
+		"TRINKET_heros_ring_RESOLVECHECK_B1"
+	],
+	"hero_class_requirements": [],
+	"rarity": "very_rare",
+	"price": 20000,
+	"limit": 1,
+	"origin_dungeon": ""
+},
+{
+	"id" : "cc_coven_signet",
+	"buffs" : 
+	[
+		"cc_trinket_stress_resist_while_vamp"
+	],
+	"hero_class_requirements":
+	[
+	],
+	"rarity" : "very_rare",
+	"price" : 20000,
+	"limit" : 1,
+	"origin_dungeon" : ""
+},
+{
+	"id" : "cc_sculptors_tools",
+	"buffs" : 
+	[
+		"cc_trinket_dmgL_vs_stonework",
+		"cc_trinket_dmgH_vs_stonework"
+	],
+	"hero_class_requirements":
+	[
+	],
+	"rarity" : "very_rare",
+	"price" : 20000,
+	"limit" : 1,
+	"origin_dungeon" : ""
+},
+{
+	"id" : "cc_pagan_talisman",
+	"buffs" : 
+	[
+		"cc_trinket_dmgL_vs_fanatic",
+		"cc_trinket_dmgH_vs_fanatic",
+		"TRINKET_STRESSDMG_B1"
+	],
+	"hero_class_requirements":
+	[
+	],
+	"rarity" : "very_rare",
+	"price" : 20000,
+	"limit" : 1,
+	"origin_dungeon" : ""
+},
+{
+	"id" : "cc_dazzling_mirror",
+	"buffs" : 
+	[
+		"SPSR_Trinket_dazzling_mirror_vs_vamp_Stun_Chance_B1",
+		"STUNRESIST15"
+	],
+	"hero_class_requirements":
+	[
+	],
+	"rarity" : "very_rare",
+	"price" : 20000,
+	"limit" : 1,
+	"origin_dungeon" : ""
+},
+{
+	"id" : "cc_crimson_tincture",
+	"buffs" : 
+	[
+		"SPSR_Trinket_crimson_tincture_while_vamp_Heal_Given_B1"
+	],
+	"hero_class_requirements":
+	[
+	],
+	"rarity" : "very_rare",
+	"price" : 20000,
+	"limit" : 1,
+	"origin_dungeon" : "",
+	"friendly_skill_additional_effects": [
+		"SPSR_Trinket_crimson_tincture_friendly_skill_Stressheal_Self"
+	]
+},
+{
+	"id" : "cc_quicksilver_salve",
+	"buffs" : 
+	[
+		"cc_trinket_dmgL_vs_vamps",
+		"cc_trinket_dmgH_vs_vamps"
+	],
+	"hero_class_requirements":
+	[
+	],
+	"rarity" : "very_rare",
+	"price" : 20000,
+	"limit" : 1,
+	"origin_dungeon" : ""
+},
+{
+	"id" : "cc_crystal_snifter",
+	"buffs" : 
+	[
+		"cc_trinket_blood_lust_crit_buff",
+		"cc_trinket_blood_lust_def_buff"
+	],
+	"hero_class_requirements":
+	[
+	],
+	"rarity" : "very_rare",
+	"price" : 20000,
+	"limit" : 1,
+	"origin_dungeon" : ""
+},
+{
+	"id" : "cc_mantra_of_fasting",
+	"buffs" : 
+	[
+		"cc_trinket_wasting_hp_buff",
+		"cc_trinket_wasting_spd_buff"
+	],
+	"hero_class_requirements":
+	[
+	],
+	"rarity" : "very_rare",
+	"price" : 20000,
+	"limit" : 1,
+	"origin_dungeon" : ""
+},
+{
+	"id" : "cc_rat_carcass",
+	"buffs" : 
+	[
+		"cc_trinket_wasting_immune"
+	],
+	"hero_class_requirements":
+	[
+	],
+	"rarity" : "very_rare",
+	"price" : 20000,
+	"limit" : 2,
+	"origin_dungeon" : ""
+}
+]
+}

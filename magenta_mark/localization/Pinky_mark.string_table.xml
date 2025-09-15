@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+<language id="english">
+	<entry id="tray_icon_tooltip_tag_title_combat_end"><![CDATA[{colour_start|mark}Marked (%d Battles){colour_end}]]></entry>
+	<entry id="tray_icon_tooltip_tag_title_round"><![CDATA[{colour_start|mark}Marked (%d rds){colour_end}]]></entry>
+	<entry id="tray_icon_tooltip_tag_title_before_turn"><![CDATA[{colour_start|mark}Marked (%d rds){colour_end}]]></entry>
+	<entry id="tray_icon_tooltip_tag_title_after_turn"><![CDATA[{colour_start|mark}Marked (%d rds){colour_end}]]></entry>
+</language>
+<language id="french">
+    <entry id="tray_icon_tooltip_tag_title_combat_end"><![CDATA[{colour_start|mark}Marque (%d combats){colour_end}]]></entry>
+    <entry id="tray_icon_tooltip_tag_title_round"><![CDATA[{colour_start|mark}Marque (%d trs){colour_end}]]></entry>
+    <entry id="tray_icon_tooltip_tag_title_before_turn"><![CDATA[{colour_start|mark}Marque (%d trs){colour_end}]]></entry>
+    <entry id="tray_icon_tooltip_tag_title_after_turn"><![CDATA[{colour_start|mark}Marque (%d trs){colour_end}]]></entry>
+</language>
+<language id="german">
+    <entry id="tray_icon_tooltip_tag_title_combat_end"><![CDATA[{colour_start|mark}Markiert (%d Kämpfe){colour_end}]]></entry>
+    <entry id="tray_icon_tooltip_tag_title_round"><![CDATA[{colour_start|mark}Gezeichnet (%d Rdn){colour_end}]]></entry>
+    <entry id="tray_icon_tooltip_tag_title_before_turn"><![CDATA[{colour_start|mark}Gezeichnet (%d Rdn){colour_end}]]></entry>
+    <entry id="tray_icon_tooltip_tag_title_after_turn"><![CDATA[{colour_start|mark}Gezeichnet (%d Rdn){colour_end}]]></entry>
+</language>
+<language id="spanish">
+    <entry id="tray_icon_tooltip_tag_title_combat_end"><![CDATA[{colour_start|mark}Señalado (combates: %d){colour_end}]]></entry>
+    <entry id="tray_icon_tooltip_tag_title_round"><![CDATA[{colour_start|mark}Marcado (%d rds){colour_end}]]></entry>
+    <entry id="tray_icon_tooltip_tag_title_before_turn"><![CDATA[{colour_start|mark}Marcado (%d rds){colour_end}]]></entry>
+    <entry id="tray_icon_tooltip_tag_title_after_turn"><![CDATA[{colour_start|mark}Marcado (%d rds){colour_end}]]></entry>
+</language>
+<language id="brazilian">
+    <entry id="tray_icon_tooltip_tag_title_combat_end"><![CDATA[CDATA[{colour_start|mark}Marcados (%d combates){colour_end}]]></entry>
+    <entry id="tray_icon_tooltip_tag_title_round"><![CDATA[CDATA[{colour_start|mark}Marcado (%d rds){colour_end}]]></entry>
+    <entry id="tray_icon_tooltip_tag_title_before_turn"><![CDATA[CDATA[{colour_start|mark}Marcado (%d rds){colour_end}]]></entry>
+    <entry id="tray_icon_tooltip_tag_title_after_turn"><![CDATA[CDATA[{colour_start|mark}Marcado (%d rds){colour_end}]]></entry>
+</language>
+<language id="russian">
+    <entry id="tray_icon_tooltip_tag_title_combat_end"><![CDATA[{colour_start|mark}Отметка (осталось: %d){colour_end}]]></entry>
+    <entry id="tray_icon_tooltip_tag_title_round"><![CDATA[{colour_start|mark}Отметка (%d раундов){colour_end}]]></entry>
+    <entry id="tray_icon_tooltip_tag_title_before_turn"><![CDATA[{colour_start|mark}Отметка (%d раундов){colour_end}]]></entry>
+    <entry id="tray_icon_tooltip_tag_title_after_turn"><![CDATA[{colour_start|mark}Отметка (%d раундов){colour_end}]]></entry>
+</language>
+<language id="polish">
+    <entry id="tray_icon_tooltip_tag_title_combat_end"><![CDATA[{colour_start|mark}Naznaczony (pozostałe: %d){colour_end}]]></entry>
+    <entry id="tray_icon_tooltip_tag_title_round"><![CDATA[{colour_start|mark}Oznaczono (%d rnd){colour_end}]]></entry>
+    <entry id="tray_icon_tooltip_tag_title_before_turn"><![CDATA[{colour_start|mark}Oznaczono (%d rnd){colour_end}]]></entry>
+    <entry id="tray_icon_tooltip_tag_title_after_turn"><![CDATA[{colour_start|mark}Oznaczono (%d rnd){colour_end}]]></entry>
+</language>
+<language id="czech">
+    <entry id="tray_icon_tooltip_tag_title_combat_end"><![CDATA[{colour_start|mark}Označení (zbývá: %d){colour_end}]]></entry>
+    <entry id="tray_icon_tooltip_tag_title_round"><![CDATA[{colour_start|mark}Označen (%d kol){colour_end}]]></entry>
+    <entry id="tray_icon_tooltip_tag_title_before_turn"><![CDATA[{colour_start|mark}Označen (%d kol){colour_end}]]></entry>
+    <entry id="tray_icon_tooltip_tag_title_after_turn"><![CDATA[{colour_start|mark}Označen (%d kol){colour_end}]]></entry>
+</language>
+<language id="italian">
+    <entry id="tray_icon_tooltip_tag_title_combat_end"><![CDATA[{colour_start|mark}Marchiato (%d Battaglie){colour_end}]]></entry>
+    <entry id="tray_icon_tooltip_tag_title_round"><![CDATA[{colour_start|mark}Marchiato (%d round){colour_end}]]></entry>
+    <entry id="tray_icon_tooltip_tag_title_before_turn"><![CDATA[{colour_start|mark}Marchiato (%d round){colour_end}]]></entry>
+    <entry id="tray_icon_tooltip_tag_title_after_turn"><![CDATA[{colour_start|mark}Marchiato (%d round){colour_end}]]></entry>
+</language>
+<language id="schinese">
+    <entry id="tray_icon_tooltip_tag_title_combat_end"><![CDATA[{colour_start|mark}标记(剩余%d场战斗){colour_end}]]></entry>
+    <entry id="tray_icon_tooltip_tag_title_round"><![CDATA[{colour_start|mark}标记(%d回合){colour_end}]]></entry>
+    <entry id="tray_icon_tooltip_tag_title_before_turn"><![CDATA[{colour_start|mark}标记(%d回合){colour_end}]]></entry>
+    <entry id="tray_icon_tooltip_tag_title_after_turn"><![CDATA[{colour_start|mark}标记(%d回合){colour_end}]]></entry>
+</language>
+<language id="japanese">
+    <entry id="tray_icon_tooltip_tag_title_combat_end"><![CDATA[{colour_start|mark}マーク（%d戦闘）{colour_end}]]></entry>
+    <entry id="tray_icon_tooltip_tag_title_round"><![CDATA[{colour_start|mark}マーク（%dラウンド）{colour_end}]]></entry>
+    <entry id="tray_icon_tooltip_tag_title_before_turn"><![CDATA[{colour_start|mark}マーク（%dラウンド）{colour_end}]]></entry>
+    <entry id="tray_icon_tooltip_tag_title_after_turn"><![CDATA[{colour_start|mark}マーク（%dラウンド）{colour_end}]]></entry>
+</language>
+<language id="koreana">
+    <entry id="tray_icon_tooltip_tag_title_combat_end"><![CDATA[{colour_start|mark}표식 찍힘 (전투 %d회){colour_end}]]></entry>
+    <entry id="tray_icon_tooltip_tag_title_round"><![CDATA[{colour_start|mark}표식 찍힘 (%d라운드){colour_end}]]></entry>
+    <entry id="tray_icon_tooltip_tag_title_before_turn"><![CDATA[{colour_start|mark}표식 찍힘 (%d라운드){colour_end}]]></entry>
+    <entry id="tray_icon_tooltip_tag_title_after_turn"><![CDATA[{colour_start|mark}표식 찍힘 (%d라운드){colour_end}]]></entry>
+</language>
+<language id="koreanb">
+
+</language>
+</root>

@@ -1,0 +1,96 @@
+{
+    "on_start_town_visit_priority": 1,
+
+    "requirements": {
+        "number_of_quests_finished": 1,
+        "highest_dungeon_level": 0
+    },
+
+    "data": 
+    {
+        "activities":
+        [
+			{
+                "id":"treatment",
+                "data": 
+                {
+                    "positive_quirk_cost_upgrades": [
+                        { "cost_currency": { "type": "gold", "amount": 6000 } },
+                        { "cost_currency": { "type": "gold", "amount": 5400 }, "upgrade_tree_id": "sanitarium.cost", "upgrade_requirement_code": "a" },
+                        { "cost_currency": { "type": "gold", "amount": 4800 }, "upgrade_tree_id": "sanitarium.cost", "upgrade_requirement_code": "b" },
+                        { "cost_currency": { "type": "gold", "amount": 4200 }, "upgrade_tree_id": "sanitarium.cost", "upgrade_requirement_code": "c" },
+                        { "cost_currency": { "type": "gold", "amount": 3600 }, "upgrade_tree_id": "sanitarium.cost", "upgrade_requirement_code": "d" },
+                        { "cost_currency": { "type": "gold", "amount": 3000 }, "upgrade_tree_id": "sanitarium.cost", "upgrade_requirement_code": "e" }
+                    ],
+
+                    "negative_quirk_cost_upgrades": [
+                        { "cost_currency": { "type": "gold", "amount": 2000 } },
+                        { "cost_currency": { "type": "gold", "amount": 1800 }, "upgrade_tree_id": "sanitarium.disease_quirk_cost", "upgrade_requirement_code": "a" },
+                        { "cost_currency": { "type": "gold", "amount": 1600 }, "upgrade_tree_id": "sanitarium.disease_quirk_cost", "upgrade_requirement_code": "b" },
+                        { "cost_currency": { "type": "gold", "amount": 1400 }, "upgrade_tree_id": "sanitarium.disease_quirk_cost", "upgrade_requirement_code": "c" },
+                        { "cost_currency": { "type": "gold", "amount": 1200 }, "upgrade_tree_id": "sanitarium.disease_quirk_cost", "upgrade_requirement_code": "d" },
+                        { "cost_currency": { "type": "gold", "amount": 1000 }, "upgrade_tree_id": "sanitarium.disease_quirk_cost", "upgrade_requirement_code": "e" }
+                    ],
+
+                    "permanent_negative_quirk_cost_upgrades": [
+                        { "cost_currency": { "type": "gold", "amount": 4000 } },
+                        { "cost_currency": { "type": "gold", "amount": 3600 }, "upgrade_tree_id": "sanitarium.disease_quirk_cost", "upgrade_requirement_code": "a" },
+                        { "cost_currency": { "type": "gold", "amount": 3200 }, "upgrade_tree_id": "sanitarium.disease_quirk_cost", "upgrade_requirement_code": "b" },
+                        { "cost_currency": { "type": "gold", "amount": 2800 }, "upgrade_tree_id": "sanitarium.disease_quirk_cost", "upgrade_requirement_code": "c" },
+                        { "cost_currency": { "type": "gold", "amount": 2400 }, "upgrade_tree_id": "sanitarium.disease_quirk_cost", "upgrade_requirement_code": "d" },
+                        { "cost_currency": { "type": "gold", "amount": 2000 }, "upgrade_tree_id": "sanitarium.disease_quirk_cost", "upgrade_requirement_code": "e" }
+                    ],
+
+                    "slot_upgrades": [
+                        { "number_of_slots": 1 },
+                        { "number_of_slots": 2, "upgrade_tree_id": "sanitarium.slots", "upgrade_requirement_code": "b" },
+                        { "number_of_slots": 3, "upgrade_tree_id": "sanitarium.slots", "upgrade_requirement_code": "d" }
+                    ],
+
+                    "quirk_treatment_upgrades": [
+                        { "chance": 1.0 }
+                    ]
+
+                }
+            },
+            {
+                "id":"disease_treatment",
+                "data":
+                {
+                    "disease_quirk_cost_upgrades": [
+                        { "cost_currency": { "type": "gold", "amount": 2000 } },
+                        { "cost_currency": { "type": "gold", "amount": 1800 }, "upgrade_tree_id": "sanitarium.disease_quirk_cost", "upgrade_requirement_code": "a" },
+                        { "cost_currency": { "type": "gold", "amount": 1600 }, "upgrade_tree_id": "sanitarium.disease_quirk_cost", "upgrade_requirement_code": "b" },
+                        { "cost_currency": { "type": "gold", "amount": 1400 }, "upgrade_tree_id": "sanitarium.disease_quirk_cost", "upgrade_requirement_code": "c" },
+                        { "cost_currency": { "type": "gold", "amount": 1200 }, "upgrade_tree_id": "sanitarium.disease_quirk_cost", "upgrade_requirement_code": "d" },
+                        { "cost_currency": { "type": "gold", "amount": 1000 }, "upgrade_tree_id": "sanitarium.disease_quirk_cost", "upgrade_requirement_code": "e" }
+                    ],
+                    
+                    "disease_quirk_cure_all_chance_upgrades": [
+                        { "chance": 0.00 }
+					],
+
+                    "slot_upgrades": [
+                        { "number_of_slots": 1 },
+                        { "number_of_slots": 2, "upgrade_tree_id": "sanitarium.slots", "upgrade_requirement_code": "a" },
+                        { "number_of_slots": 3, "upgrade_tree_id": "sanitarium.slots", "upgrade_requirement_code": "c" }
+                    ],
+
+                    "quirk_treatment_upgrades": [
+                        { "chance": 1.0 }
+                    ],
+                    "requirements" : 
+                    [
+                        {
+                            "type"      : "is_diseased",
+                            "data"      : 
+                            {
+
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}
