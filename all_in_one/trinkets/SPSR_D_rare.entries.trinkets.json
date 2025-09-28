@@ -1,0 +1,229 @@
+{
+"entries": [
+{
+	"id": "quick_draw_charm",
+	"buffs": [
+		"TRINKET_firstroundonly_SPD_B3",
+		"TRINKET_firstroundonly_CRIT_B3",
+		"TRINKET_NOTfirstroundonly_SPD_D3"
+	],
+	"hero_class_requirements": [],
+	"rarity": "rare",
+	"price": 15000,
+	"limit": 1,
+	"origin_dungeon": ""
+},
+{
+	"id": "berserk_charm",
+	"buffs": [
+		"TRINKET_berserk_charm_SPD_BUFF",
+		"TRINKET_berserk_charm_DMG_BUFF_L",
+		"TRINKET_berserk_charm_DMG_BUFF_H",
+		"TRINKET_berserk_charm_STRESSDMG_BUFF",
+		"TRINKET_berserk_charm_ACC_DEBUFF",
+		"TRINKET_berserk_charm_RESOLVECHECK_DEBUFF"
+	],
+	"hero_class_requirements": [],
+	"rarity": "rare",
+	"price": 15000,
+	"limit": 1,
+	"origin_dungeon": ""
+},
+{
+	"id": "sun_ring",
+	"buffs": [
+		"TRINKET_STRESSDMG_D2"
+	],
+	"hero_class_requirements": [],
+	"rarity": "rare",
+	"price": 15000,
+	"limit": 1,
+	"origin_dungeon": ""
+},
+{
+	"id": "moon_ring",
+	"buffs": [
+		"TRINKET_lightbelow_DMGL_B1",
+		"TRINKET_lightbelow_DMGH_B1",
+		"TRINKET_lightbelow_ACC_B2",
+		"TRINKET_STRESSDMG_D2"
+	],
+	"hero_class_requirements": [],
+	"rarity": "rare",
+	"price": 15000,
+	"limit": 1,
+	"origin_dungeon": ""
+},
+{
+	"id": "brawlers_gloves",
+	"buffs": [
+		"TRINKET_meleeonly_DMGL_B3",
+		"TRINKET_meleeonly_DMGH_B3"
+	],
+	"hero_class_requirements": [],
+	"rarity": "rare",
+	"price": 15000,
+	"limit": 1,
+	"origin_dungeon": ""
+},
+{
+	"id": "snipers_ring",
+	"buffs": [
+		"TRINKET_rangedonly_DMGL_B3",
+		"TRINKET_rangedonly_DMGH_B3"
+	],
+	"hero_class_requirements": [],
+	"rarity": "rare",
+	"price": 15000,
+	"limit": 1,
+	"origin_dungeon": ""
+},
+{
+	"id": "book_of_rage",
+	"buffs": [
+		"TRINKET_DEF_D1"
+	],
+	"hero_class_requirements": [],
+	"rarity": "rare",
+	"price": 15000,
+	"limit": 1,
+	"origin_dungeon": ""
+},
+{
+	"id": "camouflage_cloak",
+	"buffs": [
+		"TRINKET_lightabove_DEF_B3",
+		"TRINKET_STUNRESIST_D2"
+	],
+	"hero_class_requirements": [],
+	"rarity": "rare",
+	"price": 15000,
+	"limit": 1,
+	"origin_dungeon": ""
+},
+{
+	"id": "shimmering_cloak",
+	"buffs": [
+		"TRINKET_DEF_B2",
+		"TRINKET_HPHEALRECEIVED_D3"
+	],
+	"hero_class_requirements": [],
+	"rarity": "rare",
+	"price": 15000,
+	"limit": 1,
+	"origin_dungeon": ""
+},
+{
+	"id": "heavy_boots",
+	"buffs": [
+		"STUNRESIST15",
+		"MOVERESIST20"
+	],
+	"hero_class_requirements": [],
+	"rarity": "rare",
+	"price": 15000,
+	"limit": 1,
+	"origin_dungeon": ""
+},
+{
+	"id": "blood_charm",
+	"buffs": [
+		"TRINKET_BLEEDRESIST_B2"
+	],
+	"hero_class_requirements": [],
+	"rarity": "rare",
+	"price": 15000,
+	"limit": 1,
+	"origin_dungeon": ""
+},
+{
+	"id": "solar_crown",
+	"buffs": [
+		"TRINKET_lightabove_STRESSDMG_B2"
+	],
+	"hero_class_requirements": [],
+	"rarity": "rare",
+	"price": 15000,
+	"limit": 1,
+	"origin_dungeon": ""
+},
+{
+	"id": "dark_crown",
+	"buffs": [
+		"TRINKET_dark_crown_lightbelow_STRESSDMG_BUFF",
+		"TRINKET_dark_crown_lightbelow_RESOLVECHECK_BUFF"
+	],
+	"hero_class_requirements": [],
+	"rarity": "rare",
+	"price": 15000,
+	"limit": 1,
+	"origin_dungeon": ""
+},
+{
+	"id": "unholy_slayers_ring",
+	"buffs": [
+		"SPSR_Trinket_Crypt_DMGL_B1",
+		"SPSR_Trinket_Crypt_DMGH_B1",
+		"SPSR_Trinket_Crypt_Scout_B1"
+	],
+	"hero_class_requirements": [],
+	"rarity": "rare",
+	"price": 15000,
+	"limit": 1,
+	"origin_dungeon": ""
+},
+{
+	"id": "beast_slayers_ring",
+	"buffs": [
+		"SPSR_Trinket_warrens_DMGL_B1",
+		"SPSR_Trinket_warrens_DMGH_B1",
+		"SPSR_Trinket_warrens_Scout_B1"
+	],
+	"hero_class_requirements": [],
+	"rarity": "rare",
+	"price": 15000,
+	"limit": 1,
+	"origin_dungeon": ""
+},
+{
+	"id": "man_slayers_ring",
+	"buffs": [
+		"SPSR_Trinket_weald_DMGL_B1",
+		"SPSR_Trinket_weald_DMGH_B1",
+		"SPSR_Trinket_weald_Scout_B1"
+	],
+	"hero_class_requirements": [],
+	"rarity": "rare",
+	"price": 15000,
+	"limit": 1,
+	"origin_dungeon": ""
+},
+{
+	"id": "eldritch_slayers_ring",
+	"buffs": [
+		"SPSR_Trinket_cove_DMGL_B1",
+		"SPSR_Trinket_cove_DMGH_B1",
+		"SPSR_Trinket_cove_Scout_B1"
+	],
+	"hero_class_requirements": [],
+	"rarity": "rare",
+	"price": 15000,
+	"limit": 1,
+	"origin_dungeon": ""
+},
+{
+	"id": "fasting_seal",
+	"buffs": [
+		"TRINKET_fasting_seal_EATSASZERO",
+		"TRINKET_fasting_seal_NOSTARVEDMG",
+		"TRINKET_fasting_seal_NOSTRESSHUNGER",
+		"TRINKET_fasting_seal_NOSTRESSCAMPINGEAT"
+	],
+	"hero_class_requirements": [],
+	"rarity": "rare",
+	"price": 15000,
+	"limit": 1,
+	"origin_dungeon": ""
+}
+]
+}

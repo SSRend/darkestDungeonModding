@@ -1,0 +1,13 @@
+display: .size 1
+enemy_type: .id "man"
+enemy_type: .id "eldritch"
+stats: .hp 21 .def 15% .prot 0.15 .spd 5 .stun_resist 40% .poison_resist 60% .bleed_resist 40% .debuff_resist 40% .move_resist 40%
+skill: .id "artillery_tag" .type "ranged" .atk 110% .dmg 1 2 .crit 8%  .effect "SPSR Monster Short Mark Target" "SPSR Monster Def Debuff 3" .launch 43 .target 12
+skill: .id "artillery_blight" .type "ranged" .atk 95% .dmg 1 2 .crit 5%  .effect "Weak Blight 3" "SPSR Disease 10" .launch 43 .target ~34
+skill: .id "escape_cloud" .type "melee" .atk 90% .dmg 1 2 .crit 3%  .effect "SPSR Monster Slight Blight 3" .launch 21 .target ~12 .move 2 0
+personality: .prefskill -1
+loot: .code "A" .count 1
+initiative: .number_of_turns_per_round 1
+monster_brain: .id fungal_artillery_B
+death_class: .monster_class_id corpse_B .is_valid_on_crit False .type "corpse" 
+battle_modifier: .accelerate_stall_penalty True .disable_stall_penalty False .can_surprise True .can_be_surprised True .always_surprise False .always_be_surprised False

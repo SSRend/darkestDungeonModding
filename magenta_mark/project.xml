@@ -2,8 +2,8 @@
 <project>
 	<PreviewIconFile>preview_icon.png</PreviewIconFile>
 	<ItemDescriptionShort/>
-	<ModDataPath>C:/Program Files (x86)/Steam/steamapps/common/DarkestDungeon/mods/magenta_mark/</ModDataPath>
-	<Title>The Magenta&apos;s Mark</Title>
+	<ModDataPath></ModDataPath>
+	<Title>Magenta Mark</Title>
 	<Language>english</Language>
 	<UpdateDetails/>
 	<Visibility>private</Visibility>
@@ -13,9 +13,7 @@
 	<TargetBuild>0</TargetBuild>
 	<Tags>
 		<Tags>UI</Tags>
-		<Tags>Skins</Tags>
 	</Tags>
 	<ItemDescription/>
-	<PublishedFileId>3562183580</PublishedFileId>
 </project>
 

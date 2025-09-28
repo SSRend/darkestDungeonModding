@@ -1,0 +1,210 @@
+{
+"entries": [
+{
+	"id": "swift_cloak",
+	"buffs": [
+		"SPD1",
+		"DEF5"
+	],
+	"hero_class_requirements": [],
+	"rarity": "common",
+	"price": 7500,
+	"limit": 1,
+	"origin_dungeon": ""
+},
+{
+	"id": "damage_stone",
+	"buffs": [
+		"DMGL10",
+		"DMGH10"
+	],
+	"hero_class_requirements": [],
+	"rarity": "common",
+	"price": 7500,
+	"limit": 1,
+	"origin_dungeon": ""
+},
+{
+	"id": "critical_stone",
+	"buffs": [
+		"CRIT5"
+	],
+	"hero_class_requirements": [],
+	"rarity": "common",
+	"price": 7500,
+	"limit": 1,
+	"origin_dungeon": ""
+},
+{
+	"id": "gamblers_charm",
+	"buffs": [
+		"SPSR_Trinket_hp_low_Crit_B1"
+	],
+	"hero_class_requirements": [],
+	"rarity": "common",
+	"price": 7500,
+	"limit": 1,
+	"origin_dungeon": ""
+},
+{
+	"id": "reckless_charm",
+	"buffs": [
+	],
+	"hero_class_requirements": [],
+	"rarity": "common",
+	"price": 7500,
+	"limit": 1,
+	"origin_dungeon": "",
+	"attack_skill_additional_effects": [
+		"SPSR_Trinket_on_miss_Acc_Buff_1"
+	]
+},
+{
+	"id": "stun_stone",
+	"buffs": [
+		"SPSR_Trinket_Stun_Chance_B1"
+	],
+	"hero_class_requirements": [],
+	"rarity": "common",
+	"price": 7500,
+	"limit": 1,
+	"origin_dungeon": ""
+},
+{
+	"id": "move_stone",
+	"buffs": [
+		"MOVESKILL10"
+	],
+	"hero_class_requirements": [],
+	"rarity": "common",
+	"price": 7500,
+	"limit": 1,
+	"origin_dungeon": ""
+},
+{
+	"id": "blight_stone",
+	"buffs": [
+		"BLIGHTSKILL10"
+	],
+	"hero_class_requirements": [],
+	"rarity": "common",
+	"price": 7500,
+	"limit": 1,
+	"origin_dungeon": ""
+},
+{
+	"id": "bleed_stone",
+	"buffs": [
+		"BLEEDSKILL10"
+	],
+	"hero_class_requirements": [],
+	"rarity": "common",
+	"price": 7500,
+	"limit": 1,
+	"origin_dungeon": ""
+},
+{
+	"id": "debuff_stone",
+	"buffs": [
+		"DEBUFFSKILL10"
+	],
+	"hero_class_requirements": [],
+	"rarity": "common",
+	"price": 7500,
+	"limit": 1,
+	"origin_dungeon": ""
+},
+{
+	"id": "tenacity_ring",
+	"buffs": [
+		"PROT10",
+		"DEATHBLOWRESIST5"
+	],
+	"hero_class_requirements": [],
+	"rarity": "common",
+	"price": 7500,
+	"limit": 1,
+	"origin_dungeon": ""
+},
+{
+	"id": "slippery_boots",
+	"buffs": [
+		"DEF10"
+	],
+	"hero_class_requirements": [],
+	"rarity": "common",
+	"price": 7500,
+	"limit": 1,
+	"origin_dungeon": ""
+},
+{
+	"id": "dazzling_charm",
+	"buffs": [
+		"STUNRESIST10",
+		"MOVERESIST15"
+	],
+	"hero_class_requirements": [],
+	"rarity": "common",
+	"price": 7500,
+	"limit": 1,
+	"origin_dungeon": ""
+},
+{
+	"id": "snake_oil",
+	"buffs": [
+		"BLIGHTRESIST15",
+		"BLEEDRESIST15"
+	],
+	"hero_class_requirements": [],
+	"rarity": "common",
+	"price": 7500,
+	"limit": 1,
+	"origin_dungeon": ""
+},
+{
+	"id": "chirurgeons_charm",
+	"buffs": [
+		"SPSR_Trinket_Heal_Amount_B1"
+	],
+	"hero_class_requirements": [],
+	"rarity": "common",
+	"price": 7500,
+	"limit": 1,
+	"origin_dungeon": ""
+},
+{
+	"id": "book_of_relaxation",
+	"buffs": [
+		"STRESSDMG-15"
+	],
+	"hero_class_requirements": [],
+	"rarity": "common",
+	"price": 7500,
+	"limit": 1,
+	"origin_dungeon": ""
+},
+{
+	"id": "survival_guide",
+	"buffs": [
+		"SCOUTING5",
+		"TRAPRESIST10"
+	],
+	"hero_class_requirements": [],
+	"rarity": "common",
+	"price": 7500,
+	"limit": 1,
+	"origin_dungeon": ""
+},
+{
+	"id": "book_of_intuition",
+	"buffs": [
+		"TRINKET_PARTYSURPRISE_B1"
+	],
+	"hero_class_requirements": [],
+	"rarity": "common",
+	"price": 7500,
+	"limit": 1,
+	"origin_dungeon": ""
+}
+]
+}

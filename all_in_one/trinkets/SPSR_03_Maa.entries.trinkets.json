@@ -1,0 +1,109 @@
+{
+"entries": [
+{
+    "id" : "com_maa_mirror_shield",
+    "buffs" : [
+        "TRINKET_com_maa_mirror_shield_dodge_B10",
+        "TRINKET_com_maa_mirror_shield_damage_reflect_30",
+        "TRINKET_com_maa_mirror_shield_stun_resist_D20"
+    ],
+    "hero_class_requirements": [ "man_at_arms" ],
+    "rarity" : "comet",
+    "shard" : 75,
+    "limit" : 1,
+    "origin_dungeon" : ""
+},
+{
+    "id" : "cc_set_maa_old_unit_banner",
+    "buffs" : [
+        "TRINKET_maa_old_unit_banner_STUNSKILL_B1",
+        "TRINKET_maa_old_unit_banner_DEBUFFSKILL_B1",
+        "TRINKET_maa_old_unit_banner_DEATHBLOWRESIST_B1",
+        "TRINKET_maa_old_unit_banner_STRESSDMGREC_D1"
+    ],
+    "hero_class_requirements": [ "man_at_arms" ],
+    "set_id" : "cc_maa",
+    "rarity" : "crimson_court",
+    "price" : 30000,
+    "limit" : 1,
+    "origin_dungeon" : "courtyard"
+},
+{
+    "id" : "cc_set_maa_toy_soldier",
+    "buffs" : [
+        "TRINKET_maa_toy_soldier_PROT_B1",
+        "TRINKET_maa_toy_soldier_CRIT_B1"
+    ],
+    "hero_class_requirements": [ "man_at_arms" ],
+    "set_id" : "cc_maa",
+    "rarity" : "crimson_court",
+    "price" : 30000,
+    "limit" : 1,
+    "origin_dungeon" : "courtyard"
+},
+{
+    "id": "guardians_shield",
+    "buffs": [
+        "SPSR_Maa_Guardians_shield_guard_duration_B1",
+        "SPSR_Maa_Guardians_shield_stun_resist_during_guard_B1",
+        "SPSR_Maa_Guardians_shield_prot_B1"
+    ],
+    "hero_class_requirements": [ "man_at_arms" ],
+    "rarity": "very_rare",
+    "price": 20000,
+    "limit": 1,
+    "origin_dungeon": ""
+},
+{
+    "id": "rampart_shield",
+    "buffs": [
+        "STUNSKILL20",
+        "MOVESKILL20",
+        "TRINKET_DEF_D2"
+    ],
+    "hero_class_requirements": [ "man_at_arms" ],
+    "rarity": "rare",
+    "price": 16000,
+    "limit": 1,
+    "origin_dungeon": ""
+},
+{
+    "id": "longevity_eyepatch",
+    "buffs": [
+        "TRINKET_MAXHP_B2",
+        "TRINKET_SPD_D2"
+    ],
+    "hero_class_requirements": [ "man_at_arms" ],
+    "rarity": "uncommon",
+    "price": 12000,
+    "limit": 1,
+    "origin_dungeon": ""
+},
+{
+    "id": "sly_eyepatch",
+    "buffs": [
+        "TRINKET_DEF_B1",
+        "TRINKET_STUNRESIST_D1",
+        "TRINKET_MOVERESIST_D1"
+    ],
+    "hero_class_requirements": [ "man_at_arms" ],
+    "rarity": "common",
+    "price": 8000,
+    "limit": 1,
+    "origin_dungeon": ""
+},
+{
+    "id": "cleansing_eyepatch",
+    "buffs": [
+        "TRINKET_BLIGHTRESIST_B2",
+        "TRINKET_DISEASERESIST_B1",
+        "TRINKET_DEF_D1"
+    ],
+    "hero_class_requirements": [ "man_at_arms" ],
+    "rarity": "very_common",
+    "price": 4000,
+    "limit": 1,
+    "origin_dungeon": ""
+}
+]
+}

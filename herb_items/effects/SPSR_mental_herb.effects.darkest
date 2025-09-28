@@ -1,0 +1,1 @@
+effect: .name "SPSR_mental_herb" .target "performer" .item 1 .duration 4 .chance 100%  .healstress 20 .buff_ids SPSR_mental_herb_Stress_Received_B

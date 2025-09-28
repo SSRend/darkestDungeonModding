@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+<language id="brazilian">
+</language>
+<language id="czech">
+</language>
+<language id="english">
+	<entry id="tray_icon_tooltip_tag_title_combat_end"><![CDATA[{colour_start|mark}Marked{colour_end} (%d Battles)]]></entry>
+	<entry id="tray_icon_tooltip_tag_title_round"><![CDATA[{colour_start|mark}Marked{colour_end} (%d rds)]]></entry>
+	<entry id="tray_icon_tooltip_tag_title_before_turn"><![CDATA[{colour_start|mark}Marked{colour_end} (%d rds)]]></entry>
+	<entry id="tray_icon_tooltip_tag_title_after_turn"><![CDATA[{colour_start|mark}Marked{colour_end} (%d rds)]]></entry>
+</language>
+<language id="french">
+</language>
+<language id="german">
+</language>
+<language id="italian">
+</language>
+<language id="japanese">
+</language>
+<language id="polish">
+</language>
+<language id="russian">
+</language>
+<language id="schinese">
+</language>
+<language id="spanish">
+</language>
+<language id="koreana">
+</language>
+<language id="koreanb">
+</language>
+</root>

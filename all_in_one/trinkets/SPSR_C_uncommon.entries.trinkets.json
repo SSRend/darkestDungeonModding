@@ -1,0 +1,220 @@
+{
+"entries": [
+{
+	"id": "feather_crystal",
+	"buffs": [
+		"SPD2",
+		"DEF5"
+	],
+	"hero_class_requirements": [],
+	"rarity": "uncommon",
+	"price": 10000,
+	"limit": 1,
+	"origin_dungeon": ""
+},
+{
+	"id": "surgical_glove",
+	"buffs": [
+		"SPSR_Trinket_melee_DMGL_B1",
+		"SPSR_Trinket_melee_DMGH_B1"		
+	],
+	"hero_class_requirements": [],
+	"rarity": "uncommon",
+	"price": 10000,
+	"limit": 1,
+	"origin_dungeon": ""
+},
+{
+	"id": "solar_bracer",
+	"buffs": [
+		"TRINKET_lightabove_CRIT_B1",
+		"TRINKET_lightabove_DEF_B1",
+		"TRINKET_lightbelow_CRIT_D2",
+		"TRINKET_lightbelow_DEF_D2"
+	],
+	"hero_class_requirements": [],
+	"rarity": "uncommon",
+	"price": 10000,
+	"limit": 1,
+	"origin_dungeon": ""
+},
+{
+	"id": "dark_bracer",
+	"buffs": [
+		"TRINKET_dark_bracer_lightbelow_CRIT_BUFF",
+		"TRINKET_dark_bracer_lightbelow_DEF_BUFF",
+		"TRINKET_dark_bracer_lightabove_DMG_DEBUFF_L",
+		"TRINKET_dark_bracer_lightabove_DMG_DEBUFF_H"
+	],
+	"hero_class_requirements": [],
+	"rarity": "uncommon",
+	"price": 10000,
+	"limit": 1,
+	"origin_dungeon": ""
+},
+{
+	"id": "steady_bracer",
+	"buffs": [
+		"SPSR_Trinket_ranged_DMGL_B1",
+		"SPSR_Trinket_ranged_DMGH_B1"
+	],
+	"hero_class_requirements": [],
+	"rarity": "uncommon",
+	"price": 10000,
+	"limit": 1,
+	"origin_dungeon": ""
+},
+{
+	"id": "life_crystal",
+	"buffs": [
+		"MAXHP15"
+	],
+	"hero_class_requirements": [],
+	"rarity": "uncommon",
+	"price": 10000,
+	"limit": 1,
+	"origin_dungeon": ""
+},
+{
+	"id": "sun_cloak",
+	"buffs": [
+		"SPSR_Trinket_light_above_Prot_B1"
+	],
+	"hero_class_requirements": [],
+	"rarity": "uncommon",
+	"price": 10000,
+	"limit": 1,
+	"origin_dungeon": ""
+},
+{
+	"id": "moon_cloak",
+	"buffs": [
+		"TRINKET_lightbelow_PROT_B3",
+		"TRINKET_lightbelow_DEF_B2",
+		"TRINKET_STRESSDMG_D2"
+	],
+	"hero_class_requirements": [],
+	"rarity": "uncommon",
+	"price": 10000,
+	"limit": 1,
+	"origin_dungeon": ""
+},
+{
+	"id": "stun_amulet",
+	"buffs": [
+		"STUNSKILL10",
+		"STUNRESIST10"
+	],
+	"hero_class_requirements": [],
+	"rarity": "uncommon",
+	"price": 10000,
+	"limit": 1,
+	"origin_dungeon": ""
+},
+{
+	"id": "move_amulet",
+	"buffs": [
+		"MOVESKILL15",
+		"MOVERESIST15"
+	],
+	"hero_class_requirements": [],
+	"rarity": "uncommon",
+	"price": 10000,
+	"limit": 1,
+	"origin_dungeon": ""
+},
+{
+	"id": "blight_amulet",
+	"buffs": [
+		"BLIGHTSKILL15",
+		"BLIGHTRESIST15"
+	],
+	"hero_class_requirements": [],
+	"rarity": "uncommon",
+	"price": 10000,
+	"limit": 1,
+	"origin_dungeon": ""
+},
+{
+	"id": "bleed_amulet",
+	"buffs": [
+		"BLEEDSKILL15",
+		"BLEEDRESIST15"
+	],
+	"hero_class_requirements": [],
+	"rarity": "uncommon",
+	"price": 10000,
+	"limit": 1,
+	"origin_dungeon": ""
+},
+{
+	"id": "debuff_amulet",
+	"buffs": [
+		"DEBUFFSKILL15",
+		"DEBUFFRESIST15"
+	],
+	"hero_class_requirements": [],
+	"rarity": "uncommon",
+	"price": 10000,
+	"limit": 1,
+	"origin_dungeon": ""
+},
+{
+	"id": "recovery_charm",
+	"buffs": [
+		"HPRECOVERY20"
+	],
+	"hero_class_requirements": [],
+	"rarity": "uncommon",
+	"price": 10000,
+	"limit": 1,
+	"origin_dungeon": ""
+},
+{
+	"id": "bloodthirst_ring",
+	"buffs": [
+	],
+	"hero_class_requirements": [],
+	"rarity": "uncommon",
+	"price": 10000,
+	"limit": 1,
+	"origin_dungeon": "",
+	"attack_skill_additional_effects": [
+		"SPSR_Trinket_on_hit_Heal"
+	]
+},
+{
+	"id": "calming_crystal",
+	"buffs": [
+		"STRESSDMG-20"
+	],
+	"hero_class_requirements": [],
+	"rarity": "uncommon",
+	"price": 10000,
+	"limit": 1,
+	"origin_dungeon": ""
+},
+{
+	"id": "book_of_holiness",
+	"buffs": [
+		"RESOLVECHECK15"
+	],
+	"hero_class_requirements": [],
+	"rarity": "uncommon",
+	"price": 10000,
+	"limit": 1,
+	"origin_dungeon": ""
+},
+{
+	"id": "seer_stone",
+	"buffs": [
+		"SCOUTING10"
+	],
+	"hero_class_requirements": [],
+	"rarity": "uncommon",
+	"price": 10000,
+	"limit": 1,
+	"origin_dungeon": ""
+}
+]
+}

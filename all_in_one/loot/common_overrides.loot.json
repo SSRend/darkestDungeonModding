@@ -1,0 +1,54 @@
+{
+"loot_tables" :
+[
+{
+	"id" : "A",
+	"difficulty" : 0,
+	"dungeon" : "",
+	"entries" :
+	[
+		{ "type" : "nothing", "chances" : 0, "data" : { }},
+		{ "type" : "table", "chances" : 30, "data" : { "table" : "C" }},
+		{ "type" : "table", "chances" : 20, "data" : { "table" : "G" }},
+		{ "type" : "table", "chances" : 25, "data" : { "table" : "H" }},
+		{ "type" : "table", "chances" : 0, "data" : { "table" : "J" }},
+		{ "type" : "table", "chances" : 0, "data" : { "table" : "P" }},
+		{ "type" : "table", "chances" : 15, "data" : { "table" : "S" }},
+		{ "type" : "table", "chances" : 6, "data" : { "table" : "T" }},
+		{ "type" : "table", "chances" : 3, "data" : { "table" : "BLOOD_ALWAYS" }},
+		{ "type" : "journal_page", "chances" : 1, "data" : { "min_page_index" : 1 , "max_page_index" : 21 }}
+	]
+},
+{
+	"id" : "S",
+	"difficulty" : 0,
+	"dungeon" : "",
+	"entries" :
+	[
+		{ "type" : "nothing", "chances" : 0, "data" : { }},
+		{ "type" : "item", "chances" : 24, "data" : { "type" : "provision", "id" : "", "amount" : 1 }},
+		{ "type" : "item", "chances" : 24, "data" : { "type" : "supply", "id" : "torch", "amount" : 1 }},
+		{ "type" : "item", "chances" : 6, "data" : { "type" : "supply", "id" : "skeleton_key", "amount" : 1 }},
+		{ "type" : "item", "chances" : 6, "data" : { "type" : "supply", "id" : "shovel", "amount" : 1 }},
+		{ "type" : "item", "chances" : 8, "data" : { "type" : "supply", "id" : "medicinal_herbs", "amount" : 1 }},
+		{ "type" : "item", "chances" : 8, "data" : { "type" : "supply", "id" : "antivenom", "amount" : 1 }},
+		{ "type" : "item", "chances" : 8, "data" : { "type" : "supply", "id" : "bandage", "amount" : 1 }},
+		{ "type" : "item", "chances" : 8, "data" : { "type" : "supply", "id" : "holy_water", "amount" : 1 }},
+		{ "type" : "item", "chances" : 4, "data" : { "type" : "supply", "id" : "SPSR_undying_herb", "amount" : 1 }},
+		{ "type" : "item", "chances" : 4, "data" : { "type" : "supply", "id" : "SPSR_mental_herb", "amount" : 1 }},
+		{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "firewood", "amount" : 1 }}
+	]
+},
+{
+	"id" : "WOOD_LOOT",
+	"difficulty" : 0,
+	"dungeon" : "",
+	"entries" :
+	[
+		{ "type" : "nothing", "chances" : 0, "data" : { }},
+		{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "firewood", "amount" : 2 }},
+		{ "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "firewood", "amount" : 1 }}
+	]
+}
+]
+}

@@ -1,0 +1,206 @@
+{
+    "version": 1,
+    "data":
+    {
+        "purchases":
+        {
+            "crusader.smite":
+            {
+                "instance_number": 1,
+                "tree_id": 151890549,
+                "requirement_code": "0",
+                "is_purchased": true
+            },
+            "crusader.holy_lance":
+            {
+                "instance_number": 1,
+                "tree_id": 3272252004,
+                "requirement_code": "0",
+                "is_purchased": true
+            },
+            "crusader.stunning_blow":
+            {
+                "instance_number": 1,
+                "tree_id": 3782681684,
+                "requirement_code": "0",
+                "is_purchased": true
+            },
+            "crusader.inspiring_cry":
+            {
+                "instance_number": 1,
+                "tree_id": 2421046823,
+                "requirement_code": "0",
+                "is_purchased": true
+            },
+            "crusader.encourage":
+            {
+                "instance_number": 1,
+                "tree_id": 2914419792,
+                "requirement_code": "0",
+                "is_purchased": true
+            },
+            "crusader.stand_tall":
+            {
+                "instance_number": 1,
+                "tree_id": 55785921,
+                "requirement_code": "0",
+                "is_purchased": true
+            },
+            "crusader.zealous_speech":
+            {
+                "instance_number": 1,
+                "tree_id": 3709492061,
+                "requirement_code": "0",
+                "is_purchased": true
+            },
+            "highwayman.wicked_slice":
+            {
+                "instance_number": 2,
+                "tree_id": 1338591124,
+                "requirement_code": "0",
+                "is_purchased": true
+            },
+            "highwayman.duelist_advance":
+            {
+                "instance_number": 2,
+                "tree_id": 3773045989,
+                "requirement_code": "0",
+                "is_purchased": true
+            },
+            "highwayman.point_blank_shot":
+            {
+                "instance_number": 2,
+                "tree_id": 2605406103,
+                "requirement_code": "0",
+                "is_purchased": true
+            },
+            "highwayman.pistol_shot":
+            {
+                "instance_number": 2,
+                "tree_id": 4152537055,
+                "requirement_code": "0",
+                "is_purchased": true
+            },
+            "highwayman.pep_talk":
+            {
+                "instance_number": 2,
+                "tree_id": 1087292673,
+                "requirement_code": "0",
+                "is_purchased": true
+            },
+            "highwayman.gallows_humor":
+            {
+                "instance_number": 2,
+                "tree_id": 4200986827,
+                "requirement_code": "0",
+                "is_purchased": true
+            },
+            "highwayman.bandits_sense":
+            {
+                "instance_number": 2,
+                "tree_id": 3148831085,
+                "requirement_code": "0",
+                "is_purchased": true
+            },
+            "plague_doctor.noxious_blast":
+            {
+                "instance_number": 3,
+                "tree_id": 3148831086,
+                "requirement_code": "0",
+                "is_purchased": true
+            },
+            "plague_doctor.plague_grenade":
+            {
+                "instance_number": 3,
+                "tree_id": 3148831087,
+                "requirement_code": "0",
+                "is_purchased": true
+            },
+            "plague_doctor.blinding_gas":
+            {
+                "instance_number": 3,
+                "tree_id": 3148831088,
+                "requirement_code": "0",
+                "is_purchased": true
+            },
+            "plague_doctor.battlefield_medicine":
+            {
+                "instance_number": 3,
+                "tree_id": 3148831089,
+                "requirement_code": "0",
+                "is_purchased": true
+            },
+            "plague_doctor.first_aid":
+            {
+                "instance_number": 3,
+                "tree_id": 3148831090,
+                "requirement_code": "0",
+                "is_purchased": true
+            },
+            "plague_doctor.leeches":
+            {
+                "instance_number": 3,
+                "tree_id": 3148831091,
+                "requirement_code": "0",
+                "is_purchased": true
+            },
+            "plague_doctor.preventative_medicine":
+            {
+                "instance_number": 3,
+                "tree_id": 3148831092,
+                "requirement_code": "0",
+                "is_purchased": true
+            },
+            "vestal.judgement":
+            {
+                "instance_number": 4,
+                "tree_id": 3148831093,
+                "requirement_code": "0",
+                "is_purchased": true
+            },
+            "vestal.dazzling_light":
+            {
+                "instance_number": 4,
+                "tree_id": 3148831094,
+                "requirement_code": "0",
+                "is_purchased": true
+            },
+            "vestal.gods_comfort":
+            {
+                "instance_number": 4,
+                "tree_id": 3148831095,
+                "requirement_code": "0",
+                "is_purchased": true
+            },
+            "vestal.divine_grace":
+            {
+                "instance_number": 4,
+                "tree_id": 3148831096,
+                "requirement_code": "0",
+                "is_purchased": true
+            },
+            "vestal.encourage":
+            {
+                "instance_number": 4,
+                "tree_id": 3148831097,
+                "requirement_code": "0",
+                "is_purchased": true
+            },
+            "vestal.bless":
+            {
+                "instance_number": 4,
+                "tree_id": 3148831098,
+                "requirement_code": "0",
+                "is_purchased": true
+            },
+            "vestal.pray":
+            {
+                "instance_number": 4,
+                "tree_id": 3148831093,
+                "requirement_code": "0",
+                "is_purchased": true
+            }
+        },
+        "discounts": { }
+    }
+}

@@ -1,0 +1,13 @@
+display: .size 1
+enemy_type: .id "man"
+enemy_type: .id "beast"
+stats: .hp 21 .def 0% .prot 0.1 .spd 2 .stun_resist 30% .poison_resist 50% .bleed_resist 20% .debuff_resist 20% .move_resist 40%
+skill: .id "butcher_cut" .type "melee" .atk 90% .dmg 3 7 .crit 13%  .effect "Bleed 1" "SPSR Monster Stun Debuff 1" .launch 12 .target 123
+skill: .id "ball_and_chain" .type "ranged" .atk 85% .dmg 2 4 .crit 12%  .effect "Stun 1" "Push 1A" .launch 1234 .target 234
+personality: .prefskill -1
+loot: .code "A" .count 1
+initiative: .number_of_turns_per_round 1
+monster_brain: .id swine_reaver_A
+death_class: .monster_class_id corpse_A .is_valid_on_crit False .type "corpse" 
+battle_modifier: .accelerate_stall_penalty False .disable_stall_penalty False .can_surprise True .can_be_surprised True .always_surprise False .always_be_surprised False
+wave_spawning: .prefers_front True

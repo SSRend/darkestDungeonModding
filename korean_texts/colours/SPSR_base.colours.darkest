@@ -1,0 +1,54 @@
+colour:	.id "mark" 													.rgba #ff004a
+colour:	.id "bleed" 												.rgba #c91010
+colour:	.id "harmful" 												.rgba #aa0000
+colour:	.id "deathdoor" 											.shared_id "harmful"
+colour:	.id "deathblow" 											.shared_id "harmful"
+colour:	.id "afflicted"		 										.shared_id "harmful"
+colour:	.id "debuff" 												.rgba #cb660e
+colour:	.id "mortaldebuff"		 								  	.shared_id "debuff"
+colour:	.id "attacktype"		 									.rgba #8a7658
+colour:	.id "specificclass"		 								    .shared_id "attacktype"
+colour:	.id "riposte"		 								  		.shared_id "attacktype"
+colour:	.id "stun" 													.rgba #d59e30
+colour:	.id "notable" 												.rgba #e0c76d
+colour:	.id "virtue"		 										.shared_id "notable"
+colour:	.id "blight" 											  	.rgba #788521
+colour:	.id "disease" 												.rgba #9b9e3d
+colour:	.id "healhp"		 								  		.rgba #5fac2b
+colour:	.id "buff" 													.rgba #56c5cf
+colour:	.id "guard"		 									  		.shared_id "buff"
+colour:	.id "move" 													.rgba #466f9e
+colour:	.id "knockback"		 										.shared_id "move"
+colour:	.id "stealth"		 								    	.rgba #433783
+colour:	.id "scouting"		 								  	    .rgba #765692
+colour:	.id "trap"		 									  		.shared_id "scouting"
+colour:	.id "scoutingNOT1"		 								    .shared_id "scouting"
+colour:	.id "surprisedNOT1"		 								    .shared_id "scouting"
+colour:	.id "surprised"		 										.shared_id "scouting"
+colour:	.id "neutral" 												.rgba #aeaca2
+colour:	.id "stress" 												.rgba #e9e8db
+
+colour: .id "darkest_dungeon"										.rgba 222 182 105 255
+colour: .id "trophy"												.rgba 222 182 105 255
+colour: .id "ancestral_shambler"									.rgba 224 39 0 255
+colour: .id "ancestral"												.rgba 224 39 0 255
+colour: .id "madman"												.rgba 224 39 0 255
+colour: .id "courtier"												.rgba 224 39 0 255
+colour: .id "crow"												    .rgba 224 39 0 255
+colour: .id "very_rare"												.rgba 224 39 0 255
+colour: .id "rare"													.rgba #8524F5
+colour: .id "collector"											    .rgba 59 97 167 255
+colour: .id "uncommon"												.rgba 59 97 167 255
+colour: .id "common"												.rgba 96 149 75 255
+colour: .id "very_common"											.rgba #aeaca2
+
+colour:   .id "UI_resolve_seeker"									.rgba #807b57
+colour:   .id "UI_resolve_apprentice"								.rgba #aeaca2
+colour:   .id "UI_resolve_adventurer"								.rgba 96 149 75 255
+colour:   .id "UI_resolve_veteran"									.rgba 59 97 167 255
+colour:   .id "UI_resolve_master"									.rgba #8524F5
+colour:   .id "UI_resolve_champion"								    .rgba 224 39 0 255
+colour:   .id "UI_resolve_legend"									.rgba 222 182 105 255
+colour:   .id "UI_resolve_merc"							            .rgba #33D1AA
+
+colour: .id "skill_unselectable"									.darkness	0.4				.saturation 0.0

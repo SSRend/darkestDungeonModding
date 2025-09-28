@@ -1,0 +1,46 @@
+// Heroes
+effect: .name "SPSR Cru glittering spaulders attacked stress" .target "performer" .chance 100% .stress 2 .on_hit true .on_miss false .queue true .apply_once true
+
+effect: .name "SPSR Hel lioness warpaint Self Bleed On Attack" .target "performer" .chance 300%  .dotBleed 1 .duration 2	.on_hit true .on_miss true .can_apply_on_death true .apply_once true
+
+effect: .name "SPSR Hwy Shameful Locket Dodge on Melee Attack" .target "performer" .chance 100% .combat_stat_buff 1 .defense_rating_add 5%	.on_hit true .on_miss false
+effect: .name "SPSR Hwy Shameful Locket Stress on Kill" .target "target"    .curio_result_type "positive" .chance 100% .stress 2	.on_hit true .on_miss true .queue true 
+
+effect: .name "SPSR Grv absinthe Ranged Attack on Mark"	.target "target" .curio_result_type "positive" .chance 100%	.tag 1  .duration 2	.on_hit true .on_miss false
+
+
+// monsters
+effect: .name "SPSR Crimson Curse Weak" .target "target" .curio_result_type "negative" .chance 20% .disease disease_vampire_passive	.on_hit true .on_miss false .crit_doesnt_apply_to_roll true
+effect: .name "SPSR Crimson Curse Strong" .target "target" .curio_result_type "negative" .chance 30% .disease disease_vampire_passive	.on_hit true .on_miss false .crit_doesnt_apply_to_roll true
+effect: .name "SPSR Crimson Curse Boss" .target "target" .curio_result_type "negative" .chance 40% .disease disease_vampire_passive	.on_hit true .on_miss false .crit_doesnt_apply_to_roll true
+
+effect: .name "SPSR Esquire Riposte"  .target "performer" .curio_result_type "positive" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 3  .on_hit true .on_miss true .apply_once true
+
+effect: .name "SPSR courtesan Buff 3" .target "target" .chance 100%  .combat_stat_buff 1 .speed_rating_add 2 .crit_chance_add 4% 	.on_hit true .on_miss true .queue true .duration 2
+effect: .name "SPSR courtesan Buff 5" .target "target" .chance 100%  .combat_stat_buff 1 .speed_rating_add 3 .crit_chance_add 5%  	.on_hit true .on_miss true .queue true .duration 2
+
+effect: .name "SPSR courtesan Prot Buff 3" .target "target" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .protection_rating_add 18% .duration 3 .on_hit true .on_miss true .queue true
+effect: .name "SPSR courtesan Prot Buff 5" .target "target" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .protection_rating_add 20% .duration 3 .on_hit true .on_miss true .queue true
+
+
+effect: .name "SPSR Croc Submerge Dodge 1" .target "performer" .chance 100% .combat_stat_buff 1 .defense_rating_add 40% .duration 2 .on_hit true .on_miss true
+effect: .name "SPSR Croc Submerge Dodge 3" .target "performer" .chance 100% .combat_stat_buff 1 .defense_rating_add 45% .duration 2 .on_hit true .on_miss true
+effect: .name "SPSR Croc Submerge Dodge 5" .target "performer" .chance 100% .combat_stat_buff 1 .defense_rating_add 50% .duration 2 .on_hit true .on_miss true
+
+effect: .name "SPSR Croc Hide Buff 1" .target "performer" .chance 100% .combat_stat_buff 1 .damage_low_multiply 12% .damage_high_multiply 12% .protection_rating_add 12% .on_hit true .on_miss true .duration 3
+effect: .name "SPSR Croc Hide Buff 3" .target "performer" .chance 100% .combat_stat_buff 1 .damage_low_multiply 14% .damage_high_multiply 14% .protection_rating_add 14% .on_hit true .on_miss true .duration 3
+effect: .name "SPSR Croc Hide Buff 5" .target "performer" .chance 100% .combat_stat_buff 1 .damage_low_multiply 15% .damage_high_multiply 15% .protection_rating_add 15% .on_hit true .on_miss true .duration 3
+
+effect: .name "SPSR Baron Whipping Buff" .target "target" .chance 100% .duration 2 .combat_stat_buff 1 .attack_rating_add 9% .speed_rating_add 2 .crit_chance_add 4% .on_hit true .on_miss true
+
+effect: .name "SPSR Viscount Reposte" .target "performer"  .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 3  .on_hit true .on_miss true .apply_once true
+
+effect: .name "SPSR Viscount Buff 1" .target "performer" .chance 100% .duration 3 .combat_stat_buff 1 .defense_rating_add 10% .on_hit true .on_miss false .queue true
+effect: .name "SPSR Viscount Buff 2" .target "performer" .chance 100% .duration 3 .combat_stat_buff 1 .crit_chance_add 15% .on_hit true .on_miss false .queue true
+effect: .name "SPSR Viscount Buff 3" .target "performer" .chance 100% .duration 3 .combat_stat_buff 1 .damage_low_multiply 20% .damage_high_multiply 20% .on_hit true .on_miss false .queue true
+
+//Countess
+effect: .name "SPSR Countess Shuffle" .target "target" .chance 140%  .dotShuffle 1 .duration 2	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "SPSR Countess Blight" .target "target" .chance 140%  .dotPoison 3 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "SPSR Countess Flushed Recovery Buff" .target "performer" .curio_result_type "positive" .chance 100% .duration 1 .combat_stat_buff 3 .attack_rating_add 10% .crit_chance_add 10% .on_hit true .on_miss true .queue true
+

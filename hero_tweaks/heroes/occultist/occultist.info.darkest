@@ -1,0 +1,56 @@
+resistances: .stun 15% .poison 20% .bleed 20% .disease 30% .move 15% .debuff 40% .death_blow 67% .trap 25%
+crit: .effects "SPSR Occ on crit Healdone" "SPSR Occ on crit Stun Chance"
+weapon: .name "occultist_weapon_0" .atk 0% .dmg 4  7 .crit 4% .spd 5
+weapon: .name "occultist_weapon_1" .atk 0% .dmg 5  8 .crit 5% .spd 5 .upgradeRequirementCode 0
+weapon: .name "occultist_weapon_2" .atk 0% .dmg 5 10 .crit 6% .spd 6 .upgradeRequirementCode 1
+weapon: .name "occultist_weapon_3" .atk 0% .dmg 6 11 .crit 7% .spd 6 .upgradeRequirementCode 2
+weapon: .name "occultist_weapon_4" .atk 0% .dmg 7 12 .crit 8% .spd 7 .upgradeRequirementCode 3
+armour: .name "occultist_armour_0" .def 10% .prot 0 .hp 20 .spd 0
+armour: .name "occultist_armour_1" .def 15% .prot 0 .hp 24 .spd 0 .upgradeRequirementCode 0
+armour: .name "occultist_armour_2" .def 20% .prot 0 .hp 28 .spd 0 .upgradeRequirementCode 1
+armour: .name "occultist_armour_3" .def 25% .prot 0 .hp 32 .spd 0 .upgradeRequirementCode 2
+armour: .name "occultist_armour_4" .def 30% .prot 0 .hp 37 .spd 0 .upgradeRequirementCode 3
+combat_skill: .id "bloodlet" .level 0 .type "melee" .atk 90% .dmg 0% .crit 6% .launch 12 .target 123 .is_crit_valid True  .effect "SPSR Hwy Marked Killer 1"
+combat_skill: .id "bloodlet" .level 1 .type "melee" .atk 95% .dmg 0% .crit 7% .launch 12 .target 123 .is_crit_valid True  .effect "SPSR Hwy Marked Killer 2"
+combat_skill: .id "bloodlet" .level 2 .type "melee" .atk 100% .dmg 0% .crit 8% .launch 12 .target 123 .is_crit_valid True  .effect "SPSR Hwy Marked Killer 3"
+combat_skill: .id "bloodlet" .level 3 .type "melee" .atk 105% .dmg 0% .crit 9% .launch 12 .target 123 .is_crit_valid True  .effect "SPSR Hwy Marked Killer 4"
+combat_skill: .id "bloodlet" .level 4 .type "melee" .atk 110% .dmg 0% .crit 10% .launch 12 .target 123 .is_crit_valid True  .effect "SPSR Hwy Marked Killer 5"
+combat_skill: .id "abyssal_artillery" .level 0 .type "ranged" .atk 90% .dmg -15% .crit -4% .launch 34 .target ~34 .is_crit_valid True  .effect "SPSR Occ Darkness 1"
+combat_skill: .id "abyssal_artillery" .level 1 .type "ranged" .atk 95% .dmg -15% .crit -3% .launch 34 .target ~34 .is_crit_valid True  .effect "SPSR Occ Darkness 1"
+combat_skill: .id "abyssal_artillery" .level 2 .type "ranged" .atk 100% .dmg -15% .crit -2% .launch 34 .target ~34 .is_crit_valid True  .effect "SPSR Occ Darkness 1"
+combat_skill: .id "abyssal_artillery" .level 3 .type "ranged" .atk 105% .dmg -15% .crit -1% .launch 34 .target ~34 .is_crit_valid True  .effect "SPSR Occ Darkness 1"
+combat_skill: .id "abyssal_artillery" .level 4 .type "ranged" .atk 110% .dmg -15% .crit 0% .launch 34 .target ~34 .is_crit_valid True  .effect "SPSR Occ Darkness 1"
+combat_skill: .id "hands_from_abyss" .level 0 .type "ranged" .atk 95% .dmg -70% .crit 5% .launch 12 .target 123 .is_crit_valid True  .effect "Stun 1" "SPSR Occ Darkness 1"
+combat_skill: .id "hands_from_abyss" .level 1 .type "ranged" .atk 100% .dmg -70% .crit 6% .launch 12 .target 123 .is_crit_valid True  .effect "Stun 2" "SPSR Occ Darkness 1"
+combat_skill: .id "hands_from_abyss" .level 2 .type "ranged" .atk 105% .dmg -70% .crit 7% .launch 12 .target 123 .is_crit_valid True  .effect "Stun 3" "SPSR Occ Darkness 1"
+combat_skill: .id "hands_from_abyss" .level 3 .type "ranged" .atk 110% .dmg -70% .crit 8% .launch 12 .target 123 .is_crit_valid True  .effect "Stun 4" "SPSR Occ Darkness 1"
+combat_skill: .id "hands_from_abyss" .level 4 .type "ranged" .atk 115% .dmg -70% .crit 9% .launch 12 .target 123 .is_crit_valid True  .effect "Stun 5" "SPSR Occ Darkness 1"
+combat_skill: .id "daemons_pull" .level 0 .type "ranged" .atk 95% .dmg -70% .crit 5% .launch 34 .target 234 .is_crit_valid True  .effect "SPSR Occ Pull 1" "SPSR Occ Clear Corpses"
+combat_skill: .id "daemons_pull" .level 1 .type "ranged" .atk 100% .dmg -70% .crit 6% .launch 34 .target 234 .is_crit_valid True  .effect "SPSR Occ Pull 2" "SPSR Occ Clear Corpses"
+combat_skill: .id "daemons_pull" .level 2 .type "ranged" .atk 105% .dmg -70% .crit 7% .launch 34 .target 234 .is_crit_valid True  .effect "SPSR Occ Pull 3" "SPSR Occ Clear Corpses"
+combat_skill: .id "daemons_pull" .level 3 .type "ranged" .atk 110% .dmg -70% .crit 8% .launch 34 .target 234 .is_crit_valid True  .effect "SPSR Occ Pull 4" "SPSR Occ Clear Corpses"
+combat_skill: .id "daemons_pull" .level 4 .type "ranged" .atk 115% .dmg -70% .crit 9% .launch 34 .target 234 .is_crit_valid True  .effect "SPSR Occ Pull 5" "SPSR Occ Clear Corpses"
+combat_move_skill: .id "move" .level 0 .type "move" .move 2 1 .launch 4321
+combat_skill: .id "weakening_curse" .level 0 .type "ranged" .atk 100% .dmg -90% .crit 4% .launch 1234 .target 1234 .is_crit_valid True .effect "SPSR Occ Mark Target" "SPSR Occ Curse Debuff 1" .is_stall_invalidating false
+combat_skill: .id "weakening_curse" .level 1 .type "ranged" .atk 105% .dmg -90% .crit 5% .launch 1234 .target 1234 .is_crit_valid True .effect "SPSR Occ Mark Target" "SPSR Occ Curse Debuff 2" .is_stall_invalidating false
+combat_skill: .id "weakening_curse" .level 2 .type "ranged" .atk 110% .dmg -90% .crit 6% .launch 1234 .target 1234 .is_crit_valid True .effect "SPSR Occ Mark Target" "SPSR Occ Curse Debuff 3" .is_stall_invalidating false
+combat_skill: .id "weakening_curse" .level 3 .type "ranged" .atk 115% .dmg -90% .crit 7% .launch 1234 .target 1234 .is_crit_valid True .effect "SPSR Occ Mark Target" "SPSR Occ Curse Debuff 4" .is_stall_invalidating false
+combat_skill: .id "weakening_curse" .level 4 .type "ranged" .atk 120% .dmg -90% .crit 8% .launch 1234 .target 1234 .is_crit_valid True .effect "SPSR Occ Mark Target" "SPSR Occ Curse Debuff 5" .is_stall_invalidating false
+combat_skill: .id "disruptive_curse" .level 0 .type "ranged" .atk 100% .dmg -90% .crit 4% .launch 1234 .target 1234 .is_crit_valid True .ignore_stealth true   .effect "SPSR Occ Destealth" "SPSR Occ Mark Target" "SPSR Occ Hex Debuff 1" .is_stall_invalidating false
+combat_skill: .id "disruptive_curse" .level 1 .type "ranged" .atk 105% .dmg -90% .crit 5% .launch 1234 .target 1234 .is_crit_valid True .ignore_stealth true   .effect "SPSR Occ Destealth" "SPSR Occ Mark Target" "SPSR Occ Hex Debuff 2" .is_stall_invalidating false
+combat_skill: .id "disruptive_curse" .level 2 .type "ranged" .atk 110% .dmg -90% .crit 6% .launch 1234 .target 1234 .is_crit_valid True .ignore_stealth true   .effect "SPSR Occ Destealth" "SPSR Occ Mark Target" "SPSR Occ Hex Debuff 3" .is_stall_invalidating false
+combat_skill: .id "disruptive_curse" .level 3 .type "ranged" .atk 115% .dmg -90% .crit 7% .launch 1234 .target 1234 .is_crit_valid True .ignore_stealth true   .effect "SPSR Occ Destealth" "SPSR Occ Mark Target" "SPSR Occ Hex Debuff 4" .is_stall_invalidating false
+combat_skill: .id "disruptive_curse" .level 4 .type "ranged" .atk 120% .dmg -90% .crit 8% .launch 1234 .target 1234 .is_crit_valid True .ignore_stealth true   .effect "SPSR Occ Destealth" "SPSR Occ Mark Target" "SPSR Occ Hex Debuff 5" .is_stall_invalidating false
+combat_skill: .id "wyrd_reconstruction" .level 0 .heal 1 15 .launch 1234 .target @1234  .effect "SPSR Occ Wyrd Bleed 1" .generation_guaranteed true .is_stall_invalidating false
+combat_skill: .id "wyrd_reconstruction" .level 1 .heal 1 16 .launch 1234 .target @1234  .effect "SPSR Occ Wyrd Bleed 2" .is_stall_invalidating false
+combat_skill: .id "wyrd_reconstruction" .level 2 .heal 2 16 .launch 1234 .target @1234  .effect "SPSR Occ Wyrd Bleed 3" .is_stall_invalidating false
+combat_skill: .id "wyrd_reconstruction" .level 3 .heal 2 17 .launch 1234 .target @1234  .effect "SPSR Occ Wyrd Bleed 4" .is_stall_invalidating false
+combat_skill: .id "wyrd_reconstruction" .level 4 .heal 3 17 .launch 1234 .target @1234  .effect "SPSR Occ Wyrd Bleed 5" .is_stall_invalidating false
+tag: .id "light"
+tag: .id "non-religious"
+tag: .id "library"
+deaths_door: .buffs deathsdoorACCDebuff deathsdoorDMGLowDebuff deathsdoorDMGHighDebuff deathsdoorSPDDebuff deathsdoorSRDebuff .recovery_buffs mortalityACCDebuff mortalityDMGLowDebuff mortalityDMGHighDebuff mortalitySPDDebuff mortalitySRDebuff .recovery_heart_attack_buffs heartattackACCDebuff heartattackDMGLowDebuff heartattackDMGHighDebuff heartattackSPDDebuff heartattackSRDebuff
+controlled: .target_rank 4
+id_index: .index 7
+skill_selection: .can_select_combat_skills true .number_of_selected_combat_skills_max 4
+generation: .is_generation_enabled true .number_of_positive_quirks_min 1 .number_of_positive_quirks_max 2 .number_of_negative_quirks_min 1 .number_of_negative_quirks_max 2 .number_of_class_specific_camping_skills 2 .number_of_shared_camping_skills 1 .number_of_random_combat_skills 4 .number_of_cards_in_deck 1 .card_chance 1.0

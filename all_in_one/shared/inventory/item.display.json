@@ -1,0 +1,99 @@
+{
+    "gold":
+    {
+        "icon_thresholds": [ 400, 800, 1200, 1600 ],
+        "can_unpack":  false
+    },
+
+    "provision":
+    {
+        "icon_thresholds": [ 0, 7, 11, 16 ],
+        "can_unpack":  true
+    },
+
+    "gemonyx":
+    {
+        "icon_thresholds": [ 1, 2, 3, 4, 5 ],
+        "can_unpack":  true
+    },
+
+    "gemjade":
+    {
+        "icon_thresholds": [ 1, 2, 3, 4, 5 ],
+        "can_unpack":  true
+    },
+
+    "gemruby":
+    {
+        "icon_thresholds": [ 1, 2, 3, 4, 5 ],
+        "can_unpack":  true
+    },
+
+    "gememerald":
+    {
+        "icon_thresholds": [ 1, 2, 3, 4, 5 ],
+        "can_unpack":  true
+    },
+
+    "gemcitrine":
+    {
+        "icon_thresholds": [ 1, 2, 3, 4, 5 ],
+        "can_unpack":  true
+    },
+
+    "gemsapphire":
+    {
+        "icon_thresholds": [ 1, 2, 3, 4, 5 ],
+        "can_unpack":  true
+    },
+	"supplytorch":
+	{
+		"icon_thresholds": [ 1, 2, 3, 4, 5, 6, 7, 8 ],
+		"can_unpack":  true
+	},
+
+  "supplyantivenom": {
+    "icon_thresholds": [ 1, 2, 3, 4, 5, 6 ],
+        "can_unpack":  true
+  },
+  "supplybandage": {
+    "icon_thresholds": [ 1, 2, 3, 4, 5, 6 ],
+        "can_unpack":  true
+  },
+  "supplydog_treats": {
+    "icon_thresholds": [ 1, 2 ],
+        "can_unpack":  true
+  },
+  "supplyholy_water": {
+    "icon_thresholds": [ 1, 2, 3, 4, 5, 6 ],
+        "can_unpack":  true
+  },
+  "supplylaudanum": {
+    "icon_thresholds": [ 1, 2, 3, 4, 5, 6 ],
+        "can_unpack":  true
+  },
+  "supplymedicinal_herbs": {
+    "icon_thresholds": [ 1, 2, 3, 4, 5, 6 ],
+        "can_unpack":  true
+  },
+  "supplyshovel": {
+    "icon_thresholds": [ 1, 2, 3, 4 ],
+        "can_unpack":  true
+  },
+  "supplyskeleton_key": {
+    "icon_thresholds": [ 1, 2, 3, 4, 5, 6 ],
+        "can_unpack":  true
+  },
+  "estatethe_blood": {
+    "icon_thresholds": [ 1, 2, 3, 4, 5, 6 ],
+        "can_unpack":  true
+  },
+  "estatethe_cure": {
+    "icon_thresholds": [ 1, 2, 3, 4 ],
+    "can_unpack":  true
+  },
+  "estatesnake_scale": {
+    "icon_thresholds": [ 1, 2, 3, 4 ],
+    "can_unpack":  true
+  }
+}

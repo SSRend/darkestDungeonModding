@@ -1,0 +1,10 @@
+//------------------------------------------------------------------------
+//Trinket
+
+effect: .name "SPSR_Trinket_crimson_tincture_friendly_skill_Stressheal_Self" .target "performer" .curio_result_type "positive" .chance 100% .healstress 3	.on_hit true .on_miss false .queue true .apply_once true
+
+effect: .name "SPSR_Trinket_on_hit_Heal" .target "performer" .curio_result_type "positive" .chance 100% .heal 1	.on_hit true .on_miss false .queue true .apply_once true
+effect: .name "SPSR_Trinket_on_miss_Acc_Buff_2" .target "performer" .curio_result_type "negative" .chance 100% .duration 4  .combat_stat_buff 1 .attack_rating_add 15% .on_hit false .on_miss true
+
+//일반
+effect: .name "SPSR_Trinket_on_miss_Acc_Buff_1" .target "performer" .curio_result_type "negative" .chance 100% .duration 2  .combat_stat_buff 1 .attack_rating_add 10% .on_hit false .on_miss true

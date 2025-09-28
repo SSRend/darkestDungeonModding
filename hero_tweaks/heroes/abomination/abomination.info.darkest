@@ -1,0 +1,58 @@
+resistances: .stun 30% .poison 40% .bleed 25% .disease 35% .move 30% .debuff 25% .death_blow 67% .trap 30%
+crit: .effects "SPSR Abm on crit Stress Resist" "SPSR Abm on crit Stresshealdone"
+weapon: .name "abomination_weapon_0" .atk 0% .dmg  6 11 .crit 3% .spd 6
+weapon: .name "abomination_weapon_1" .atk 0% .dmg  7 13 .crit 4% .spd 6 .upgradeRequirementCode 0
+weapon: .name "abomination_weapon_2" .atk 0% .dmg  8 15 .crit 5% .spd 7 .upgradeRequirementCode 1
+weapon: .name "abomination_weapon_3" .atk 0% .dmg  9 18 .crit 6% .spd 7 .upgradeRequirementCode 2
+weapon: .name "abomination_weapon_4" .atk 0% .dmg 11 20 .crit 7% .spd 8 .upgradeRequirementCode 3
+armour: .name "abomination_armour_0" .def 10% .prot 0 .hp 26 .spd 0
+armour: .name "abomination_armour_1" .def 15% .prot 0 .hp 31 .spd 0 .upgradeRequirementCode 0
+armour: .name "abomination_armour_2" .def 20% .prot 0 .hp 36 .spd 0 .upgradeRequirementCode 1
+armour: .name "abomination_armour_3" .def 25% .prot 0 .hp 42 .spd 0 .upgradeRequirementCode 2
+armour: .name "abomination_armour_4" .def 30% .prot 0 .hp 48 .spd 0 .upgradeRequirementCode 3
+combat_skill: .id "manacles" .level 0 .type "ranged" .atk 95% .dmg -70% .crit 2% .launch 432 .target 234 .is_crit_valid True  .effect "Stun 1" "Pull 1A" .valid_modes human
+combat_skill: .id "manacles" .level 1 .type "ranged" .atk 100% .dmg -70% .crit 3% .launch 432 .target 234 .is_crit_valid True  .effect "Stun 2" "Pull 1B" .valid_modes human
+combat_skill: .id "manacles" .level 2 .type "ranged" .atk 105% .dmg -70% .crit 4% .launch 432 .target 234 .is_crit_valid True  .effect "Stun 3" "Pull 1C" .valid_modes human
+combat_skill: .id "manacles" .level 3 .type "ranged" .atk 110% .dmg -70% .crit 5% .launch 432 .target 234 .is_crit_valid True  .effect "Stun 4" "Pull 1D" .valid_modes human
+combat_skill: .id "manacles" .level 4 .type "ranged" .atk 115% .dmg -70% .crit 6% .launch 432 .target 234 .is_crit_valid True  .effect "Stun 5" "Pull 1E" .valid_modes human
+combat_skill: .id "vomit" .level 0 .type "ranged" .atk 95% .dmg -85% .crit -5% .launch 432 .target ~12 .is_crit_valid True  .effect "Strong Blight 1" .valid_modes human
+combat_skill: .id "vomit" .level 1 .type "ranged" .atk 100% .dmg -85% .crit -4% .launch 432 .target ~12 .is_crit_valid True  .effect "Strong Blight 2" .valid_modes human
+combat_skill: .id "vomit" .level 2 .type "ranged" .atk 105% .dmg -85% .crit -3% .launch 432 .target ~12 .is_crit_valid True  .effect "Strong Blight 3" .valid_modes human
+combat_skill: .id "vomit" .level 3 .type "ranged" .atk 110% .dmg -85% .crit -2% .launch 432 .target ~12 .is_crit_valid True  .effect "Strong Blight 4" .valid_modes human
+combat_skill: .id "vomit" .level 4 .type "ranged" .atk 115% .dmg -85% .crit -1% .launch 432 .target ~12 .is_crit_valid True  .effect "Strong Blight 5" .valid_modes human
+combat_skill: .id "absolution" .level 0 .type "ranged" .atk 0% .dmg 0% .crit 0% .launch 4321 .target  .is_crit_valid True  .effect "SPSR_Abm_Self_Heal_1" "SPSR_Abm_Self_Stressheal_1" .valid_modes human .is_stall_invalidating false
+combat_skill: .id "absolution" .level 1 .type "ranged" .atk 0% .dmg 0% .crit 0% .launch 4321 .target  .is_crit_valid True  .effect "SPSR_Abm_Self_Heal_2" "SPSR_Abm_Self_Stressheal_2" .valid_modes human .is_stall_invalidating false
+combat_skill: .id "absolution" .level 2 .type "ranged" .atk 0% .dmg 0% .crit 0% .launch 4321 .target  .is_crit_valid True  .effect "SPSR_Abm_Self_Heal_3" "SPSR_Abm_Self_Stressheal_3" .valid_modes human .is_stall_invalidating false
+combat_skill: .id "absolution" .level 3 .type "ranged" .atk 0% .dmg 0% .crit 0% .launch 4321 .target  .is_crit_valid True  .effect "SPSR_Abm_Self_Heal_4" "SPSR_Abm_Self_Stressheal_4" .valid_modes human .is_stall_invalidating false
+combat_skill: .id "absolution" .level 4 .type "ranged" .atk 0% .dmg 0% .crit 0% .launch 4321 .target  .is_crit_valid True  .effect "SPSR_Abm_Self_Heal_5" "SPSR_Abm_Self_Stressheal_5" .valid_modes human .is_stall_invalidating false
+combat_skill: .id "rage" .level 0 .type "melee" .atk 90% .dmg 0% .crit 4% .launch 21 .target 123 .is_crit_valid True  .effect "SPSR Abm Prot Debuff 1" .valid_modes beast
+combat_skill: .id "rage" .level 1 .type "melee" .atk 95% .dmg 0% .crit 5% .launch 21 .target 123 .is_crit_valid True  .effect "SPSR Abm Prot Debuff 2" .valid_modes beast
+combat_skill: .id "rage" .level 2 .type "melee" .atk 100% .dmg 0% .crit 6% .launch 21 .target 123 .is_crit_valid True  .effect "SPSR Abm Prot Debuff 3" .valid_modes beast
+combat_skill: .id "rage" .level 3 .type "melee" .atk 105% .dmg 0% .crit 7% .launch 21 .target 123 .is_crit_valid True  .effect "SPSR Abm Prot Debuff 4" .valid_modes beast
+combat_skill: .id "rage" .level 4 .type "melee" .atk 110% .dmg 0% .crit 8% .launch 21 .target 123 .is_crit_valid True  .effect "SPSR Abm Prot Debuff 5" .valid_modes beast
+combat_move_skill: .id "move" .level 0 .type "move" .move 1 2 .launch 4321 .valid_modes human beast
+combat_skill: .id "rake" .level 0 .type "melee" .atk 90% .dmg -40% .crit -4% .launch 21 .target ~12 .is_crit_valid True .valid_modes beast
+combat_skill: .id "rake" .level 1 .type "melee" .atk 95% .dmg -40% .crit -3% .launch 21 .target ~12 .is_crit_valid True .valid_modes beast
+combat_skill: .id "rake" .level 2 .type "melee" .atk 100% .dmg -40% .crit -2% .launch 21 .target ~12 .is_crit_valid True .valid_modes beast
+combat_skill: .id "rake" .level 3 .type "melee" .atk 105% .dmg -40% .crit -1% .launch 21 .target ~12 .is_crit_valid True .valid_modes beast
+combat_skill: .id "rake" .level 4 .type "melee" .atk 110% .dmg -40% .crit 0% .launch 21 .target ~12 .is_crit_valid True .valid_modes beast
+combat_skill: .id "slam" .level 0 .type "melee" .atk 95% .dmg -50% .crit 3% .move 0 1 .launch 432 .target 12 .is_crit_valid True  .effect "Push 2A" "Stun 1" .valid_modes beast
+combat_skill: .id "slam" .level 1 .type "melee" .atk 100% .dmg -50% .crit 4% .move 0 1 .launch 432 .target 12 .is_crit_valid True  .effect "Push 2B" "Stun 2" .valid_modes beast
+combat_skill: .id "slam" .level 2 .type "melee" .atk 105% .dmg -50% .crit 5% .move 0 1 .launch 432 .target 12 .is_crit_valid True  .effect "Push 2C" "Stun 3" .valid_modes beast
+combat_skill: .id "slam" .level 3 .type "melee" .atk 110% .dmg -50% .crit 6% .move 0 1 .launch 432 .target 12 .is_crit_valid True  .effect "Push 2D" "Stun 4" .valid_modes beast
+combat_skill: .id "slam" .level 4 .type "melee" .atk 115% .dmg -50% .crit 7% .move 0 1 .launch 432 .target 12 .is_crit_valid True  .effect "Push 2E" "Stun 5" .valid_modes beast
+combat_skill: .id "transform" .level 0 .type "ranged" .atk 0% .dmg 0% .crit 0% .launch 4321 .target  .is_crit_valid True .valid_modes human beast .human_effects switch_mode_beast_self SPSR_Abm_beast_Stress_Party_1 SPSR_Abm_beast_Buff_1 .beast_effects switch_mode_human_self .is_continue_turn true .per_turn_limit 1 .is_stall_invalidating false
+combat_skill: .id "transform" .level 1 .type "ranged" .atk 0% .dmg 0% .crit 0% .launch 4321 .target  .is_crit_valid True .valid_modes human beast .human_effects switch_mode_beast_self SPSR_Abm_beast_Stress_Party_2 SPSR_Abm_beast_Buff_2 .beast_effects switch_mode_human_self .is_continue_turn true .per_turn_limit 1 .is_stall_invalidating false
+combat_skill: .id "transform" .level 2 .type "ranged" .atk 0% .dmg 0% .crit 0% .launch 4321 .target  .is_crit_valid True .valid_modes human beast .human_effects switch_mode_beast_self SPSR_Abm_beast_Stress_Party_3 SPSR_Abm_beast_Buff_3 .beast_effects switch_mode_human_self .is_continue_turn true .per_turn_limit 1 .is_stall_invalidating false
+combat_skill: .id "transform" .level 3 .type "ranged" .atk 0% .dmg 0% .crit 0% .launch 4321 .target  .is_crit_valid True .valid_modes human beast .human_effects switch_mode_beast_self SPSR_Abm_beast_Stress_Party_4 SPSR_Abm_beast_Buff_4 .beast_effects switch_mode_human_self .is_continue_turn true .per_turn_limit 1 .is_stall_invalidating false
+combat_skill: .id "transform" .level 4 .type "ranged" .atk 0% .dmg 0% .crit 0% .launch 4321 .target  .is_crit_valid True .valid_modes human beast .human_effects switch_mode_beast_self SPSR_Abm_beast_Stress_Party_5 SPSR_Abm_beast_Buff_5 .beast_effects switch_mode_human_self .is_continue_turn true .per_turn_limit 1 .is_stall_invalidating false
+tag: .id "light"
+tag: .id "non-religious"
+tag: .id "outsiders_bonfire"
+deaths_door: .buffs deathsdoorACCDebuff deathsdoorDMGLowDebuff deathsdoorDMGHighDebuff deathsdoorSPDDebuff deathsdoorSRDebuff .recovery_buffs mortalityACCDebuff mortalityDMGLowDebuff mortalityDMGHighDebuff mortalitySPDDebuff mortalitySRDebuff .recovery_heart_attack_buffs heartattackACCDebuff heartattackDMGLowDebuff heartattackDMGHighDebuff heartattackSPDDebuff heartattackSRDebuff
+controlled: .target_rank 2
+id_index: .index 13
+skill_selection: .can_select_combat_skills false .number_of_selected_combat_skills_max 7
+mode: .id human .is_raid_default true
+mode: .id beast .bark_override_id str_beast_bark .affliction_combat_skill_id transform .battle_complete_combat_skill_id transform .stress_damage_per_turn 6
+generation: .is_generation_enabled true .number_of_positive_quirks_min 1 .number_of_positive_quirks_max 2 .number_of_negative_quirks_min 1 .number_of_negative_quirks_max 2 .number_of_class_specific_camping_skills 2 .number_of_shared_camping_skills 1 .number_of_random_combat_skills 7 .number_of_cards_in_deck 1 .card_chance 1.0

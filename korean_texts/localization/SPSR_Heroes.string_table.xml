@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+<language id="english">
+</language>
+<language id="french">
+</language>	
+<language id="german">
+</language>
+<language id="spanish">
+</language>
+<language id="brazilian">
+</language>
+<language id="russian">
+</language>
+<language id="polish">
+</language>
+<language id="czech">
+</language>
+<language id="italian">
+</language>
+<language id="schinese">
+</language>
+<language id="japanese">
+</language>
+<language id="koreanb">
+</language>
+<language id="koreana">
+	<entry id="SPSR_Hero_Name_Ronaldo"><![CDATA[호날두]]></entry>
+	<entry id="SPSR_Hero_Name_Messi"><![CDATA[메시]]></entry>
+	<entry id="SPSR_Hero_Name_Andrew"><![CDATA[앤저레이]]></entry>
+	<entry id="SPSR_Hero_Name_Sophia"><![CDATA[소피아]]></entry>
+
+	<entry id="combat_skill_name_abomination_rage"><![CDATA[부수기]]></entry>
+	<entry id="upgrade_tree_name_abomination.rage"><![CDATA[부수기]]></entry>
+	<entry id="combat_skill_name_highwayman_point_blank_shot"><![CDATA[관통 사격]]></entry>
+	<entry id="upgrade_tree_name_highwayman.point_blank_shot"><![CDATA[관통 사격]]></entry>
+	<entry id="combat_skill_name_musketeer_sidearm"><![CDATA[보조 사격]]></entry>
+	<entry id="upgrade_tree_name_musketeer.sidearm"><![CDATA[보조 사격]]></entry>
+	<entry id="combat_skill_name_musketeer_call_the_shot"><![CDATA[철갑탄 장전]]></entry>
+	<entry id="upgrade_tree_name_musketeer.call_the_shot"><![CDATA[철갑탄 장전]]></entry>
+
+	<entry id="buff_stat_tooltip_upgrade_discount_SPSR_Cru_Cooldown_tooltip_D1_text"><![CDATA[보호 재사용 대기 중]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_SPSR_Cru_Cooldown_tooltip_D2_text"><![CDATA[{colour_start|notable}재사용 대기시간: 3차례{colour_end}
+	아군 {colour_start|guard}보호{colour_end}]]></entry>
+
+	<entry id="buff_stat_tooltip_upgrade_discount_SPSR_Lep_Cooldown_tooltip_D1_text"><![CDATA[인내 재사용 대기 중]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_SPSR_Lep_Cooldown_tooltip_D2_text"><![CDATA[{colour_start|notable}재사용 대기시간: 3차례{colour_end}]]></entry>
+</language>
+</root>

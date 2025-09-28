@@ -1,0 +1,16 @@
+{
+    "generation": {
+        "number": {
+            "number_of_quests_per_town_visit_table": [
+                2,
+                8,
+                10,
+                12,
+                14,
+                16,
+                18,
+                20
+            ]
+        }
+    }
+}

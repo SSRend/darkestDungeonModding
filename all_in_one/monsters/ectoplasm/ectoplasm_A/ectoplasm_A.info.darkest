@@ -1,0 +1,13 @@
+display: .size 1
+enemy_type: .id "eldritch"
+stats: .hp 8 .def 0% .prot 0 .spd 3 .stun_resist 30% .poison_resist 50% .bleed_resist 30% .debuff_resist 30% .move_resist 40%
+skill: .id "slime" .type "melee" .atk 90% .dmg 3 5 .crit 7% .effect "SPSR Ecto Debuff 1" .launch 4321 .target 1234
+skill: .id "summon_slime" .type "melee" .atk 85% .dmg 1 3 .crit 1%  .effect "Summon Ecto 1" .launch 4321 .target 1234
+skill: .id "summon_big_slime" .type "melee" .atk 85% .dmg 1 1 .crit 0%  .effect "Summon Big Ecto 1" "SPSR ecto Stress 1" .launch 4321 .target ~1234
+personality: .prefskill -1
+loot: .code "NONE" .count 
+initiative: .number_of_turns_per_round 1
+monster_brain: .id ectoplasm
+death_class: .monster_class_id corpse_A .is_valid_on_crit False .type "corpse" 
+battle_modifier: .accelerate_stall_penalty False .disable_stall_penalty False .can_surprise True .can_be_surprised True .always_surprise False .always_be_surprised False
+wave_spawning: .prefers_front True

@@ -1,0 +1,14 @@
+display: .size 1
+enemy_type: .id "vampire"
+stats: .hp 18 .def 10% .prot 0.15 .spd 2 .stun_resist 60% .poison_resist 70% .bleed_resist 40% .debuff_resist 40% .move_resist 50%
+skill: .id "gather_the_blood" .type "melee" .atk 95% .dmg 3 6 .crit 9%  .effect "SPSR Crimson Curse Weak" "SPSR Stress 7" .launch 21 .target 1234 .move 0 1
+skill: .id "predigestion" .type "melee" .atk 100% .dmg 3 6 .crit 10%  .effect "Blight 3" .launch 4321 .target 1234 .move 0 1
+personality: .prefskill -1
+loot: .code "A_COURTYARD" .count 1
+loot: .code "BLOOD_RARE" .count 1
+initiative: .number_of_turns_per_round 1
+monster_brain: .id tick_zombie_C
+death_class: .monster_class_id corpse_B .is_valid_on_crit False .type "corpse" 
+life_link: .base_class "baron"
+battle_modifier: .accelerate_stall_penalty False .disable_stall_penalty False .can_surprise True .can_be_surprised True .always_surprise False .always_be_surprised False
+wave_spawning: .prefers_front True

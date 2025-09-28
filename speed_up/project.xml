@@ -2,7 +2,7 @@
 <project>
 	<PreviewIconFile>preview_icon.png</PreviewIconFile>
 	<ItemDescriptionShort/>
-	<ModDataPath>D:/Darkest_Dungeon/Mods/Faster_Game/</ModDataPath>
+	<ModDataPath></ModDataPath>
 	<Title>Speed Up!</Title>
 	<Language>english</Language>
 	<UpdateDetails/>
@@ -14,5 +14,5 @@
 	<Tags>
 		<Tags>Gameplay Tweaks</Tags>
 	</Tags>
-	<ItemDescription></ItemDescription>
+	<ItemDescription/>
 </project>

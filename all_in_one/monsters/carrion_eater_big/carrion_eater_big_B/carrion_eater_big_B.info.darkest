@@ -1,0 +1,12 @@
+display: .size 2
+enemy_type: .id "beast"
+stats: .hp 51 .def 10% .prot 0.15 .spd 2 .stun_resist 60% .poison_resist 80% .bleed_resist 60% .debuff_resist 50% .move_resist 70%
+skill: .id "weaken_prey" .type "melee" .atk 105% .dmg 3 6 .crit 9%  .effect "Mark Target" "SPSR Monster Def Debuff 3" .launch 1234 .target 1234
+skill: .id "tentacle_devour" .type "melee" .atk 90% .dmg 8 15 .crit 18%  .effect "SmallDmg Marked Target" .launch 1234 .target 1234
+personality: .prefskill -1
+loot: .code "A" .count 2
+initiative: .number_of_turns_per_round 1
+monster_brain: .id carrion_eater_big_B
+death_class: .monster_class_id corpse_large_B .is_valid_on_crit False .type "corpse" 
+battle_modifier: .accelerate_stall_penalty False .disable_stall_penalty True .can_surprise True .can_be_surprised True .always_surprise False .always_be_surprised False
+wave_spawning: .prefers_front True

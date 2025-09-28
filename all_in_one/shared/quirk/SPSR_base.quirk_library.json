@@ -1,0 +1,2546 @@
+{
+"quirks":
+[
+{
+	"id" : "SPSR_Quirk_P1",
+	"show_explicit_buff_description" : true,
+	"show_flavor_description" : false,
+	"show_explicit_curio_tag_description" : false,
+	"random_chance" : 1,
+	"is_positive" : true,
+	"is_disease" : false,
+	"classification" : "physical",
+	"incompatible_quirks" : 
+	[
+		"SPSR_Quirk_N1"
+	],
+	"curio_tag" : "",
+	"curio_tag_chance" : 0.0,
+	"keep_loot" : false,
+	"buffs" : 
+	[
+		"SPSR_Quirk_first_round_Speed_B1",
+		"SPSR_Quirk_first_round_DMGL_B1",
+		"SPSR_Quirk_first_round_DMGH_B1"
+	],
+	"can_modify_in_activity" : true,
+	"can_be_replaced_by_new_quirk" : true
+},
+{
+	"id" : "SPSR_Quirk_N1",
+	"show_explicit_buff_description" : true,
+	"show_flavor_description" : false,
+	"show_explicit_curio_tag_description" : false,
+	"random_chance" : 1,
+	"is_positive" : false,
+	"is_disease" : false,
+	"classification" : "physical",
+	"incompatible_quirks" : 
+	[
+		"SPSR_Quirk_P1"
+	],
+	"curio_tag" : "",
+	"curio_tag_chance" : 0.0,
+	"keep_loot" : false,
+	"buffs" : 
+	[
+		"SPSR_Quirk_first_round_Speed_D1",
+		"SPSR_Quirk_first_round_DMGL_D1",
+		"SPSR_Quirk_first_round_DMGH_D1"
+	],
+	"can_modify_in_activity" : true,
+	"can_be_replaced_by_new_quirk" : true
+},
+{
+	"id" : "SPSR_Quirk_P2",
+	"show_explicit_buff_description" : true,
+	"show_flavor_description" : false,
+	"show_explicit_curio_tag_description" : false,
+	"random_chance" : 1,
+	"is_positive" : true,
+	"is_disease" : false,
+	"classification" : "physical",
+	"incompatible_quirks" : 
+	[
+		"SPSR_Quirk_N2"
+	],
+	"curio_tag" : "",
+	"curio_tag_chance" : 0.0,
+	"keep_loot" : false,
+	"buffs" : 
+	[
+		"SPD1"
+	],
+	"can_modify_in_activity" : true,
+	"can_be_replaced_by_new_quirk" : true
+},
+{
+	"id" : "SPSR_Quirk_N2",
+	"show_explicit_buff_description" : true,
+	"show_flavor_description" : false,
+	"show_explicit_curio_tag_description" : false,
+	"random_chance" : 1,
+	"is_positive" : false,
+	"is_disease" : false,
+	"classification" : "physical",
+	"incompatible_quirks" : 
+	[
+		"SPSR_Quirk_P2"
+	],
+	"curio_tag" : "",
+	"curio_tag_chance" : 0.0,
+	"keep_loot" : false,
+	"buffs" : 
+	[
+		"SPD-1"
+	],
+	"can_modify_in_activity" : true,
+	"can_be_replaced_by_new_quirk" : true
+},
+{
+	"id" : "SPSR_Quirk_P3",
+	"show_explicit_buff_description" : true,
+	"show_flavor_description" : false,
+	"show_explicit_curio_tag_description" : false,
+	"random_chance" : 1,
+	"is_positive" : true,
+	"is_disease" : false,
+	"classification" : "physical",
+	"incompatible_quirks" : 
+	[
+		"SPSR_Quirk_N3"
+	],
+	"curio_tag" : "",
+	"curio_tag_chance" : 0.0,
+	"keep_loot" : false,
+	"buffs" : 
+	[
+		"SPSR_Quirk_hp_below_Speed_B1",
+		"SPSR_Quirk_hp_below_Def_B1"
+	],
+	"can_modify_in_activity" : true,
+	"can_be_replaced_by_new_quirk" : true
+},
+{
+	"id" : "SPSR_Quirk_N3",
+	"show_explicit_buff_description" : true,
+	"show_flavor_description" : false,
+	"show_explicit_curio_tag_description" : false,
+	"random_chance" : 1,
+	"is_positive" : false,
+	"is_disease" : false,
+	"classification" : "physical",
+	"incompatible_quirks" : 
+	[
+		"SPSR_Quirk_P3"
+	],
+	"curio_tag" : "",
+	"curio_tag_chance" : 0.0,
+	"keep_loot" : false,
+	"buffs" : 
+	[
+		"SPSR_Quirk_hp_below_Speed_D1",
+		"SPSR_Quirk_hp_below_Def_D1"
+	],
+	"can_modify_in_activity" : true,
+	"can_be_replaced_by_new_quirk" : true
+},
+{
+	"id" : "SPSR_Quirk_P4",
+	"show_explicit_buff_description" : true,
+	"show_flavor_description" : false,
+	"show_explicit_curio_tag_description" : false,
+	"random_chance" : 1,
+	"is_positive" : true,
+	"is_disease" : false,
+	"classification" : "physical",
+	"incompatible_quirks" : 
+	[
+		"SPSR_Quirk_N4"
+	],
+	"curio_tag" : "",
+	"curio_tag_chance" : 0.0,
+	"keep_loot" : false,
+	"buffs" : 
+	[
+		"SPSR_Quirk_hp_below_DMGL_B1",
+		"SPSR_Quirk_hp_below_DMGH_B1",
+		"SPSR_Quirk_hp_below_Crit_B1"
+	],
+	"can_modify_in_activity" : true,
+	"can_be_replaced_by_new_quirk" : true
+},
+{
+	"id" : "SPSR_Quirk_N4",
+	"show_explicit_buff_description" : true,
+	"show_flavor_description" : false,
+	"show_explicit_curio_tag_description" : false,
+	"random_chance" : 1,
+	"is_positive" : false,
+	"is_disease" : false,
+	"classification" : "physical",
+	"incompatible_quirks" : 
+	[
+		"SPSR_Quirk_P4"
+	],
+	"curio_tag" : "",
+	"curio_tag_chance" : 0.0,
+	"keep_loot" : false,
+	"buffs" : 
+	[
+		"SPSR_Quirk_hp_below_DMGL_D1",
+		"SPSR_Quirk_hp_below_DMGH_D1",
+		"SPSR_Quirk_hp_below_CRIT_D1"
+	],
+	"can_modify_in_activity" : true,
+	"can_be_replaced_by_new_quirk" : true
+},
+{
+	"id" : "SPSR_Quirk_P5",
+	"show_explicit_buff_description" : true,
+	"show_flavor_description" : false,
+	"show_explicit_curio_tag_description" : false,
+	"random_chance" : 1,
+	"is_positive" : true,
+	"is_disease" : false,
+	"classification" : "physical",
+	"incompatible_quirks" : 
+	[
+		"SPSR_Quirk_N5"
+	],
+	"curio_tag" : "",
+	"curio_tag_chance" : 0.0,
+	"keep_loot" : false,
+	"buffs" : 
+	[
+		"DMGL10",
+		"DMGH10"
+	],
+	"can_modify_in_activity" : true,
+	"can_be_replaced_by_new_quirk" : true
+},
+{
+	"id" : "SPSR_Quirk_N5",
+	"show_explicit_buff_description" : true,
+	"show_flavor_description" : false,
+	"show_explicit_curio_tag_description" : false,
+	"random_chance" : 1,
+	"is_positive" : false,
+	"is_disease" : false,
+	"classification" : "physical",
+	"incompatible_quirks" : 
+	[
+		"SPSR_Quirk_P5"
+	],
+	"curio_tag" : "",
+	"curio_tag_chance" : 0.0,
+	"keep_loot" : false,
+	"buffs" : 
+	[
+		"DMGL-10",
+		"DMGH-10"
+	],
+	"can_modify_in_activity" : true,
+	"can_be_replaced_by_new_quirk" : true
+},
+{
+	"id" : "SPSR_Quirk_P6",
+	"show_explicit_buff_description" : true,
+	"show_flavor_description" : false,
+	"show_explicit_curio_tag_description" : false,
+	"random_chance" : 1,
+	"is_positive" : true,
+	"is_disease" : false,
+	"classification" : "physical",
+	"incompatible_quirks" : 
+	[
+		"SPSR_Quirk_N6"
+	],
+	"curio_tag" : "",
+	"curio_tag_chance" : 0.0,
+	"keep_loot" : false,
+	"buffs" : 
+	[
+		"DMGLMELEE10",
+		"DMGHMELEE10"
+	],
+	"can_modify_in_activity" : true,
+	"can_be_replaced_by_new_quirk" : true
+},
+{
+	"id" : "SPSR_Quirk_N6",
+	"show_explicit_buff_description" : true,
+	"show_flavor_description" : false,
+	"show_explicit_curio_tag_description" : false,
+	"random_chance" : 1,
+	"is_positive" : false,
+	"is_disease" : false,
+	"classification" : "physical",
+	"incompatible_quirks" : 
+	[
+		"SPSR_Quirk_P6"
+	],
+	"curio_tag" : "",
+	"curio_tag_chance" : 0.0,
+	"keep_loot" : false,
+	"buffs" : 
+	[
+		"TRINKET_meleeonly_DMGL_D1",
+		"TRINKET_meleeonly_DMGH_D1"
+	],
+	"can_modify_in_activity" : true,
+	"can_be_replaced_by_new_quirk" : true
+},
+{
+	"id" : "SPSR_Quirk_P7",
+	"show_explicit_buff_description" : true,
+	"show_flavor_description" : false,
+	"show_explicit_curio_tag_description" : false,
+	"random_chance" : 1,
+	"is_positive" : true,
+	"is_disease" : false,
+	"classification" : "physical",
+	"incompatible_quirks" : 
+	[
+		"SPSR_Quirk_N7"
+	],
+	"curio_tag" : "",
+	"curio_tag_chance" : 0.0,
+	"keep_loot" : false,
+	"buffs" : 
+	[
+		"DMGLRANGED10",
+		"DMGHRANGED10"
+	],
+	"can_modify_in_activity" : true,
+	"can_be_replaced_by_new_quirk" : true
+},
+{
+	"id" : "SPSR_Quirk_N7",
+	"show_explicit_buff_description" : true,
+	"show_flavor_description" : false,
+	"show_explicit_curio_tag_description" : false,
+	"random_chance" : 1,
+	"is_positive" : false,
+	"is_disease" : false,
+	"classification" : "physical",
+	"incompatible_quirks" : 
+	[
+		"SPSR_Quirk_P7"
+	],
+	"curio_tag" : "",
+	"curio_tag_chance" : 0.0,
+	"keep_loot" : false,
+	"buffs" : 
+	[
+		"TRINKET_rangedonly_DMGL_D1",
+		"TRINKET_rangedonly_DMGH_D1"
+	],
+	"can_modify_in_activity" : true,
+	"can_be_replaced_by_new_quirk" : true
+},
+{
+	"id" : "SPSR_Quirk_P8",
+	"show_explicit_buff_description" : true,
+	"show_flavor_description" : false,
+	"show_explicit_curio_tag_description" : false,
+	"random_chance" : 1,
+	"is_positive" : true,
+	"is_disease" : false,
+	"classification" : "physical",
+	"incompatible_quirks" : 
+	[
+		"SPSR_Quirk_N8"
+	],
+	"curio_tag" : "",
+	"curio_tag_chance" : 0.0,
+	"keep_loot" : false,
+	"buffs" : 
+	[
+		"CRIT5"
+	],
+	"can_modify_in_activity" : true,
+	"can_be_replaced_by_new_quirk" : true
+},
+{
+	"id" : "SPSR_Quirk_N8",
+	"show_explicit_buff_description" : true,
+	"show_flavor_description" : false,
+	"show_explicit_curio_tag_description" : false,
+	"random_chance" : 1,
+	"is_positive" : false,
+	"is_disease" : false,
+	"classification" : "physical",
+	"incompatible_quirks" : 
+	[
+		"SPSR_Quirk_P8"
+	],
+	"curio_tag" : "",
+	"curio_tag_chance" : 0.0,
+	"keep_loot" : false,
+	"buffs" : 
+	[
+		"CRIT-5"
+	],
+	"can_modify_in_activity" : true,
+	"can_be_replaced_by_new_quirk" : true
+},
+{
+	"id" : "SPSR_Quirk_P9",
+	"show_explicit_buff_description" : true,
+	"show_flavor_description" : false,
+	"show_explicit_curio_tag_description" : false,
+	"random_chance" : 1,
+	"is_positive" : true,
+	"is_disease" : false,
+	"classification" : "physical",
+	"incompatible_quirks" : 
+	[
+		"SPSR_Quirk_N9"
+	],
+	"curio_tag" : "",
+	"curio_tag_chance" : 0.0,
+	"keep_loot" : false,
+	"buffs" : 
+	[
+		"CRITMELEE5"
+	],
+	"can_modify_in_activity" : true,
+	"can_be_replaced_by_new_quirk" : true
+},
+{
+	"id" : "SPSR_Quirk_N9",
+	"show_explicit_buff_description" : true,
+	"show_flavor_description" : false,
+	"show_explicit_curio_tag_description" : false,
+	"random_chance" : 1,
+	"is_positive" : false,
+	"is_disease" : false,
+	"classification" : "physical",
+	"incompatible_quirks" : 
+	[
+		"SPSR_Quirk_P9"
+	],
+	"curio_tag" : "",
+	"curio_tag_chance" : 0.0,
+	"keep_loot" : false,
+	"buffs" : 
+	[
+		"CRITMELEE-5"
+	],
+	"can_modify_in_activity" : true,
+	"can_be_replaced_by_new_quirk" : true
+},
+{
+	"id" : "SPSR_Quirk_P10",
+	"show_explicit_buff_description" : true,
+	"show_flavor_description" : false,
+	"show_explicit_curio_tag_description" : false,
+	"random_chance" : 1,
+	"is_positive" : true,
+	"is_disease" : false,
+	"classification" : "physical",
+	"incompatible_quirks" : 
+	[
+		"SPSR_Quirk_N10"
+	],
+	"curio_tag" : "",
+	"curio_tag_chance" : 0.0,
+	"keep_loot" : false,
+	"buffs" : 
+	[
+		"CRITRANGED5"
+	],
+	"can_modify_in_activity" : true,
+	"can_be_replaced_by_new_quirk" : true
+},
+{
+	"id" : "SPSR_Quirk_N10",
+	"show_explicit_buff_description" : true,
+	"show_flavor_description" : false,
+	"show_explicit_curio_tag_description" : false,
+	"random_chance" : 1,
+	"is_positive" : false,
+	"is_disease" : false,
+	"classification" : "physical",
+	"incompatible_quirks" : 
+	[
+		"SPSR_Quirk_P10"
+	],
+	"curio_tag" : "",
+	"curio_tag_chance" : 0.0,
+	"keep_loot" : false,
+	"buffs" : 
+	[
+		"CRITRANGED-5"
+	],
+	"can_modify_in_activity" : true,
+	"can_be_replaced_by_new_quirk" : true
+},
+{
+	"id" : "SPSR_Quirk_P11",
+	"show_explicit_buff_description" : true,
+	"show_flavor_description" : false,
+	"show_explicit_curio_tag_description" : false,
+	"random_chance" : 1,
+	"is_positive" : true,
+	"is_disease" : false,
+	"classification" : "physical",
+	"incompatible_quirks" : 
+	[
+		"SPSR_Quirk_N11"
+	],
+	"curio_tag" : "",
+	"curio_tag_chance" : 0.0,
+	"keep_loot" : false,
+	"buffs" : 
+	[
+		"SPSR_Quirk_Stun_Chance_B1"
+	],
+	"can_modify_in_activity" : true,
+	"can_be_replaced_by_new_quirk" : true
+},
+{
+	"id" : "SPSR_Quirk_N11",
+	"show_explicit_buff_description" : true,
+	"show_flavor_description" : false,
+	"show_explicit_curio_tag_description" : false,
+	"random_chance" : 1,
+	"is_positive" : false,
+	"is_disease" : false,
+	"classification" : "physical",
+	"incompatible_quirks" : 
+	[
+		"SPSR_Quirk_P11"
+	],
+	"curio_tag" : "",
+	"curio_tag_chance" : 0.0,
+	"keep_loot" : false,
+	"buffs" : 
+	[
+		"SPSR_Quirk_Stun_Chance_D1"
+	],
+	"can_modify_in_activity" : true,
+	"can_be_replaced_by_new_quirk" : true
+},
+{
+	"id" : "SPSR_Quirk_P12",
+	"show_explicit_buff_description" : true,
+	"show_flavor_description" : false,
+	"show_explicit_curio_tag_description" : false,
+	"random_chance" : 1,
+	"is_positive" : true,
+	"is_disease" : false,
+	"classification" : "physical",
+	"incompatible_quirks" : 
+	[
+		"SPSR_Quirk_N12"
+	],
+	"curio_tag" : "",
+	"curio_tag_chance" : 0.0,
+	"keep_loot" : false,
+	"buffs" : 
+	[
+		"MOVESKILL10"
+	],
+	"can_modify_in_activity" : true,
+	"can_be_replaced_by_new_quirk" : true
+},
+{
+	"id" : "SPSR_Quirk_N12",
+	"show_explicit_buff_description" : true,
+	"show_flavor_description" : false,
+	"show_explicit_curio_tag_description" : false,
+	"random_chance" : 1,
+	"is_positive" : false,
+	"is_disease" : false,
+	"classification" : "physical",
+	"incompatible_quirks" : 
+	[
+		"SPSR_Quirk_P12"
+	],
+	"curio_tag" : "",
+	"curio_tag_chance" : 0.0,
+	"keep_loot" : false,
+	"buffs" : 
+	[
+		"MOVESKILL-10"
+	],
+	"can_modify_in_activity" : true,
+	"can_be_replaced_by_new_quirk" : true
+},
+{
+	"id" : "SPSR_Quirk_P13",
+	"show_explicit_buff_description" : true,
+	"show_flavor_description" : false,
+	"show_explicit_curio_tag_description" : false,
+	"random_chance" : 1,
+	"is_positive" : true,
+	"is_disease" : false,
+	"classification" : "physical",
+	"incompatible_quirks" : 
+	[
+		"SPSR_Quirk_N13"
+	],
+	"curio_tag" : "",
+	"curio_tag_chance" : 0.0,
+	"keep_loot" : false,
+	"buffs" : 
+	[
+		"BLIGHTSKILL10"
+	],
+	"can_modify_in_activity" : true,
+	"can_be_replaced_by_new_quirk" : true
+},
+{
+	"id" : "SPSR_Quirk_N13",
+	"show_explicit_buff_description" : true,
+	"show_flavor_description" : false,
+	"show_explicit_curio_tag_description" : false,
+	"random_chance" : 1,
+	"is_positive" : false,
+	"is_disease" : false,
+	"classification" : "physical",
+	"incompatible_quirks" : 
+	[
+		"SPSR_Quirk_P13"
+	],
+	"curio_tag" : "",
+	"curio_tag_chance" : 0.0,
+	"keep_loot" : false,
+	"buffs" : 
+	[
+		"BLIGHTSKILL-10"
+	],
+	"can_modify_in_activity" : true,
+	"can_be_replaced_by_new_quirk" : true
+},
+{
+	"id" : "SPSR_Quirk_P14",
+	"show_explicit_buff_description" : true,
+	"show_flavor_description" : false,
+	"show_explicit_curio_tag_description" : false,
+	"random_chance" : 1,
+	"is_positive" : true,
+	"is_disease" : false,
+	"classification" : "physical",
+	"incompatible_quirks" : 
+	[
+		"SPSR_Quirk_N14"
+	],
+	"curio_tag" : "",
+	"curio_tag_chance" : 0.0,
+	"keep_loot" : false,
+	"buffs" : 
+	[
+		"BLEEDSKILL10"
+	],
+	"can_modify_in_activity" : true,
+	"can_be_replaced_by_new_quirk" : true
+},
+{
+	"id" : "SPSR_Quirk_N14",
+	"show_explicit_buff_description" : true,
+	"show_flavor_description" : false,
+	"show_explicit_curio_tag_description" : false,
+	"random_chance" : 1,
+	"is_positive" : false,
+	"is_disease" : false,
+	"classification" : "physical",
+	"incompatible_quirks" : 
+	[
+		"SPSR_Quirk_P14"
+	],
+	"curio_tag" : "",
+	"curio_tag_chance" : 0.0,
+	"keep_loot" : false,
+	"buffs" : 
+	[
+		"BLEEDSKILL-10"
+	],
+	"can_modify_in_activity" : true,
+	"can_be_replaced_by_new_quirk" : true
+},
+{
+	"id" : "SPSR_Quirk_P15",
+	"show_explicit_buff_description" : true,
+	"show_flavor_description" : false,
+	"show_explicit_curio_tag_description" : false,
+	"random_chance" : 1,
+	"is_positive" : true,
+	"is_disease" : false,
+	"classification" : "physical",
+	"incompatible_quirks" : 
+	[
+		"SPSR_Quirk_N15"
+	],
+	"curio_tag" : "",
+	"curio_tag_chance" : 0.0,
+	"keep_loot" : false,
+	"buffs" : 
+	[
+		"DEBUFFSKILL10"
+	],
+	"can_modify_in_activity" : true,
+	"can_be_replaced_by_new_quirk" : true
+},
+{
+	"id" : "SPSR_Quirk_N15",
+	"show_explicit_buff_description" : true,
+	"show_flavor_description" : false,
+	"show_explicit_curio_tag_description" : false,
+	"random_chance" : 1,
+	"is_positive" : false,
+	"is_disease" : false,
+	"classification" : "physical",
+	"incompatible_quirks" : 
+	[
+		"SPSR_Quirk_P15"
+	],
+	"curio_tag" : "",
+	"curio_tag_chance" : 0.0,
+	"keep_loot" : false,
+	"buffs" : 
+	[
+		"DEBUFFSKILL-10"
+	],
+	"can_modify_in_activity" : true,
+	"can_be_replaced_by_new_quirk" : true
+},
+{
+	"id" : "SPSR_Quirk_P16",
+	"show_explicit_buff_description" : true,
+	"show_flavor_description" : false,
+	"show_explicit_curio_tag_description" : false,
+	"random_chance" : 1,
+	"is_positive" : true,
+	"is_disease" : false,
+	"classification" : "physical",
+	"incompatible_quirks" : 
+	[
+		"SPSR_Quirk_N16"
+	],
+	"curio_tag" : "",
+	"curio_tag_chance" : 0.0,
+	"keep_loot" : false,
+	"buffs" : 
+	[
+		"MAXHP10"
+	],
+	"can_modify_in_activity" : true,
+	"can_be_replaced_by_new_quirk" : true
+},
+{
+	"id" : "SPSR_Quirk_N16",
+	"show_explicit_buff_description" : true,
+	"show_flavor_description" : false,
+	"show_explicit_curio_tag_description" : false,
+	"random_chance" : 1,
+	"is_positive" : false,
+	"is_disease" : false,
+	"classification" : "physical",
+	"incompatible_quirks" : 
+	[
+		"SPSR_Quirk_P16"
+	],
+	"curio_tag" : "",
+	"curio_tag_chance" : 0.0,
+	"keep_loot" : false,
+	"buffs" : 
+	[
+		"MAXHP-10"
+	],
+	"can_modify_in_activity" : true,
+	"can_be_replaced_by_new_quirk" : true
+},
+{
+	"id" : "SPSR_Quirk_P17",
+	"show_explicit_buff_description" : true,
+	"show_flavor_description" : false,
+	"show_explicit_curio_tag_description" : false,
+	"random_chance" : 1,
+	"is_positive" : true,
+	"is_disease" : false,
+	"classification" : "physical",
+	"incompatible_quirks" : 
+	[
+		"SPSR_Quirk_N17"
+	],
+	"curio_tag" : "",
+	"curio_tag_chance" : 0.0,
+	"keep_loot" : false,
+	"buffs" : 
+	[
+		"DEF5"
+	],
+	"can_modify_in_activity" : true,
+	"can_be_replaced_by_new_quirk" : true
+},
+{
+	"id" : "SPSR_Quirk_N17",
+	"show_explicit_buff_description" : true,
+	"show_flavor_description" : false,
+	"show_explicit_curio_tag_description" : false,
+	"random_chance" : 1,
+	"is_positive" : false,
+	"is_disease" : false,
+	"classification" : "physical",
+	"incompatible_quirks" : 
+	[
+		"SPSR_Quirk_P17"
+	],
+	"curio_tag" : "",
+	"curio_tag_chance" : 0.0,
+	"keep_loot" : false,
+	"buffs" : 
+	[
+		"DEF-5"
+	],
+	"can_modify_in_activity" : true,
+	"can_be_replaced_by_new_quirk" : true
+},
+{
+	"id" : "SPSR_Quirk_P18",
+	"show_explicit_buff_description" : true,
+	"show_flavor_description" : false,
+	"show_explicit_curio_tag_description" : false,
+	"random_chance" : 1,
+	"is_positive" : true,
+	"is_disease" : false,
+	"classification" : "physical",
+	"incompatible_quirks" : 
+	[
+		"SPSR_Quirk_N18"
+	],
+	"curio_tag" : "",
+	"curio_tag_chance" : 0.0,
+	"keep_loot" : false,
+	"buffs" : 
+	[
+		"STUNRESIST10"
+	],
+	"can_modify_in_activity" : true,
+	"can_be_replaced_by_new_quirk" : true
+},
+{
+	"id" : "SPSR_Quirk_N18",
+	"show_explicit_buff_description" : true,
+	"show_flavor_description" : false,
+	"show_explicit_curio_tag_description" : false,
+	"random_chance" : 1,
+	"is_positive" : false,
+	"is_disease" : false,
+	"classification" : "physical",
+	"incompatible_quirks" : 
+	[
+		"SPSR_Quirk_P18"
+	],
+	"curio_tag" : "",
+	"curio_tag_chance" : 0.0,
+	"keep_loot" : false,
+	"buffs" : 
+	[
+		"STUNRESIST-10"
+	],
+	"can_modify_in_activity" : true,
+	"can_be_replaced_by_new_quirk" : true
+},
+{
+	"id" : "SPSR_Quirk_P19",
+	"show_explicit_buff_description" : true,
+	"show_flavor_description" : false,
+	"show_explicit_curio_tag_description" : false,
+	"random_chance" : 1,
+	"is_positive" : true,
+	"is_disease" : false,
+	"classification" : "physical",
+	"incompatible_quirks" : 
+	[
+		"SPSR_Quirk_N19"
+	],
+	"curio_tag" : "",
+	"curio_tag_chance" : 0.0,
+	"keep_loot" : false,
+	"buffs" : 
+	[
+		"MOVERESIST15"
+	],
+	"can_modify_in_activity" : true,
+	"can_be_replaced_by_new_quirk" : true
+},
+{
+	"id" : "SPSR_Quirk_N19",
+	"show_explicit_buff_description" : true,
+	"show_flavor_description" : false,
+	"show_explicit_curio_tag_description" : false,
+	"random_chance" : 1,
+	"is_positive" : false,
+	"is_disease" : false,
+	"classification" : "physical",
+	"incompatible_quirks" : 
+	[
+		"SPSR_Quirk_P19"
+	],
+	"curio_tag" : "",
+	"curio_tag_chance" : 0.0,
+	"keep_loot" : false,
+	"buffs" : 
+	[
+		"MOVERESIST-15"
+	],
+	"can_modify_in_activity" : true,
+	"can_be_replaced_by_new_quirk" : true
+},
+{
+	"id" : "SPSR_Quirk_P20",
+	"show_explicit_buff_description" : true,
+	"show_flavor_description" : false,
+	"show_explicit_curio_tag_description" : false,
+	"random_chance" : 1,
+	"is_positive" : true,
+	"is_disease" : false,
+	"classification" : "physical",
+	"incompatible_quirks" : 
+	[
+		"SPSR_Quirk_N20"
+	],
+	"curio_tag" : "",
+	"curio_tag_chance" : 0.0,
+	"keep_loot" : false,
+	"buffs" : 
+	[
+		"BLIGHTRESIST15"
+	],
+	"can_modify_in_activity" : true,
+	"can_be_replaced_by_new_quirk" : true
+},
+{
+	"id" : "SPSR_Quirk_N20",
+	"show_explicit_buff_description" : true,
+	"show_flavor_description" : false,
+	"show_explicit_curio_tag_description" : false,
+	"random_chance" : 1,
+	"is_positive" : false,
+	"is_disease" : false,
+	"classification" : "physical",
+	"incompatible_quirks" : 
+	[
+		"SPSR_Quirk_P20"
+	],
+	"curio_tag" : "",
+	"curio_tag_chance" : 0.0,
+	"keep_loot" : false,
+	"buffs" : 
+	[
+		"BLIGHTRESIST-15"
+	],
+	"can_modify_in_activity" : true,
+	"can_be_replaced_by_new_quirk" : true
+},
+{
+	"id" : "SPSR_Quirk_P21",
+	"show_explicit_buff_description" : true,
+	"show_flavor_description" : false,
+	"show_explicit_curio_tag_description" : false,
+	"random_chance" : 1,
+	"is_positive" : true,
+	"is_disease" : false,
+	"classification" : "physical",
+	"incompatible_quirks" : 
+	[
+		"SPSR_Quirk_N21"
+	],
+	"curio_tag" : "",
+	"curio_tag_chance" : 0.0,
+	"keep_loot" : false,
+	"buffs" : 
+	[
+		"BLEEDRESIST15"
+	],
+	"can_modify_in_activity" : true,
+	"can_be_replaced_by_new_quirk" : true
+},
+{
+	"id" : "SPSR_Quirk_N21",
+	"show_explicit_buff_description" : true,
+	"show_flavor_description" : false,
+	"show_explicit_curio_tag_description" : false,
+	"random_chance" : 1,
+	"is_positive" : false,
+	"is_disease" : false,
+	"classification" : "physical",
+	"incompatible_quirks" : 
+	[
+		"SPSR_Quirk_P18"
+	],
+	"curio_tag" : "",
+	"curio_tag_chance" : 0.0,
+	"keep_loot" : false,
+	"buffs" : 
+	[
+		"BLEEDRESIST-15"
+	],
+	"can_modify_in_activity" : true,
+	"can_be_replaced_by_new_quirk" : true
+},
+{
+	"id" : "SPSR_Quirk_P22",
+	"show_explicit_buff_description" : true,
+	"show_flavor_description" : false,
+	"show_explicit_curio_tag_description" : false,
+	"random_chance" : 1,
+	"is_positive" : true,
+	"is_disease" : false,
+	"classification" : "physical",
+	"incompatible_quirks" : 
+	[
+		"SPSR_Quirk_N22"
+	],
+	"curio_tag" : "",
+	"curio_tag_chance" : 0.0,
+	"keep_loot" : false,
+	"buffs" : 
+	[
+		"DEBUFFRESIST15"
+	],
+	"can_modify_in_activity" : true,
+	"can_be_replaced_by_new_quirk" : true
+},
+{
+	"id" : "SPSR_Quirk_N22",
+	"show_explicit_buff_description" : true,
+	"show_flavor_description" : false,
+	"show_explicit_curio_tag_description" : false,
+	"random_chance" : 1,
+	"is_positive" : false,
+	"is_disease" : false,
+	"classification" : "physical",
+	"incompatible_quirks" : 
+	[
+		"SPSR_Quirk_P22"
+	],
+	"curio_tag" : "",
+	"curio_tag_chance" : 0.0,
+	"keep_loot" : false,
+	"buffs" : 
+	[
+		"DEBUFFRESIST-15"
+	],
+	"can_modify_in_activity" : true,
+	"can_be_replaced_by_new_quirk" : true
+},
+{
+	"id" : "SPSR_Quirk_P23",
+	"show_explicit_buff_description" : true,
+	"show_flavor_description" : false,
+	"show_explicit_curio_tag_description" : false,
+	"random_chance" : 1,
+	"is_positive" : true,
+	"is_disease" : false,
+	"classification" : "physical",
+	"incompatible_quirks" : 
+	[
+		"SPSR_Quirk_N23"
+	],
+	"curio_tag" : "",
+	"curio_tag_chance" : 0.0,
+	"keep_loot" : false,
+	"buffs" : 
+	[
+		"DISEASERESIST15"
+	],
+	"can_modify_in_activity" : true,
+	"can_be_replaced_by_new_quirk" : true
+},
+{
+	"id" : "SPSR_Quirk_N23",
+	"show_explicit_buff_description" : true,
+	"show_flavor_description" : false,
+	"show_explicit_curio_tag_description" : false,
+	"random_chance" : 1,
+	"is_positive" : false,
+	"is_disease" : false,
+	"classification" : "physical",
+	"incompatible_quirks" : 
+	[
+		"SPSR_Quirk_P23"
+	],
+	"curio_tag" : "",
+	"curio_tag_chance" : 0.0,
+	"keep_loot" : false,
+	"buffs" : 
+	[
+		"DISEASERESIST-15"
+	],
+	"can_modify_in_activity" : true,
+	"can_be_replaced_by_new_quirk" : true
+},
+{
+	"id" : "SPSR_Quirk_P24",
+	"show_explicit_buff_description" : true,
+	"show_flavor_description" : false,
+	"show_explicit_curio_tag_description" : false,
+	"random_chance" : 1,
+	"is_positive" : true,
+	"is_disease" : false,
+	"classification" : "physical",
+	"incompatible_quirks" : 
+	[
+		"SPSR_Quirk_N24"
+	],
+	"curio_tag" : "",
+	"curio_tag_chance" : 0.0,
+	"keep_loot" : false,
+	"buffs" : 
+	[
+		"TRAPRESIST15"
+	],
+	"can_modify_in_activity" : true,
+	"can_be_replaced_by_new_quirk" : true
+},
+{
+	"id" : "SPSR_Quirk_N24",
+	"show_explicit_buff_description" : true,
+	"show_flavor_description" : false,
+	"show_explicit_curio_tag_description" : false,
+	"random_chance" : 1,
+	"is_positive" : false,
+	"is_disease" : false,
+	"classification" : "physical",
+	"incompatible_quirks" : 
+	[
+		"SPSR_Quirk_P24"
+	],
+	"curio_tag" : "",
+	"curio_tag_chance" : 0.0,
+	"keep_loot" : false,
+	"buffs" : 
+	[
+		"TRAPRESIST-15"
+	],
+	"can_modify_in_activity" : true,
+	"can_be_replaced_by_new_quirk" : true
+},
+{
+	"id" : "SPSR_Quirk_P25",
+	"show_explicit_buff_description" : true,
+	"show_flavor_description" : false,
+	"show_explicit_curio_tag_description" : false,
+	"random_chance" : 1,
+	"is_positive" : true,
+	"is_disease" : false,
+	"classification" : "physical",
+	"incompatible_quirks" : 
+	[
+		"SPSR_Quirk_N25"
+	],
+	"curio_tag" : "",
+	"curio_tag_chance" : 0.0,
+	"keep_loot" : false,
+	"buffs" : 
+	[
+		"SPSR_Quirk_Monster_Surprise_B1"
+	],
+	"can_modify_in_activity" : true,
+	"can_be_replaced_by_new_quirk" : true
+},
+{
+	"id" : "SPSR_Quirk_N25",
+	"show_explicit_buff_description" : true,
+	"show_flavor_description" : false,
+	"show_explicit_curio_tag_description" : false,
+	"random_chance" : 1,
+	"is_positive" : false,
+	"is_disease" : false,
+	"classification" : "physical",
+	"incompatible_quirks" : 
+	[
+		"SPSR_Quirk_P25"
+	],
+	"curio_tag" : "",
+	"curio_tag_chance" : 0.0,
+	"keep_loot" : false,
+	"buffs" : 
+	[
+		"SPSR_Quirk_Party_Surprise_D1"
+	],
+	"can_modify_in_activity" : true,
+	"can_be_replaced_by_new_quirk" : true
+},
+{
+	"id" : "SPSR_Quirk_P26",
+	"show_explicit_buff_description" : true,
+	"show_flavor_description" : false,
+	"show_explicit_curio_tag_description" : false,
+	"random_chance" : 1,
+	"is_positive" : true,
+	"is_disease" : false,
+	"classification" : "physical",
+	"incompatible_quirks" : 
+	[
+		"SPSR_Quirk_N26"
+	],
+	"curio_tag" : "",
+	"curio_tag_chance" : 0.0,
+	"keep_loot" : false,
+	"buffs" : 
+	[
+		"DEATHBLOWRESIST10"
+	],
+	"can_modify_in_activity" : true,
+	"can_be_replaced_by_new_quirk" : true
+},
+{
+	"id" : "SPSR_Quirk_N26",
+	"show_explicit_buff_description" : true,
+	"show_flavor_description" : false,
+	"show_explicit_curio_tag_description" : false,
+	"random_chance" : 1,
+	"is_positive" : false,
+	"is_disease" : false,
+	"classification" : "physical",
+	"incompatible_quirks" : 
+	[
+		"SPSR_Quirk_P26"
+	],
+	"curio_tag" : "",
+	"curio_tag_chance" : 0.0,
+	"keep_loot" : false,
+	"buffs" : 
+	[
+		"DEATHBLOWRESIST-10"
+	],
+	"can_modify_in_activity" : true,
+	"can_be_replaced_by_new_quirk" : true
+},
+{
+	"id" : "SPSR_Quirk_P27",
+	"show_explicit_buff_description" : true,
+	"show_flavor_description" : false,
+	"show_explicit_curio_tag_description" : false,
+	"random_chance" : 1,
+	"is_positive" : true,
+	"is_disease" : false,
+	"classification" : "physical",
+	"incompatible_quirks" : 
+	[
+		"SPSR_Quirk_N27"
+	],
+	"curio_tag" : "",
+	"curio_tag_chance" : 0.0,
+	"keep_loot" : false,
+	"buffs" : 
+	[
+		"RESOLVECHECK10"
+	],
+	"can_modify_in_activity" : true,
+	"can_be_replaced_by_new_quirk" : true
+},
+{
+	"id" : "SPSR_Quirk_N27",
+	"show_explicit_buff_description" : true,
+	"show_flavor_description" : false,
+	"show_explicit_curio_tag_description" : false,
+	"random_chance" : 1,
+	"is_positive" : false,
+	"is_disease" : false,
+	"classification" : "physical",
+	"incompatible_quirks" : 
+	[
+		"SPSR_Quirk_P27"
+	],
+	"curio_tag" : "",
+	"curio_tag_chance" : 0.0,
+	"keep_loot" : false,
+	"buffs" : 
+	[
+		"RESOLVECHECK-10"
+	],
+	"can_modify_in_activity" : true,
+	"can_be_replaced_by_new_quirk" : true
+},
+{
+	"id" : "SPSR_Quirk_P28",
+	"show_explicit_buff_description" : true,
+	"show_flavor_description" : false,
+	"show_explicit_curio_tag_description" : false,
+	"random_chance" : 1,
+	"is_positive" : true,
+	"is_disease" : false,
+	"classification" : "physical",
+	"incompatible_quirks" : 
+	[
+		"SPSR_Quirk_N28"
+	],
+	"curio_tag" : "",
+	"curio_tag_chance" : 0.0,
+	"keep_loot" : false,
+	"buffs" : 
+	[
+		"HPRECOVERY20"
+	],
+	"can_modify_in_activity" : true,
+	"can_be_replaced_by_new_quirk" : true
+},
+{
+	"id" : "SPSR_Quirk_N28",
+	"show_explicit_buff_description" : true,
+	"show_flavor_description" : false,
+	"show_explicit_curio_tag_description" : false,
+	"random_chance" : 1,
+	"is_positive" : false,
+	"is_disease" : false,
+	"classification" : "physical",
+	"incompatible_quirks" : 
+	[
+		"SPSR_Quirk_P28"
+	],
+	"curio_tag" : "",
+	"curio_tag_chance" : 0.0,
+	"keep_loot" : false,
+	"buffs" : 
+	[
+		"HPRECOVERY-20"
+	],
+	"can_modify_in_activity" : true,
+	"can_be_replaced_by_new_quirk" : true
+},
+{
+	"id" : "SPSR_Quirk_P29",
+	"show_explicit_buff_description" : true,
+	"show_flavor_description" : false,
+	"show_explicit_curio_tag_description" : false,
+	"random_chance" : 1,
+	"is_positive" : true,
+	"is_disease" : false,
+	"classification" : "physical",
+	"incompatible_quirks" : 
+	[
+		"SPSR_Quirk_N29"
+	],
+	"curio_tag" : "",
+	"curio_tag_chance" : 0.0,
+	"keep_loot" : false,
+	"buffs" : 
+	[
+		"SPSR_Quirk_Heal_Given_B1"
+	],
+	"can_modify_in_activity" : true,
+	"can_be_replaced_by_new_quirk" : true
+},
+{
+	"id" : "SPSR_Quirk_N29",
+	"show_explicit_buff_description" : true,
+	"show_flavor_description" : false,
+	"show_explicit_curio_tag_description" : false,
+	"random_chance" : 1,
+	"is_positive" : false,
+	"is_disease" : false,
+	"classification" : "physical",
+	"incompatible_quirks" : 
+	[
+		"SPSR_Quirk_P29"
+	],
+	"curio_tag" : "",
+	"curio_tag_chance" : 0.0,
+	"keep_loot" : false,
+	"buffs" : 
+	[
+		"SPSR_Quirk_Heal_Given_D1"
+	],
+	"can_modify_in_activity" : true,
+	"can_be_replaced_by_new_quirk" : true
+},
+{
+	"id" : "SPSR_Quirk_P30",
+	"show_explicit_buff_description" : true,
+	"show_flavor_description" : false,
+	"show_explicit_curio_tag_description" : false,
+	"random_chance" : 1,
+	"is_positive" : true,
+	"is_disease" : false,
+	"classification" : "physical",
+	"incompatible_quirks" : 
+	[
+		"SPSR_Quirk_N30"
+	],
+	"curio_tag" : "",
+	"curio_tag_chance" : 0.0,
+	"keep_loot" : false,
+	"buffs" : 
+	[
+		"STRESSDMG-10"
+	],
+	"can_modify_in_activity" : true,
+	"can_be_replaced_by_new_quirk" : true
+},
+{
+	"id" : "SPSR_Quirk_N30",
+	"show_explicit_buff_description" : true,
+	"show_flavor_description" : false,
+	"show_explicit_curio_tag_description" : false,
+	"random_chance" : 1,
+	"is_positive" : false,
+	"is_disease" : false,
+	"classification" : "physical",
+	"incompatible_quirks" : 
+	[
+		"SPSR_Quirk_P30"
+	],
+	"curio_tag" : "",
+	"curio_tag_chance" : 0.0,
+	"keep_loot" : false,
+	"buffs" : 
+	[
+		"STRESSDMG10"
+	],
+	"can_modify_in_activity" : true,
+	"can_be_replaced_by_new_quirk" : true
+},
+{
+	"id" : "SPSR_Quirk_P31",
+	"show_explicit_buff_description" : true,
+	"show_flavor_description" : false,
+	"show_explicit_curio_tag_description" : false,
+	"random_chance" : 1,
+	"is_positive" : true,
+	"is_disease" : false,
+	"classification" : "physical",
+	"incompatible_quirks" : 
+	[
+		"SPSR_Quirk_N31"
+	],
+	"curio_tag" : "",
+	"curio_tag_chance" : 0.0,
+	"keep_loot" : false,
+	"buffs" : 
+	[
+		"SPSR_Quirk_Stressheal_B1"
+	],
+	"can_modify_in_activity" : true,
+	"can_be_replaced_by_new_quirk" : true
+},
+{
+	"id" : "SPSR_Quirk_N31",
+	"show_explicit_buff_description" : true,
+	"show_flavor_description" : false,
+	"show_explicit_curio_tag_description" : false,
+	"random_chance" : 1,
+	"is_positive" : false,
+	"is_disease" : false,
+	"classification" : "physical",
+	"incompatible_quirks" : 
+	[
+		"SPSR_Quirk_P31"
+	],
+	"curio_tag" : "",
+	"curio_tag_chance" : 0.0,
+	"keep_loot" : false,
+	"buffs" : 
+	[
+		"SPSR_Quirk_Stressheal_D1"
+	],
+	"can_modify_in_activity" : true,
+	"can_be_replaced_by_new_quirk" : true
+},
+{
+	"id" : "SPSR_Quirk_P32",
+	"show_explicit_buff_description" : true,
+	"show_flavor_description" : false,
+	"show_explicit_curio_tag_description" : false,
+	"random_chance" : 1,
+	"is_positive" : true,
+	"is_disease" : false,
+	"classification" : "physical",
+	"incompatible_quirks" : 
+	[
+		"SPSR_Quirk_N32"
+	],
+	"curio_tag" : "",
+	"curio_tag_chance" : 0.0,
+	"keep_loot" : false,
+	"buffs" : 
+	[
+		"SPSR_Quirk_Food_Consume_B1"
+	],
+	"can_modify_in_activity" : true,
+	"can_be_replaced_by_new_quirk" : true
+},
+{
+	"id" : "SPSR_Quirk_N32",
+	"show_explicit_buff_description" : true,
+	"show_flavor_description" : false,
+	"show_explicit_curio_tag_description" : false,
+	"random_chance" : 1,
+	"is_positive" : false,
+	"is_disease" : false,
+	"classification" : "physical",
+	"incompatible_quirks" : 
+	[
+		"SPSR_Quirk_P32"
+	],
+	"curio_tag" : "",
+	"curio_tag_chance" : 0.0,
+	"keep_loot" : false,
+	"buffs" : 
+	[
+		"SPSR_Quirk_Food_Consume_D1"
+	],
+	"can_modify_in_activity" : true,
+	"can_be_replaced_by_new_quirk" : true
+},
+{
+	"id" : "SPSR_Quirk_P33",
+	"show_explicit_buff_description" : true,
+	"show_flavor_description" : false,
+	"show_explicit_curio_tag_description" : false,
+	"random_chance" : 1,
+	"is_positive" : true,
+	"is_disease" : false,
+	"classification" : "physical",
+	"incompatible_quirks" : 
+	[
+		"SPSR_Quirk_N33"
+	],
+	"curio_tag" : "",
+	"curio_tag_chance" : 0.0,
+	"keep_loot" : false,
+	"buffs" : 
+	[
+		"SPSR_Quirk_man_Crit_B1"
+	],
+	"can_modify_in_activity" : true,
+	"can_be_replaced_by_new_quirk" : true
+},
+{
+	"id" : "SPSR_Quirk_N33",
+	"show_explicit_buff_description" : true,
+	"show_flavor_description" : false,
+	"show_explicit_curio_tag_description" : false,
+	"random_chance" : 1,
+	"is_positive" : false,
+	"is_disease" : false,
+	"classification" : "physical",
+	"incompatible_quirks" : 
+	[
+		"SPSR_Quirk_P33"
+	],
+	"curio_tag" : "",
+	"curio_tag_chance" : 0.0,
+	"keep_loot" : false,
+	"buffs" : 
+	[
+		"SPSR_Quirk_man_Stress_D1"
+	],
+	"can_modify_in_activity" : true,
+	"can_be_replaced_by_new_quirk" : true
+},
+{
+	"id" : "SPSR_Quirk_P34",
+	"show_explicit_buff_description" : true,
+	"show_flavor_description" : false,
+	"show_explicit_curio_tag_description" : false,
+	"random_chance" : 1,
+	"is_positive" : true,
+	"is_disease" : false,
+	"classification" : "physical",
+	"incompatible_quirks" : 
+	[
+		"SPSR_Quirk_N34"
+	],
+	"curio_tag" : "",
+	"curio_tag_chance" : 0.0,
+	"keep_loot" : false,
+	"buffs" : 
+	[
+		"SPSR_Quirk_unholy_Crit_B1"
+	],
+	"can_modify_in_activity" : true,
+	"can_be_replaced_by_new_quirk" : true
+},
+{
+	"id" : "SPSR_Quirk_N34",
+	"show_explicit_buff_description" : true,
+	"show_flavor_description" : false,
+	"show_explicit_curio_tag_description" : false,
+	"random_chance" : 1,
+	"is_positive" : false,
+	"is_disease" : false,
+	"classification" : "physical",
+	"incompatible_quirks" : 
+	[
+		"SPSR_Quirk_P34"
+	],
+	"curio_tag" : "",
+	"curio_tag_chance" : 0.0,
+	"keep_loot" : false,
+	"buffs" : 
+	[
+		"SPSR_Quirk_unholy_Stress_D1"
+	],
+	"can_modify_in_activity" : true,
+	"can_be_replaced_by_new_quirk" : true
+},
+{
+	"id" : "SPSR_Quirk_P35",
+	"show_explicit_buff_description" : true,
+	"show_flavor_description" : false,
+	"show_explicit_curio_tag_description" : false,
+	"random_chance" : 1,
+	"is_positive" : true,
+	"is_disease" : false,
+	"classification" : "physical",
+	"incompatible_quirks" : 
+	[
+		"SPSR_Quirk_N35"
+	],
+	"curio_tag" : "",
+	"curio_tag_chance" : 0.0,
+	"keep_loot" : false,
+	"buffs" : 
+	[
+		"SPSR_Quirk_beast_Crit_B1"
+	],
+	"can_modify_in_activity" : true,
+	"can_be_replaced_by_new_quirk" : true
+},
+{
+	"id" : "SPSR_Quirk_N35",
+	"show_explicit_buff_description" : true,
+	"show_flavor_description" : false,
+	"show_explicit_curio_tag_description" : false,
+	"random_chance" : 1,
+	"is_positive" : false,
+	"is_disease" : false,
+	"classification" : "physical",
+	"incompatible_quirks" : 
+	[
+		"SPSR_Quirk_P35"
+	],
+	"curio_tag" : "",
+	"curio_tag_chance" : 0.0,
+	"keep_loot" : false,
+	"buffs" : 
+	[
+		"SPSR_Quirk_beast_Stress_D1"
+	],
+	"can_modify_in_activity" : true,
+	"can_be_replaced_by_new_quirk" : true
+},
+{
+	"id" : "SPSR_Quirk_P36",
+	"show_explicit_buff_description" : true,
+	"show_flavor_description" : false,
+	"show_explicit_curio_tag_description" : false,
+	"random_chance" : 1,
+	"is_positive" : true,
+	"is_disease" : false,
+	"classification" : "physical",
+	"incompatible_quirks" : 
+	[
+		"SPSR_Quirk_N36"
+	],
+	"curio_tag" : "",
+	"curio_tag_chance" : 0.0,
+	"keep_loot" : false,
+	"buffs" : 
+	[
+		"SPSR_Quirk_eldritch_Crit_B1"
+	],
+	"can_modify_in_activity" : true,
+	"can_be_replaced_by_new_quirk" : true
+},
+{
+	"id" : "SPSR_Quirk_N36",
+	"show_explicit_buff_description" : true,
+	"show_flavor_description" : false,
+	"show_explicit_curio_tag_description" : false,
+	"random_chance" : 1,
+	"is_positive" : false,
+	"is_disease" : false,
+	"classification" : "physical",
+	"incompatible_quirks" : 
+	[
+		"SPSR_Quirk_P36"
+	],
+	"curio_tag" : "",
+	"curio_tag_chance" : 0.0,
+	"keep_loot" : false,
+	"buffs" : 
+	[
+		"SPSR_Quirk_eldritch_Stress_D1"
+	],
+	"can_modify_in_activity" : true,
+	"can_be_replaced_by_new_quirk" : true
+},
+{
+	"id" : "SPSR_Quirk_P37",
+	"show_explicit_buff_description" : true,
+	"show_flavor_description" : false,
+	"show_explicit_curio_tag_description" : false,
+	"random_chance" : 1,
+	"is_positive" : true,
+	"is_disease" : false,
+	"classification" : "physical",
+	"incompatible_quirks" : 
+	[
+		"SPSR_Quirk_N37"
+	],
+	"curio_tag" : "",
+	"curio_tag_chance" : 0.0,
+	"keep_loot" : false,
+	"buffs" : 
+	[
+		"SPSR_Quirk_vampire_Crit_B1"
+	],
+	"can_modify_in_activity" : true,
+	"can_be_replaced_by_new_quirk" : true
+},
+{
+	"id" : "SPSR_Quirk_N37",
+	"show_explicit_buff_description" : true,
+	"show_flavor_description" : false,
+	"show_explicit_curio_tag_description" : false,
+	"random_chance" : 1,
+	"is_positive" : false,
+	"is_disease" : false,
+	"classification" : "physical",
+	"incompatible_quirks" : 
+	[
+		"SPSR_Quirk_P37"
+	],
+	"curio_tag" : "",
+	"curio_tag_chance" : 0.0,
+	"keep_loot" : false,
+	"buffs" : 
+	[
+		"SPSR_Quirk_vampire_Stress_D1"
+	],
+	"can_modify_in_activity" : true,
+	"can_be_replaced_by_new_quirk" : true
+},
+{
+	"id" : "SPSR_Quirk_P38",
+	"show_explicit_buff_description" : true,
+	"show_flavor_description" : false,
+	"show_explicit_curio_tag_description" : false,
+	"random_chance" : 1,
+	"is_positive" : true,
+	"is_disease" : false,
+	"classification" : "physical",
+	"incompatible_quirks" : 
+	[
+		"SPSR_Quirk_N38"
+	],
+	"curio_tag" : "",
+	"curio_tag_chance" : 0.0,
+	"keep_loot" : false,
+	"buffs" : 
+	[
+		"SPSR_Quirk_husk_Crit_B1"
+	],
+	"can_modify_in_activity" : true,
+	"can_be_replaced_by_new_quirk" : true
+},
+{
+	"id" : "SPSR_Quirk_N38",
+	"show_explicit_buff_description" : true,
+	"show_flavor_description" : false,
+	"show_explicit_curio_tag_description" : false,
+	"random_chance" : 1,
+	"is_positive" : false,
+	"is_disease" : false,
+	"classification" : "physical",
+	"incompatible_quirks" : 
+	[
+		"SPSR_Quirk_P38"
+	],
+	"curio_tag" : "",
+	"curio_tag_chance" : 0.0,
+	"keep_loot" : false,
+	"buffs" : 
+	[
+		"SPSR_Quirk_husk_Stress_D1"
+	],
+	"can_modify_in_activity" : true,
+	"can_be_replaced_by_new_quirk" : true
+},
+{
+	"id" : "SPSR_Quirk_P39",
+	"show_explicit_buff_description" : true,
+	"show_flavor_description" : false,
+	"show_explicit_curio_tag_description" : false,
+	"random_chance" : 1,
+	"is_positive" : true,
+	"is_disease" : false,
+	"classification" : "physical",
+	"incompatible_quirks" : 
+	[
+		"SPSR_Quirk_N39"
+	],
+	"curio_tag" : "",
+	"curio_tag_chance" : 0.0,
+	"keep_loot" : false,
+	"buffs" : 
+	[
+		"SPSR_Quirk_dungeon_crypts_Crit_B1"
+	],
+	"can_modify_in_activity" : true,
+	"can_be_replaced_by_new_quirk" : true
+},
+{
+	"id" : "SPSR_Quirk_N39",
+	"show_explicit_buff_description" : true,
+	"show_flavor_description" : false,
+	"show_explicit_curio_tag_description" : false,
+	"random_chance" : 1,
+	"is_positive" : false,
+	"is_disease" : false,
+	"classification" : "physical",
+	"incompatible_quirks" : 
+	[
+		"SPSR_Quirk_P39"
+	],
+	"curio_tag" : "",
+	"curio_tag_chance" : 0.0,
+	"keep_loot" : false,
+	"buffs" : 
+	[
+		"SPSR_Quirk_dungeon_crypts_Stress_D1"
+	],
+	"can_modify_in_activity" : true,
+	"can_be_replaced_by_new_quirk" : true
+},
+{
+	"id" : "SPSR_Quirk_P40",
+	"show_explicit_buff_description" : true,
+	"show_flavor_description" : false,
+	"show_explicit_curio_tag_description" : false,
+	"random_chance" : 1,
+	"is_positive" : true,
+	"is_disease" : false,
+	"classification" : "physical",
+	"incompatible_quirks" : 
+	[
+		"SPSR_Quirk_N40"
+	],
+	"curio_tag" : "",
+	"curio_tag_chance" : 0.0,
+	"keep_loot" : false,
+	"buffs" : 
+	[
+		"SPSR_Quirk_dungeon_warrens_Crit_B1"
+	],
+	"can_modify_in_activity" : true,
+	"can_be_replaced_by_new_quirk" : true
+},
+{
+	"id" : "SPSR_Quirk_N40",
+	"show_explicit_buff_description" : true,
+	"show_flavor_description" : false,
+	"show_explicit_curio_tag_description" : false,
+	"random_chance" : 1,
+	"is_positive" : false,
+	"is_disease" : false,
+	"classification" : "physical",
+	"incompatible_quirks" : 
+	[
+		"SPSR_Quirk_P40"
+	],
+	"curio_tag" : "",
+	"curio_tag_chance" : 0.0,
+	"keep_loot" : false,
+	"buffs" : 
+	[
+		"SPSR_Quirk_dungeon_warrens_Stress_D1"
+	],
+	"can_modify_in_activity" : true,
+	"can_be_replaced_by_new_quirk" : true
+},
+{
+	"id" : "SPSR_Quirk_P41",
+	"show_explicit_buff_description" : true,
+	"show_flavor_description" : false,
+	"show_explicit_curio_tag_description" : false,
+	"random_chance" : 1,
+	"is_positive" : true,
+	"is_disease" : false,
+	"classification" : "physical",
+	"incompatible_quirks" : 
+	[
+		"SPSR_Quirk_N41"
+	],
+	"curio_tag" : "",
+	"curio_tag_chance" : 0.0,
+	"keep_loot" : false,
+	"buffs" : 
+	[
+		"SPSR_Quirk_dungeon_weald_Crit_B1"
+	],
+	"can_modify_in_activity" : true,
+	"can_be_replaced_by_new_quirk" : true
+},
+{
+	"id" : "SPSR_Quirk_N41",
+	"show_explicit_buff_description" : true,
+	"show_flavor_description" : false,
+	"show_explicit_curio_tag_description" : false,
+	"random_chance" : 1,
+	"is_positive" : false,
+	"is_disease" : false,
+	"classification" : "physical",
+	"incompatible_quirks" : 
+	[
+		"SPSR_Quirk_P41"
+	],
+	"curio_tag" : "",
+	"curio_tag_chance" : 0.0,
+	"keep_loot" : false,
+	"buffs" : 
+	[
+		"SPSR_Quirk_dungeon_weald_Stress_D1"
+	],
+	"can_modify_in_activity" : true,
+	"can_be_replaced_by_new_quirk" : true
+},
+{
+	"id" : "SPSR_Quirk_P42",
+	"show_explicit_buff_description" : true,
+	"show_flavor_description" : false,
+	"show_explicit_curio_tag_description" : false,
+	"random_chance" : 1,
+	"is_positive" : true,
+	"is_disease" : false,
+	"classification" : "physical",
+	"incompatible_quirks" : 
+	[
+		"SPSR_Quirk_N42"
+	],
+	"curio_tag" : "",
+	"curio_tag_chance" : 0.0,
+	"keep_loot" : false,
+	"buffs" : 
+	[
+		"SPSR_Quirk_dungeon_cove_Crit_B1"
+	],
+	"can_modify_in_activity" : true,
+	"can_be_replaced_by_new_quirk" : true
+},
+{
+	"id" : "SPSR_Quirk_N42",
+	"show_explicit_buff_description" : true,
+	"show_flavor_description" : false,
+	"show_explicit_curio_tag_description" : false,
+	"random_chance" : 1,
+	"is_positive" : false,
+	"is_disease" : false,
+	"classification" : "physical",
+	"incompatible_quirks" : 
+	[
+		"SPSR_Quirk_P42"
+	],
+	"curio_tag" : "",
+	"curio_tag_chance" : 0.0,
+	"keep_loot" : false,
+	"buffs" : 
+	[
+		"SPSR_Quirk_dungeon_cove_Stress_D1"
+	],
+	"can_modify_in_activity" : true,
+	"can_be_replaced_by_new_quirk" : true
+},
+{
+	"id" : "SPSR_Quirk_P43",
+	"show_explicit_buff_description" : true,
+	"show_flavor_description" : false,
+	"show_explicit_curio_tag_description" : false,
+	"random_chance" : 1,
+	"is_positive" : true,
+	"is_disease" : false,
+	"classification" : "physical",
+	"incompatible_quirks" : 
+	[
+		"SPSR_Quirk_N43"
+	],
+	"curio_tag" : "",
+	"curio_tag_chance" : 0.0,
+	"keep_loot" : false,
+	"buffs" : 
+	[
+		"SPSR_Quirk_dungeon_courtyard_Crit_B1"
+	],
+	"can_modify_in_activity" : true,
+	"can_be_replaced_by_new_quirk" : true
+},
+{
+	"id" : "SPSR_Quirk_N43",
+	"show_explicit_buff_description" : true,
+	"show_flavor_description" : false,
+	"show_explicit_curio_tag_description" : false,
+	"random_chance" : 1,
+	"is_positive" : false,
+	"is_disease" : false,
+	"classification" : "physical",
+	"incompatible_quirks" : 
+	[
+		"SPSR_Quirk_P43"
+	],
+	"curio_tag" : "",
+	"curio_tag_chance" : 0.0,
+	"keep_loot" : false,
+	"buffs" : 
+	[
+		"SPSR_Quirk_dungeon_courtyard_Stress_D1"
+	],
+	"can_modify_in_activity" : true,
+	"can_be_replaced_by_new_quirk" : true
+},
+{
+	"id" : "SPSR_Quirk_P44",
+	"show_explicit_buff_description" : true,
+	"show_flavor_description" : false,
+	"show_explicit_curio_tag_description" : false,
+	"random_chance" : 1,
+	"is_positive" : true,
+	"is_disease" : false,
+	"classification" : "physical",
+	"incompatible_quirks" : 
+	[
+		"SPSR_Quirk_N44"
+	],
+	"curio_tag" : "",
+	"curio_tag_chance" : 0.0,
+	"keep_loot" : false,
+	"buffs" : 
+	[
+		"SPSR_Quirk_dungeon_farm_Crit_B1"
+	],
+	"can_modify_in_activity" : true,
+	"can_be_replaced_by_new_quirk" : true
+},
+{
+	"id" : "SPSR_Quirk_N44",
+	"show_explicit_buff_description" : true,
+	"show_flavor_description" : false,
+	"show_explicit_curio_tag_description" : false,
+	"random_chance" : 1,
+	"is_positive" : false,
+	"is_disease" : false,
+	"classification" : "physical",
+	"incompatible_quirks" : 
+	[
+		"SPSR_Quirk_P44"
+	],
+	"curio_tag" : "",
+	"curio_tag_chance" : 0.0,
+	"keep_loot" : false,
+	"buffs" : 
+	[
+		"SPSR_Quirk_dungeon_farm_Stress_D1"
+	],
+	"can_modify_in_activity" : true,
+	"can_be_replaced_by_new_quirk" : true
+},
+{
+	"id" : "SPSR_Quirk_P45",
+	"show_explicit_buff_description" : true,
+	"show_flavor_description" : false,
+	"show_explicit_curio_tag_description" : false,
+	"random_chance" : 1,
+	"is_positive" : true,
+	"is_disease" : false,
+	"classification" : "physical",
+	"incompatible_quirks" : 
+	[
+		"SPSR_Quirk_N45"
+	],
+	"curio_tag" : "",
+	"curio_tag_chance" : 0.0,
+	"keep_loot" : false,
+	"buffs" : 
+	[
+		"SPSR_Quirk_bar_Stressheal_Received_B1"
+	],
+	"can_modify_in_activity" : true,
+	"can_be_replaced_by_new_quirk" : true
+},
+{
+	"id" : "SPSR_Quirk_N45",
+	"show_explicit_buff_description" : true,
+	"show_flavor_description" : false,
+	"show_explicit_curio_tag_description" : false,
+	"random_chance" : 1,
+	"is_positive" : false,
+	"is_disease" : false,
+	"classification" : "physical",
+	"incompatible_quirks" : 
+	[
+		"SPSR_Quirk_P45"
+	],
+	"curio_tag" : "",
+	"curio_tag_chance" : 0.0,
+	"keep_loot" : false,
+	"buffs" : 
+	[
+	],
+	"can_modify_in_activity" : true,
+	"can_be_replaced_by_new_quirk" : true
+},
+{
+	"id" : "SPSR_Quirk_P46",
+	"show_explicit_buff_description" : true,
+	"show_flavor_description" : false,
+	"show_explicit_curio_tag_description" : false,
+	"random_chance" : 1,
+	"is_positive" : true,
+	"is_disease" : false,
+	"classification" : "physical",
+	"incompatible_quirks" : 
+	[
+		"SPSR_Quirk_N46"
+	],
+	"curio_tag" : "",
+	"curio_tag_chance" : 0.0,
+	"keep_loot" : false,
+	"buffs" : 
+	[
+		"SPSR_Quirk_gambling_Stressheal_Received_B1"
+	],
+	"can_modify_in_activity" : true,
+	"can_be_replaced_by_new_quirk" : true
+},
+{
+	"id" : "SPSR_Quirk_N46",
+	"show_explicit_buff_description" : true,
+	"show_flavor_description" : false,
+	"show_explicit_curio_tag_description" : false,
+	"random_chance" : 1,
+	"is_positive" : false,
+	"is_disease" : false,
+	"classification" : "physical",
+	"incompatible_quirks" : 
+	[
+		"SPSR_Quirk_P46"
+	],
+	"curio_tag" : "",
+	"curio_tag_chance" : 0.0,
+	"keep_loot" : false,
+	"buffs" : 
+	[
+	],
+	"can_modify_in_activity" : true,
+	"can_be_replaced_by_new_quirk" : true
+},
+{
+	"id" : "SPSR_Quirk_P47",
+	"show_explicit_buff_description" : true,
+	"show_flavor_description" : false,
+	"show_explicit_curio_tag_description" : false,
+	"random_chance" : 1,
+	"is_positive" : true,
+	"is_disease" : false,
+	"classification" : "physical",
+	"incompatible_quirks" : 
+	[
+		"SPSR_Quirk_N47"
+	],
+	"curio_tag" : "",
+	"curio_tag_chance" : 0.0,
+	"keep_loot" : false,
+	"buffs" : 
+	[
+		"SPSR_Quirk_brothel_Stressheal_Received_B1"
+	],
+	"can_modify_in_activity" : true,
+	"can_be_replaced_by_new_quirk" : true
+},
+{
+	"id" : "SPSR_Quirk_N47",
+	"show_explicit_buff_description" : true,
+	"show_flavor_description" : false,
+	"show_explicit_curio_tag_description" : false,
+	"random_chance" : 1,
+	"is_positive" : false,
+	"is_disease" : false,
+	"classification" : "physical",
+	"incompatible_quirks" : 
+	[
+		"SPSR_Quirk_P47"
+	],
+	"curio_tag" : "",
+	"curio_tag_chance" : 0.0,
+	"keep_loot" : false,
+	"buffs" : 
+	[
+	],
+	"can_modify_in_activity" : true,
+	"can_be_replaced_by_new_quirk" : true
+},
+{
+	"id" : "SPSR_Quirk_P48",
+	"show_explicit_buff_description" : true,
+	"show_flavor_description" : false,
+	"show_explicit_curio_tag_description" : false,
+	"random_chance" : 1,
+	"is_positive" : true,
+	"is_disease" : false,
+	"classification" : "physical",
+	"incompatible_quirks" : 
+	[
+		"SPSR_Quirk_N48"
+	],
+	"curio_tag" : "",
+	"curio_tag_chance" : 0.0,
+	"keep_loot" : false,
+	"buffs" : 
+	[
+		"SPSR_Quirk_meditation_Stressheal_Received_B1"
+	],
+	"can_modify_in_activity" : true,
+	"can_be_replaced_by_new_quirk" : true
+},
+{
+	"id" : "SPSR_Quirk_N48",
+	"show_explicit_buff_description" : true,
+	"show_flavor_description" : false,
+	"show_explicit_curio_tag_description" : false,
+	"random_chance" : 1,
+	"is_positive" : false,
+	"is_disease" : false,
+	"classification" : "physical",
+	"incompatible_quirks" : 
+	[
+		"SPSR_Quirk_P48"
+	],
+	"curio_tag" : "",
+	"curio_tag_chance" : 0.0,
+	"keep_loot" : false,
+	"buffs" : 
+	[
+	],
+	"can_modify_in_activity" : true,
+	"can_be_replaced_by_new_quirk" : true
+},
+{
+	"id" : "SPSR_Quirk_P49",
+	"show_explicit_buff_description" : true,
+	"show_flavor_description" : false,
+	"show_explicit_curio_tag_description" : false,
+	"random_chance" : 1,
+	"is_positive" : true,
+	"is_disease" : false,
+	"classification" : "physical",
+	"incompatible_quirks" : 
+	[
+		"SPSR_Quirk_N49"
+	],
+	"curio_tag" : "",
+	"curio_tag_chance" : 0.0,
+	"keep_loot" : false,
+	"buffs" : 
+	[
+		"SPSR_Quirk_prayer_Stressheal_Received_B1"
+	],
+	"can_modify_in_activity" : true,
+	"can_be_replaced_by_new_quirk" : true
+},
+{
+	"id" : "SPSR_Quirk_N49",
+	"show_explicit_buff_description" : true,
+	"show_flavor_description" : false,
+	"show_explicit_curio_tag_description" : false,
+	"random_chance" : 1,
+	"is_positive" : false,
+	"is_disease" : false,
+	"classification" : "physical",
+	"incompatible_quirks" : 
+	[
+		"SPSR_Quirk_P49"
+	],
+	"curio_tag" : "",
+	"curio_tag_chance" : 0.0,
+	"keep_loot" : false,
+	"buffs" : 
+	[
+	],
+	"can_modify_in_activity" : true,
+	"can_be_replaced_by_new_quirk" : true
+},
+{
+	"id" : "SPSR_Quirk_P50",
+	"show_explicit_buff_description" : true,
+	"show_flavor_description" : false,
+	"show_explicit_curio_tag_description" : false,
+	"random_chance" : 1,
+	"is_positive" : true,
+	"is_disease" : false,
+	"classification" : "physical",
+	"incompatible_quirks" : 
+	[
+		"SPSR_Quirk_N45"
+	],
+	"curio_tag" : "",
+	"curio_tag_chance" : 0.0,
+	"keep_loot" : false,
+	"buffs" : 
+	[
+		"SPSR_Quirk_flagellation_Stressheal_Received_B1"
+	],
+	"can_modify_in_activity" : true,
+	"can_be_replaced_by_new_quirk" : true
+},
+{
+	"id" : "SPSR_Quirk_N50",
+	"show_explicit_buff_description" : true,
+	"show_flavor_description" : false,
+	"show_explicit_curio_tag_description" : false,
+	"random_chance" : 1,
+	"is_positive" : false,
+	"is_disease" : false,
+	"classification" : "physical",
+	"incompatible_quirks" : 
+	[
+		"SPSR_Quirk_P50"
+	],
+	"curio_tag" : "",
+	"curio_tag_chance" : 0.0,
+	"keep_loot" : false,
+	"buffs" : 
+	[
+	],
+	"can_modify_in_activity" : true,
+	"can_be_replaced_by_new_quirk" : true
+},
+{
+	"id" : "SPSR_Quirk_determination",
+	"show_explicit_buff_description" : true,
+	"show_flavor_description" : false,
+	"show_explicit_curio_tag_description" : false,
+	"random_chance" : 0,
+	"is_positive" : true,
+	"is_disease" : false,
+	"classification" : "physical",
+	"incompatible_quirks" : 
+	[
+	],
+	"curio_tag" : "",
+	"curio_tag_chance" : 0.0,
+	"keep_loot" : false,
+	"buffs" : 
+	[
+		"PROT10",
+		"SPSR_Quirk_determination_Stressheal_B1",
+		"RESOLVECHECK5"
+	],
+	"tags":
+	[
+		"singleton", "cant_lock"
+	],
+	"can_modify_in_activity" : false,
+	"can_be_replaced_by_new_quirk" : false
+},
+{
+	"id" : "SPSR_Quirk_expiation",
+	"show_explicit_buff_description" : true,
+	"show_flavor_description" : false,
+	"show_explicit_curio_tag_description" : false,
+	"random_chance" : 0,
+	"is_positive" : true,
+	"is_disease" : false,
+	"classification" : "physical",
+	"incompatible_quirks" : 
+	[
+	],
+	"curio_tag" : "",
+	"curio_tag_chance" : 0.0,
+	"keep_loot" : false,
+	"buffs" : 
+	[
+		"DMGL10",
+		"DMGH10",
+		"SPSR_Quirk_expiation_Stun_Resist_B1",
+		"DEATHBLOWRESIST5"
+	],
+	"tags":
+	[
+		"singleton", "cant_lock"
+	],
+	"can_modify_in_activity" : false,
+	"can_be_replaced_by_new_quirk" : false
+},
+{
+	"id" : "SPSR_Disease_D1",
+	"show_explicit_buff_description" : true,
+	"show_flavor_description" : false,
+	"show_explicit_curio_tag_description" : false,
+	"random_chance" : 1,
+	"is_positive" : false,
+	"is_disease" : true,
+	"classification" : "physical",
+	"incompatible_quirks" : 
+	[
+	],
+	"curio_tag" : "",
+	"curio_tag_chance" : 0.0,
+	"keep_loot" : false,
+	"buffs" : 
+	[
+		"BLIGHTRESIST-10",
+		"BLEEDRESIST-10"
+	],
+	"can_modify_in_activity" : true,
+	"can_be_replaced_by_new_quirk" : true
+},
+{
+	"id" : "SPSR_Disease_D2",
+	"show_explicit_buff_description" : true,
+	"show_flavor_description" : false,
+	"show_explicit_curio_tag_description" : false,
+	"random_chance" : 1,
+	"is_positive" : false,
+	"is_disease" : true,
+	"classification" : "physical",
+	"incompatible_quirks" : 
+	[
+	],
+	"curio_tag" : "",
+	"curio_tag_chance" : 0.0,
+	"keep_loot" : false,
+	"buffs" : 
+	[
+		"BLIGHTRESIST-10",
+		"BLEEDRESIST-10"
+	],
+	"can_modify_in_activity" : true,
+	"can_be_replaced_by_new_quirk" : true
+},
+{
+	"id" : "SPSR_Disease_D3",
+	"show_explicit_buff_description" : true,
+	"show_flavor_description" : false,
+	"show_explicit_curio_tag_description" : false,
+	"random_chance" : 1,
+	"is_positive" : false,
+	"is_disease" : true,
+	"classification" : "physical",
+	"incompatible_quirks" : 
+	[
+	],
+	"curio_tag" : "",
+	"curio_tag_chance" : 0.0,
+	"keep_loot" : false,
+	"buffs" : 
+	[
+		"BLIGHTRESIST-10",
+		"BLEEDRESIST-10"
+	],
+	"can_modify_in_activity" : true,
+	"can_be_replaced_by_new_quirk" : true
+},
+{
+	"id" : "SPSR_Quirk_U1",
+	"show_explicit_buff_description" : true,
+	"show_flavor_description" : false,
+	"show_explicit_curio_tag_description" : false,
+	"random_chance" : 0,
+	"is_positive" : true,
+	"is_disease" : false,
+	"classification" : "physical",
+	"incompatible_quirks" : 
+	[
+	],
+	"curio_tag" : "",
+	"curio_tag_chance" : 0.0,
+	"keep_loot" : false,
+	"buffs" : 
+	[
+	],
+	"can_modify_in_activity" : true,
+	"can_be_replaced_by_new_quirk" : true
+},
+{
+	"id" : "SPSR_Quirk_U2",
+	"show_explicit_buff_description" : true,
+	"show_flavor_description" : false,
+	"show_explicit_curio_tag_description" : false,
+	"random_chance" : 0,
+	"is_positive" : true,
+	"is_disease" : false,
+	"classification" : "physical",
+	"incompatible_quirks" : 
+	[
+	],
+	"curio_tag" : "",
+	"curio_tag_chance" : 0.0,
+	"keep_loot" : false,
+	"buffs" : 
+	[
+	],
+	"can_modify_in_activity" : true,
+	"can_be_replaced_by_new_quirk" : true
+},
+{
+	"id" : "SPSR_Quirk_U3",
+	"show_explicit_buff_description" : true,
+	"show_flavor_description" : false,
+	"show_explicit_curio_tag_description" : false,
+	"random_chance" : 0,
+	"is_positive" : true,
+	"is_disease" : false,
+	"classification" : "physical",
+	"incompatible_quirks" : 
+	[
+	],
+	"curio_tag" : "",
+	"curio_tag_chance" : 0.0,
+	"keep_loot" : false,
+	"buffs" : 
+	[
+	],
+	"can_modify_in_activity" : true,
+	"can_be_replaced_by_new_quirk" : true
+},
+{
+	"id" : "SPSR_Quirk_U4",
+	"show_explicit_buff_description" : true,
+	"show_flavor_description" : false,
+	"show_explicit_curio_tag_description" : false,
+	"random_chance" : 0,
+	"is_positive" : true,
+	"is_disease" : false,
+	"classification" : "physical",
+	"incompatible_quirks" : 
+	[
+	],
+	"curio_tag" : "",
+	"curio_tag_chance" : 0.0,
+	"keep_loot" : false,
+	"buffs" : 
+	[
+	],
+	"can_modify_in_activity" : true,
+	"can_be_replaced_by_new_quirk" : true
+},
+{
+	"id" : "SPSR_Quirk_U5",
+	"show_explicit_buff_description" : true,
+	"show_flavor_description" : false,
+	"show_explicit_curio_tag_description" : false,
+	"random_chance" : 0,
+	"is_positive" : true,
+	"is_disease" : false,
+	"classification" : "physical",
+	"incompatible_quirks" : 
+	[
+	],
+	"curio_tag" : "",
+	"curio_tag_chance" : 0.0,
+	"keep_loot" : false,
+	"buffs" : 
+	[
+	],
+	"can_modify_in_activity" : true,
+	"can_be_replaced_by_new_quirk" : true
+}
+]
+}

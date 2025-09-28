@@ -1,0 +1,68 @@
+//Heroes
+effect: .name "SPSR Lep Crystalized Amulet Attack on Stun" .target "target" .curio_result_type "negative" .chance 140% .stun 1	.on_hit true .on_miss false .queue true
+
+effect: .name "SPSR Hwy Crystalline Gunpowder Crit Buff on Ranged Attack" .target "performer" .chance 100% .combat_stat_buff 1 .crit_chance_add 3%	.on_hit true .on_miss false .apply_once true
+
+effect: .name "SPSR Grv huskclaw toxin friendly skill Stress Heal" .target "target" .curio_result_type "positive" .chance 100% .healstress 2	.on_hit true .on_miss false .queue true
+
+effect: .name "SPSR Flg Acidic Onguent Blight On Melee Attack" .target "target" .curio_result_type "negative" .chance 140%  .dotPoison 6 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "SPSR Flg Acidic Onguent Blight Self On Attack" .target "performer" .chance 120%  .dotPoison 1 .duration 2	.on_hit true .on_miss true .can_apply_on_death true
+
+
+//Crystal
+effect: .name "SPSR Crystal Heal Hero 1"        .target "target" .curio_result_type "positive" .chance 100% .heal 2	   .on_hit true .on_miss false .queue true
+effect: .name "SPSR Crystal Heal Hero 3"        .target "target" .curio_result_type "positive" .chance 100% .heal 3	   .on_hit true .on_miss false .queue true
+effect: .name "SPSR Crystal Heal Hero 5"        .target "target" .curio_result_type "positive" .chance 100% .heal 4	   .on_hit true .on_miss false .queue true
+
+
+//Farmer
+effect: .name "SPSR Farmer Heal Self 1" .target "performer" .curio_result_type "positive" .chance 100% .heal 4	.on_hit true .on_miss false .queue true .source_heal_type monster_skill
+effect: .name "SPSR Farmer Heal Self 3" .target "performer" .curio_result_type "positive" .chance 100% .heal 6	.on_hit true .on_miss false	.queue true .source_heal_type monster_skill
+effect: .name "SPSR Farmer Heal Self 5" .target "performer" .curio_result_type "positive" .chance 100% .heal 8	.on_hit true .on_miss false	.queue true .source_heal_type monster_skill
+
+effect: .name "SPSR Farmer Self Speed 1" .target "performer" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .duration 3 .speed_rating_add 2  .on_hit true .on_miss false .queue true .apply_once true
+effect: .name "SPSR Farmer Self Speed 3" .target "performer" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .duration 3 .speed_rating_add 3	.on_hit true .on_miss false .queue true .apply_once true
+effect: .name "SPSR Farmer Self Speed 5" .target "performer" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .duration 3 .speed_rating_add 4	.on_hit true .on_miss false .queue true .apply_once true
+
+
+//Foreman
+effect: .name "SPSR Farmer Riposte On" .target "target"  .chance 100% .riposte 1 .riposte_validate false .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 2 .on_hit true .on_miss true
+
+effect: .name "SPSR Foreman Prot Buff 1" .target "target" .curio_result_type "positive" .chance 100% .duration 2 .combat_stat_buff 1 .protection_rating_add 16%	.on_hit true .on_miss true .queue true
+effect: .name "SPSR Foreman Prot Buff 3" .target "target" .curio_result_type "positive" .chance 100% .duration 2 .combat_stat_buff 1 .protection_rating_add 18%	.on_hit true .on_miss true .queue true
+effect: .name "SPSR Foreman Prot Buff 5" .target "target" .curio_result_type "positive" .chance 100% .duration 2 .combat_stat_buff 1 .protection_rating_add 20%	.on_hit true .on_miss true .queue true
+
+effect: .name "SPSR Foreman Blight Buff 1" .target "target" .buff_ids "SPSR_Foreman_Blight_Chance_B1" .duration 2 .on_hit true .on_miss true .queue true
+effect: .name "SPSR Foreman Blight Buff 3" .target "target" .buff_ids "SPSR_Foreman_Blight_Chance_B3" .duration 2 .on_hit true .on_miss true .queue true
+effect: .name "SPSR Foreman Blight Buff 5" .target "target" .buff_ids "SPSR_Foreman_Blight_Chance_B5" .duration 2 .on_hit true .on_miss true .queue true
+
+
+//Scarecrow
+
+effect: .name "SPSR Scarecrow Speed Debuff 5" .target "target" .curio_result_type "negative" .chance 140% .combat_stat_buff 1 .speed_rating_add -4	.duration 3 .on_hit true .on_miss false .queue true .apply_once true
+
+
+//Revenant
+
+effect: .name "SPSR_RevenantRiposte"  .target "target" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration -1 .on_hit true .on_miss true
+
+effect: .name "SPSR Revenant Stress Debuff 1" .target "target" .chance 100% .buff_ids "SPSR_Revenant_Stress_D1" .duration 3 .on_hit true .on_miss false .queue false
+effect: .name "SPSR Revenant Stress Debuff 3" .target "target" .chance 120% .buff_ids "SPSR_Revenant_Stress_D3" .duration 3 .on_hit true .on_miss false .queue false
+effect: .name "SPSR Revenant Stress Debuff 5" .target "target" .chance 140% .buff_ids "SPSR_Revenant_Stress_D5" .duration 3 .on_hit true .on_miss false .queue false
+
+
+//Thing
+
+effect: .name "SPSR Thing Consume Self 1" .target "performer" .chance 100% .health_damage 5 .on_hit true .on_miss false .queue true .apply_once true
+effect: .name "SPSR Thing Consume Self 3" .target "performer" .chance 100% .health_damage 8 .on_hit true .on_miss false .queue true .apply_once true
+effect: .name "SPSR Thing Consume Self 5" .target "performer" .chance 100% .health_damage 10 .on_hit true .on_miss false .queue true .apply_once true
+
+effect: .name "SPSR Thing Dying Buffs" .target "performer" .chance 100% .duration -1 .buff_ids "SPD4" "PROT30" "STUNRESIST20" "CRIT3" .on_hit true .on_miss true .queue true .apply_once true
+
+effect: .name "SPSR Thing Resist Debuffs 1" .target "target" .chance 100% .duration 2 .curio_result_type "negative" .buff_ids "STUNRESIST-20" "BLIGHTRESIST-20" "BLEEDRESIST-20" "DEBUFFRESIST-20" .on_hit true .on_miss false .queue true
+effect: .name "SPSR Thing Resist Debuffs 3" .target "target" .chance 120% .duration 2 .curio_result_type "negative" .buff_ids "STUNRESIST-20" "BLIGHTRESIST-20" "BLEEDRESIST-20" "DEBUFFRESIST-20" .on_hit true .on_miss false .queue true
+effect: .name "SPSR Thing Resist Debuffs 5" .target "target" .chance 140% .duration 2 .curio_result_type "negative" .buff_ids "STUNRESIST-20" "BLIGHTRESIST-20" "BLEEDRESIST-20" "DEBUFFRESIST-20" .on_hit true .on_miss false .queue true
+
+effect: .name "SPSR Thing Combat Debuffs 1" .target "target" .chance 100% .duration 2 .curio_result_type "negative" .buff_ids "SPD-4" "DMGL-25" "DMGH-25" .on_hit true .on_miss false .queue true
+effect: .name "SPSR Thing Combat Debuffs 3" .target "target" .chance 120% .duration 2 .curio_result_type "negative" .buff_ids "SPD-5" "DMGL-25" "DMGH-25" .on_hit true .on_miss false .queue true
+effect: .name "SPSR Thing Combat Debuffs 5" .target "target" .chance 140% .duration 2 .curio_result_type "negative" .buff_ids "SPD-6" "DMGL-25" "DMGH-25" .on_hit true .on_miss false .queue true
