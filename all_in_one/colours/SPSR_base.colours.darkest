@@ -1,5 +1,5 @@
 colour:	.id "mark" 													.rgba #ff004a
-colour:	.id "bleed" 												.rgba #c91010
+colour:	.id "bleed" 												.rgba #b02804
 colour:	.id "harmful" 												.rgba #aa0000
 colour:	.id "deathdoor" 											.shared_id "harmful"
 colour:	.id "deathblow" 											.shared_id "harmful"
@@ -12,8 +12,8 @@ colour:	.id "riposte"		 								  		.shared_id "attacktype"
 colour:	.id "stun" 													.rgba #d59e30
 colour:	.id "notable" 												.rgba #e0c76d
 colour:	.id "virtue"		 										.shared_id "notable"
-colour:	.id "blight" 											  	.rgba #788521
 colour:	.id "disease" 												.rgba #9b9e3d
+colour:	.id "blight" 											  	.rgba #738d11
 colour:	.id "healhp"		 								  		.rgba #5fac2b
 colour:	.id "buff" 													.rgba #56c5cf
 colour:	.id "guard"		 									  		.shared_id "buff"

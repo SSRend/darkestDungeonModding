@@ -315,11 +315,11 @@ effect: .name "SPSR Bht Self Speed Buff 5" .target "performer" .curio_result_typ
 effect: .name "SPSR Hms on crit Stun Chance"    .target "performer" .curio_result_type "positive" .chance 100% .buff_source_type bsrc_crit .buff_ids "SPSR_Hms_on_crit_Stun_Chance_B1" .duration 2	.on_hit true .on_miss false .apply_once true
 effect: .name "SPSR Hms on crit Stresshealdone"    .target "performer" .curio_result_type "positive" .chance 100% .buff_source_type bsrc_crit .buff_ids "SPSR_Hms_on_crit_Stressheal_B1" .duration 2	.on_hit true .on_miss false .apply_once true
 
-effect: .name "SPSR Hms Marked Killer 1" .target "performer" .chance 100%	.curio_result_type "positive" .keyStatus "tagged"  .combat_stat_buff 1 .damage_low_multiply 40%  .damage_high_multiply 40%  .on_hit true .on_miss false
-effect: .name "SPSR Hms Marked Killer 2" .target "performer" .chance 100%	.curio_result_type "positive" .keyStatus "tagged"  .combat_stat_buff 1 .damage_low_multiply 42%  .damage_high_multiply 42%  .on_hit true .on_miss false
-effect: .name "SPSR Hms Marked Killer 3" .target "performer" .chance 100%	.curio_result_type "positive" .keyStatus "tagged"  .combat_stat_buff 1 .damage_low_multiply 45%  .damage_high_multiply 45%  .on_hit true .on_miss false
-effect: .name "SPSR Hms Marked Killer 4" .target "performer" .chance 100%	.curio_result_type "positive" .keyStatus "tagged"  .combat_stat_buff 1 .damage_low_multiply 47%  .damage_high_multiply 47%  .on_hit true .on_miss false
-effect: .name "SPSR Hms Marked Killer 5" .target "performer" .chance 100%	.curio_result_type "positive" .keyStatus "tagged"  .combat_stat_buff 1 .damage_low_multiply 50%  .damage_high_multiply 50%  .on_hit true .on_miss false
+effect: .name "SPSR Hms Marked Killer 1" .target "performer" .chance 100%	.curio_result_type "positive" .keyStatus "tagged"  .combat_stat_buff 1 .damage_low_multiply 60%  .damage_high_multiply 60%  .on_hit true .on_miss false
+effect: .name "SPSR Hms Marked Killer 2" .target "performer" .chance 100%	.curio_result_type "positive" .keyStatus "tagged"  .combat_stat_buff 1 .damage_low_multiply 63%  .damage_high_multiply 63%  .on_hit true .on_miss false
+effect: .name "SPSR Hms Marked Killer 3" .target "performer" .chance 100%	.curio_result_type "positive" .keyStatus "tagged"  .combat_stat_buff 1 .damage_low_multiply 67%  .damage_high_multiply 67%  .on_hit true .on_miss false
+effect: .name "SPSR Hms Marked Killer 4" .target "performer" .chance 100%	.curio_result_type "positive" .keyStatus "tagged"  .combat_stat_buff 1 .damage_low_multiply 71%  .damage_high_multiply 71%  .on_hit true .on_miss false
+effect: .name "SPSR Hms Marked Killer 5" .target "performer" .chance 100%	.curio_result_type "positive" .keyStatus "tagged"  .combat_stat_buff 1 .damage_low_multiply 75%  .damage_high_multiply 75%  .on_hit true .on_miss false
 
 effect: .name "SPSR Hms Beast Killer 1" .target "performer" .chance 100% .curio_result_type "positive" .monsterType "beast" .combat_stat_buff 1 .damage_low_multiply 20% .damage_high_multiply 20%	.on_hit true .on_miss false
 effect: .name "SPSR Hms Beast Killer 2" .target "performer" .chance 100% .curio_result_type "positive" .monsterType "beast" .combat_stat_buff 1 .damage_low_multiply 21% .damage_high_multiply 21%	.on_hit true .on_miss false
